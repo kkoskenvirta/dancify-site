@@ -1,12 +1,11 @@
 ---
 title: "Musik zählen beim Tanzen: Achter, 5, 6, 7, 8 und die Eins"
 description: "Musik zählen beim Tanzen: Schläge, Takte und Achter, was \"5, 6, 7, 8\" bedeutet, die Eins finden, \"und\"-Counts, Walzer im 3/4-Takt und BPM nach Tanzstil."
-url: "https://dancify.apphq.online/de/blog/musik-zaehlen-beim-tanzen/"
-language: "de"
+url: "https://kkoskenvirta.github.io/dancify-site/de/blog/musik-zaehlen-beim-tanzen/"
 ---
 
-1. [Startseite](https://dancify.apphq.online/de/)
-2. [Blog](https://dancify.apphq.online/de/blog/)
+1. [Startseite](https://kkoskenvirta.github.io/dancify-site/de/)
+2. [Blog](https://kkoskenvirta.github.io/dancify-site/de/blog/)
 3. Musik zählen beim Tanzen: Achter, "5, 6, 7, 8" und die Eins finden
 
 Musikalität 8 Min. Lesezeit
@@ -17,7 +16,7 @@ Warum fängt man bei fünf an? Wo ist die Eins? Was ist ein "und"? Schläge, Tak
 
 **Kasper Koskenvirta** Macher von Dancify · Veröffentlicht am 28. Oktober 2026
 
-![Drei Ansichten der Dancify-App auf dem iPhone](https://dancify.apphq.online/assets/img/covers/de-counting-music-1200.webp)
+![Drei Ansichten der Dancify-App auf dem iPhone](https://kkoskenvirta.github.io/dancify-site/assets/img/covers/de-counting-music-1200.webp)
 
 "Fünf, sechs, sieben, acht!" ist das Erste, was man in fast jeder Tanzstunde hört, und für viele Anfängerinnen und Anfänger auch das Verwirrendste. Warum fängt man bei fünf an? Wo ist die Eins? Und was ist ein "und"? Musik zählen ist eine Technik wie eine Pirouette: ein paar Regeln, dann viel Übung. Hier sind die Regeln.
 
@@ -103,13 +102,13 @@ Warum das fürs Training zählt: Eine Kombination mit etwa 80 % des echten Tempo
 2. **Nur auf die 1 klatschen.** Still zählen und auf jede 1 klatschen. Dann nur auf die 1 jeder Phrase. Das schult das Gefühl für die große Form.
 3. **Die "und" sprechen.** Die Counts einer Kombination mit jedem "und" laut sagen, während du sie markierst.
 4. **Langsam und steigern.** Einen schweren Achter langsamer üben und das Tempo schrittweise um ein paar BPM erhöhen.
-5. **Filmen und prüfen.** Einen Durchlauf mit hörbarer Musik aufnehmen und schauen, ob deine Akzente auf den Counts sitzen. Mehr dazu in [sich beim Tanzen filmen](https://dancify.apphq.online/de/blog/sich-beim-tanzen-filmen/).
+5. **Filmen und prüfen.** Einen Durchlauf mit hörbarer Musik aufnehmen und schauen, ob deine Akzente auf den Counts sitzen. Mehr dazu in [sich beim Tanzen filmen](https://kkoskenvirta.github.io/dancify-site/de/blog/sich-beim-tanzen-filmen/).
 
-Zählen ist auch das Rückgrat beim Lernen von Choreografien: Wer die Achter hört, zerlegt eine Choreo ganz von selbst in Blöcke. Siehe [Choreografie schneller lernen](https://dancify.apphq.online/de/blog/choreografie-schneller-lernen/).
+Zählen ist auch das Rückgrat beim Lernen von Choreografien: Wer die Achter hört, zerlegt eine Choreo ganz von selbst in Blöcke. Siehe [Choreografie schneller lernen](https://kkoskenvirta.github.io/dancify-site/de/blog/choreografie-schneller-lernen/).
 
 ## So hilft dir Dancify beim Zählen
 
-![Dancify-Player mit eingeblendeten Counts von 1 bis 8 im Takt der Musik über einer Trainingsaufnahme](https://dancify.apphq.online/assets/img/app/de/player-counts.webp)
+![Dancify-Player mit eingeblendeten Counts von 1 bis 8 im Takt der Musik über einer Trainingsaufnahme](https://kkoskenvirta.github.io/dancify-site/assets/img/app/de/player-counts.webp)
 
 Kostenlos in Dancify **Die Counts auf deiner eigenen Aufnahme** Schalt im Player die Counts ein, und 1 bis 8 läuft im Takt der Musik mit. Stell das Tempo mit Tempo tippen ein, markier, wo die 1 liegt, und spring ganze Achter vor oder zurück. Wiederhol einen Achter mit der A–B-Schleife, mit optionaler Pause von einem Achter vor dem Neustart.
 
@@ -170,7 +169,7 @@ Kasper entwirft und entwickelt Dancify bei AppRise Ventures in Espoo, Finnland. 
 
 Lernen 8 Min. Lesezeit
 
-### [Choreografie schneller lernen (und wirklich behalten)](https://dancify.apphq.online/de/blog/choreografie-schneller-lernen/)
+### [Choreografie schneller lernen (und wirklich behalten)](https://kkoskenvirta.github.io/dancify-site/de/blog/choreografie-schneller-lernen/)
 
 Choreografie schneller lernen: Landkarte der Choreo, in Achtern lernen, markieren, den Spiegel klug nutzen, Video verlangsamen, Schleifen und Selbstkontrolle.
 
@@ -178,7 +177,7 @@ Choreografie schneller lernen: Landkarte der Choreo, in Achtern lernen, markiere
 
 Training 10 Min. Lesezeit
 
-### [Zu Hause tanzen üben: Platz, Aufwärmen und ein Wochenplan](https://dancify.apphq.online/de/blog/tanzen-zu-hause-ueben/)
+### [Zu Hause tanzen üben: Platz, Aufwärmen und ein Wochenplan](https://kkoskenvirta.github.io/dancify-site/de/blog/tanzen-zu-hause-ueben/)
 
 Zu Hause tanzen üben: sichere Fläche und Boden, Socken oder Schuhe, Aufwärmen, eine 30-Minuten-Einheit, Wochenpläne für Einsteiger und Fortgeschrittene.
 

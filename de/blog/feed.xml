@@ -2,56 +2,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Der Dancify Blog</title>
-    <link>https://dancify.apphq.online/de/blog/</link>
-    <atom:link href="https://dancify.apphq.online/de/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://kkoskenvirta.github.io/dancify-site/de/blog/</link>
+    <atom:link href="https://kkoskenvirta.github.io/dancify-site/de/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Praktische Ratgeber fürs Tanztraining: dich selbst filmen, Choreografien schneller lernen, Musik zählen, ein Tanztagebuch führen und deinen Fortschritt sehen. Von den Machern von Dancify für iPhone und iPad.</description>
     <language>de-de</language>
     <item>
       <title>Sich beim Tanzen filmen: Perspektive, Licht und Aufbau</title>
-      <link>https://dancify.apphq.online/de/blog/sich-beim-tanzen-filmen/</link>
-      <guid isPermaLink="true">https://dancify.apphq.online/de/blog/sich-beim-tanzen-filmen/</guid>
+      <link>https://kkoskenvirta.github.io/dancify-site/de/blog/sich-beim-tanzen-filmen/</link>
+      <guid isPermaLink="true">https://kkoskenvirta.github.io/dancify-site/de/blog/sich-beim-tanzen-filmen/</guid>
       <pubDate>Tue, 03 Nov 2026 08:00:00 +0300</pubDate>
       <description>Sich beim Tanzen filmen mit dem Handy: Kamerahöhe und Abstand pro Tanzstil, die beste Perspektive, Licht, Ton, Stative und sechs Fehler, die Videos ruinieren.</description>
     </item>
     <item>
       <title>Choreografie schneller lernen (und wirklich behalten)</title>
-      <link>https://dancify.apphq.online/de/blog/choreografie-schneller-lernen/</link>
-      <guid isPermaLink="true">https://dancify.apphq.online/de/blog/choreografie-schneller-lernen/</guid>
+      <link>https://kkoskenvirta.github.io/dancify-site/de/blog/choreografie-schneller-lernen/</link>
+      <guid isPermaLink="true">https://kkoskenvirta.github.io/dancify-site/de/blog/choreografie-schneller-lernen/</guid>
       <pubDate>Sun, 01 Nov 2026 08:00:00 +0300</pubDate>
       <description>Choreografie schneller lernen: Landkarte der Choreo, in Achtern lernen, markieren, den Spiegel klug nutzen, Video verlangsamen, Schleifen und Selbstkontrolle.</description>
     </item>
     <item>
       <title>So machst du ein Tanz-Fortschrittsvideo, das ehrlich ist und motiviert</title>
-      <link>https://dancify.apphq.online/de/blog/tanz-fortschritt-video/</link>
-      <guid isPermaLink="true">https://dancify.apphq.online/de/blog/tanz-fortschritt-video/</guid>
+      <link>https://kkoskenvirta.github.io/dancify-site/de/blog/tanz-fortschritt-video/</link>
+      <guid isPermaLink="true">https://kkoskenvirta.github.io/dancify-site/de/blog/tanz-fortschritt-video/</guid>
       <pubDate>Thu, 29 Oct 2026 08:00:00 +0300</pubDate>
       <description>Tanz-Fortschrittsvideo erstellen: dieselbe Kombination gleich filmen, wie oft, was vergleichen, Abfolge, nebeneinander oder Raster, Datum und Teilen.</description>
     </item>
     <item>
       <title>Musik zählen beim Tanzen: Achter, &quot;5, 6, 7, 8&quot; und die Eins finden</title>
-      <link>https://dancify.apphq.online/de/blog/musik-zaehlen-beim-tanzen/</link>
-      <guid isPermaLink="true">https://dancify.apphq.online/de/blog/musik-zaehlen-beim-tanzen/</guid>
+      <link>https://kkoskenvirta.github.io/dancify-site/de/blog/musik-zaehlen-beim-tanzen/</link>
+      <guid isPermaLink="true">https://kkoskenvirta.github.io/dancify-site/de/blog/musik-zaehlen-beim-tanzen/</guid>
       <pubDate>Wed, 28 Oct 2026 08:00:00 +0300</pubDate>
       <description>Musik zählen beim Tanzen: Schläge, Takte und Achter, was &quot;5, 6, 7, 8&quot; bedeutet, die Eins finden, &quot;und&quot;-Counts, Walzer im 3/4-Takt und BPM nach Tanzstil.</description>
     </item>
     <item>
       <title>Tanztagebuch führen: was du notieren solltest, mit Schreibfragen</title>
-      <link>https://dancify.apphq.online/de/blog/tanztagebuch-fuehren/</link>
-      <guid isPermaLink="true">https://dancify.apphq.online/de/blog/tanztagebuch-fuehren/</guid>
+      <link>https://kkoskenvirta.github.io/dancify-site/de/blog/tanztagebuch-fuehren/</link>
+      <guid isPermaLink="true">https://kkoskenvirta.github.io/dancify-site/de/blog/tanztagebuch-fuehren/</guid>
       <pubDate>Sun, 25 Oct 2026 08:00:00 +0300</pubDate>
       <description>Tanztagebuch führen: was du nach jeder Stunde notieren solltest, ein Fünf-Minuten-Eintrag, Schreibfragen für Tanzende und ein Wochenrückblick für Fortschritt.</description>
     </item>
     <item>
       <title>Zu Hause tanzen üben: Platz, Aufwärmen und ein Wochenplan</title>
-      <link>https://dancify.apphq.online/de/blog/tanzen-zu-hause-ueben/</link>
-      <guid isPermaLink="true">https://dancify.apphq.online/de/blog/tanzen-zu-hause-ueben/</guid>
+      <link>https://kkoskenvirta.github.io/dancify-site/de/blog/tanzen-zu-hause-ueben/</link>
+      <guid isPermaLink="true">https://kkoskenvirta.github.io/dancify-site/de/blog/tanzen-zu-hause-ueben/</guid>
       <pubDate>Fri, 23 Oct 2026 08:00:00 +0300</pubDate>
       <description>Zu Hause tanzen üben: sichere Fläche und Boden, Socken oder Schuhe, Aufwärmen, eine 30-Minuten-Einheit, Wochenpläne für Einsteiger und Fortgeschrittene.</description>
     </item>
     <item>
       <title>Warum wir eine Tanz-App ohne Feed und ohne Punkte bauen</title>
-      <link>https://dancify.apphq.online/de/blog/warum-wir-dancify-bauen/</link>
-      <guid isPermaLink="true">https://dancify.apphq.online/de/blog/warum-wir-dancify-bauen/</guid>
+      <link>https://kkoskenvirta.github.io/dancify-site/de/blog/warum-wir-dancify-bauen/</link>
+      <guid isPermaLink="true">https://kkoskenvirta.github.io/dancify-site/de/blog/warum-wir-dancify-bauen/</guid>
       <pubDate>Tue, 20 Oct 2026 08:00:00 +0300</pubDate>
       <description>Die Geschichte hinter Dancify: warum Trainingsvideos verloren gehen, sechs Entscheidungen, die die App geprägt haben, was fehlt und was als Nächstes kommt.</description>
     </item>

@@ -2,10 +2,10 @@
    A near-black stage under one faint violet light, sparse purple grain, lavender as the one accent, camera red only
    for recording, and spike tape as the single loud mark. Tokens mirror the app (Dancify/DesignSystem/Theme.swift). */
 
-@font-face { font-family: "Geist"; src: url("/assets/fonts/geist-regular.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
-@font-face { font-family: "Geist"; src: url("/assets/fonts/geist-medium.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
-@font-face { font-family: "Geist"; src: url("/assets/fonts/geist-semibold.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
-@font-face { font-family: "Geist"; src: url("/assets/fonts/geist-bold.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Geist"; src: url("/dancify-site/assets/fonts/geist-regular.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Geist"; src: url("/dancify-site/assets/fonts/geist-medium.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Geist"; src: url("/dancify-site/assets/fonts/geist-semibold.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Geist"; src: url("/dancify-site/assets/fonts/geist-bold.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
 
 :root {
   color-scheme: dark;
@@ -84,7 +84,7 @@ body::after {
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  background: url("/assets/img/grain.png") 0 0 / 96px 96px repeat;
+  background: url("/dancify-site/assets/img/grain.png") 0 0 / 96px 96px repeat;
   opacity: 0.9;
 }
 img, svg, video { display: block; max-width: 100%; }

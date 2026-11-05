@@ -4,7 +4,7 @@
     python3 tools/blog/indexnow.py --dry-run     # list the URLs
     python3 tools/blog/indexnow.py               # submit every URL in sitemap.xml
 
-Run it after the site is deployed: engines fetch https://dancify.apphq.online/<key>.txt to check the key, and that file only exists
+Run it after the site is deployed: engines fetch <base>/<key>.txt (site.json) to check the key, and that file only exists
 on the live site once the push has been published. The key is the 32-character hex file name in the repo root.
 """
 
@@ -18,7 +18,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 BASE = json.loads((ROOT / "tools/blog/site.json").read_text())["base"]
-HOST = BASE.split("//")[1]
+HOST = BASE.split("//")[1].split("/")[0]
 
 
 def key() -> str:

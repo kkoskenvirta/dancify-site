@@ -31,9 +31,11 @@ const initReveal = () => {
 // <link rel="alternate" hreflang>. A language picked in the menu (or kept from the hint) is remembered in this
 // browser only (localStorage "dancify-lang"), so English-only pages (privacy, terms, 404) link back to the right
 // home and blog. Nobody is ever redirected away from the page they asked for, except "/" for someone who chose.
+// The site's path on its host ("" at a domain root). tools/rebase.py sets it from site.json "base".
+const ROOT = "/dancify-site";
 const LANGS = ["en", "es", "de"];
-const HOME = { en: "/", es: "/es/", de: "/de/" };
-const BLOG = { en: "/blog/", es: "/es/blog/", de: "/de/blog/" };
+const HOME = { en: ROOT + "/", es: ROOT + "/es/", de: ROOT + "/de/" };
+const BLOG = { en: ROOT + "/blog/", es: ROOT + "/es/blog/", de: ROOT + "/de/blog/" };
 const LANG_KEY = "dancify-lang";
 const pageLang = () => (LANGS.includes(document.documentElement.lang) ? document.documentElement.lang : "en");
 const storedLang = () => {
@@ -75,8 +77,8 @@ const initSharedPage = () => {
   if (!lang || lang === "en") return;
   $$("a[href]").forEach((link) => {
     const href = link.getAttribute("href");
-    if (href === "/" || href.startsWith("/#")) link.setAttribute("href", HOME[lang] + href.slice(1));
-    else if (href === "/blog/") link.setAttribute("href", BLOG[lang]);
+    if (href === ROOT + "/" || href.startsWith(ROOT + "/#")) link.setAttribute("href", HOME[lang] + href.slice(ROOT.length + 1));
+    else if (href === ROOT + "/blog/") link.setAttribute("href", BLOG[lang]);
   });
 };
 

@@ -1,12 +1,11 @@
 ---
 title: "Best Apps for Dancers 2026: Practice, Film, Edit"
 description: "The best apps for dancers in 2026 by job: STEEZY, Dancify, Dance.io, OnForm, CapCut, Edits, iMovie, Anytune and more, with a comparison table and no hype."
-url: "https://dancify.apphq.online/blog/best-apps-for-dancers/"
-language: "en"
+url: "https://kkoskenvirta.github.io/dancify-site/blog/best-apps-for-dancers/"
 ---
 
-1. [Home](https://dancify.apphq.online/)
-2. [Blog](https://dancify.apphq.online/blog/)
+1. [Home](https://kkoskenvirta.github.io/dancify-site/)
+2. [Blog](https://kkoskenvirta.github.io/dancify-site/blog/)
 3. The best apps for dancers in 2026, by what you need them for
 
 Comparison 9 min read
@@ -17,7 +16,7 @@ Classes, filming, slow motion and mirror, counts and tempo, editing and a diary:
 
 **Kasper Koskenvirta** Maker of Dancify · Published October 21, 2026 · Updated November 4, 2026
 
-![Three Dancify app screens on iPhone](https://dancify.apphq.online/assets/img/covers/en-best-dance-apps-1200.webp)
+![Three Dancify app screens on iPhone](https://kkoskenvirta.github.io/dancify-site/assets/img/covers/en-best-dance-apps-1200.webp)
 
 There's no single best app for dancers, because dancers need several different things: someone to learn from, a way to see yourself, a way to slow things down, the music under control and somewhere to keep it all. Most of us end up with three or four apps. The trick is choosing ones that each do their job well.
 
@@ -161,14 +160,14 @@ Older lists still recommend two video analysis apps that dancers loved. Neither 
 
 We built Dancify for the part of practice the other apps leave out: what happens after you've learned the steps. You film, you watch, you fix, you film again, and months later you want to see how far you've come. That needs a good camera, a good player and somewhere the takes don't get lost.
 
-![Dancify October calendar where each practice day shows a frame from that day's video, and the selected day lists three takes](https://dancify.apphq.online/assets/img/app/en/journal.webp)
+![Dancify October calendar where each practice day shows a frame from that day's video, and the selected day lists three takes](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/journal.webp)
 
 Free in Dancify **A practice diary made of your own footage** Each day in the calendar shows a frame from what you danced. Log classes without video too, add notes, tags and milestones, and find every take of a piece in order.
 
 - No account, no ads, no tracking
 - Videos stay on your device, or in your own iCloud
 
-It pairs well with the others. Learn on STEEZY or YouTube, slow the song in Anytune if you need to, then film your practice in Dancify with the class video playing as a reference. If you want to post a cover, Dancify's editor handles trims, speed, captions and music, or export the take to CapCut or Edits. More on the practice side in our guides to [learning choreography faster](https://dancify.apphq.online/blog/how-to-learn-choreography-faster/) and [filming yourself dancing](https://dancify.apphq.online/blog/how-to-film-yourself-dancing/).
+It pairs well with the others. Learn on STEEZY or YouTube, slow the song in Anytune if you need to, then film your practice in Dancify with the class video playing as a reference. If you want to post a cover, Dancify's editor handles trims, speed, captions and music, or export the take to CapCut or Edits. More on the practice side in our guides to [learning choreography faster](https://kkoskenvirta.github.io/dancify-site/blog/how-to-learn-choreography-faster/) and [filming yourself dancing](https://kkoskenvirta.github.io/dancify-site/blog/how-to-film-yourself-dancing/).
 
 For your own practice
 
@@ -244,7 +243,7 @@ Kasper designs and builds Dancify at AppRise Ventures in Espoo, Finland. Dancify
 
 Filming 9 min read
 
-### [How to film yourself dancing: angles, light and setup](https://dancify.apphq.online/blog/how-to-film-yourself-dancing/)
+### [How to film yourself dancing: angles, light and setup](https://kkoskenvirta.github.io/dancify-site/blog/how-to-film-yourself-dancing/)
 
 How to film yourself dancing with a phone: camera height and distance for each style, the best angle, light, sound, phone stands and six mistakes to avoid.
 
@@ -252,7 +251,7 @@ November 3, 2026
 
 Learning 7 min read
 
-### [How to learn choreography faster (and actually remember it)](https://dancify.apphq.online/blog/how-to-learn-choreography-faster/)
+### [How to learn choreography faster (and actually remember it)](https://kkoskenvirta.github.io/dancify-site/blog/how-to-learn-choreography-faster/)
 
 How to learn choreography faster: map the piece, learn in eight-counts, mark it, use the mirror wisely, slow the video down, loop hard parts and film to check.
 

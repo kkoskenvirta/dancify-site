@@ -1,12 +1,11 @@
 ---
 title: "Sich beim Tanzen filmen: Perspektive, Licht, Aufbau"
 description: "Sich beim Tanzen filmen mit dem Handy: Kamerahöhe und Abstand pro Tanzstil, die beste Perspektive, Licht, Ton, Stative und sechs Fehler, die Videos ruinieren."
-url: "https://dancify.apphq.online/de/blog/sich-beim-tanzen-filmen/"
-language: "de"
+url: "https://kkoskenvirta.github.io/dancify-site/de/blog/sich-beim-tanzen-filmen/"
 ---
 
-1. [Startseite](https://dancify.apphq.online/de/)
-2. [Blog](https://dancify.apphq.online/de/blog/)
+1. [Startseite](https://kkoskenvirta.github.io/dancify-site/de/)
+2. [Blog](https://kkoskenvirta.github.io/dancify-site/de/blog/)
 3. Sich beim Tanzen filmen: Perspektive, Licht und Aufbau
 
 Filmen 9 Min. Lesezeit
@@ -17,7 +16,7 @@ Der Durchlauf fühlte sich sauber an, das Video zeigte gebeugte Knie und abgesch
 
 **Kasper Koskenvirta** Macher von Dancify · Veröffentlicht am 3. November 2026
 
-![Drei Ansichten der Dancify-App auf dem iPhone](https://dancify.apphq.online/assets/img/covers/de-film-yourself-1200.webp)
+![Drei Ansichten der Dancify-App auf dem iPhone](https://kkoskenvirta.github.io/dancify-site/assets/img/covers/de-film-yourself-1200.webp)
 
 Jede Tänzerin, jeder Tänzer kennt das: Der Durchlauf fühlte sich sauber an, und dann zeigt das Video ein gebeugtes Standbein, einen verspäteten Arm und Füße, die nie ganz gestreckt waren. Sich beim Tanzen zu filmen ist die ehrlichste Lehrerin, die du haben wirst, wenn die Kamera so steht, dass sie das Wichtige zeigt. So geht es gut, mit nichts als deinem Handy.
 
@@ -71,7 +70,7 @@ Frontal ist Standard, weil das Publikum dich so sieht. Aber frontal versteckt di
 - **Schräg vorn (45°):** schmeichelnd und ehrlich zugleich, ideal für Show-Durchläufe.
 - **Von hinten:** Wenn du von einem Video lernst, schaust du so in dieselbe Richtung wie die Lehrerin, links ist also links.
 
-Wenn du später deinen Fortschritt vergleichen willst, leg eine Perspektive als "Referenz" fest und ändere sie nie: gleicher Platz, gleiche Höhe, gleiches Objektiv. In unserem Ratgeber zum [Tanz-Fortschrittsvideo](https://dancify.apphq.online/de/blog/tanz-fortschritt-video/) steht, warum diese Gleichheit wichtiger ist als alles andere.
+Wenn du später deinen Fortschritt vergleichen willst, leg eine Perspektive als "Referenz" fest und ändere sie nie: gleicher Platz, gleiche Höhe, gleiches Objektiv. In unserem Ratgeber zum [Tanz-Fortschrittsvideo](https://kkoskenvirta.github.io/dancify-site/de/blog/tanz-fortschritt-video/) steht, warum diese Gleichheit wichtiger ist als alles andere.
 
 ## Licht, Bildrate und Ton
 
@@ -103,9 +102,9 @@ Alles filmen heißt nichts ansehen. Ein einfacher Rhythmus, der für die meisten
 
 1. **Ein ganzer Durchlauf** Von vorn, mit Musik, mit Bühnenenergie. Das ist deine Aufzeichnung des Tages.
 2. **Eine Problemstelle** Die Achter, die immer schiefgehen, zwei- oder dreimal, damit du siehst, ob die Korrektur greift.
-3. **Eine Notiz** Ein Satz zu dem, was dir aufgefallen ist. Das ist der Anfang eines [Tanztagebuchs](https://dancify.apphq.online/de/blog/tanztagebuch-fuehren/), und erst das macht einen Stapel Videos nützlich.
+3. **Eine Notiz** Ein Satz zu dem, was dir aufgefallen ist. Das ist der Anfang eines [Tanztagebuchs](https://kkoskenvirta.github.io/dancify-site/de/blog/tanztagebuch-fuehren/), und erst das macht einen Stapel Videos nützlich.
 
-Wenn du die Choreo noch lernst, ist das Filmen des gerade gelernten Teils der schnellste Weg herauszufinden, was du wirklich behalten hast. Mehr dazu in [Choreografie schneller lernen](https://dancify.apphq.online/de/blog/choreografie-schneller-lernen/).
+Wenn du die Choreo noch lernst, ist das Filmen des gerade gelernten Teils der schnellste Weg herauszufinden, was du wirklich behalten hast. Mehr dazu in [Choreografie schneller lernen](https://kkoskenvirta.github.io/dancify-site/de/blog/choreografie-schneller-lernen/).
 
 ## Sechs Fehler, die Tanzvideos ruinieren
 
@@ -120,7 +119,7 @@ Wenn du die Choreo noch lernst, ist das Filmen des gerade gelernten Teils der sc
 
 Wir haben die Kamera in Dancify genau dafür gebaut, weil die normale Kamera-App nicht für jemanden gemacht ist, der erst quer durch den Raum zur Markierung laufen muss.
 
-![Dancify-Kamera mit Folgen auf eine Tänzerin in Bewegung, Fokus und Belichtung bleiben auf ihr](https://dancify.apphq.online/assets/img/app/de/camera-follow.webp)
+![Dancify-Kamera mit Folgen auf eine Tänzerin in Bewegung, Fokus und Belichtung bleiben auf ihr](https://kkoskenvirta.github.io/dancify-site/assets/img/app/de/camera-follow.webp)
 
 Kostenlos in Dancify **Eine Kamera, die auf den Count wartet** Du tippst auf Aufnahme, und ein musikalisches Einzählen ("5, 6, 7, 8") in deinem Tempo gibt dir Zeit, zu deiner Markierung zu gehen. Tipp auf dich für Folgen: Fokus und Belichtung bleiben auf dir, während du dich bewegst, und Im Bild halten kann sanft zoomen, um dich nicht zu verlieren. Mit einer DockKit-Halterung dreht sich die Halterung mit.
 
@@ -182,7 +181,7 @@ Kasper entwirft und entwickelt Dancify bei AppRise Ventures in Espoo, Finnland. 
 
 Fortschritt 9 Min. Lesezeit
 
-### [So machst du ein Tanz-Fortschrittsvideo, das ehrlich ist und motiviert](https://dancify.apphq.online/de/blog/tanz-fortschritt-video/)
+### [So machst du ein Tanz-Fortschrittsvideo, das ehrlich ist und motiviert](https://kkoskenvirta.github.io/dancify-site/de/blog/tanz-fortschritt-video/)
 
 Tanz-Fortschrittsvideo erstellen: dieselbe Kombination gleich filmen, wie oft, was vergleichen, Abfolge, nebeneinander oder Raster, Datum und Teilen.
 
@@ -190,7 +189,7 @@ Tanz-Fortschrittsvideo erstellen: dieselbe Kombination gleich filmen, wie oft, w
 
 Lernen 8 Min. Lesezeit
 
-### [Choreografie schneller lernen (und wirklich behalten)](https://dancify.apphq.online/de/blog/choreografie-schneller-lernen/)
+### [Choreografie schneller lernen (und wirklich behalten)](https://kkoskenvirta.github.io/dancify-site/de/blog/choreografie-schneller-lernen/)
 
 Choreografie schneller lernen: Landkarte der Choreo, in Achtern lernen, markieren, den Spiegel klug nutzen, Video verlangsamen, Schleifen und Selbstkontrolle.
 

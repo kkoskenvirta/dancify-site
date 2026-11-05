@@ -29,6 +29,8 @@ from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / "tools"))
+import rebase  # noqa: E402
 TOOL = Path(__file__).resolve().parent
 SITE = json.loads((TOOL / "site.json").read_text())
 BASE = SITE["base"]
@@ -129,6 +131,9 @@ def load_posts() -> dict[str, dict[str, dict]]:
 
 
 def url(path: str) -> str:
+    """An absolute URL for a root path; paths that already carry the site's prefix keep it once."""
+    if rebase.PREFIX and (path == rebase.PREFIX or path.startswith(rebase.PREFIX + "/")):
+        path = path[len(rebase.PREFIX):] or "/"
     return BASE + path
 
 
@@ -771,7 +776,7 @@ class Markdown(HTMLParser):
 
 def render_llms_full(posts: dict) -> str:
     """Every English article in full, for AI tools that read one file instead of crawling the site."""
-    lines = [SITE["llms"]["intro"].split("\n\n## Key pages")[0].rstrip(), "", "> The full text of the English articles on dancify.apphq.online. Spanish and German versions are listed in llms.txt.", ""]
+    lines = [SITE["llms"]["intro"].split("\n\n## Key pages")[0].rstrip(), "", "> The full text of the English articles on this site. Spanish and German versions are listed in llms.txt.", ""]
     for pid, langs in posts.items():
         if "en" not in langs:
             continue
@@ -1145,6 +1150,7 @@ def main() -> None:
     (ROOT / "llms-full.txt").write_text(render_llms_full(posts))
     print("wrote llms-full.txt")
     update_home_pages(posts)
+    print(f"rebase: {rebase.apply()} files pointed at {BASE}")
     write_markdown_pages()
     if "--og" in sys.argv:
         render_og(posts)

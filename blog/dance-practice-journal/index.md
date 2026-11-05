@@ -1,12 +1,11 @@
 ---
 title: "Dance Practice Journal: What to Track and Prompts"
 description: "How to keep a dance practice journal: what to track after each class, a five-minute entry, journaling prompts for dancers and a weekly look back."
-url: "https://dancify.apphq.online/blog/dance-practice-journal/"
-language: "en"
+url: "https://kkoskenvirta.github.io/dancify-site/blog/dance-practice-journal/"
 ---
 
-1. [Home](https://dancify.apphq.online/)
-2. [Blog](https://dancify.apphq.online/blog/)
+1. [Home](https://kkoskenvirta.github.io/dancify-site/)
+2. [Blog](https://kkoskenvirta.github.io/dancify-site/blog/)
 3. How to keep a dance practice journal: what to track, with prompts
 
 Practice 7 min read
@@ -17,7 +16,7 @@ Corrections fade, small wins get forgotten, and three weeks of classes blur into
 
 **Kasper Koskenvirta** Maker of Dancify · Published October 25, 2026
 
-![Three Dancify app screens on iPhone](https://dancify.apphq.online/assets/img/covers/en-practice-journal-1200.webp)
+![Three Dancify app screens on iPhone](https://kkoskenvirta.github.io/dancify-site/assets/img/covers/en-practice-journal-1200.webp)
 
 Ask a dancer what they worked on three weeks ago and most of us draw a blank. The corrections, the small win in Thursday's class, the section that finally clicked: they all blur together. A practice journal keeps them. It takes five minutes after you dance, and it turns a stack of classes into something you can learn from.
 
@@ -61,12 +60,12 @@ Tags help later: the piece, the style, the skill ("turns", "floor work", "musica
 3. **Name one win.** Be specific: not "good class" but "kept my heels down in the chassé". Small wins are the point.
 4. **Name one thing to fix.** Only one. A list of ten is a list of none.
 5. **Copy the correction word for word.** Your teacher's exact phrase is often the cue that makes it click later.
-6. **Attach a take.** Even 30 seconds of the section. Words say what you think happened; video shows what did. If you're not filming yet, our guide to [filming yourself dancing](https://dancify.apphq.online/blog/how-to-film-yourself-dancing/) covers the setup.
+6. **Attach a take.** Even 30 seconds of the section. Words say what you think happened; video shows what did. If you're not filming yet, our guide to [filming yourself dancing](https://kkoskenvirta.github.io/dancify-site/blog/how-to-film-yourself-dancing/) covers the setup.
 7. **Write tomorrow's first task.** "Start with the arm timing in the chorus." Then you walk into the next practice with a plan.
 
 **A real entry, start to finish.** "Thu 24 Oct, own practice, 40 min, Slow Burn. Win: the turn sequence in the second chorus is finally on the music. Fix: I travel too far on the slide on 6 and arrive late for 7. Teacher's note from Tuesday: 'Smaller, faster, then bigger.' Take: full run, take 3. Body: fine, calves tight. Tomorrow: slide on 6 with a mark on the floor, ten loops."
 
-That's under a hundred words and two minutes of typing. If you practise at home between classes, pair the journal with a simple [weekly practice plan](https://dancify.apphq.online/blog/how-to-practice-dancing-at-home/), so each entry has something to report back on.
+That's under a hundred words and two minutes of typing. If you practise at home between classes, pair the journal with a simple [weekly practice plan](https://kkoskenvirta.github.io/dancify-site/blog/how-to-practice-dancing-at-home/), so each entry has something to report back on.
 
 ## Journaling prompts for dancers
 
@@ -88,7 +87,7 @@ A diary nobody reads is just storage. Ten minutes once a week is where the patte
 
 Read yesterday's entry before today's practice, too. Sleep seems to help motor skills settle: in a well-known study, people who learned a finger-tapping sequence were about 20% faster after a night's sleep, while the same hours awake brought no significant gain.[3] Dance is far more complex than finger-tapping, but the habit costs nothing: start where yesterday ended, not from scratch.
 
-Once a month, go further back. Put your first take of a piece next to the latest one. That's often the moment you see how much has changed, and it's the raw material for a [dance progress video](https://dancify.apphq.online/blog/dance-progress-video/).
+Once a month, go further back. Put your first take of a piece next to the latest one. That's often the moment you see how much has changed, and it's the raw material for a [dance progress video](https://kkoskenvirta.github.io/dancify-site/blog/dance-progress-video/).
 
 ## Paper notebook or app?
 
@@ -110,11 +109,11 @@ Once a month, go further back. Put your first take of a piece next to the latest
 
 Dancify is built around the idea that a dance diary should be made of your own footage. Film a take and a frame from it lands on that day in your calendar; over weeks, the month fills with your own dancing.
 
-![Dancify calendar where each practice day shows a frame from that day's recording](https://dancify.apphq.online/assets/img/app/en/journal.webp)
+![Dancify calendar where each practice day shows a frame from that day's recording](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/journal.webp)
 
 **A calendar of frames** Each day shows a frame from what you danced; several takes stack like prints. Free.
 
-![Dancify day panel with three takes, a note and tags for one practice day](https://dancify.apphq.online/assets/img/app/en/day.webp)
+![Dancify day panel with three takes, a note and tags for one practice day](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/day.webp)
 
 **The day, with notes** Takes, notes, tags, favourites and milestones together. Classes can be logged without video.
 
@@ -170,7 +169,7 @@ Kasper designs and builds Dancify at AppRise Ventures in Espoo, Finland. Dancify
 
 Filming 9 min read
 
-### [How to film yourself dancing: angles, light and setup](https://dancify.apphq.online/blog/how-to-film-yourself-dancing/)
+### [How to film yourself dancing: angles, light and setup](https://kkoskenvirta.github.io/dancify-site/blog/how-to-film-yourself-dancing/)
 
 How to film yourself dancing with a phone: camera height and distance for each style, the best angle, light, sound, phone stands and six mistakes to avoid.
 
@@ -178,7 +177,7 @@ November 3, 2026
 
 Practice 9 min read
 
-### [How to practise dance at home: space, warm-up and a weekly plan](https://dancify.apphq.online/blog/how-to-practice-dancing-at-home/)
+### [How to practise dance at home: space, warm-up and a weekly plan](https://kkoskenvirta.github.io/dancify-site/blog/how-to-practice-dancing-at-home/)
 
 How to practise dance at home: a safe space and floor, shoes or socks, warm-up, a 30-minute session, weekly plans for beginners and intermediates, rest.
 

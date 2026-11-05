@@ -1,12 +1,11 @@
 ---
 title: "Tanz-Fortschrittsvideo: ein ehrliches Vorher-Nachher"
 description: "Tanz-Fortschrittsvideo erstellen: dieselbe Kombination gleich filmen, wie oft, was vergleichen, Abfolge, nebeneinander oder Raster, Datum und Teilen."
-url: "https://dancify.apphq.online/de/blog/tanz-fortschritt-video/"
-language: "de"
+url: "https://kkoskenvirta.github.io/dancify-site/de/blog/tanz-fortschritt-video/"
 ---
 
-1. [Startseite](https://dancify.apphq.online/de/)
-2. [Blog](https://dancify.apphq.online/de/blog/)
+1. [Startseite](https://kkoskenvirta.github.io/dancify-site/de/)
+2. [Blog](https://kkoskenvirta.github.io/dancify-site/de/blog/)
 3. So machst du ein Tanz-Fortschrittsvideo, das ehrlich ist und motiviert
 
 Fortschritt 9 Min. Lesezeit
@@ -17,7 +16,7 @@ Ein Vorher-Nachher bedeutet nur etwas, wenn beide Takes gleich gefilmt wurden. A
 
 **Kasper Koskenvirta** Macher von Dancify · Veröffentlicht am 29. Oktober 2026
 
-![Drei Ansichten der Dancify-App auf dem iPhone](https://dancify.apphq.online/assets/img/covers/de-progress-video-1200.webp)
+![Drei Ansichten der Dancify-App auf dem iPhone](https://kkoskenvirta.github.io/dancify-site/assets/img/covers/de-progress-video-1200.webp)
 
 Die meisten merken ihre Fortschritte beim Tanzen nur zufällig: Ein altes Video taucht in der Galerie auf, und plötzlich ist der Unterschied offensichtlich. Ein Fortschrittsvideo macht das mit Absicht. Es stellt deinen ersten Versuch und deinen neuesten ehrlich nebeneinander, damit du siehst, was sich verändert hat und woran du noch arbeiten willst.
 
@@ -39,7 +38,7 @@ Ein Vorher-Nachher kann aber auch täuschen. Ein Weitwinkel im ersten und ein en
 
 ## Film es jedes Mal gleich
 
-Such dir eine kurze Kombination aus, 16 bis 32 Counts, die zeigt, woran du arbeitest. Dann legst du alles drumherum fest und schreibst es einmal auf, in deinen Notizen oder im [Tanztagebuch](https://dancify.apphq.online/de/blog/tanztagebuch-fuehren/), damit du es in drei Monaten wiederholen kannst.
+Such dir eine kurze Kombination aus, 16 bis 32 Counts, die zeigt, woran du arbeitest. Dann legst du alles drumherum fest und schreibst es einmal auf, in deinen Notizen oder im [Tanztagebuch](https://kkoskenvirta.github.io/dancify-site/de/blog/tanztagebuch-fuehren/), damit du es in drei Monaten wiederholen kannst.
 
 - **Gleicher Platz, gleiche Höhe, gleiches Objektiv** Markiere mit Tape deinen Startpunkt und den Platz des Stativs. Das Handy bleibt auf derselben Höhe (für die meisten Stile zwischen Hüfte und Brust) und auf demselben Objektiv. Nie 0,5× und 1× mischen.
 - **Gleiche Musik, gleiches Tempo** Derselbe Track in derselben Geschwindigkeit. Wenn du ihn zum Lernen verlangsamt hast, filmst du den Fortschritts-Take im Endtempo oder immer im selben langsamen Tempo.
@@ -47,7 +46,7 @@ Such dir eine kurze Kombination aus, 16 bis 32 Counts, die zeigt, woran du arbei
 - **Gleicher Zeitpunkt im Training** Nach dem vollen Aufwärmen, bevor du müde bist. Ein Take nach 10 Minuten und einer nach 80 zeigen zwei verschiedene Tänzer.
 - **Der erste ehrliche Take** Warte mit dem ersten Video nicht, bis du "so weit" bist. Der ganze Sinn ist, dass es noch nicht gut ist.
 
-Wenn du beim Aufbau Hilfe brauchst: Unser Artikel [sich beim Tanzen filmen](https://dancify.apphq.online/de/blog/sich-beim-tanzen-filmen/) erklärt Höhe, Abstand und Licht für jeden Stil.
+Wenn du beim Aufbau Hilfe brauchst: Unser Artikel [sich beim Tanzen filmen](https://kkoskenvirta.github.io/dancify-site/de/blog/sich-beim-tanzen-filmen/) erklärt Höhe, Abstand und Licht für jeden Stil.
 
 ## Wie oft du filmen solltest
 
@@ -76,7 +75,7 @@ Trag die Termine in den Kalender ein wie eine Stunde. Fortschritts-Takes, an die
 | Raum und Wege | Wie weit du dich bewegst, Richtungswechsel | Die Bodenmarkierungen als Bezug nehmen |
 | Präsenz | Gesicht, Blick, Atmung, die Stellen, an denen du gezögert hast | In normaler Geschwindigkeit, wie das Publikum |
 
-Wenn es dir ums Timing geht, hilft es, genau zu wissen, wo die Counts liegen. Unser Artikel zum [Musikzählen beim Tanzen](https://dancify.apphq.online/de/blog/musik-zaehlen-beim-tanzen/) erklärt Achterphrasen und Tempo.
+Wenn es dir ums Timing geht, hilft es, genau zu wissen, wo die Counts liegen. Unser Artikel zum [Musikzählen beim Tanzen](https://kkoskenvirta.github.io/dancify-site/de/blog/musik-zaehlen-beim-tanzen/) erklärt Achterphrasen und Tempo.
 
 ## Das Layout wählen: Abfolge, nebeneinander oder Raster
 
@@ -128,11 +127,11 @@ Von innen übersieht man Fortschritt leicht. Zwei datierte Takes nebeneinander m
 
 Wir haben Dancify gebaut, damit ein Fortschrittsvideo kein Wochenendprojekt mehr ist. Jeder Take, den du filmst, landet an seinem Tag im Kalender, und alle Takes einer Choreo liegen der Reihe nach auf ihrer Seite. Der erste und der neueste sind also immer nur zwei Tipps voneinander entfernt.
 
-![Dancify Fortschritts-Reel der Choreo Slow Burn über drei Monate, vier Takes von August bis Oktober 2026, mit einer Ballettänzerin an der Stange und den Layouts Abfolge, Nebeneinander und Raster](https://dancify.apphq.online/assets/img/app/de/reel.webp)
+![Dancify Fortschritts-Reel der Choreo Slow Burn über drei Monate, vier Takes von August bis Oktober 2026, mit einer Ballettänzerin an der Stange und den Layouts Abfolge, Nebeneinander und Raster](https://kkoskenvirta.github.io/dancify-site/assets/img/app/de/reel.webp)
 
 Premium **Fortschritts-Reels, vom ersten Versuch bis heute** Takes auswählen, per Ziehen sortieren und ein Layout wählen: Abfolge, nebeneinander oder ein Raster mit bis zu vier Takes. Auf Wunsch steht auf jedem Clip das Datum, und du legst fest, wie viele Sekunden jeder Take läuft. Das Reel wird als neues Video exportiert, deine Originalaufnahmen bleiben, wie sie sind.
 
-![Dancify Vergleichsansicht mit zwei Takes derselben Ballettkombination nebeneinander, Damals am 4. August 2026 und Jetzt am 26. Oktober 2026](https://dancify.apphq.online/assets/img/app/de/compare.webp)
+![Dancify Vergleichsansicht mit zwei Takes derselben Ballettkombination nebeneinander, Damals am 4. August 2026 und Jetzt am 26. Oktober 2026](https://kkoskenvirta.github.io/dancify-site/assets/img/app/de/compare.webp)
 
 Premium **Damals und jetzt, Bild für Bild** Vergleichen zeigt zwei Takes nebeneinander mit ihren Daten. Spiel beide zusammen ab, geh mit beiden Bild für Bild weiter oder verlangsame beide auf halbe oder Viertel-Geschwindigkeit, um genau zu sehen, wo sich das Timing verändert hat.
 
@@ -190,7 +189,7 @@ Kasper entwirft und entwickelt Dancify bei AppRise Ventures in Espoo, Finnland. 
 
 Filmen 9 Min. Lesezeit
 
-### [Sich beim Tanzen filmen: Perspektive, Licht und Aufbau](https://dancify.apphq.online/de/blog/sich-beim-tanzen-filmen/)
+### [Sich beim Tanzen filmen: Perspektive, Licht und Aufbau](https://kkoskenvirta.github.io/dancify-site/de/blog/sich-beim-tanzen-filmen/)
 
 Sich beim Tanzen filmen mit dem Handy: Kamerahöhe und Abstand pro Tanzstil, die beste Perspektive, Licht, Ton, Stative und sechs Fehler, die Videos ruinieren.
 
@@ -198,7 +197,7 @@ Sich beim Tanzen filmen mit dem Handy: Kamerahöhe und Abstand pro Tanzstil, die
 
 Training 8 Min. Lesezeit
 
-### [Tanztagebuch führen: was du notieren solltest, mit Schreibfragen](https://dancify.apphq.online/de/blog/tanztagebuch-fuehren/)
+### [Tanztagebuch führen: was du notieren solltest, mit Schreibfragen](https://kkoskenvirta.github.io/dancify-site/de/blog/tanztagebuch-fuehren/)
 
 Tanztagebuch führen: was du nach jeder Stunde notieren solltest, ein Fünf-Minuten-Eintrag, Schreibfragen für Tanzende und ein Wochenrückblick für Fortschritt.
 

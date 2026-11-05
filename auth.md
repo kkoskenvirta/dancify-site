@@ -1,14 +1,14 @@
 # Dancify auth.md
 
-How AI agents authenticate with dancify.apphq.online: they don't need to, and they can't register. This file says so plainly so agents don't go looking.
+How AI agents authenticate with this site: they don't need to, and they can't register. This file says so plainly so agents don't go looking.
 
 ## Who this is for
 
-AI agents, assistants and crawlers that read dancify.apphq.online or are asked to do something with Dancify on someone's behalf.
+AI agents, assistants and crawlers that read this site or are asked to do something with Dancify on someone's behalf.
 
 ## Reading the site: no credentials
 
-Everything on dancify.apphq.online is public and read-only: the landing pages in English, Spanish and German, the blog, the privacy policy and terms, [llms.txt](https://dancify.apphq.online/llms.txt) and [llms-full.txt](https://dancify.apphq.online/llms-full.txt). Every page also has a Markdown version: send `Accept: text/markdown`, or add `index.md` to a page URL that ends in `/` (for example `https://dancify.apphq.online/blog/index.md`). There is no API key, token or sign-up. Please follow [robots.txt](https://dancify.apphq.online/robots.txt) and its Content Signals.
+Everything on this site is public and read-only: the landing pages in English, Spanish and German, the blog, the privacy policy and terms, [llms.txt](https://kkoskenvirta.github.io/dancify-site/llms.txt) and [llms-full.txt](https://kkoskenvirta.github.io/dancify-site/llms-full.txt). Every page also has a Markdown version: send `Accept: text/markdown`, or add `index.md` to a page URL that ends in `/` (for example `https://kkoskenvirta.github.io/dancify-site/blog/index.md`). There is no API key, token or sign-up. Please follow [robots.txt](https://kkoskenvirta.github.io/dancify-site/robots.txt) and its Content Signals.
 
 ## Registration and provisioning
 

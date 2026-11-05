@@ -1,12 +1,11 @@
 ---
 title: "Por qué creamos Dancify: un diario de práctica en vídeo"
 description: "La historia de Dancify: por qué se pierden los vídeos de práctica, las seis decisiones detrás de la app, lo que dejamos fuera a propósito y lo que viene."
-url: "https://dancify.apphq.online/es/blog/por-que-creamos-dancify/"
-language: "es"
+url: "https://kkoskenvirta.github.io/dancify-site/es/blog/por-que-creamos-dancify/"
 ---
 
-1. [Inicio](https://dancify.apphq.online/es/)
-2. [Blog](https://dancify.apphq.online/es/blog/)
+1. [Inicio](https://kkoskenvirta.github.io/dancify-site/es/)
+2. [Blog](https://kkoskenvirta.github.io/dancify-site/es/blog/)
 3. Por qué creamos una app de práctica de baile sin feed ni puntuaciones
 
 Detrás de Dancify 7 min de lectura
@@ -17,7 +16,7 @@ Quien baila lo graba todo y no encuentra nada. Por qué construimos Dancify alre
 
 **Kasper Koskenvirta** Creador de Dancify · Publicado el 20 de octubre de 2026
 
-![Tres pantallas de la app Dancify en iPhone](https://dancify.apphq.online/assets/img/covers/es-why-we-built-dancify-1200.webp)
+![Tres pantallas de la app Dancify en iPhone](https://kkoskenvirta.github.io/dancify-site/assets/img/covers/es-why-we-built-dancify-1200.webp)
 
 Quien baila lo graba todo. El calentamiento, la combinación del final de la clase, el tercer pase de la coreografía, el que por fin salió. Luego los vídeos se hunden en la galería entre capturas de pantalla y fotos de vacaciones, y cuando quieres saber si tus giros han mejorado desde la primavera, haces scroll diez minutos y te rindes. Dancify nació de ese scroll.
 
@@ -46,7 +45,7 @@ Queríamos lo contrario: un sitio donde grabar la práctica y recordarla sean la
 - **Un editor gratis** Recortes al fotograma, cambios y rampas de velocidad, congelados, encuadre y color, títulos, rótulos, fecha y música. Al exportar se crea una toma nueva; el original no se toca nunca. Editar tu propia práctica no debería costar más.
 - **Premium, solo para el progreso** Dancify Premium añade los reels de progreso (del primer intento al último, con fechas), la comparación lado a lado y la guía de postura. Todo lo necesario para grabar, practicar y llevar un diario sigue siendo gratis.
 
-![Calendario de Dancify en octubre en el que los días de práctica muestran un fotograma del vídeo de ese día, con tiras de cinta de colores para clases y prácticas, y el día seleccionado con tres tomas](https://dancify.apphq.online/assets/img/app/es/journal.webp)
+![Calendario de Dancify en octubre en el que los días de práctica muestran un fotograma del vídeo de ese día, con tiras de cinta de colores para clases y prácticas, y el día seleccionado con tres tomas](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/journal.webp)
 
 Gratis en Dancify **Por qué el calendario muestra fotogramas y no puntos** Los puntos y los mapas de calor te dicen cuántas veces practicaste. Los fotogramas te recuerdan qué practicaste: el vestuario de la muestra, la barra de la sala de antes, la tarde en que el giro por fin salió. Tiras de cinta de colores, como la cinta de marcar en el suelo de un escenario, señalan clases, ensayos y práctica.
 
@@ -78,15 +77,15 @@ El progreso en el baile es silencioso. Queríamos una app igual de tranquila que
 
 ## Para todos los estilos
 
-Una bailarina de ballet o contemporáneo puede revisar sus líneas en la barra. Quien baila hip-hop, heels o K-pop puede repetir en bucle el ocho que no se le queda. Las parejas de salsa, bachata o bailes de salón pueden grabar sus básicos, y en claqué o danza irlandesa se puede ralentizar el trabajo de pies a un cuarto de la velocidad. Las herramientas son las mismas; cambia la altura de la cámara, y eso lo explicamos en [cómo grabarte bailando](https://dancify.apphq.online/es/blog/como-grabarte-bailando/).
+Una bailarina de ballet o contemporáneo puede revisar sus líneas en la barra. Quien baila hip-hop, heels o K-pop puede repetir en bucle el ocho que no se le queda. Las parejas de salsa, bachata o bailes de salón pueden grabar sus básicos, y en claqué o danza irlandesa se puede ralentizar el trabajo de pies a un cuarto de la velocidad. Las herramientas son las mismas; cambia la altura de la cámara, y eso lo explicamos en [cómo grabarte bailando](https://kkoskenvirta.github.io/dancify-site/es/blog/como-grabarte-bailando/).
 
 Funciona en iPhone y iPad (iOS y iPadOS 26 o posterior), también en el iPhone Duo, donde los paneles quedan a cada lado del pliegue. La app está en español, inglés, alemán, finés, francés y japonés. Con Siri y Atajos puedes empezar a grabar, apuntar una práctica, abrir el día de hoy o ver el progreso de una pieza. Con una pantalla externa o AirPlay, la toma abierta se ve a pantalla completa en grande, algo muy práctico en una sala de ensayo.
 
-![Cámara de Dancify lista para grabar, con la cuenta de entrada, el zoom y los controles de formato](https://dancify.apphq.online/assets/img/app/es/camera.webp)
+![Cámara de Dancify lista para grabar, con la cuenta de entrada, el zoom y los controles de formato](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/camera.webp)
 
 **Una cámara que espera a la cuenta** Cuenta de entrada, Seguir, cámara lenta, espejo, cuadrícula y nivel.
 
-![Editor de vídeo de Dancify con una toma de práctica en la línea de tiempo y herramientas para recortar, velocidad, encuadre, ajustes, texto y audio](https://dancify.apphq.online/assets/img/app/es/editor.webp)
+![Editor de vídeo de Dancify con una toma de práctica en la línea de tiempo y herramientas para recortar, velocidad, encuadre, ajustes, texto y audio](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/editor.webp)
 
 **Un editor gratis** Recorta, cambia la velocidad, congela, encuadra, corrige el color, añade rótulos y música. El original queda intacto.
 
@@ -98,7 +97,7 @@ Somos una empresa pequeña, así que preferimos dejarlo claro. Dancify se descar
 
 Vamos a seguir puliendo lo esencial antes de añadir más: la cámara, el calendario y las herramientas de práctica, según lo que los bailarines nos cuenten que necesitan en mitad de un ensayo. Los principios no cambian: tus vídeos son tuyos, la práctica nunca se convierte en una nota y la app gratuita sigue completa.
 
-No vamos a prometer fechas que no podamos cumplir. Contaremos lo que hagamos aquí, en el blog, junto a guías como [llevar un diario de práctica de baile](https://dancify.apphq.online/es/blog/diario-de-practica-de-baile/) o [hacer un vídeo de progreso](https://dancify.apphq.online/es/blog/video-de-progreso-de-baile/). Y si algo en Dancify no te convence o echas algo en falta, [escríbenos](mailto:appriseven@gmail.com). Leemos todos los mensajes.
+No vamos a prometer fechas que no podamos cumplir. Contaremos lo que hagamos aquí, en el blog, junto a guías como [llevar un diario de práctica de baile](https://kkoskenvirta.github.io/dancify-site/es/blog/diario-de-practica-de-baile/) o [hacer un vídeo de progreso](https://kkoskenvirta.github.io/dancify-site/es/blog/video-de-progreso-de-baile/). Y si algo en Dancify no te convence o echas algo en falta, [escríbenos](mailto:appriseven@gmail.com). Leemos todos los mensajes.
 
 Empieza con una toma
 
@@ -153,7 +152,7 @@ Kasper diseña y desarrolla Dancify en AppRise Ventures, en Espoo (Finlandia). D
 
 Práctica 8 min de lectura
 
-### [Cómo llevar un diario de práctica de baile: qué apuntar, con preguntas](https://dancify.apphq.online/es/blog/diario-de-practica-de-baile/)
+### [Cómo llevar un diario de práctica de baile: qué apuntar, con preguntas](https://kkoskenvirta.github.io/dancify-site/es/blog/diario-de-practica-de-baile/)
 
 Cómo llevar un diario de práctica de baile: qué apuntar después de cada clase, una entrada de cinco minutos, preguntas para escribir y un repaso semanal.
 
@@ -161,7 +160,7 @@ Cómo llevar un diario de práctica de baile: qué apuntar después de cada clas
 
 Grabar 10 min de lectura
 
-### [Cómo grabarte bailando: ángulo, luz y altura del móvil](https://dancify.apphq.online/es/blog/como-grabarte-bailando/)
+### [Cómo grabarte bailando: ángulo, luz y altura del móvil](https://kkoskenvirta.github.io/dancify-site/es/blog/como-grabarte-bailando/)
 
 Cómo grabarte bailando con el móvil: altura y distancia de la cámara por estilo, el mejor ángulo, luz, sonido, trípodes y seis errores que estropean el vídeo.
 

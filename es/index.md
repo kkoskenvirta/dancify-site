@@ -1,8 +1,7 @@
 ---
 title: "Dancify: app para grabarte bailando, diario de baile y editor de vídeo"
 description: "Grábate bailando con cuenta de entrada y un enfoque que te sigue, guarda cada toma en un calendario y repásala en bucle, a cámara lenta y lado a lado. Sin cuenta ni anuncios. iPhone y iPad."
-url: "https://dancify.apphq.online/es/"
-language: "es"
+url: "https://kkoskenvirta.github.io/dancify-site/es/"
 ---
 
 Cámara, diario de práctica y editor de vídeo para bailarines
@@ -18,11 +17,11 @@ Grabas una toma y un fotograma aparece en el día de hoy de tu calendario. Abre 
 - Sin anuncios ni rastreo
 - iPhone y iPad
 
-![Cámara de Dancify contando la entrada a 100 bpm, con un 7 grande en pantalla](https://dancify.apphq.online/assets/img/app/es/camera-countin.webp)
+![Cámara de Dancify contando la entrada a 100 bpm, con un 7 grande en pantalla](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/camera-countin.webp)
 
-![Una toma abierta en el reproductor de Dancify](https://dancify.apphq.online/assets/img/app/es/recording.webp)
+![Una toma abierta en el reproductor de Dancify](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/recording.webp)
 
-![Calendario de octubre en Dancify: cada día de práctica muestra un fotograma de su grabación](https://dancify.apphq.online/assets/img/app/es/journal.webp)
+![Calendario de octubre en Dancify: cada día de práctica muestra un fotograma de su grabación](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/journal.webp)
 
 Cómo funciona
 
@@ -30,7 +29,7 @@ Cómo funciona
 
 Tres pasos que repetirás después de cada clase, cada ensayo y cada práctica en casa.
 
-![Cámara de Dancify lista para grabar, con los objetivos y la cuenta a 100 bpm](https://dancify.apphq.online/assets/img/app/es/camera.webp)
+![Cámara de Dancify lista para grabar, con los objetivos y la cuenta a 100 bpm](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/camera.webp)
 
  01
 
@@ -38,7 +37,7 @@ Tres pasos que repetirás después de cada clase, cada ensayo y cada práctica e
 
 Elige el tempo, pulsa grabar y ve a tu sitio mientras te cuenta: 5, 6, 7, 8.
 
-![Un día de práctica en Dancify con tres tomas, una nota y el resumen del mes](https://dancify.apphq.online/assets/img/app/es/day.webp)
+![Un día de práctica en Dancify con tres tomas, una nota y el resumen del mes](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/day.webp)
 
  02
 
@@ -46,7 +45,7 @@ Elige el tempo, pulsa grabar y ve a tu sitio mientras te cuenta: 5, 6, 7, 8.
 
 Cada toma aparece en su día como un fotograma de tu propio baile. Si hay varias, se apilan como fotos impresas.
 
-![El editor de Dancify con una toma recortada en la línea de tiempo](https://dancify.apphq.online/assets/img/app/es/editor.webp)
+![El editor de Dancify con una toma recortada en la línea de tiempo](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/editor.webp)
 
  03
 
@@ -84,9 +83,9 @@ HD o 4K a 30 o 60 fps, y cámara lenta a 120 o 240 fps para giros y saltos.
 
 Empieza con los botones de volumen o el Control de Cámara, y la parada automática cierra la toma. También hay espejo, linterna, cuadrícula y nivel.
 
-![Cámara de Dancify con Seguir fijado en una bailarina, con un marco de enfoque a su alrededor](https://dancify.apphq.online/assets/img/app/es/camera-follow.webp)
+![Cámara de Dancify con Seguir fijado en una bailarina, con un marco de enfoque a su alrededor](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/camera-follow.webp)
 
-![Cámara de Dancify contando la entrada a una bailarina, con un 7 grande a 100 bpm](https://dancify.apphq.online/assets/img/app/es/camera-countin.webp)
+![Cámara de Dancify contando la entrada a una bailarina, con un 7 grande a 100 bpm](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/camera-countin.webp)
 
 Ensaya con un vídeo de referencia
 
@@ -110,7 +109,7 @@ Se silencia mientras grabas para que no se cuele en la grabación, salvo que ten
 
 Dancify guarda la referencia y el tempo de cada coreografía para la próxima vez.
 
-![Cámara de Dancify grabando a una bailarina con un vídeo de referencia en miniatura en la esquina](https://dancify.apphq.online/assets/img/app/es/camera-reference.webp)
+![Cámara de Dancify grabando a una bailarina con un vídeo de referencia en miniatura en la esquina](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/camera-reference.webp)
 
 Diario de práctica
 
@@ -118,15 +117,15 @@ Diario de práctica
 
 Semana a semana, el calendario se llena de tu propio baile: un diario visual de todo el trabajo que haces. Apunta una clase sin grabarla, añade una nota mientras la tienes fresca y encuentra cualquier toma en segundos.
 
-![Calendario de Dancify: cada día de práctica muestra un fotograma de su grabación](https://dancify.apphq.online/assets/img/app/es/journal.webp)
+![Calendario de Dancify: cada día de práctica muestra un fotograma de su grabación](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/journal.webp)
 
 **Calendario** Cada día muestra un fotograma de lo que bailaste. Si hay varias tomas, se apilan.
 
-![Cronología de Dancify con sesiones de práctica y sus tomas, de la más reciente a la más antigua](https://dancify.apphq.online/assets/img/app/es/timeline.webp)
+![Cronología de Dancify con sesiones de práctica y sus tomas, de la más reciente a la más antigua](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/timeline.webp)
 
 **Cronología** Cada sesión, toma e hito en orden, con filtros por tomas, sesiones o piezas.
 
-![La pieza Slow Burn en Dancify: 10 tomas, 12 sesiones y 13 horas, del primer intento al último](https://dancify.apphq.online/assets/img/app/es/pieces.webp)
+![La pieza Slow Burn en Dancify: 10 tomas, 12 sesiones y 13 horas, del primer intento al último](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/pieces.webp)
 
 **Piezas** Todas las tomas de una coreografía en orden, del primer intento a la pasada completa.
 
@@ -158,9 +157,9 @@ Voltea la imagen para verla como en el espejo de la sala.
 
 Pantalla completa, AirPlay o una pantalla externa, para que lo vea toda la clase.
 
-![Reproductor de Dancify con un bucle A–B marcado en una frase y el panel de práctica abierto](https://dancify.apphq.online/assets/img/app/es/player-loop.webp)
+![Reproductor de Dancify con un bucle A–B marcado en una frase y el panel de práctica abierto](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/player-loop.webp)
 
-![Reproductor de Dancify con los tiempos sobre el vídeo, en el 8 a 100 bpm](https://dancify.apphq.online/assets/img/app/es/player-counts.webp)
+![Reproductor de Dancify con los tiempos sobre el vídeo, en el 8 a 100 bpm](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/player-counts.webp)
 
 Editor
 
@@ -170,9 +169,9 @@ Recorta la toma, quita las charlas, vuelve a poner la música y exporta un clip 
 
 Compártelo, guárdalo en Fotos o déjalo en tu diario.
 
-![El editor de Dancify con una toma dividida en segmentos en la línea de tiempo](https://dancify.apphq.online/assets/img/app/es/editor.webp)
+![El editor de Dancify con una toma dividida en segmentos en la línea de tiempo](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/editor.webp)
 
-![La herramienta Ajustar del editor de Dancify, con exposición, contraste y filtros](https://dancify.apphq.online/assets/img/app/es/editor-adjust.webp)
+![La herramienta Ajustar del editor de Dancify, con exposición, contraste y filtros](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/editor-adjust.webp)
 
 - ** Recortar y dividir**
 
@@ -212,19 +211,19 @@ Premium
 
 El progreso del día a día cuesta verlo. Pon tu primer intento al lado del de hoy y salta a la vista.
 
-![Creador de vídeos de progreso de Dancify: Slow Burn, tres meses, cuatro tomas en secuencia](https://dancify.apphq.online/assets/img/app/es/reel.webp)
+![Creador de vídeos de progreso de Dancify: Slow Burn, tres meses, cuatro tomas en secuencia](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/reel.webp)
 
 ### Vídeos de progreso
 
 Del primer intento al último, con las fechas en pantalla. En secuencia, lado a lado o en cuadrícula; expórtalo y compártelo.
 
-![Comparación en Dancify: la primera toma de agosto junto a la última de octubre](https://dancify.apphq.online/assets/img/app/es/compare.webp)
+![Comparación en Dancify: la primera toma de agosto junto a la última de octubre](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/compare.webp)
 
 ### Comparar lado a lado
 
 Dos tomas a la vez, para ver exactamente qué ha cambiado.
 
-![Guía de postura de Dancify con líneas sobre los hombros, las caderas y las piernas de una bailarina](https://dancify.apphq.online/assets/img/app/es/pose.webp)
+![Guía de postura de Dancify con líneas sobre los hombros, las caderas y las piernas de una bailarina](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/pose.webp)
 
 ### Guía de postura
 
@@ -238,7 +237,7 @@ Los vídeos de tus ensayos son personales. Dancify los guarda en tu dispositivo,
 
 Etiqueta de privacidad del App Store **Datos no recopilados**
 
-[Leer la política de privacidad (en inglés) →](https://dancify.apphq.online/privacy/)
+[Leer la política de privacidad (en inglés) →](https://kkoskenvirta.github.io/dancify-site/privacy/)
 
 - **Sin cuenta**
 
@@ -366,41 +365,41 @@ Del blog
 
 Grabar
 
-### [Cómo grabarte bailando: ángulo, luz y altura del móvil](https://dancify.apphq.online/es/blog/como-grabarte-bailando/)
+### [Cómo grabarte bailando: ángulo, luz y altura del móvil](https://kkoskenvirta.github.io/dancify-site/es/blog/como-grabarte-bailando/)
 
 Cómo grabarte bailando con el móvil: altura y distancia de la cámara por estilo, el mejor ángulo, luz, sonido, trípodes y seis errores que estropean el vídeo.
 
 Aprender
 
-### [Cómo aprender coreografías rápido (y que no se te olviden)](https://dancify.apphq.online/es/blog/aprender-coreografias-rapido/)
+### [Cómo aprender coreografías rápido (y que no se te olviden)](https://kkoskenvirta.github.io/dancify-site/es/blog/aprender-coreografias-rapido/)
 
 Cómo aprender coreografías rápido: mapa de la pieza, aprender por ochos, marcar, usar bien el espejo, ralentizar el vídeo, repetir en bucle y grabarte.
 
 Progreso
 
-### [Cómo hacer un vídeo de progreso de baile honesto y motivador](https://dancify.apphq.online/es/blog/video-de-progreso-de-baile/)
+### [Cómo hacer un vídeo de progreso de baile honesto y motivador](https://kkoskenvirta.github.io/dancify-site/es/blog/video-de-progreso-de-baile/)
 
 Cómo hacer un vídeo de progreso de baile: graba la misma combinación igual, cada cuánto, qué comparar, secuencia, lado a lado o cuadrícula, fechas y compartir.
 
 Musicalidad
 
-### [Cómo contar la música en el baile: los ochos, el "5, 6, 7, 8" y el uno](https://dancify.apphq.online/es/blog/como-contar-la-musica-en-el-baile/)
+### [Cómo contar la música en el baile: los ochos, el "5, 6, 7, 8" y el uno](https://kkoskenvirta.github.io/dancify-site/es/blog/como-contar-la-musica-en-el-baile/)
 
 Cómo contar la música en el baile: tiempos, compases y ochos, qué significa "5, 6, 7, 8", cómo encontrar el uno, el "y", el vals en 3/4 y los BPM por estilo.
 
 Práctica
 
-### [Cómo llevar un diario de práctica de baile: qué apuntar, con preguntas](https://dancify.apphq.online/es/blog/diario-de-practica-de-baile/)
+### [Cómo llevar un diario de práctica de baile: qué apuntar, con preguntas](https://kkoskenvirta.github.io/dancify-site/es/blog/diario-de-practica-de-baile/)
 
 Cómo llevar un diario de práctica de baile: qué apuntar después de cada clase, una entrada de cinco minutos, preguntas para escribir y un repaso semanal.
 
 Práctica
 
-### [Cómo practicar baile en casa: espacio, calentamiento y plan semanal](https://dancify.apphq.online/es/blog/practicar-baile-en-casa/)
+### [Cómo practicar baile en casa: espacio, calentamiento y plan semanal](https://kkoskenvirta.github.io/dancify-site/es/blog/practicar-baile-en-casa/)
 
 Cómo practicar baile en casa: espacio y suelo seguros, calcetines o zapatillas, calentamiento, una sesión de 30 minutos, plan semanal por nivel y descanso.
 
-[Todos los artículos](https://dancify.apphq.online/es/blog/)
+[Todos los artículos](https://kkoskenvirta.github.io/dancify-site/es/blog/)
 
 ## Guarda cada ensayo.
 

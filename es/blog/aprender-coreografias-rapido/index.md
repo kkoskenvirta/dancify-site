@@ -1,12 +1,11 @@
 ---
 title: "Cómo aprender coreografías rápido y no olvidarlas"
 description: "Cómo aprender coreografías rápido: mapa de la pieza, aprender por ochos, marcar, usar bien el espejo, ralentizar el vídeo, repetir en bucle y grabarte."
-url: "https://dancify.apphq.online/es/blog/aprender-coreografias-rapido/"
-language: "es"
+url: "https://kkoskenvirta.github.io/dancify-site/es/blog/aprender-coreografias-rapido/"
 ---
 
-1. [Inicio](https://dancify.apphq.online/es/)
-2. [Blog](https://dancify.apphq.online/es/blog/)
+1. [Inicio](https://kkoskenvirta.github.io/dancify-site/es/)
+2. [Blog](https://kkoskenvirta.github.io/dancify-site/es/blog/)
 3. Cómo aprender coreografías rápido (y que no se te olviden)
 
 Aprender 8 min de lectura
@@ -17,7 +16,7 @@ Quien aprende rápido no tiene un don: hace un mapa de la pieza, la aprende por 
 
 **Kasper Koskenvirta** Creador de Dancify · Publicado el 1 de noviembre de 2026
 
-![Tres pantallas de la app Dancify en iPhone](https://dancify.apphq.online/assets/img/covers/es-learn-choreography-1200.webp)
+![Tres pantallas de la app Dancify en iPhone](https://kkoskenvirta.github.io/dancify-site/assets/img/covers/es-learn-choreography-1200.webp)
 
 Hay bailarines que sacan una combinación en dos pasadas. No es magia y casi nunca es talento: miran de una forma concreta, parten la pieza en trozos, la marcan antes de bailarla a tope y se revisan en vídeo. Todo eso se aprende. Este es el método, desde el primer visionado hasta la noche antes de la función.
 
@@ -59,7 +58,7 @@ Una pauta que funciona: marca un bloque nuevo dos o tres veces, báilalo a tope 
 
 ## ¿Cuentas o música?
 
-Las dos, en ese orden. Las cuentas dan estructura: sabes exactamente dónde cae cada paso. La música da la sensación: los acentos, las respiraciones, la letra que te avisa de un movimiento. Aprende un bloque con cuentas y enseguida báilalo con la canción, para que las cuentas se peguen al sonido. Si lo difícil es contar, nuestra guía sobre [cómo contar la música en el baile](https://dancify.apphq.online/es/blog/como-contar-la-musica-en-el-baile/) explica los ochos, los "y" y cómo encontrar el uno.
+Las dos, en ese orden. Las cuentas dan estructura: sabes exactamente dónde cae cada paso. La música da la sensación: los acentos, las respiraciones, la letra que te avisa de un movimiento. Aprende un bloque con cuentas y enseguida báilalo con la canción, para que las cuentas se peguen al sonido. Si lo difícil es contar, nuestra guía sobre [cómo contar la música en el baile](https://kkoskenvirta.github.io/dancify-site/es/blog/como-contar-la-musica-en-el-baile/) explica los ochos, los "y" y cómo encontrar el uno.
 
 Un truco de profe: busca puntos de referencia en la música. "El brazo sube en la palabra 'fuego'" se queda mejor que "en el 6 del tercer ocho".
 
@@ -84,7 +83,7 @@ La velocidad es lo último que se añade. Casi cualquier coreografía rápida es
 
 Pon en bucle el ocho que siempre falla en lugar de repetir la pieza entera. Diez vueltas a la parte difícil valen más que tres pases completos.
 
-Después graba cada bloque en cuanto creas que lo tienes. El vídeo responde lo que la memoria no puede: ¿el brazo está de verdad a la altura del hombro? ¿El giro cae en el 7 o en el 7-y? Pon tu toma al lado de la referencia y busca una diferencia cada vez. En [cómo grabarte bailando](https://dancify.apphq.online/es/blog/como-grabarte-bailando/) tienes cómo colocar la cámara.
+Después graba cada bloque en cuanto creas que lo tienes. El vídeo responde lo que la memoria no puede: ¿el brazo está de verdad a la altura del hombro? ¿El giro cae en el 7 o en el 7-y? Pon tu toma al lado de la referencia y busca una diferencia cada vez. En [cómo grabarte bailando](https://kkoskenvirta.github.io/dancify-site/es/blog/como-grabarte-bailando/) tienes cómo colocar la cámara.
 
 ## Entre ensayos: escucha, visualiza y duerme
 
@@ -99,17 +98,17 @@ Después graba cada bloque en cuanto creas que lo tienes. El vídeo responde lo 
 1. **5 min: repaso** Marca y luego baila todo lo que aprendiste la última vez, con música.
 2. **25 min: bloques nuevos** De dos a cuatro ochos nuevos: descifrar despacio, marcar, contar, bailar, encadenar.
 3. **10 min: grabar y revisar** Una toma de todo lo que llevas. Mírala una vez y apunta una corrección.
-4. **5 min: apuntarlo** Dónde te quedaste, qué está flojo, la primera tarea de mañana. Ese es tu [diario de práctica de baile](https://dancify.apphq.online/es/blog/diario-de-practica-de-baile/).
+4. **5 min: apuntarlo** Dónde te quedaste, qué está flojo, la primera tarea de mañana. Ese es tu [diario de práctica de baile](https://kkoskenvirta.github.io/dancify-site/es/blog/diario-de-practica-de-baile/).
 
 ## Cómo te ayuda Dancify a aprender una pieza
 
 Diseñamos las herramientas de práctica de Dancify alrededor de esta rutina, y son gratis.
 
-![Reproductor de Dancify con un bucle A–B marcado en un ocho y el panel de práctica abierto](https://dancify.apphq.online/assets/img/app/es/player-loop.webp)
+![Reproductor de Dancify con un bucle A–B marcado en un ocho y el panel de práctica abierto](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/player-loop.webp)
 
 Gratis en Dancify **El ocho difícil, en bucle** Ralentiza cualquier toma hasta 0,25×, avanza fotograma a fotograma y ponla en espejo. Marca un bucle A–B en el ocho que siempre falla, con una pausa opcional de un ocho antes de que se repita, para volver a tu sitio. Las cuentas en pantalla marcan del 1 al 8 al compás de la música.
 
-![Cámara de Dancify grabando a una bailarina con el vídeo de referencia de la coreografía en miniatura](https://dancify.apphq.online/assets/img/app/es/camera-reference.webp)
+![Cámara de Dancify grabando a una bailarina con el vídeo de referencia de la coreografía en miniatura](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/camera-reference.webp)
 
 Gratis en Dancify **Baila con la referencia** Pon el vídeo de la clase o una toma tuya anterior en miniatura o a pantalla partida mientras grabas, arrancando en el tiempo fuerte de la cuenta de entrada. Cada toma se guarda en su pieza, en orden, para que veas cómo fue tomando forma.
 
@@ -165,7 +164,7 @@ Kasper diseña y desarrolla Dancify en AppRise Ventures, en Espoo (Finlandia). D
 
 Musicalidad 8 min de lectura
 
-### [Cómo contar la música en el baile: los ochos, el "5, 6, 7, 8" y el uno](https://dancify.apphq.online/es/blog/como-contar-la-musica-en-el-baile/)
+### [Cómo contar la música en el baile: los ochos, el "5, 6, 7, 8" y el uno](https://kkoskenvirta.github.io/dancify-site/es/blog/como-contar-la-musica-en-el-baile/)
 
 Cómo contar la música en el baile: tiempos, compases y ochos, qué significa "5, 6, 7, 8", cómo encontrar el uno, el "y", el vals en 3/4 y los BPM por estilo.
 
@@ -173,7 +172,7 @@ Cómo contar la música en el baile: tiempos, compases y ochos, qué significa "
 
 Grabar 10 min de lectura
 
-### [Cómo grabarte bailando: ángulo, luz y altura del móvil](https://dancify.apphq.online/es/blog/como-grabarte-bailando/)
+### [Cómo grabarte bailando: ángulo, luz y altura del móvil](https://kkoskenvirta.github.io/dancify-site/es/blog/como-grabarte-bailando/)
 
 Cómo grabarte bailando con el móvil: altura y distancia de la cámara por estilo, el mejor ángulo, luz, sonido, trípodes y seis errores que estropean el vídeo.
 

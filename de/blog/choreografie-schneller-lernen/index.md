@@ -1,12 +1,11 @@
 ---
 title: "Choreografie schneller lernen und besser behalten"
 description: "Choreografie schneller lernen: Landkarte der Choreo, in Achtern lernen, markieren, den Spiegel klug nutzen, Video verlangsamen, Schleifen und Selbstkontrolle."
-url: "https://dancify.apphq.online/de/blog/choreografie-schneller-lernen/"
-language: "de"
+url: "https://kkoskenvirta.github.io/dancify-site/de/blog/choreografie-schneller-lernen/"
 ---
 
-1. [Startseite](https://dancify.apphq.online/de/)
-2. [Blog](https://dancify.apphq.online/de/blog/)
+1. [Startseite](https://kkoskenvirta.github.io/dancify-site/de/)
+2. [Blog](https://kkoskenvirta.github.io/dancify-site/de/blog/)
 3. Choreografie schneller lernen (und wirklich behalten)
 
 Lernen 8 Min. Lesezeit
@@ -17,7 +16,7 @@ Wer schnell lernt, hat keine Zauberkraft: Landkarte der Choreo, Lernen in Achter
 
 **Kasper Koskenvirta** Macher von Dancify · Veröffentlicht am 1. November 2026
 
-![Drei Ansichten der Dancify-App auf dem iPhone](https://dancify.apphq.online/assets/img/covers/de-learn-choreography-1200.webp)
+![Drei Ansichten der Dancify-App auf dem iPhone](https://kkoskenvirta.github.io/dancify-site/assets/img/covers/de-learn-choreography-1200.webp)
 
 Manche Tänzerinnen haben eine Kombination nach zwei Durchgängen drauf. Das ist keine Zauberei und meistens auch kein Talent. Sie schauen auf eine bestimmte Art zu, zerlegen die Choreo in Stücke, markieren, bevor sie voll tanzen, und prüfen sich im Video. Das alles kann man lernen. Hier ist die Methode, vom ersten Anschauen bis zum Abend vor dem Auftritt.
 
@@ -59,7 +58,7 @@ Ein bewährtes Muster: einen neuen Block zwei-, dreimal markieren, einmal voll t
 
 ## Counts oder Musik?
 
-Beides, in dieser Reihenfolge. Counts geben Struktur: Du weißt genau, wo jede Bewegung landet. Musik gibt das Gefühl: Akzente, Atempausen, Textstellen, die eine Bewegung ankündigen. Lern einen Block auf Counts und tanz ihn dann sofort zum Song, damit die Counts am Klang hängen bleiben. Wenn das Zählen selbst die Hürde ist, erklärt unser Ratgeber zum [Musik zählen beim Tanzen](https://dancify.apphq.online/de/blog/musik-zaehlen-beim-tanzen/) Achter, "und"-Counts und wie du die Eins findest.
+Beides, in dieser Reihenfolge. Counts geben Struktur: Du weißt genau, wo jede Bewegung landet. Musik gibt das Gefühl: Akzente, Atempausen, Textstellen, die eine Bewegung ankündigen. Lern einen Block auf Counts und tanz ihn dann sofort zum Song, damit die Counts am Klang hängen bleiben. Wenn das Zählen selbst die Hürde ist, erklärt unser Ratgeber zum [Musik zählen beim Tanzen](https://kkoskenvirta.github.io/dancify-site/de/blog/musik-zaehlen-beim-tanzen/) Achter, "und"-Counts und wie du die Eins findest.
 
 Ein Trick aus dem Unterricht: Such dir Ankerpunkte in der Musik. "Der Arm geht hoch beim Wort 'Feuer'" bleibt besser hängen als "auf der 6 im dritten Achter".
 
@@ -84,7 +83,7 @@ Tempo kommt zuletzt. Die meisten schnellen Choreos sind im Originaltempo nicht l
 
 Leg den einen Achter, der immer schiefgeht, in eine Schleife, statt die ganze Choreo noch einmal zu tanzen. Zehn Schleifen der schweren Stelle bringen mehr als drei ganze Durchläufe.
 
-Film dann jeden Block, sobald du glaubst, ihn zu können. Das Video beantwortet, was die Erinnerung nicht kann: Ist der Arm wirklich auf Schulterhöhe? Kommt die Drehung auf 7 oder auf 7-und? Leg deine Aufnahme neben die Vorlage und such jeweils nur einen Unterschied. Wie du die Kamera aufstellst, steht in [sich beim Tanzen filmen](https://dancify.apphq.online/de/blog/sich-beim-tanzen-filmen/).
+Film dann jeden Block, sobald du glaubst, ihn zu können. Das Video beantwortet, was die Erinnerung nicht kann: Ist der Arm wirklich auf Schulterhöhe? Kommt die Drehung auf 7 oder auf 7-und? Leg deine Aufnahme neben die Vorlage und such jeweils nur einen Unterschied. Wie du die Kamera aufstellst, steht in [sich beim Tanzen filmen](https://kkoskenvirta.github.io/dancify-site/de/blog/sich-beim-tanzen-filmen/).
 
 ## Zwischen den Trainings: hören, vorstellen, schlafen
 
@@ -99,17 +98,17 @@ Film dann jeden Block, sobald du glaubst, ihn zu können. Das Video beantwortet,
 1. **5 Min.: wiederholen** Alles vom letzten Mal markieren und dann mit Musik tanzen.
 2. **25 Min.: neue Blöcke** Zwei bis vier neue Achter: langsam entschlüsseln, markieren, zählen, tanzen, aneinanderhängen.
 3. **10 Min.: filmen und prüfen** Eine Aufnahme von allem bisher. Einmal ansehen, eine Korrektur notieren.
-4. **5 Min.: aufschreiben** Wo du aufgehört hast, was wackelt, die erste Aufgabe für morgen. Das ist dein [Tanztagebuch](https://dancify.apphq.online/de/blog/tanztagebuch-fuehren/).
+4. **5 Min.: aufschreiben** Wo du aufgehört hast, was wackelt, die erste Aufgabe für morgen. Das ist dein [Tanztagebuch](https://kkoskenvirta.github.io/dancify-site/de/blog/tanztagebuch-fuehren/).
 
 ## So hilft dir Dancify beim Lernen einer Choreo
 
 Wir haben die Übungswerkzeuge in Dancify genau um diese Routine herum gebaut, und sie sind kostenlos.
 
-![Dancify-Player mit einer A–B-Schleife über einen Achter und geöffnetem Übungsbereich](https://dancify.apphq.online/assets/img/app/de/player-loop.webp)
+![Dancify-Player mit einer A–B-Schleife über einen Achter und geöffnetem Übungsbereich](https://kkoskenvirta.github.io/dancify-site/assets/img/app/de/player-loop.webp)
 
 Kostenlos in Dancify **Den schweren Achter in Schleife** Verlangsame jede Aufnahme bis auf 0,25×, geh Bild für Bild vor und spiegel sie. Setz eine A–B-Schleife auf den Achter, der immer schiefgeht, mit optionaler Pause von einem Achter, bevor sie neu beginnt, damit du zurück an deinen Platz kommst. Die Counts laufen von 1 bis 8 im Takt der Musik mit.
 
-![Dancify-Kamera filmt eine Tänzerin, das Vorlagenvideo der Choreo läuft als Bild-in-Bild](https://dancify.apphq.online/assets/img/app/de/camera-reference.webp)
+![Dancify-Kamera filmt eine Tänzerin, das Vorlagenvideo der Choreo läuft als Bild-in-Bild](https://kkoskenvirta.github.io/dancify-site/assets/img/app/de/camera-reference.webp)
 
 Kostenlos in Dancify **Mit der Vorlage tanzen** Spiel beim Filmen das Video aus der Stunde oder eine frühere eigene Aufnahme als Bild-in-Bild oder nebeneinander ab, startend auf dem Downbeat des Einzählens. Jede Aufnahme landet in ihrer Choreo, in Reihenfolge, damit du siehst, wie sie entstanden ist.
 
@@ -165,7 +164,7 @@ Kasper entwirft und entwickelt Dancify bei AppRise Ventures in Espoo, Finnland. 
 
 Musikalität 8 Min. Lesezeit
 
-### [Musik zählen beim Tanzen: Achter, "5, 6, 7, 8" und die Eins finden](https://dancify.apphq.online/de/blog/musik-zaehlen-beim-tanzen/)
+### [Musik zählen beim Tanzen: Achter, "5, 6, 7, 8" und die Eins finden](https://kkoskenvirta.github.io/dancify-site/de/blog/musik-zaehlen-beim-tanzen/)
 
 Musik zählen beim Tanzen: Schläge, Takte und Achter, was "5, 6, 7, 8" bedeutet, die Eins finden, "und"-Counts, Walzer im 3/4-Takt und BPM nach Tanzstil.
 
@@ -173,7 +172,7 @@ Musik zählen beim Tanzen: Schläge, Takte und Achter, was "5, 6, 7, 8" bedeutet
 
 Filmen 9 Min. Lesezeit
 
-### [Sich beim Tanzen filmen: Perspektive, Licht und Aufbau](https://dancify.apphq.online/de/blog/sich-beim-tanzen-filmen/)
+### [Sich beim Tanzen filmen: Perspektive, Licht und Aufbau](https://kkoskenvirta.github.io/dancify-site/de/blog/sich-beim-tanzen-filmen/)
 
 Sich beim Tanzen filmen mit dem Handy: Kamerahöhe und Abstand pro Tanzstil, die beste Perspektive, Licht, Ton, Stative und sechs Fehler, die Videos ruinieren.
 

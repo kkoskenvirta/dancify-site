@@ -1,12 +1,11 @@
 ---
 title: "How to Count Music in Dance: Eight-Counts and 5, 6, 7, 8"
 description: "How to count music in dance: beats, bars and eight-counts, what \"5, 6, 7, 8\" means, finding the one, \"and\" counts, waltz in 3/4 and BPM by dance style."
-url: "https://dancify.apphq.online/blog/how-to-count-music-in-dance/"
-language: "en"
+url: "https://kkoskenvirta.github.io/dancify-site/blog/how-to-count-music-in-dance/"
 ---
 
-1. [Home](https://dancify.apphq.online/)
-2. [Blog](https://dancify.apphq.online/blog/)
+1. [Home](https://kkoskenvirta.github.io/dancify-site/)
+2. [Blog](https://kkoskenvirta.github.io/dancify-site/blog/)
 3. How to count music in dance: eight-counts, "5, 6, 7, 8" and finding the one
 
 Musicality 7 min read
@@ -17,7 +16,7 @@ Why do teachers start at five? Where is one? What's an "and"? Beats, bars, eight
 
 **Kasper Koskenvirta** Maker of Dancify · Published October 28, 2026
 
-![Three Dancify app screens on iPhone](https://dancify.apphq.online/assets/img/covers/en-counting-music-1200.webp)
+![Three Dancify app screens on iPhone](https://kkoskenvirta.github.io/dancify-site/assets/img/covers/en-counting-music-1200.webp)
 
 "Five, six, seven, eight!" is the first thing most of us hear in a dance class, and for a lot of beginners it's also the most confusing. Why start at five? Where is "one"? And what is an "and"? Counting music is a skill like a pirouette: a few rules, then lots of practice. Here are the rules.
 
@@ -104,13 +103,13 @@ Why it matters for practice: learning a combination at 80% of the real tempo is 
 2. **Clap only the 1.** Count silently and clap on every 1. Then only on 1 of each phrase. It trains your sense of the big structure.
 3. **Say the "ands".** Speak a combination's counts with every "and" while you mark it.
 4. **Slow and build.** Practise a hard eight at a slower tempo, then raise it a few BPM at a time.
-5. **Film and check.** Record a run with the music audible and watch whether your accents land on the counts. More in [how to film yourself dancing](https://dancify.apphq.online/blog/how-to-film-yourself-dancing/).
+5. **Film and check.** Record a run with the music audible and watch whether your accents land on the counts. More in [how to film yourself dancing](https://kkoskenvirta.github.io/dancify-site/blog/how-to-film-yourself-dancing/).
 
-Counting is also the backbone of learning choreography: once you can hear the eights, breaking a piece into chunks becomes natural. See [how to learn choreography faster](https://dancify.apphq.online/blog/how-to-learn-choreography-faster/).
+Counting is also the backbone of learning choreography: once you can hear the eights, breaking a piece into chunks becomes natural. See [how to learn choreography faster](https://kkoskenvirta.github.io/dancify-site/blog/how-to-learn-choreography-faster/).
 
 ## How Dancify helps you count
 
-![Dancify player with the counts overlay showing 1 to 8 in time with the music on a practice take](https://dancify.apphq.online/assets/img/app/en/player-counts.webp)
+![Dancify player with the counts overlay showing 1 to 8 in time with the music on a practice take](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/player-counts.webp)
 
 Free in Dancify **See the counts on your own take** Turn on Counts in the player and 1 to 8 runs in time with the music. Set the tempo with tap tempo, mark where 1 is, and jump forward or back by whole eight-counts. Loop one eight with an A–B loop, with an optional eight-count pause before it repeats.
 
@@ -172,7 +171,7 @@ Kasper designs and builds Dancify at AppRise Ventures in Espoo, Finland. Dancify
 
 Learning 7 min read
 
-### [How to learn choreography faster (and actually remember it)](https://dancify.apphq.online/blog/how-to-learn-choreography-faster/)
+### [How to learn choreography faster (and actually remember it)](https://kkoskenvirta.github.io/dancify-site/blog/how-to-learn-choreography-faster/)
 
 How to learn choreography faster: map the piece, learn in eight-counts, mark it, use the mirror wisely, slow the video down, loop hard parts and film to check.
 
@@ -180,7 +179,7 @@ November 1, 2026
 
 Practice 9 min read
 
-### [How to practise dance at home: space, warm-up and a weekly plan](https://dancify.apphq.online/blog/how-to-practice-dancing-at-home/)
+### [How to practise dance at home: space, warm-up and a weekly plan](https://kkoskenvirta.github.io/dancify-site/blog/how-to-practice-dancing-at-home/)
 
 How to practise dance at home: a safe space and floor, shoes or socks, warm-up, a 30-minute session, weekly plans for beginners and intermediates, rest.
 

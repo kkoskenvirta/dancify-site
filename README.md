@@ -1,6 +1,6 @@
-# dancify.apphq.online
+# Dancify website
 
-Website for [Dancify](https://apps.apple.com/app/id6830154598), the camera, practice diary and video editor for dancers (iPhone and iPad). Served by GitHub Pages from `main` (root) behind Cloudflare. Plain HTML, CSS and JS with no build step on Pages (`.nojekyll` turns off Jekyll); the blog is generated locally and committed.
+Website for [Dancify](https://apps.apple.com/app/id6830154598), the camera, practice diary and video editor for dancers (iPhone and iPad). Served by GitHub Pages from `main` (root) at https://kkoskenvirta.github.io/dancify-site/ for now. Plain HTML, CSS and JS with no build step on Pages (`.nojekyll` turns off Jekyll); the blog is generated locally and committed.
 
 | Path | Contents |
 | --- | --- |
@@ -107,31 +107,40 @@ xcrun simctl shutdown $UDID
 
 The seeded demo content (piece names such as "Slow Burn", take names such as "Full run") stays English in every language; the app's own UI is localized. The footage is the app repo's `appstore/demo-footage`.
 
-## Hosting: GitHub Pages and Cloudflare
+## Hosting: GitHub Pages
 
-1. Create the GitHub repository and push `main`. Settings → Pages → Build and deployment: **Deploy from a branch**, branch `main`, folder `/ (root)`. No Actions workflow is needed.
-2. Settings → Pages → Custom domain: `dancify.apphq.online` (the `CNAME` file already says so). Wait for the DNS check, then tick **Enforce HTTPS** once GitHub has issued the certificate.
-3. Cloudflare, `apphq.online` zone → DNS: add `CNAME` `dancify` → `appriseventures.github.io` (repo `AppRiseVentures/dancify-site`), **Proxied** (orange cloud). If GitHub's certificate check stalls, set it to DNS only until Pages shows the certificate, then switch the proxy back on.
-4. Cloudflare → SSL/TLS: encryption mode **Full** (GitHub Pages serves HTTPS). SSL/TLS → Edge Certificates: **Always Use HTTPS** on.
+Repo `kkoskenvirta/dancify-site`, Settings → Pages: **Deploy from a branch**, `main`, `/ (root)`, no custom domain, so the site is a project page at https://kkoskenvirta.github.io/dancify-site/. (It isn't in the AppRiseVentures org: that org's Pages domain is fimbl.app, and every project page there would show up under it.)
 
-GitHub Pages can't set response headers or look at the `Accept` header, so three rules in the Cloudflare dashboard (apphq.online zone, Rules > Overview) do it. They aren't in this repo, so keep this list in step with the dashboard.
+The pages are written with root paths (`/assets/…`, `/es/`). `tools/rebase.py` prefixes them with the path of `base` in `tools/blog/site.json` (`/dancify-site`): `href`, `src`, `srcset` and `poster` in the HTML, `url()` in the CSS, `const ROOT` in `main.js`, and `data-root` on `<html>` for the inline scripts (the language redirect, the 404 page). The blog build runs it last, so a rebuild keeps everything in step; `check_site.py` flags a root path without the prefix.
+
+On a project page `robots.txt`, `llms.txt`, `auth.md` and `.well-known/apple-app-site-association` aren't at the host's root, so crawlers and Apple don't read them there. They start working once the site has its own domain.
+
+### Moving to a custom domain later
+
+1. Set `base` in `tools/blog/site.json` to the domain (e.g. `https://dancify.apphq.online`), then run `python3 tools/rebase.py --from https://kkoskenvirta.github.io/dancify-site` and `python3 tools/blog/build.py`. Mentions of the address in `privacy/index.html` are plain text: update them by hand.
+2. Add a `CNAME` file with the domain and set it under Settings → Pages → Custom domain. Tick **Enforce HTTPS** once GitHub has issued the certificate.
+3. DNS: `CNAME` from the subdomain to `kkoskenvirta.github.io`. With Cloudflare: proxied, SSL/TLS mode **Full**, **Always Use HTTPS** on (if GitHub's certificate check stalls, use DNS only until Pages shows the certificate). Then add the three rules below.
+
+### Cloudflare rules (with a custom domain)
+
+GitHub Pages can't set response headers or look at the `Accept` header, so three rules in the Cloudflare dashboard (the domain's zone, Rules > Overview) do it once the site has its own domain behind Cloudflare. They aren't in this repo, so keep this list in step with the dashboard.
 
 1. **URL Rewrite Rule** "Dancify: Markdown for agents". Custom filter expression:
 
    ```
-   (http.host eq "dancify.apphq.online" and any(http.request.headers["accept"][*] contains "text/markdown") and ends_with(http.request.uri.path, "/") and not starts_with(http.request.uri.path, "/tools/"))
+   (http.host eq "<domain>" and any(http.request.headers["accept"][*] contains "text/markdown") and ends_with(http.request.uri.path, "/") and not starts_with(http.request.uri.path, "/tools/"))
    ```
 
    Path: Rewrite to, Dynamic, `concat(http.request.uri.path, "index.md")`. Query: Preserve. GitHub Pages serves `.md` files as `text/markdown; charset=utf-8`, so agents get Markdown and browsers still get HTML.
 
-2. **Response Header Transform Rule** "Dancify: agent discovery links". Expression `(http.host eq "dancify.apphq.online" and http.request.uri.path in {"/" "/index.md"})`. Set static, header `Link`:
+2. **Response Header Transform Rule** "Dancify: agent discovery links". Expression `(http.host eq "<domain>" and http.request.uri.path in {"/" "/index.md"})`. Set static, header `Link`:
 
    ```
    </llms.txt>; rel="describedby"; type="text/plain", </llms-full.txt>; rel="describedby"; type="text/plain", </index.md>; rel="alternate"; type="text/markdown"
    ```
 
-3. **Response Header Transform Rule** "Dancify: vary on Accept". Expression `(http.host eq "dancify.apphq.online" and (ends_with(http.request.uri.path, "/") or ends_with(http.request.uri.path, "/index.md")))`. Add, header `Vary`, value `Accept`, so caches keep the HTML and Markdown versions apart.
+3. **Response Header Transform Rule** "Dancify: vary on Accept". Expression `(http.host eq "<domain>" and (ends_with(http.request.uri.path, "/") or ends_with(http.request.uri.path, "/index.md")))`. Add, header `Vary`, value `Accept`, so caches keep the HTML and Markdown versions apart.
 
-Check with `curl -sI https://dancify.apphq.online | grep -i link` and `curl -s -H 'Accept: text/markdown' https://dancify.apphq.online | head`, or scan the site at https://isitagentready.com. `curl -s https://dancify.apphq.online/.well-known/apple-app-site-association` should return the JSON without a redirect.
+Check with `curl -sI https://<domain> | grep -i link` and `curl -s -H 'Accept: text/markdown' https://<domain> | head`, or scan the site at https://isitagentready.com.
 
-After the first deploy: run `python3 tools/blog/indexnow.py`, add the site to Google Search Console and Bing Webmaster Tools, and submit `https://dancify.apphq.online/sitemap.xml`.
+After each deploy to a new address: run `python3 tools/blog/indexnow.py`, add the site to Google Search Console and Bing Webmaster Tools, and submit `<base>/sitemap.xml`.

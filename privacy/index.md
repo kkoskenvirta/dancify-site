@@ -1,8 +1,7 @@
 ---
 title: "Privacy Policy – Dancify"
 description: "Dancify collects no data: no account, no analytics, no ads, no tracking. Your videos and diary stay on your device and in your own iCloud."
-url: "https://dancify.apphq.online/privacy/"
-language: "en"
+url: "https://kkoskenvirta.github.io/dancify-site/privacy/"
 ---
 
 Privacy policy
@@ -22,7 +21,7 @@ Effective 4 November 2026
 
 Dancify is made by AppRise Ventures Oy, Espoo, Finland (business ID 3336104-8). We are the controller for anything this policy covers. You can reach us at [appriseven@gmail.com](mailto:appriseven@gmail.com).
 
-This policy covers the Dancify app for iPhone and iPad and this website, dancify.apphq.online.
+This policy covers the Dancify app for iPhone and iPad and this website, kkoskenvirta.github.io/dancify-site.
 
 ## 2. What we collect
 
@@ -72,7 +71,7 @@ The app offers Siri and Shortcuts actions (Record practice, Log practice, Open t
 
 ## 9. This website
 
-dancify.apphq.online is hosted on GitHub Pages and served through Cloudflare. It sets no cookies and runs no analytics or advertising. As with any website, the hosts process the technical data needed to deliver pages to you (such as your IP address and browser type) in their server logs, under their own privacy policies; we don't use that data to identify you.
+This website is hosted on GitHub Pages. It sets no cookies and runs no analytics or advertising. As with any website, the host processes the technical data needed to deliver pages to you (such as your IP address and browser type) in their server logs, under its own privacy policy; we don't use that data to identify you.
 
 If you pick a language in the menu, or dismiss the suggestion to switch language, your browser remembers it in local storage under the key dancify-lang. It stays in your browser, is never sent to us, and you can clear it with your browser's site data settings.
 

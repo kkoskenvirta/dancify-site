@@ -1,12 +1,11 @@
 ---
 title: "Warum wir Dancify bauen: ein Tanztagebuch aus Videos"
 description: "Die Geschichte hinter Dancify: warum Trainingsvideos verloren gehen, sechs Entscheidungen, die die App geprägt haben, was fehlt und was als Nächstes kommt."
-url: "https://dancify.apphq.online/de/blog/warum-wir-dancify-bauen/"
-language: "de"
+url: "https://kkoskenvirta.github.io/dancify-site/de/blog/warum-wir-dancify-bauen/"
 ---
 
-1. [Startseite](https://dancify.apphq.online/de/)
-2. [Blog](https://dancify.apphq.online/de/blog/)
+1. [Startseite](https://kkoskenvirta.github.io/dancify-site/de/)
+2. [Blog](https://kkoskenvirta.github.io/dancify-site/de/blog/)
 3. Warum wir eine Tanz-App ohne Feed und ohne Punkte bauen
 
 Hinter Dancify 7 Min. Lesezeit
@@ -17,7 +16,7 @@ Wer tanzt, filmt alles und findet nichts wieder. Warum wir Dancify um die Kamera
 
 **Kasper Koskenvirta** Macher von Dancify · Veröffentlicht am 20. Oktober 2026
 
-![Drei Ansichten der Dancify-App auf dem iPhone](https://dancify.apphq.online/assets/img/covers/de-why-we-built-dancify-1200.webp)
+![Drei Ansichten der Dancify-App auf dem iPhone](https://kkoskenvirta.github.io/dancify-site/assets/img/covers/de-why-we-built-dancify-1200.webp)
 
 Wer tanzt, filmt alles. Das Aufwärmen, die Kombination am Ende der Stunde, den dritten Durchlauf der Choreo, den einen, der endlich geklappt hat. Dann versinken die Videos in der Galerie zwischen Screenshots und Urlaubsfotos, und wenn du wissen willst, ob deine Drehungen seit dem Frühjahr besser geworden sind, scrollst du zehn Minuten und gibst auf. Mit genau diesem Scrollen hat Dancify angefangen.
 
@@ -46,7 +45,7 @@ Wir wollten das Gegenteil: einen Ort, an dem das Filmen des Trainings und das Er
 - **Ein kostenloser Editor** Bildgenaues Trimmen, Tempo und Tempo-Rampen, Standbilder, Zuschnitt und Farbe, Titel, Untertitel, Datumsstempel und Musik. Beim Export entsteht ein neuer Take, das Original bleibt immer unverändert. Das eigene Training zu schneiden, sollte nichts extra kosten.
 - **Premium nur für Fortschritt** Dancify Premium bringt Fortschritts-Reels (vom ersten Versuch bis heute, mit Datum), den Vergleich zweier Takes nebeneinander und Haltungslinien. Alles, was du zum Filmen, Üben und Tagebuchführen brauchst, bleibt kostenlos.
 
-![Dancify Kalender im Oktober, in dem Trainingstage ein Bild aus dem Video des Tages zeigen, mit farbigen Tape-Streifen für Stunden und Training, und der ausgewählte Tag mit drei Takes](https://dancify.apphq.online/assets/img/app/de/journal.webp)
+![Dancify Kalender im Oktober, in dem Trainingstage ein Bild aus dem Video des Tages zeigen, mit farbigen Tape-Streifen für Stunden und Training, und der ausgewählte Tag mit drei Takes](https://kkoskenvirta.github.io/dancify-site/assets/img/app/de/journal.webp)
 
 Kostenlos in Dancify **Warum der Kalender Bilder zeigt statt Punkte** Punkte und Heatmaps sagen dir, wie oft du trainiert hast. Bilder erinnern dich daran, was du trainiert hast: das Kostüm von der Aufführung, die Stange im alten Studio, den Abend, an dem die Drehung endlich saß. Farbige Tape-Streifen, wie das Markierungstape auf einem Bühnenboden, kennzeichnen Stunden, Proben und Training.
 
@@ -78,15 +77,15 @@ Fortschritt beim Tanzen ist leise. Wir wollten eine App, die genauso ruhig ist u
 
 ## Für jeden Stil
 
-Im Ballett oder Contemporary kannst du an der Stange deine Linien prüfen. Im Hip-Hop, Heels oder K-Pop kannst du die Achterphrase in Schleife legen, die einfach nicht sitzen will. Salsa-, Bachata- und Standardpaare können ihre Basics filmen, und im Stepptanz oder Irish Dance lässt sich die Fußarbeit auf ein Viertel der Geschwindigkeit verlangsamen. Die Werkzeuge sind dieselben, nur die Kamerahöhe ändert sich. Wie, steht in [sich beim Tanzen filmen](https://dancify.apphq.online/de/blog/sich-beim-tanzen-filmen/).
+Im Ballett oder Contemporary kannst du an der Stange deine Linien prüfen. Im Hip-Hop, Heels oder K-Pop kannst du die Achterphrase in Schleife legen, die einfach nicht sitzen will. Salsa-, Bachata- und Standardpaare können ihre Basics filmen, und im Stepptanz oder Irish Dance lässt sich die Fußarbeit auf ein Viertel der Geschwindigkeit verlangsamen. Die Werkzeuge sind dieselben, nur die Kamerahöhe ändert sich. Wie, steht in [sich beim Tanzen filmen](https://kkoskenvirta.github.io/dancify-site/de/blog/sich-beim-tanzen-filmen/).
 
 Dancify läuft auf iPhone und iPad (iOS und iPadOS 26 oder neuer), auch auf dem iPhone Duo, wo die beiden Bereiche links und rechts vom Falz liegen. Die App spricht Deutsch, Englisch, Finnisch, Spanisch, Französisch und Japanisch. Mit Siri und Kurzbefehlen kannst du eine Aufnahme starten, ein Training eintragen, den heutigen Tag öffnen oder den Fortschritt einer Choreo zeigen. Mit einem externen Bildschirm oder AirPlay läuft der geöffnete Take groß im Vollbild, praktisch im Studio.
 
-![Dancify Kamera bereit zur Aufnahme, mit Einzählen, Objektivzoom und Formateinstellungen](https://dancify.apphq.online/assets/img/app/de/camera.webp)
+![Dancify Kamera bereit zur Aufnahme, mit Einzählen, Objektivzoom und Formateinstellungen](https://kkoskenvirta.github.io/dancify-site/assets/img/app/de/camera.webp)
 
 **Eine Kamera, die aufs Einzählen wartet** Einzählen, Folgen, Zeitlupe, Spiegeln, Raster und Wasserwaage.
 
-![Dancify Videoeditor mit einem Trainings-Take auf der Zeitleiste und Werkzeugen für Trimmen, Tempo, Zuschnitt, Anpassen, Text und Audio](https://dancify.apphq.online/assets/img/app/de/editor.webp)
+![Dancify Videoeditor mit einem Trainings-Take auf der Zeitleiste und Werkzeugen für Trimmen, Tempo, Zuschnitt, Anpassen, Text und Audio](https://kkoskenvirta.github.io/dancify-site/assets/img/app/de/editor.webp)
 
 **Ein kostenloser Editor** Trimmen, Tempo, Standbild, Zuschnitt, Farbe, Untertitel und Musik. Das Original bleibt unberührt.
 
@@ -98,7 +97,7 @@ Wir sind ein kleines Unternehmen, deshalb sagen wir es lieber klar. Dancify ist 
 
 Wir verfeinern erst das Wesentliche, bevor wir mehr dazubauen: die Kamera, den Kalender und die Übungswerkzeuge, so wie Tänzerinnen und Tänzer uns erzählen, was sie mitten im Training brauchen. Die Grundsätze bleiben: Deine Videos gehören dir, Training wird nie zur Punktzahl, und die kostenlose App bleibt vollständig.
 
-Termine, die wir nicht halten können, versprechen wir nicht. Was wir bauen, erzählen wir hier im Blog, neben Ratgebern wie [ein Tanztagebuch führen](https://dancify.apphq.online/de/blog/tanztagebuch-fuehren/) oder [ein Fortschrittsvideo machen](https://dancify.apphq.online/de/blog/tanz-fortschritt-video/). Und wenn sich in Dancify etwas falsch anfühlt oder dir etwas fehlt, [schreib uns](mailto:appriseven@gmail.com). Wir lesen jede Nachricht.
+Termine, die wir nicht halten können, versprechen wir nicht. Was wir bauen, erzählen wir hier im Blog, neben Ratgebern wie [ein Tanztagebuch führen](https://kkoskenvirta.github.io/dancify-site/de/blog/tanztagebuch-fuehren/) oder [ein Fortschrittsvideo machen](https://kkoskenvirta.github.io/dancify-site/de/blog/tanz-fortschritt-video/). Und wenn sich in Dancify etwas falsch anfühlt oder dir etwas fehlt, [schreib uns](mailto:appriseven@gmail.com). Wir lesen jede Nachricht.
 
 Fang mit einem Take an
 
@@ -153,7 +152,7 @@ Kasper entwirft und entwickelt Dancify bei AppRise Ventures in Espoo, Finnland. 
 
 Training 8 Min. Lesezeit
 
-### [Tanztagebuch führen: was du notieren solltest, mit Schreibfragen](https://dancify.apphq.online/de/blog/tanztagebuch-fuehren/)
+### [Tanztagebuch führen: was du notieren solltest, mit Schreibfragen](https://kkoskenvirta.github.io/dancify-site/de/blog/tanztagebuch-fuehren/)
 
 Tanztagebuch führen: was du nach jeder Stunde notieren solltest, ein Fünf-Minuten-Eintrag, Schreibfragen für Tanzende und ein Wochenrückblick für Fortschritt.
 
@@ -161,7 +160,7 @@ Tanztagebuch führen: was du nach jeder Stunde notieren solltest, ein Fünf-Minu
 
 Filmen 9 Min. Lesezeit
 
-### [Sich beim Tanzen filmen: Perspektive, Licht und Aufbau](https://dancify.apphq.online/de/blog/sich-beim-tanzen-filmen/)
+### [Sich beim Tanzen filmen: Perspektive, Licht und Aufbau](https://kkoskenvirta.github.io/dancify-site/de/blog/sich-beim-tanzen-filmen/)
 
 Sich beim Tanzen filmen mit dem Handy: Kamerahöhe und Abstand pro Tanzstil, die beste Perspektive, Licht, Ton, Stative und sechs Fehler, die Videos ruinieren.
 

@@ -1,12 +1,11 @@
 ---
 title: "Mejores apps para bailarines 2026: practicar y grabar"
 description: "Las mejores apps para bailarines en 2026 por tarea: STEEZY, Dancify, Dance.io, OnForm, CapCut, Edits, iMovie, Anytune y más, con tabla comparativa y sin humo."
-url: "https://dancify.apphq.online/es/blog/mejores-apps-para-bailarines/"
-language: "es"
+url: "https://kkoskenvirta.github.io/dancify-site/es/blog/mejores-apps-para-bailarines/"
 ---
 
-1. [Inicio](https://dancify.apphq.online/es/)
-2. [Blog](https://dancify.apphq.online/es/blog/)
+1. [Inicio](https://kkoskenvirta.github.io/dancify-site/es/)
+2. [Blog](https://kkoskenvirta.github.io/dancify-site/es/blog/)
 3. Las mejores apps para bailarines en 2026, según para qué las necesitas
 
 Comparativa 10 min de lectura
@@ -17,7 +16,7 @@ Clases, grabar, espejo y cámara lenta, cuentas y tempo, editar y llevar un diar
 
 **Kasper Koskenvirta** Creador de Dancify · Publicado el 21 de octubre de 2026 · Actualizado el 4 de noviembre de 2026
 
-![Tres pantallas de la app Dancify en iPhone](https://dancify.apphq.online/assets/img/covers/es-best-dance-apps-1200.webp)
+![Tres pantallas de la app Dancify en iPhone](https://kkoskenvirta.github.io/dancify-site/assets/img/covers/es-best-dance-apps-1200.webp)
 
 No hay una única mejor app para bailarines, porque quien baila necesita varias cosas distintas: alguien de quien aprender, una forma de verse, una forma de ralentizar, la música bajo control y un sitio donde guardarlo todo. Casi todos acabamos con tres o cuatro apps. La clave es que cada una haga bien su parte.
 
@@ -161,14 +160,14 @@ Muchas listas antiguas siguen recomendando dos apps de análisis de vídeo que g
 
 Creamos Dancify para la parte de la práctica que las demás apps dejan fuera: lo que pasa después de aprender los pasos. Grabas, miras, corriges, vuelves a grabar y, meses después, quieres ver cuánto has avanzado. Para eso hace falta una buena cámara, un buen reproductor y un sitio donde las tomas no se pierdan.
 
-![Calendario de Dancify en octubre donde cada día de práctica muestra un fotograma del vídeo de ese día, y el día elegido tiene tres tomas](https://dancify.apphq.online/assets/img/app/es/journal.webp)
+![Calendario de Dancify en octubre donde cada día de práctica muestra un fotograma del vídeo de ese día, y el día elegido tiene tres tomas](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/journal.webp)
 
 Gratis en Dancify **Un diario de práctica hecho con tus propios vídeos** Cada día del calendario muestra un fotograma de lo que bailaste. Apunta también clases sin vídeo, añade notas, etiquetas e hitos, y encuentra todas las tomas de una pieza en orden.
 
 - Sin cuenta, sin anuncios, sin rastreo
 - Los vídeos se quedan en tu dispositivo o en tu propio iCloud
 
-Combina bien con las demás. Aprende en STEEZY o YouTube, ralentiza la canción en Anytune si hace falta y graba tu práctica en Dancify con el vídeo de la clase como referencia. Si quieres publicar un cover, el editor de Dancify recorta, cambia la velocidad, añade rótulos y música, o puedes exportar la toma a CapCut o Edits. Para la parte de práctica, mira nuestras guías sobre [aprender coreografías rápido](https://dancify.apphq.online/es/blog/aprender-coreografias-rapido/) y [cómo grabarte bailando](https://dancify.apphq.online/es/blog/como-grabarte-bailando/).
+Combina bien con las demás. Aprende en STEEZY o YouTube, ralentiza la canción en Anytune si hace falta y graba tu práctica en Dancify con el vídeo de la clase como referencia. Si quieres publicar un cover, el editor de Dancify recorta, cambia la velocidad, añade rótulos y música, o puedes exportar la toma a CapCut o Edits. Para la parte de práctica, mira nuestras guías sobre [aprender coreografías rápido](https://kkoskenvirta.github.io/dancify-site/es/blog/aprender-coreografias-rapido/) y [cómo grabarte bailando](https://kkoskenvirta.github.io/dancify-site/es/blog/como-grabarte-bailando/).
 
 Para tu propia práctica
 
@@ -244,7 +243,7 @@ Kasper diseña y desarrolla Dancify en AppRise Ventures, en Espoo (Finlandia). D
 
 Grabar 10 min de lectura
 
-### [Cómo grabarte bailando: ángulo, luz y altura del móvil](https://dancify.apphq.online/es/blog/como-grabarte-bailando/)
+### [Cómo grabarte bailando: ángulo, luz y altura del móvil](https://kkoskenvirta.github.io/dancify-site/es/blog/como-grabarte-bailando/)
 
 Cómo grabarte bailando con el móvil: altura y distancia de la cámara por estilo, el mejor ángulo, luz, sonido, trípodes y seis errores que estropean el vídeo.
 
@@ -252,7 +251,7 @@ Cómo grabarte bailando con el móvil: altura y distancia de la cámara por esti
 
 Aprender 8 min de lectura
 
-### [Cómo aprender coreografías rápido (y que no se te olviden)](https://dancify.apphq.online/es/blog/aprender-coreografias-rapido/)
+### [Cómo aprender coreografías rápido (y que no se te olviden)](https://kkoskenvirta.github.io/dancify-site/es/blog/aprender-coreografias-rapido/)
 
 Cómo aprender coreografías rápido: mapa de la pieza, aprender por ochos, marcar, usar bien el espejo, ralentizar el vídeo, repetir en bucle y grabarte.
 

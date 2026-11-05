@@ -15,7 +15,9 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-HOST = "dancify.apphq.online"
+BASE = json.loads((ROOT / "tools/blog/site.json").read_text())["base"].rstrip("/")
+HOST = urlsplit(BASE).netloc
+PREFIX = urlsplit(BASE).path
 
 
 class Page(HTMLParser):
@@ -67,6 +69,11 @@ def resolve(page: Path, ref: str) -> Path | None:
         path = "/" + path if path else ""
     if not path:
         return None
+    if parts.scheme or ref.startswith("/"):
+        # Root paths must carry the site's prefix (a GitHub project page lives under /<repo>/).
+        if PREFIX and not (path == PREFIX or path.startswith(PREFIX + "/")):
+            return ROOT / "__missing-prefix__" / path.lstrip("/")
+        path = path[len(PREFIX):] or "/"
     target = ROOT / unquote(path).lstrip("/")
     if path.endswith("/"):
         target = target / "index.html"
@@ -106,7 +113,7 @@ def main() -> int:
     for xml in ROOT.rglob("*.xml"):
         if "tools" in xml.relative_to(ROOT).parts:
             continue
-        for loc in re.findall(r"<loc>https://dancify\.apphq\.online(/[^<]*)</loc>", xml.read_text()):
+        for loc in re.findall(rf"<loc>{re.escape(BASE)}(/[^<]*)</loc>", xml.read_text()):
             target = ROOT / loc.lstrip("/")
             if loc.endswith("/"):
                 target = target / "index.html"
