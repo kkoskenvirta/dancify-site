@@ -1,0 +1,103 @@
+{
+  "id": "counting-music",
+  "slug": "how-to-count-music-in-dance",
+  "title": "How to Count Music in Dance: Eight-Counts and 5, 6, 7, 8",
+  "headline": "How to count music in dance: eight-counts, \"5, 6, 7, 8\" and finding the one",
+  "h1": "How to count music in dance: <span class=\"accent\">eight-counts and finding the one</span>",
+  "dek": "Why do teachers start at five? Where is one? What's an \"and\"? Beats, bars, eight-counts and phrases explained, plus waltz, salsa and swing counts, tempo by style and five drills.",
+  "description": "How to count music in dance: beats, bars and eight-counts, what \"5, 6, 7, 8\" means, finding the one, \"and\" counts, waltz in 3/4 and BPM by dance style.",
+  "tag": "Musicality",
+  "og_title": "How to count music in dance",
+  "og_kicker": "Musicality guide",
+  "og_heading": "Count music <span>like a dancer</span>",
+  "og_alt": "Dancify player with the counts overlay from 1 to 8 next to the headline: count music like a dancer",
+  "keywords": [
+    "how to count music in dance",
+    "5 6 7 8 meaning",
+    "eight count dance",
+    "dance counts BPM",
+    "how to find the one in music",
+    "and counts dance"
+  ],
+  "about": [
+    "Musicality",
+    "Eight-count",
+    "Time signature",
+    "Tempo"
+  ],
+  "mentions": [
+    "Dancify",
+    "World DanceSport Federation"
+  ],
+  "published": "2026-10-28",
+  "modified": "2026-10-28",
+  "related": [
+    "learn-choreography",
+    "practice-at-home"
+  ],
+  "cover": [
+    "player-counts",
+    "player-loop",
+    "camera"
+  ],
+  "cover_alt": [
+    "Dancify player with the counts overlay showing 1 to 8",
+    "Dancify player with an A–B loop on one eight-count"
+  ],
+  "chips": [
+    {
+      "emoji": "🎵",
+      "title": "1 to 8",
+      "sub": "Two bars of 4/4"
+    },
+    {
+      "emoji": "👟",
+      "title": "5, 6, 7, 8",
+      "sub": "Then go on 1"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What does \"5, 6, 7, 8\" mean in dance?",
+      "a": "It's a count-in. The teacher counts the last four beats of an eight-count out loud, in the tempo of the music, so everyone starts together on the next 1. It tells you the tempo, when 1 will land, and gives you four counts to get ready."
+    },
+    {
+      "q": "What is an eight-count in dance?",
+      "a": "Eight beats of music counted 1 to 8, which is two bars of 4/4 time. Choreography is usually built and taught in eight-counts, and four eight-counts usually make one musical phrase of 32 beats."
+    },
+    {
+      "q": "How do I find the one in a song?",
+      "a": "Find the steady pulse, then the backbeat: in most pop and hip-hop the snare or clap is on 2 and 4, so 1 is the beat before the first snare. Then listen for where something changes, such as the vocals coming in or the chorus starting. That's usually 1 of a phrase."
+    },
+    {
+      "q": "What does \"and\" mean in dance counts?",
+      "a": "The \"and\" is the half-beat between two counts: \"1 and 2 and\". A move counted \"and-1\" starts just before the beat. Steps that land on an \"and\" instead of a number are syncopated."
+    },
+    {
+      "q": "How do you count a waltz?",
+      "a": "A waltz is in 3/4, three beats per bar, counted \"1, 2, 3\" with the 1 strongest. Teachers often count two bars as six, or use \"and-a-1\" for a pick-up into the bar. Competition waltz is played at 28 to 30 bars per minute, about 84 to 90 beats per minute."
+    },
+    {
+      "q": "What BPM is good for dance practice?",
+      "a": "It depends on the style: about 84 to 90 BPM for a slow waltz, 120 to 128 for cha-cha, roughly 160 to 220 for salsa. When learning, practise a combination a little slower than the real tempo, then raise it step by step until you can dance it at the track's speed."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Measures and time signatures. Music Appreciation 1, Lumen Learning. Checked 2026-11-04.",
+      "url": "https://courses.lumenlearning.com/music-app-rford/chapter/measures-and-time-signatures/"
+    },
+    {
+      "text": "WDSF Professional Division Competition Rules, rule 9: Maximum duration of dances; tempi. World DanceSport Federation. Checked 2026-11-04.",
+      "url": "https://cdnb.worlddancesport.org/legacy-docs/wdsf/PD/WDSF%20Professional%20Division%20Competition%20Rules%20%202012.pdf"
+    },
+    {
+      "text": "Salsa vs bachata: what's the difference? SalsaVida. Checked 2026-11-04.",
+      "url": "https://www.salsavida.com/articles/salsa-vs-bachata/"
+    },
+    {
+      "text": "Tempo and genre. Ableton Learning Music. Checked 2026-11-04.",
+      "url": "https://learningmusic.ableton.com/make-beats/tempo-and-genre.html"
+    }
+  ]
+}

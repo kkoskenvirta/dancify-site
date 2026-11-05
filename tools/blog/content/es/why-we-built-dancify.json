@@ -1,0 +1,94 @@
+{
+  "id": "why-we-built-dancify",
+  "slug": "por-que-creamos-dancify",
+  "title": "Por qué creamos Dancify: un diario de práctica en vídeo",
+  "headline": "Por qué creamos una app de práctica de baile sin feed ni puntuaciones",
+  "h1": "Por qué creamos una app de práctica de baile <span class=\"accent\">sin feed ni puntuaciones</span>",
+  "dek": "Quien baila lo graba todo y no encuentra nada. Por qué construimos Dancify alrededor de la cámara y de un calendario de fotogramas, las decisiones detrás, lo que dejamos fuera a propósito y hacia dónde vamos.",
+  "description": "La historia de Dancify: por qué se pierden los vídeos de práctica, las seis decisiones detrás de la app, lo que dejamos fuera a propósito y lo que viene.",
+  "tag": "Detrás de Dancify",
+  "og_title": "Por qué creamos una app de práctica de baile sin feed ni puntuaciones",
+  "og_kicker": "Detrás de Dancify",
+  "og_heading": "Una app de práctica de baile <span>sin feed ni puntuaciones</span>",
+  "og_alt": "Pantallas de calendario y cámara de Dancify junto al titular: una app de práctica de baile sin feed ni puntuaciones",
+  "keywords": [
+    "app para practicar baile",
+    "diario de baile iPhone",
+    "app privada para vídeos de baile",
+    "organizar vídeos de práctica de baile",
+    "app para bailarines sin redes sociales"
+  ],
+  "about": [
+    "Práctica de baile",
+    "Diseño de producto",
+    "Privacidad",
+    "Diario en vídeo"
+  ],
+  "mentions": [
+    "Dancify",
+    "AppRise Ventures"
+  ],
+  "published": "2026-10-20",
+  "modified": "2026-10-20",
+  "related": [
+    "practice-journal",
+    "film-yourself"
+  ],
+  "cover": [
+    "journal",
+    "camera",
+    "editor"
+  ],
+  "cover_alt": [
+    "Calendario de Dancify en octubre con un fotograma del vídeo de práctica de cada día",
+    "Cámara de Dancify lista para grabar con la cuenta de entrada y los controles de lente"
+  ],
+  "chips": [
+    {
+      "emoji": "🎞️",
+      "title": "Cada toma",
+      "sub": "En su día"
+    },
+    {
+      "emoji": "🔒",
+      "title": "Sin cuenta",
+      "sub": "Datos no recopilados"
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Quién hace Dancify?",
+      "a": "Dancify lo diseña y desarrolla AppRise Ventures Oy, una empresa pequeña de Espoo, en Finlandia. La app está disponible para iPhone y iPad en español, inglés, alemán, finés, francés y japonés."
+    },
+    {
+      "q": "¿Qué es gratis en Dancify y qué es Premium?",
+      "a": "Grabar, el calendario y la cronología, las notas, etiquetas e hitos, las herramientas de práctica (cuenta de entrada, vídeo de referencia, bucle A–B, cuentas), el editor de vídeo y la sincronización con iCloud son gratis. Dancify Premium, anual con una semana de prueba gratis o mensual, añade la exportación de reels de progreso, la comparación lado a lado y la guía de postura."
+    },
+    {
+      "q": "¿Necesito una cuenta para usar Dancify?",
+      "a": "No. No hay cuenta, ni inicio de sesión, ni perfil. Tus vídeos y tu diario se quedan en tu dispositivo, o en tu propio iCloud privado si activas la sincronización. La etiqueta de privacidad del App Store es Datos no recopilados."
+    },
+    {
+      "q": "¿Dancify usa IA para puntuar cómo bailo?",
+      "a": "No. Dancify no puntúa ni clasifica el baile. La guía de postura opcional (Premium) usa el framework Vision de Apple en tu dispositivo para dibujar líneas sobre hombros, cadera y equilibrio y que veas tu alineación; no se sube nada y no se pone ninguna nota."
+    },
+    {
+      "q": "¿Por qué Dancify no tiene feed social ni rachas?",
+      "a": "Los vídeos de práctica están a medias a propósito, y los días de descanso forman parte del entrenamiento. Un feed te haría grabar para un público y las rachas harían que descansar pareciera un fracaso. Aun así, puedes exportar y compartir cualquier toma o reel cuando quieras."
+    },
+    {
+      "q": "¿Dancify está disponible en Android?",
+      "a": "No. Dancify está hecho de forma nativa para iPhone y iPad con iOS o iPadOS 26 o posterior, incluido el iPhone Duo. No hay versión para Android ni web."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Giambrone J, Miltenberger RG (2020). Using video self-evaluation to enhance performance in competitive dancers. Behavior Analysis in Practice 13(2), 445–453. Consultado el 2026-11-04.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7314870/"
+    },
+    {
+      "text": "Apple Developer: detalles de privacidad de las apps en el App Store (qué cuenta como recopilación de datos). Consultado el 2026-11-04.",
+      "url": "https://developer.apple.com/app-store/app-privacy-details/"
+    }
+  ]
+}

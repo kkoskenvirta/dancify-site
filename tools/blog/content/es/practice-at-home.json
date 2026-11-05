@@ -1,0 +1,103 @@
+{
+  "id": "practice-at-home",
+  "slug": "practicar-baile-en-casa",
+  "title": "Practicar baile en casa: plan semanal, espacio y seguridad",
+  "headline": "Cómo practicar baile en casa: espacio, calentamiento y plan semanal",
+  "h1": "Cómo practicar baile en casa: <span class=\"accent\">espacio, calentamiento y plan semanal</span>",
+  "dek": "Un salón no tiene profe, ni suelo flotante, ni plan. Cómo preparar un espacio seguro, calentar, organizar una sesión de 30 minutos y montar una semana que te haga mejorar sin agotarte.",
+  "description": "Cómo practicar baile en casa: espacio y suelo seguros, calcetines o zapatillas, calentamiento, una sesión de 30 minutos, plan semanal por nivel y descanso.",
+  "tag": "Práctica",
+  "og_title": "Cómo practicar baile en casa: espacio, calentamiento y plan semanal",
+  "og_kicker": "Guía de práctica",
+  "og_heading": "Practicar baile en casa, <span>con un plan</span>",
+  "og_alt": "Pantallas de bucle del reproductor y de la cámara de Dancify junto al titular: practicar baile en casa, con un plan",
+  "keywords": [
+    "practicar baile en casa",
+    "rutina de práctica de baile",
+    "plan semanal de baile",
+    "cómo practicar danza en casa",
+    "bailar en casa suelo",
+    "calentamiento para bailar en casa"
+  ],
+  "about": [
+    "Práctica de baile",
+    "Entrenamiento de danza",
+    "Prevención de lesiones",
+    "Calentamiento"
+  ],
+  "mentions": [
+    "Dancify",
+    "Imperial Society of Teachers of Dancing"
+  ],
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "related": [
+    "learn-choreography",
+    "practice-journal"
+  ],
+  "cover": [
+    "player-loop",
+    "camera-reference",
+    "journal"
+  ],
+  "cover_alt": [
+    "Reproductor de Dancify con un bucle A–B alrededor de una parte de una toma de práctica",
+    "Cámara de Dancify con un vídeo de referencia en una esquina mientras grabas"
+  ],
+  "chips": [
+    {
+      "emoji": "🗓️",
+      "title": "3–5 sesiones",
+      "sub": "De 20 a 45 minutos"
+    },
+    {
+      "emoji": "🧦",
+      "title": "Calcetines en moqueta",
+      "sub": "Agarre en suelo liso"
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cuántas veces a la semana debería practicar baile en casa?",
+      "a": "De tres a cinco sesiones de 20 a 45 minutos funcionan para la mayoría de bailarines de nivel inicial e intermedio, contando las clases como sesiones. Empieza con tres; alarga cada sesión antes de añadir días y descansa del todo uno o dos días por semana."
+    },
+    {
+      "q": "¿Se puede bailar en casa sobre un suelo duro?",
+      "a": "Sí, adaptándote. La baldosa, la piedra y el cemento no ceden, así que haz pocos saltos y bajos, usa zapatillas con agarre y evita el trabajo de rodillas sin protección. La madera es el suelo más amable en casa, y un tapiz enrollable o una tabla de práctica te dan una superficie de estudio encima."
+    },
+    {
+      "q": "¿Es mejor bailar en calcetines o descalzo en casa?",
+      "a": "Depende del suelo. La ISTD recomienda calcetines o zapatillas de baile blandas en moqueta, descalzo o zapatillas de baile con agarre en suelos lisos de interior, y calzado con agarre en superficies resbaladizas. En moqueta o suelos rugosos, cubre la piel para evitar quemaduras."
+    },
+    {
+      "q": "¿Cuánto debe durar un calentamiento para bailar?",
+      "a": "Entre 10 y 15 minutos. Sube las pulsaciones, moviliza las articulaciones, muévete de forma dinámica con los patrones de tu estilo y estira con suavidad, poco a poco. Deja los estiramientos largos y mantenidos sobre todo para después."
+    },
+    {
+      "q": "¿Qué debería practicar en casa si estoy empezando?",
+      "a": "Los básicos y la postura de tu estilo, ejercicios cortos a tempo lento, una parte pequeña de la coreografía hasta que salga limpia y diez minutos de acondicionamiento para pies, tobillos y cadera. Graba una toma en cada sesión para ver qué cambia de verdad."
+    },
+    {
+      "q": "¿Cómo evito lesionarme practicando baile en casa?",
+      "a": "Calienta siempre, despeja el espacio, adapta el calzado al suelo, limita los saltos en suelos duros, aumenta la práctica poco a poco y descansa. La mayoría de las lesiones de baile son por sobrecarga, así que la recuperación cuenta. Consulta a un fisioterapeuta o médico si el dolor es agudo, hay hinchazón o te cambia la forma de moverte."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Imperial Society of Teachers of Dancing (2021). ISTD Challenge: your health and safety (calentamiento, obstáculos, suelos, calzado). Consultado el 2026-11-04.",
+      "url": "https://www.istd.org/documents/istd-challenge-health-and-safety-guidance/"
+    },
+    {
+      "text": "Morrin N, Redding E (2013). Acute effects of warm-up stretch protocols on balance, vertical jump height, and range of motion in dancers. Journal of Dance Medicine & Science 17(1), 34–40. Consultado el 2026-11-04.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23498355/"
+    },
+    {
+      "text": "Smith PJ et al. (2015). Incidence and prevalence of musculoskeletal injury in ballet: a systematic review. Orthopaedic Journal of Sports Medicine 3(7). Consultado el 2026-11-04.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26673541/"
+    },
+    {
+      "text": "Walker MP et al. (2002). Practice with sleep makes perfect: sleep-dependent motor skill learning. Neuron 35(1), 205–211. Consultado el 2026-11-04.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12123620/"
+    }
+  ]
+}

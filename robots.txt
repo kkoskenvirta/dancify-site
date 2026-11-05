@@ -1,0 +1,26 @@
+# Content Signals (https://contentsignals.org): search engines, AI answers that cite the site
+# and AI training may all use what's published here.
+User-agent: *
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+Allow: /
+Disallow: /tools/
+
+# Search and AI assistants are welcome to read and cite the site.
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: Applebot
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+Allow: /
+Disallow: /tools/
+
+Sitemap: https://dancify.apphq.online/sitemap.xml

@@ -1,0 +1,854 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Dancify: app para grabarte bailando, diario de baile y editor de vídeo</title>
+  <meta name="description" content="Grábate bailando con cuenta de entrada y un enfoque que te sigue, guarda cada toma en un calendario y repásala en bucle, a cámara lenta y lado a lado. Sin cuenta ni anuncios. iPhone y iPad.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://dancify.apphq.online/es/">
+  <link rel="alternate" hreflang="en" href="https://dancify.apphq.online/">
+  <link rel="alternate" hreflang="es" href="https://dancify.apphq.online/es/">
+  <link rel="alternate" hreflang="de" href="https://dancify.apphq.online/de/">
+  <link rel="alternate" hreflang="x-default" href="https://dancify.apphq.online/">
+  <link rel="alternate" type="application/rss+xml" title="Dancify blog" href="/es/blog/feed.xml">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <meta name="theme-color" content="#0a0a0b" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f6f5fa" media="(prefers-color-scheme: light)">
+  <meta name="apple-itunes-app" content="app-id=6830154598">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Dancify">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:url" content="https://dancify.apphq.online/es/">
+  <meta property="og:title" content="Dancify: mírate bailar mejor">
+  <meta property="og:description" content="Cámara, diario de práctica y editor de vídeo para bailarines. Gratis en el App Store, sin cuenta y sin anuncios.">
+  <meta property="og:image" content="https://dancify.apphq.online/assets/img/og/es-home.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dancify en iPhone: el calendario de ensayos y la cámara siguiendo a una bailarina">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preload" href="/assets/fonts/geist-semibold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/img/app/es/journal.webp" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script>document.documentElement.classList.add("js")</script>
+  <script src="/assets/js/main.js" defer></script>
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "@id": "https://dancify.apphq.online/#app",
+  "name": "Dancify",
+  "alternateName": "Dancify: Dancing Camera Studio",
+  "applicationCategory": "MultimediaApplication",
+  "applicationSubCategory": "Dance practice",
+  "description": "Cámara, diario de práctica y editor de vídeo para bailarines. Grábate con cuenta de entrada y un enfoque que te sigue, mira cada toma como un fotograma en tu calendario y repásala en bucle, a cámara lenta, contando los tiempos, editándola o comparándola.",
+  "featureList": [
+    "Cuenta de entrada musical",
+    "Seguir: enfoque y exposición sobre quien baila",
+    "Compatible con soportes motorizados DockKit",
+    "4K, 60 fps y cámara lenta a 120 o 240 fps",
+    "Ensayar con un vídeo de referencia",
+    "Calendario de práctica con un fotograma por día",
+    "Cronología y piezas",
+    "Bucle A–B con pausa de un ocho",
+    "Tiempos en pantalla al ritmo de la música",
+    "Cámara lenta hasta 0,25× y fotograma a fotograma",
+    "Editor de vídeo: recortar, rampas de velocidad, congelar imagen, recorte, color, títulos, música",
+    "Vídeos de progreso (Premium)",
+    "Comparar lado a lado (Premium)",
+    "Guía de postura en el dispositivo (Premium)",
+    "Sincronización con iCloud",
+    "Siri y Atajos"
+  ],
+  "inLanguage": [
+    "en",
+    "de",
+    "fi",
+    "es",
+    "fr",
+    "ja"
+  ],
+  "operatingSystem": "iOS 26, iPadOS 26",
+  "url": "https://dancify.apphq.online/es/",
+  "image": "https://dancify.apphq.online/assets/img/icon-512.png",
+  "screenshot": [
+    "https://dancify.apphq.online/assets/img/app/es/journal.webp",
+    "https://dancify.apphq.online/assets/img/app/es/camera-follow.webp",
+    "https://dancify.apphq.online/assets/img/app/es/player-loop.webp",
+    "https://dancify.apphq.online/assets/img/app/es/editor.webp"
+  ],
+  "installUrl": "https://apps.apple.com/app/id6830154598",
+  "downloadUrl": "https://apps.apple.com/app/id6830154598",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR",
+    "category": "free"
+  },
+  "author": {
+    "@id": "https://dancify.apphq.online/#organization"
+  },
+  "publisher": {
+    "@id": "https://dancify.apphq.online/#organization"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dancify.apphq.online/#organization",
+      "name": "AppRise Ventures Oy",
+      "url": "https://dancify.apphq.online/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://dancify.apphq.online/assets/img/icon-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "email": "appriseven@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Espoo",
+        "addressCountry": "FI"
+      },
+      "taxID": "3336104-8",
+      "sameAs": [
+        "https://apps.apple.com/app/id6830154598"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dancify.apphq.online/#website",
+      "name": "Dancify",
+      "url": "https://dancify.apphq.online/",
+      "inLanguage": [
+        "en",
+        "es",
+        "de"
+      ],
+      "publisher": {
+        "@id": "https://dancify.apphq.online/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dancify.apphq.online/es/#webpage",
+      "url": "https://dancify.apphq.online/es/",
+      "name": "Dancify: app para grabarte bailando, diario de baile y editor de vídeo",
+      "description": "Grábate bailando con cuenta de entrada y un enfoque que te sigue, guarda cada toma en un calendario y repásala en bucle, a cámara lenta y lado a lado. Sin cuenta ni anuncios. iPhone y iPad.",
+      "inLanguage": "es-ES",
+      "isPartOf": {
+        "@id": "https://dancify.apphq.online/#website"
+      },
+      "about": {
+        "@id": "https://dancify.apphq.online/#app"
+      },
+      "primaryImageOfPage": "https://dancify.apphq.online/assets/img/og/es-home.jpg"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://dancify.apphq.online/es/#faq",
+  "inLanguage": "es-ES",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Dancify es gratis?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Grabar, el calendario, la cronología, las notas, el reproductor, el editor y la sincronización con iCloud son gratis, sin anuncios y sin cuenta. Dancify Premium añade la exportación de vídeos de progreso, la comparación lado a lado y la guía de postura; es anual con una semana de prueba gratis, o mensual."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿En qué dispositivos funciona?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "En iPhone y iPad con iOS o iPadOS 26 o posterior, también en iPhone Duo. No hay versión para Android ni web."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Necesito crear una cuenta?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. No hay ningún registro. Tu diario está en tu dispositivo, y en tu propio iCloud si activas la sincronización."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Dónde se guardan mis vídeos? ¿Puede verlos alguien más?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "En tu dispositivo. Con la sincronización de iCloud activada, también en tu iCloud privado, para que tu otro iPhone o iPad los muestre. Nosotros no podemos verlos y no se suben a ningún servidor nuestro."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo funciona la cuenta de entrada?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Eliges un tempo, pulsas grabar y Dancify te cuenta «5, 6, 7, 8» con clic y vibración mientras vas a tu sitio, para que estés colocado cuando empiece."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es Seguir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tocas en la cámara a quien baila y Dancify mantiene el enfoque y la exposición en esa persona mientras se mueve, aunque desaparezca un momento. Puedes hacer que el zoom la acompañe o usar un soporte motorizado con DockKit que gira para seguirla."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puedo ensayar a la vez que un vídeo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Elige una referencia, una toma tuya anterior o un vídeo de Fotos o Archivos, y se reproduce en miniatura o lado a lado mientras grabas, empezando con la cuenta. En la grabación va en silencio, salvo que tengas auriculares conectados."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puedo ralentizar y repetir un trozo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. El reproductor baja hasta 0,25× y avanza fotograma a fotograma. Marca un bucle A–B en una frase, con una pausa opcional de un ocho entre repeticiones, y activa los tiempos para ver del 1 al 8 al ritmo de la música."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Editar cambia mi vídeo original?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Cada edición se exporta como una toma nueva, así que el original queda tal como lo grabaste. Puedes compartir el resultado o guardarlo en Fotos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Para qué estilos de baile sirve?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Para cualquier estilo que ensayes con tiempos o música: ballet, contemporáneo, jazz, hip-hop, heels, covers de K-pop, salsa y bachata, bailes de salón, claqué, danza irlandesa, comercial y cheer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Dancify usa inteligencia artificial?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No usa IA generativa ni envía nada a ningún servidor. Seguir y la guía de postura usan los frameworks de Apple en el propio dispositivo, así que funcionan por completo en tu iPhone o iPad."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿La app está en español?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Dancify está en español, inglés, alemán, finés, francés y japonés."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-apple" viewBox="0 0 24 24"><path fill="currentColor" d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" d="M7 7l10 10M17 7 7 17"/></symbol>
+    <symbol id="i-minus" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" d="M6.5 12h11"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5.5M12 7.6v.01" stroke-width="2.2"/></g></symbol>
+    <symbol id="i-smile" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M8.5 14.2s1.3 1.8 3.5 1.8 3.5-1.8 3.5-1.8M9 9.5h.01M15 9.5h.01" stroke-width="2"/></g></symbol>
+    <symbol id="i-sparkle" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="m11 3 1.9 5.1L18 10l-5.1 1.9L11 17l-1.9-5.1L4 10l5.1-1.9L11 3Z"/></g></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.8-3.8"/></g></symbol>
+    <symbol id="i-camera" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4.5 8H7l1.8-2.6c.2-.3.5-.4.8-.4h4.8c.3 0 .6.1.8.4L17 8h2.5A1.5 1.5 0 0 1 21 9.5v8a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5v-8A1.5 1.5 0 0 1 4.5 8Z"/><circle cx="12" cy="13.2" r="3.4"/></g></symbol>
+    <symbol id="i-video" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="6" width="13" height="12" rx="2.5"/><path d="m16 10.5 5-3v9l-5-3"/></g></symbol>
+    <symbol id="i-mic" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21"/></g></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M12 20s-7.5-4.6-7.5-10.3A4.2 4.2 0 0 1 12 7.2a4.2 4.2 0 0 1 7.5 2.5C19.5 15.4 12 20 12 20Z"/></symbol>
+    <symbol id="i-widgets" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3.5" y="3.5" width="7.5" height="7.5" rx="2.2"/><rect x="13" y="3.5" width="7.5" height="7.5" rx="3.75"/><rect x="3.5" y="13" width="17" height="7.5" rx="2.2"/></g></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3A4 4 0 0 0 11 18.7l1-1"/></g></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M20 12a8 8 0 0 1-11.6 7.1L4 20l1-4A8 8 0 1 1 20 12Z"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="5" y="10.5" width="14" height="10" rx="3"/><path d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5"/></g></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3Z"/></g></symbol>
+    <symbol id="i-swap" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 8h13l-3-3M20 16H7l3 3"/></symbol>
+    <symbol id="i-bookmark" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M7 4h10a1 1 0 0 1 1 1v15l-6-4-6 4V5a1 1 0 0 1 1-1Z"/></symbol>
+    <symbol id="i-wave" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M4 11v2M7.5 8v8M11 5v14M14.5 9v6M18 7v10M21 11v2"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="3"/></g></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5 5 6v5.5c0 4.2 2.9 7.6 7 9 4.1-1.4 7-4.8 7-9V6l-7-2.5Z"/><path d="m9 12 2.2 2.2L15.2 10"/></g></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M10 9v6M14 9v6" stroke-width="2.2"/></g></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M19.5 14.5A8 8 0 0 1 9.5 4.5a8 8 0 1 0 10 10Z"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></g></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 19h16M6.5 15l4-4.5 3 3L19 7"/></symbol>
+    <symbol id="i-record" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.6" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="5" fill="currentColor"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="15.5" rx="3"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/><path d="M7.5 15.6l3-.6" stroke-width="2.4"/></g></symbol>
+    <symbol id="i-timeline" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 6h11M9 12h11M9 18h7"/><path d="M4.5 6h.01M4.5 12h.01M4.5 18h.01" stroke-width="2.6"/></g></symbol>
+    <symbol id="i-stack" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="6.5" y="3.5" width="11" height="14" rx="2"/><path d="M4 8v11a2 2 0 0 0 2 2h9"/></g></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M8 5.5v13a.6.6 0 0 0 .9.5l10.2-6.5a.6.6 0 0 0 0-1L8.9 5a.6.6 0 0 0-.9.5Z"/></symbol>
+    <symbol id="i-loop" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5V11a4 4 0 0 1 4-4h11l-3-3"/><path d="M20 11.5V13a4 4 0 0 1-4 4H5l3 3"/></g></symbol>
+    <symbol id="i-metronome" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 3.5h5L18.5 20.5h-13l4-17Z"/><path d="M12 15.5 17.5 7M7 16.5h10"/></g></symbol>
+    <symbol id="i-music" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5.5l11-2V16"/><circle cx="6.5" cy="18" r="2.5"/><circle cx="17.5" cy="16" r="2.5"/></g></symbol>
+    <symbol id="i-scissors" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6.5" r="2.7"/><circle cx="6" cy="17.5" r="2.7"/><path d="M8.2 8.2 20 19M8.2 15.8 20 5"/></g></symbol>
+    <symbol id="i-speed" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.8 17a8.5 8.5 0 1 1 16.4 0"/><path d="m12 14.5 4.2-4.5"/><path d="M12 14.5h.01" stroke-width="3"/></g></symbol>
+    <symbol id="i-snow" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 3v18M4.2 7.5l15.6 9M4.2 16.5l15.6-9"/></g></symbol>
+    <symbol id="i-crop" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 2.5v13a2 2 0 0 0 2 2h13"/><path d="M2.5 6.5h13a2 2 0 0 1 2 2v13"/></g></symbol>
+    <symbol id="i-sliders" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h9M17 7h3M4 17h3M11 17h9"/><circle cx="15" cy="7" r="2"/><circle cx="9" cy="17" r="2"/></g></symbol>
+    <symbol id="i-text" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 7V5h14v2M12 5v14M9 19h6"/></g></symbol>
+    <symbol id="i-flag" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 21V4"/><path d="M5.5 4.5h11.5l-2.4 4 2.4 4H5.5"/></g></symbol>
+    <symbol id="i-undo" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 14 4 9l5-5"/><path d="M4 9h10.5a5.5 5.5 0 0 1 0 11H11"/></g></symbol>
+    <symbol id="i-mirror" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18" stroke-dasharray="2 2.6"/><path d="M8.5 6.5 3 17.5h5.5v-11ZM15.5 6.5l5.5 11h-5.5v-11Z"/></g></symbol>
+    <symbol id="i-person" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="4.8" r="2"/><path d="M5 9.5h14M12 9.5v5M12 14.5l-4 6.5M12 14.5l4 6.5"/></g></symbol>
+    <symbol id="i-focus" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8.5V5a1 1 0 0 1 1-1h3.5M15.5 4H19a1 1 0 0 1 1 1v3.5M20 15.5V19a1 1 0 0 1-1 1h-3.5M8.5 20H5a1 1 0 0 1-1-1v-3.5"/><circle cx="12" cy="12" r="3.2"/></g></symbol>
+    <symbol id="i-lens" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/></g></symbol>
+    <symbol id="i-slowmo" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5a8.5 8.5 0 1 1-8.5 8.5" stroke-dasharray="2.2 2.6"/><path d="M10 9v6l5-3-5-3Z"/></g></symbol>
+    <symbol id="i-headphones" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3.5" y="14" width="4.5" height="6.5" rx="1.8"/><rect x="16" y="14" width="4.5" height="6.5" rx="1.8"/></g></symbol>
+    <symbol id="i-pip" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="15" rx="2.5"/><rect x="12.5" y="11" width="6" height="6" rx="1.2"/></g></symbol>
+    <symbol id="i-cloud" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M7 18.5h10.5a4 4 0 0 0 .6-7.95A6 6 0 0 0 6.5 9.2 4.7 4.7 0 0 0 7 18.5Z"/></symbol>
+    <symbol id="i-user-off" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3.5"/><path d="M5 20a7 7 0 0 1 10.6-6M4 4l16 16"/></g></symbol>
+    <symbol id="i-ban" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="m6 6 12 12"/></g></symbol>
+    <symbol id="i-device" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="6.5" y="2.5" width="11" height="19" rx="2.8"/><path d="M10.5 18.5h3"/></g></symbol>
+    <symbol id="i-reel" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="2.5" y="6" width="5.5" height="12" rx="1.3"/><rect x="9.25" y="6" width="5.5" height="12" rx="1.3"/><rect x="16" y="6" width="5.5" height="12" rx="1.3"/></g></symbol>
+    <symbol id="i-compare" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="15" rx="2.5"/><path d="M12 4.5v15"/></g></symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3.5" y="3.5" width="7.5" height="7.5" rx="1.6"/><rect x="13" y="3.5" width="7.5" height="7.5" rx="1.6"/><rect x="3.5" y="13" width="7.5" height="7.5" rx="1.6"/><rect x="13" y="13" width="7.5" height="7.5" rx="1.6"/></g></symbol>
+    <symbol id="i-tag" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M3.5 12.2V4.5a1 1 0 0 1 1-1h7.7l8.3 8.3a1.4 1.4 0 0 1 0 2l-6.7 6.7a1.4 1.4 0 0 1-2 0l-8.3-8.3Z"/><circle cx="8" cy="8" r="1.4"/></g></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="m12 3.5 2.6 5.4 5.9.8-4.3 4.1 1 5.8L12 16.8l-5.2 2.8 1-5.8-4.3-4.1 5.9-.8L12 3.5Z"/></symbol>
+    <symbol id="i-note" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4.5 19.5 9.5 9 20H4v-5L14.5 4.5Z"/><path d="M12.5 6.5l5 5"/></g></symbol>
+    <symbol id="i-tripod" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="7.5" y="2.5" width="9" height="6" rx="1.5"/><path d="M12 8.5v4M12 12.5 6 21M12 12.5l6 8.5M12 12.5V21"/></g></symbol>
+    <symbol id="i-share" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11M8 7.5l4-4 4 4"/><path d="M8 10.5H6.5a1.5 1.5 0 0 0-1.5 1.5v7a1.5 1.5 0 0 0 1.5 1.5h11a1.5 1.5 0 0 0 1.5-1.5v-7a1.5 1.5 0 0 0-1.5-1.5H16"/></g></symbol>
+    <symbol id="i-frames" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3 9h18M3 15h18M7.5 5v4M12 5v4M16.5 5v4M7.5 15v4M12 15v4M16.5 15v4"/></g></symbol>
+    <symbol id="i-tv" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4" width="19" height="13" rx="2.5"/><path d="M8 21h8"/></g></symbol>
+  </svg>
+
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <header class="nav" data-nav>
+    <div class="container nav-inner">
+      <a class="brand" href="/es/" aria-label="Inicio de Dancify"><img class="brand-mark" src="/assets/img/app-icon.webp" width="30" height="30" alt="">Dancify</a>
+      <ul class="nav-links">
+        <li><a href="#camera">Cámara</a></li>
+        <li><a href="#diary">Diario</a></li>
+        <li class="nav-opt"><a href="#editor">Editor</a></li>
+        <li class="nav-opt"><a href="#premium">Premium</a></li>
+        <li><a href="#faq">Preguntas</a></li>
+        <li><a href="/es/blog/">Blog</a></li>
+      </ul>
+      <div class="nav-end">
+        <details class="lang" data-lang>
+          <summary aria-label="Idioma: Español"><svg aria-hidden="true"><use href="#i-globe"/></svg>ES</summary>
+          <ul class="lang-menu">
+            <li><a href="/" hreflang="en" lang="en">English <small>EN</small></a></li>
+            <li><a href="/es/" hreflang="es" lang="es" aria-current="page">Español <small>ES</small></a></li>
+            <li><a href="/de/" hreflang="de" lang="de">Deutsch <small>DE</small></a></li>
+          </ul>
+        </details>
+        <a class="btn btn-primary btn-sm" href="https://apps.apple.com/app/id6830154598" data-store>
+          <svg aria-hidden="true"><use href="#i-apple"/></svg><span>Descargar</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <span class="nav-sentinel" data-nav-sentinel aria-hidden="true"></span>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow hero-hook" data-reveal><span class="mark" aria-hidden="true"></span>Cámara, diario de práctica y editor de vídeo para bailarines</p>
+          <h1 data-reveal style="--delay:.06s">Mírate bailar <span class="marked">mejor</span>.</h1>
+          <p class="hero-lead" data-reveal style="--delay:.12s">Grabas una toma y un fotograma aparece en el día de hoy de tu calendario. Abre cualquier día para repetir en bucle el paso que se te resiste, ralentizarlo, contarlo o ponerlo al lado de tu primer intento.</p>
+          <div class="hero-actions" data-reveal style="--delay:.18s">
+            <a class="btn btn-store" href="https://apps.apple.com/app/id6830154598" data-store>
+              <svg aria-hidden="true"><use href="#i-apple"/></svg>
+              <span class="btn-label"><small>Descárgala en el</small><strong>App Store</strong></span>
+            </a>
+            <a class="btn btn-ghost" href="#how">Cómo funciona</a>
+          </div>
+          <ul class="hero-meta" data-reveal style="--delay:.24s">
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg>Descarga gratuita</li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg>Sin cuenta</li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg>Sin anuncios ni rastreo</li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg>iPhone y iPad</li>
+          </ul>
+        </div>
+
+        <div class="stage" data-reveal style="--delay:.15s">
+          <span class="beam" aria-hidden="true"></span>
+          <div class="stage-phones">
+            <div class="phone p-left"><img src="/assets/img/app/es/camera-countin.webp" width="720" height="1564" alt="Cámara de Dancify contando la entrada a 100 bpm, con un 7 grande en pantalla" loading="lazy" decoding="async"></div>
+            <div class="phone p-right"><img src="/assets/img/app/es/recording.webp" width="720" height="1564" alt="Una toma abierta en el reproductor de Dancify" loading="lazy" decoding="async"></div>
+            <div class="phone p-center"><img src="/assets/img/app/es/journal.webp" width="720" height="1564" alt="Calendario de octubre en Dancify: cada día de práctica muestra un fotograma de su grabación" fetchpriority="high"></div>
+          </div>
+          <span class="tape stage-tape" aria-hidden="true"></span>
+          <span class="chip chip-rec" aria-hidden="true"><span class="dot"></span><span><time>00:00:42</time><small>Pasada completa</small></span></span>
+          <span class="chip chip-count" aria-hidden="true"><span>Cuenta<small>100 bpm</small></span><span class="count"><span>5</span><span>6</span><span>7</span><span>8</span></span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="how" aria-labelledby="how-title" style="padding-top:clamp(40px,6vw,80px)">
+      <div class="container">
+        <div class="section-head is-center" data-reveal>
+          <p class="eyebrow"><span class="mark " aria-hidden="true"></span>Cómo funciona</p>
+          <h2 id="how-title">Graba. Míralo en tu calendario. Y fíjate de verdad.</h2>
+          <p>Tres pasos que repetirás después de cada clase, cada ensayo y cada práctica en casa.</p>
+        </div>
+        <div class="loop-wrap">
+          <span class="tape is-b" aria-hidden="true"></span>
+          <ol class="loop-steps">
+          <li class="loop-step card" data-reveal style="--delay:0.00s">
+            <div class="loop-shot"><div class="phone"><img src="/assets/img/app/es/camera.webp" width="720" height="1564" alt="Cámara de Dancify lista para grabar, con los objetivos y la cuenta a 100 bpm" loading="lazy" decoding="async"></div></div>
+            <div class="loop-body">
+              <span class="step-no">01</span>
+              <h3>Graba con cuenta de entrada</h3>
+              <p>Elige el tempo, pulsa grabar y ve a tu sitio mientras te cuenta: 5, 6, 7, 8.</p>
+            </div>
+          </li>
+          <li class="loop-step card" data-reveal style="--delay:0.08s">
+            <div class="loop-shot"><div class="phone"><img src="/assets/img/app/es/day.webp" width="720" height="1564" alt="Un día de práctica en Dancify con tres tomas, una nota y el resumen del mes" loading="lazy" decoding="async"></div></div>
+            <div class="loop-body">
+              <span class="step-no">02</span>
+              <h3>Míralo en tu calendario</h3>
+              <p>Cada toma aparece en su día como un fotograma de tu propio baile. Si hay varias, se apilan como fotos impresas.</p>
+            </div>
+          </li>
+          <li class="loop-step card" data-reveal style="--delay:0.16s">
+            <div class="loop-shot"><div class="phone"><img src="/assets/img/app/es/editor.webp" width="720" height="1564" alt="El editor de Dancify con una toma recortada en la línea de tiempo" loading="lazy" decoding="async"></div></div>
+            <div class="loop-body">
+              <span class="step-no">03</span>
+              <h3>Edita, repite y compara</h3>
+              <p>Repite en bucle el ocho que siempre se te escapa, bájalo a un cuarto de velocidad, recorta la toma o ponla junto a tu primer intento.</p>
+            </div>
+          </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="camera" aria-labelledby="camera-title">
+      <div class="container feature">
+        <div class="feature-copy" data-reveal>
+          <p class="eyebrow"><span class="mark t-amber" aria-hidden="true"></span>Cámara</p>
+          <h2 id="camera-title">Una cámara que sabe que estás bailando.</h2>
+          <p>Grabarte no debería ser ir y venir del móvil. La cámara de Dancify te cuenta la entrada, te mantiene enfocado y no estorba.</p>
+          <ul class="points">
+            <li><span class="ico"><svg aria-hidden="true"><use href="#i-metronome"/></svg></span><b>Cuenta a tu tempo</b><p>Un 5, 6, 7, 8 musical con clic y vibración, para que estés en tu sitio cuando empiece la grabación.</p></li>
+            <li><span class="ico"><svg aria-hidden="true"><use href="#i-focus"/></svg></span><b>Seguir</b><p>Toca a quien baila y el enfoque y la exposición se quedan con esa persona mientras se mueve. Si quieres, el zoom la acompaña para no perderla del encuadre.</p></li>
+            <li><span class="ico"><svg aria-hidden="true"><use href="#i-tripod"/></svg></span><b>Soportes motorizados</b><p>Con un soporte compatible con DockKit, es el propio soporte el que gira para seguirte por la sala.</p></li>
+            <li><span class="ico"><svg aria-hidden="true"><use href="#i-lens"/></svg></span><b>Todos los objetivos</b><p>0,5×, 1×, 2× y zoom con los dedos o con la rueda. Toca para enfocar y mantén pulsado para bloquear enfoque y exposición.</p></li>
+            <li><span class="ico"><svg aria-hidden="true"><use href="#i-slowmo"/></svg></span><b>Cámara lenta y 4K</b><p>HD o 4K a 30 o 60 fps, y cámara lenta a 120 o 240 fps para giros y saltos.</p></li>
+            <li><span class="ico"><svg aria-hidden="true"><use href="#i-record"/></svg></span><b>Graba desde el otro lado de la sala</b><p>Empieza con los botones de volumen o el Control de Cámara, y la parada automática cierra la toma. También hay espejo, linterna, cuadrícula y nivel.</p></li>
+          </ul>
+        </div>
+        <div class="feature-visual is-pair" data-reveal style="--delay:.1s">
+          <div class="phone"><img src="/assets/img/app/es/camera-follow.webp" width="720" height="1564" alt="Cámara de Dancify con Seguir fijado en una bailarina, con un marco de enfoque a su alrededor" loading="lazy" decoding="async"></div>
+          <div class="phone"><img src="/assets/img/app/es/camera-countin.webp" width="720" height="1564" alt="Cámara de Dancify contando la entrada a una bailarina, con un 7 grande a 100 bpm" loading="lazy" decoding="async"></div>
+          <span class="tape t-amber is-c" aria-hidden="true"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="reference" aria-labelledby="reference-title" style="padding-top:0">
+      <div class="container feature is-flip">
+        <div class="feature-copy" data-reveal>
+          <p class="eyebrow"><span class="mark t-green" aria-hidden="true"></span>Ensaya con un vídeo de referencia</p>
+          <h2 id="reference-title">Baila a la vez que el vídeo del que estás aprendiendo.</h2>
+          <p>Reproduce una referencia mientras grabas: una toma tuya anterior, el vídeo de la clase o cualquier vídeo de Fotos o Archivos. En miniatura o a pantalla partida, arranca en el primer tiempo después de la cuenta, así vais juntos desde el 1.</p>
+          <ul class="points">
+            <li><span class="ico"><svg aria-hidden="true"><use href="#i-pip"/></svg></span><b>En miniatura o lado a lado</b><p>Deja la referencia pequeña en una esquina o dale media pantalla.</p></li>
+            <li><span class="ico"><svg aria-hidden="true"><use href="#i-play"/></svg></span><b>Empieza contigo en el 1</b><p>La referencia espera a la cuenta de entrada y arranca a la vez que tú.</p></li>
+            <li><span class="ico"><svg aria-hidden="true"><use href="#i-headphones"/></svg></span><b>Fuera de tu toma</b><p>Se silencia mientras grabas para que no se cuele en la grabación, salvo que tengas auriculares conectados.</p></li>
+            <li><span class="ico"><svg aria-hidden="true"><use href="#i-stack"/></svg></span><b>Cada pieza recuerda la suya</b><p>Dancify guarda la referencia y el tempo de cada coreografía para la próxima vez.</p></li>
+          </ul>
+        </div>
+        <div class="feature-visual" data-reveal style="--delay:.1s">
+          <div class="phone"><img src="/assets/img/app/es/camera-reference.webp" width="720" height="1564" alt="Cámara de Dancify grabando a una bailarina con un vídeo de referencia en miniatura en la esquina" loading="lazy" decoding="async"></div>
+          <span class="tape t-green" aria-hidden="true"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="diary" aria-labelledby="diary-title">
+      <div class="container">
+        <div class="section-head is-center" data-reveal>
+          <p class="eyebrow"><span class="mark " aria-hidden="true"></span>Diario de práctica</p>
+          <h2 id="diary-title">Tu práctica, un fotograma al día.</h2>
+          <p>Semana a semana, el calendario se llena de tu propio baile: un diario visual de todo el trabajo que haces. Apunta una clase sin grabarla, añade una nota mientras la tienes fresca y encuentra cualquier toma en segundos.</p>
+        </div>
+        <div class="screens">
+          <figure class="screen" data-reveal style="--delay:0.00s">
+            <div class="phone"><img src="/assets/img/app/es/journal.webp" width="720" height="1564" alt="Calendario de Dancify: cada día de práctica muestra un fotograma de su grabación" loading="lazy" decoding="async"></div>
+            <figcaption><b>Calendario</b>Cada día muestra un fotograma de lo que bailaste. Si hay varias tomas, se apilan.</figcaption>
+          </figure>
+          <figure class="screen" data-reveal style="--delay:0.08s">
+            <div class="phone"><img src="/assets/img/app/es/timeline.webp" width="720" height="1564" alt="Cronología de Dancify con sesiones de práctica y sus tomas, de la más reciente a la más antigua" loading="lazy" decoding="async"></div>
+            <figcaption><b>Cronología</b>Cada sesión, toma e hito en orden, con filtros por tomas, sesiones o piezas.</figcaption>
+          </figure>
+          <figure class="screen" data-reveal style="--delay:0.16s">
+            <div class="phone"><img src="/assets/img/app/es/pieces.webp" width="720" height="1564" alt="La pieza Slow Burn en Dancify: 10 tomas, 12 sesiones y 13 horas, del primer intento al último" loading="lazy" decoding="async"></div>
+            <figcaption><b>Piezas</b>Todas las tomas de una coreografía en orden, del primer intento a la pasada completa.</figcaption>
+          </figure>
+        </div>
+        <p class="screens-note" data-reveal>
+          <span><span class="mark " aria-hidden="true"></span>Notas, etiquetas y favoritos</span>
+          <span><span class="mark t-amber" aria-hidden="true"></span>Clases y ensayos sin vídeo</span>
+          <span><span class="mark t-green" aria-hidden="true"></span>Hitos</span>
+          <span><span class="mark t-pink" aria-hidden="true"></span>Resumen del mes</span>
+          <span><span class="mark t-blue" aria-hidden="true"></span>Siri y Atajos</span>
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="player" aria-labelledby="player-title">
+      <div class="container feature">
+        <div class="feature-copy" data-reveal>
+          <p class="eyebrow"><span class="mark t-blue" aria-hidden="true"></span>Reproductor</p>
+          <h2 id="player-title">Repite en bucle el ocho que siempre se te escapa.</h2>
+          <p>Marca un bucle A–B en la frase difícil, ralentízala, ponla en espejo y cuéntala. El reproductor está hecho para ensayar, no solo para mirar.</p>
+          <ul class="points">
+            <li><span class="ico"><svg aria-hidden="true"><use href="#i-loop"/></svg></span><b>Bucle A–B</b><p>Marca A y B y se repite, con una pausa opcional de un ocho entre repeticiones para volver a tu sitio.</p></li>
+            <li><span class="ico"><svg aria-hidden="true"><use href="#i-metronome"/></svg></span><b>Los tiempos en pantalla</b><p>Del 1 al 8 al ritmo de la música. Marca el tempo con toques y salta de ocho en ocho, adelante o atrás.</p></li>
+            <li><span class="ico"><svg aria-hidden="true"><use href="#i-slowmo"/></svg></span><b>Cámara lenta hasta 0,25×</b><p>Y fotograma a fotograma, para revisar una caída, una línea o por dónde va de verdad el brazo.</p></li>
+            <li><span class="ico"><svg aria-hidden="true"><use href="#i-mirror"/></svg></span><b>Espejo</b><p>Voltea la imagen para verla como en el espejo de la sala.</p></li>
+            <li><span class="ico"><svg aria-hidden="true"><use href="#i-tv"/></svg></span><b>En pantalla grande</b><p>Pantalla completa, AirPlay o una pantalla externa, para que lo vea toda la clase.</p></li>
+          </ul>
+        </div>
+        <div class="feature-visual is-pair" data-reveal style="--delay:.1s">
+          <div class="phone"><img src="/assets/img/app/es/player-loop.webp" width="720" height="1564" alt="Reproductor de Dancify con un bucle A–B marcado en una frase y el panel de práctica abierto" loading="lazy" decoding="async"></div>
+          <div class="phone"><img src="/assets/img/app/es/player-counts.webp" width="720" height="1564" alt="Reproductor de Dancify con los tiempos sobre el vídeo, en el 8 a 100 bpm" loading="lazy" decoding="async"></div>
+          <span class="tape t-blue is-b" aria-hidden="true"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="editor" aria-labelledby="editor-title" style="padding-top:0">
+      <div class="container">
+        <div class="feature is-flip">
+          <div class="feature-copy" data-reveal>
+            <p class="eyebrow"><span class="mark t-pink" aria-hidden="true"></span>Editor</p>
+            <h2 id="editor-title">Un editor de verdad, gratis y dentro de la app.</h2>
+            <p>Recorta la toma, quita las charlas, vuelve a poner la música y exporta un clip limpio. Cada edición se guarda como una toma nueva: el original no se toca nunca.</p>
+            <p class="editor-after">Compártelo, guárdalo en Fotos o déjalo en tu diario.</p>
+          </div>
+          <div class="feature-visual is-pair" data-reveal style="--delay:.1s">
+            <div class="phone"><img src="/assets/img/app/es/editor.webp" width="720" height="1564" alt="El editor de Dancify con una toma dividida en segmentos en la línea de tiempo" loading="lazy" decoding="async"></div>
+            <div class="phone"><img src="/assets/img/app/es/editor-adjust.webp" width="720" height="1564" alt="La herramienta Ajustar del editor de Dancify, con exposición, contraste y filtros" loading="lazy" decoding="async"></div>
+            <span class="tape t-pink is-c" aria-hidden="true"></span>
+          </div>
+        </div>
+        <ul class="bento">
+          <li class="card" data-reveal style="--delay:0.00s"><span class="ico"><svg aria-hidden="true"><use href="#i-scissors"/></svg></span><b>Recortar y dividir</b><p>Al fotograma exacto, con reordenar y duplicar.</p></li>
+          <li class="card" data-reveal style="--delay:0.05s"><span class="ico"><svg aria-hidden="true"><use href="#i-speed"/></svg></span><b>Velocidad y rampas</b><p>De 0,25× a 2×, con ajuste fino hasta 4× y rampas suaves.</p></li>
+          <li class="card" data-reveal style="--delay:0.10s"><span class="ico"><svg aria-hidden="true"><use href="#i-snow"/></svg></span><b>Congelar imagen</b><p>Detén el momento en que la línea está perfecta.</p></li>
+          <li class="card" data-reveal style="--delay:0.15s"><span class="ico"><svg aria-hidden="true"><use href="#i-crop"/></svg></span><b>Recortar y enderezar</b><p>Recorta, gira, endereza y pon en espejo.</p></li>
+          <li class="card" data-reveal style="--delay:0.00s"><span class="ico"><svg aria-hidden="true"><use href="#i-sliders"/></svg></span><b>Color y luz</b><p>Ajustes y estilos para la luz de la sala.</p></li>
+          <li class="card" data-reveal style="--delay:0.05s"><span class="ico"><svg aria-hidden="true"><use href="#i-text"/></svg></span><b>Títulos y tiempos</b><p>Rótulos, sello de fecha y los tiempos sobre la imagen.</p></li>
+          <li class="card" data-reveal style="--delay:0.10s"><span class="ico"><svg aria-hidden="true"><use href="#i-music"/></svg></span><b>Pista de música</b><p>Añade una canción desde Archivos, con fundidos de entrada y salida.</p></li>
+          <li class="card" data-reveal style="--delay:0.15s"><span class="ico"><svg aria-hidden="true"><use href="#i-flag"/></svg></span><b>Marcadores y deshacer</b><p>Marca momentos y cambia de idea cuando quieras.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="premium" aria-labelledby="premium-title">
+      <div class="container">
+        <div class="section-head is-center" data-reveal>
+          <p class="eyebrow"><span class="mark" aria-hidden="true"></span><span class="tag tag-premium">Premium</span></p>
+          <h2 id="premium-title">Mira cuánto has avanzado.</h2>
+          <p>El progreso del día a día cuesta verlo. Pon tu primer intento al lado del de hoy y salta a la vista.</p>
+        </div>
+        <ul class="progress-grid">
+          <li class="progress-card card" data-reveal style="--delay:0.00s">
+            <div class="loop-shot"><div class="phone"><img src="/assets/img/app/es/reel.webp" width="720" height="1564" alt="Creador de vídeos de progreso de Dancify: Slow Burn, tres meses, cuatro tomas en secuencia" loading="lazy" decoding="async"></div></div>
+            <div class="loop-body">
+              <h3>Vídeos de progreso</h3>
+              <p>Del primer intento al último, con las fechas en pantalla. En secuencia, lado a lado o en cuadrícula; expórtalo y compártelo.</p>
+            </div>
+          </li>
+          <li class="progress-card card" data-reveal style="--delay:0.08s">
+            <div class="loop-shot"><div class="phone"><img src="/assets/img/app/es/compare.webp" width="720" height="1564" alt="Comparación en Dancify: la primera toma de agosto junto a la última de octubre" loading="lazy" decoding="async"></div></div>
+            <div class="loop-body">
+              <h3>Comparar lado a lado</h3>
+              <p>Dos tomas a la vez, para ver exactamente qué ha cambiado.</p>
+            </div>
+          </li>
+          <li class="progress-card card" data-reveal style="--delay:0.16s">
+            <div class="loop-shot"><div class="phone"><img src="/assets/img/app/es/pose.webp" width="720" height="1564" alt="Guía de postura de Dancify con líneas sobre los hombros, las caderas y las piernas de una bailarina" loading="lazy" decoding="async"></div></div>
+            <div class="loop-body">
+              <h3>Guía de postura</h3>
+              <p>Líneas sobre tu cuerpo para hombros, caderas y equilibrio, calculadas en tu iPhone con Vision de Apple.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="privacy" aria-labelledby="privacy-title" style="padding-top:0">
+      <div class="container">
+        <div class="privacy-card card" data-reveal>
+          <div>
+            <p class="eyebrow"><span class="mark t-green" aria-hidden="true"></span>Privacidad</p>
+            <h2 id="privacy-title">Tu baile es tuyo.</h2>
+            <p>Los vídeos de tus ensayos son personales. Dancify los guarda en tu dispositivo, y en tu propio iCloud si los quieres en todos tus dispositivos.</p>
+            <div class="label-badge"><svg aria-hidden="true"><use href="#i-shield"/></svg><small>Etiqueta de privacidad del App Store</small><b>Datos no recopilados</b></div>
+            <p><a class="privacy-more" href="/privacy/" hreflang="en">Leer la política de privacidad (en inglés) →</a></p>
+          </div>
+          <ul class="privacy-list">
+            <li><b><svg aria-hidden="true"><use href="#i-user-off"/></svg>Sin cuenta</b><p>Abre la app y graba. Sin registro, sin correo, sin contraseña.</p></li>
+            <li><b><svg aria-hidden="true"><use href="#i-ban"/></svg>Sin anuncios ni rastreo</b><p>Sin analíticas ni redes publicitarias siguiéndote.</p></li>
+            <li><b><svg aria-hidden="true"><use href="#i-cloud"/></svg>Tu propio iCloud</b><p>La sincronización opcional usa tu iCloud privado, vídeos incluidos. Nosotros no podemos verlo.</p></li>
+            <li><b><svg aria-hidden="true"><use href="#i-device"/></svg>En tu dispositivo</b><p>Seguir y la guía de postura funcionan en tu iPhone. No se sube nada para procesarlo.</p></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="styles" aria-labelledby="styles-title" style="padding-top:0">
+      <div class="container">
+        <div class="section-head is-center" data-reveal>
+          <p class="eyebrow"><span class="mark t-amber" aria-hidden="true"></span>Para cualquier estilo</p>
+          <h2 id="styles-title">Lo que estés aprendiendo este mes.</h2>
+        </div>
+        <ul class="styles" data-reveal>
+          <li>Ballet</li>
+          <li>Contemporáneo</li>
+          <li>Jazz</li>
+          <li>Hip-hop</li>
+          <li>Heels</li>
+          <li>K-pop</li>
+          <li>Salsa</li>
+          <li>Bachata</li>
+          <li>Bailes de salón</li>
+          <li>Claqué</li>
+          <li>Danza irlandesa</li>
+          <li>Comercial</li>
+          <li>Cheer</li>
+        </ul>
+        <p class="styles-note" data-reveal>Sirve para cualquier coreografía con tiempos o música, de la pieza del examen a la coreo de la clase. También para rutinas de suelo de patinaje artístico y gimnasia.</p>
+      </div>
+    </section>
+
+    <section class="section" id="pricing" aria-labelledby="pricing-title">
+      <div class="container">
+        <div class="section-head is-center" data-reveal>
+          <p class="eyebrow"><span class="mark " aria-hidden="true"></span>Gratis y Premium</p>
+          <h2 id="pricing-title">Gratis para grabar, guardar y editar.</h2>
+          <p>Todo lo que necesitas para ensayar con vídeo es gratis. Premium añade las herramientas para ver tu progreso con el tiempo.</p>
+        </div>
+        <div class="plans">
+          <article class="plan card" data-reveal>
+            <h3>Dancify <span class="tag tag-free">Gratis</span></h3>
+            <p class="plan-price">Gratis<small>Sin cuenta, sin anuncios, sin límite de tiempo.</small></p>
+            <ul>
+              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>La cámara: cuenta de entrada, Seguir, objetivos y cámara lenta</span></li>
+              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Ensayar con un vídeo de referencia</span></li>
+              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Calendario, cronología, piezas y notas</span></li>
+              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Reproductor: bucle A–B, tiempos, cámara lenta y espejo</span></li>
+              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>El editor, con exportación</span></li>
+              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Sincronización con iCloud entre tus dispositivos</span></li>
+            </ul>
+          </article>
+          <article class="plan card is-premium" data-reveal style="--delay:.08s">
+            <h3>Dancify Premium <span class="tag tag-premium">Premium</span></h3>
+            <p class="plan-price">Anual, con una semana de prueba gratis, o mensual<small>Los precios en tu moneda están en el App Store.</small></p>
+            <ul>
+              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Todo lo de la versión gratuita</span></li>
+              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Exportar vídeos de progreso</span></li>
+              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Comparar lado a lado</span></li>
+              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Guía de postura</span></li>
+            </ul>
+            <a class="btn btn-primary" href="https://apps.apple.com/app/id6830154598" data-store><svg aria-hidden="true"><use href="#i-apple"/></svg>Descargar Dancify</a>
+          </article>
+        </div>
+        <p class="plans-note">Dancify Premium se renueva automáticamente salvo que lo canceles al menos 24 horas antes de que termine el periodo. Puedes gestionarlo o cancelarlo cuando quieras en los ajustes de tu cuenta del App Store.</p>
+      </div>
+    </section>
+
+    <section class="section" id="faq" aria-labelledby="faq-title" style="padding-top:0">
+      <div class="container faq-wrap">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow"><span class="mark t-blue" aria-hidden="true"></span>Preguntas</p>
+          <h2 id="faq-title">Preguntas frecuentes</h2>
+          <p>¿Otra duda? Escríbenos a <a href="mailto:appriseven@gmail.com">appriseven@gmail.com</a>.</p>
+        </div>
+        <div class="faq" data-reveal>
+          <details>
+            <summary>¿Dancify es gratis?</summary>
+            <p>Sí. Grabar, el calendario, la cronología, las notas, el reproductor, el editor y la sincronización con iCloud son gratis, sin anuncios y sin cuenta. Dancify Premium añade la exportación de vídeos de progreso, la comparación lado a lado y la guía de postura; es anual con una semana de prueba gratis, o mensual.</p>
+          </details>
+          <details>
+            <summary>¿En qué dispositivos funciona?</summary>
+            <p>En iPhone y iPad con iOS o iPadOS 26 o posterior, también en iPhone Duo. No hay versión para Android ni web.</p>
+          </details>
+          <details>
+            <summary>¿Necesito crear una cuenta?</summary>
+            <p>No. No hay ningún registro. Tu diario está en tu dispositivo, y en tu propio iCloud si activas la sincronización.</p>
+          </details>
+          <details>
+            <summary>¿Dónde se guardan mis vídeos? ¿Puede verlos alguien más?</summary>
+            <p>En tu dispositivo. Con la sincronización de iCloud activada, también en tu iCloud privado, para que tu otro iPhone o iPad los muestre. Nosotros no podemos verlos y no se suben a ningún servidor nuestro.</p>
+          </details>
+          <details>
+            <summary>¿Cómo funciona la cuenta de entrada?</summary>
+            <p>Eliges un tempo, pulsas grabar y Dancify te cuenta «5, 6, 7, 8» con clic y vibración mientras vas a tu sitio, para que estés colocado cuando empiece.</p>
+          </details>
+          <details>
+            <summary>¿Qué es Seguir?</summary>
+            <p>Tocas en la cámara a quien baila y Dancify mantiene el enfoque y la exposición en esa persona mientras se mueve, aunque desaparezca un momento. Puedes hacer que el zoom la acompañe o usar un soporte motorizado con DockKit que gira para seguirla.</p>
+          </details>
+          <details>
+            <summary>¿Puedo ensayar a la vez que un vídeo?</summary>
+            <p>Sí. Elige una referencia, una toma tuya anterior o un vídeo de Fotos o Archivos, y se reproduce en miniatura o lado a lado mientras grabas, empezando con la cuenta. En la grabación va en silencio, salvo que tengas auriculares conectados.</p>
+          </details>
+          <details>
+            <summary>¿Puedo ralentizar y repetir un trozo?</summary>
+            <p>Sí. El reproductor baja hasta 0,25× y avanza fotograma a fotograma. Marca un bucle A–B en una frase, con una pausa opcional de un ocho entre repeticiones, y activa los tiempos para ver del 1 al 8 al ritmo de la música.</p>
+          </details>
+          <details>
+            <summary>¿Editar cambia mi vídeo original?</summary>
+            <p>No. Cada edición se exporta como una toma nueva, así que el original queda tal como lo grabaste. Puedes compartir el resultado o guardarlo en Fotos.</p>
+          </details>
+          <details>
+            <summary>¿Para qué estilos de baile sirve?</summary>
+            <p>Para cualquier estilo que ensayes con tiempos o música: ballet, contemporáneo, jazz, hip-hop, heels, covers de K-pop, salsa y bachata, bailes de salón, claqué, danza irlandesa, comercial y cheer.</p>
+          </details>
+          <details>
+            <summary>¿Dancify usa inteligencia artificial?</summary>
+            <p>No usa IA generativa ni envía nada a ningún servidor. Seguir y la guía de postura usan los frameworks de Apple en el propio dispositivo, así que funcionan por completo en tu iPhone o iPad.</p>
+          </details>
+          <details>
+            <summary>¿La app está en español?</summary>
+            <p>Sí. Dancify está en español, inglés, alemán, finés, francés y japonés.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="blog" aria-labelledby="blog-title" style="padding-top:0">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow"><span class="mark t-pink" aria-hidden="true"></span>Del blog</p>
+          <h2 id="blog-title">Apuntes desde la sala de ensayo</h2>
+        </div>
+        <!-- blog-cards:start -->
+        <ul class="post-cards post-cards-home">
+          <li class="post-card">
+            <div class="post-card-media"><img src="/assets/img/covers/es-film-yourself-1200.webp" srcset="/assets/img/covers/es-film-yourself-1200.webp 1200w, /assets/img/covers/es-film-yourself-2400.webp 2400w" sizes="(min-width: 960px) 380px, 100vw" width="2400" height="1200" alt="" loading="lazy" decoding="async"></div>
+            <div class="post-card-body">
+              <p class="post-card-meta"><span class="kicker">Grabar</span></p>
+              <h3><a href="/es/blog/como-grabarte-bailando/">Cómo grabarte bailando: ángulo, luz y altura del móvil</a></h3>
+              <p class="post-card-text">Cómo grabarte bailando con el móvil: altura y distancia de la cámara por estilo, el mejor ángulo, luz, sonido, trípodes y seis errores que estropean el vídeo.</p>
+              <p class="post-card-foot"><span></span><span class="read-more" aria-hidden="true">Leer el artículo</span></p>
+            </div>
+          </li>
+          <li class="post-card">
+            <div class="post-card-media"><img src="/assets/img/covers/es-learn-choreography-1200.webp" srcset="/assets/img/covers/es-learn-choreography-1200.webp 1200w, /assets/img/covers/es-learn-choreography-2400.webp 2400w" sizes="(min-width: 960px) 380px, 100vw" width="2400" height="1200" alt="" loading="lazy" decoding="async"></div>
+            <div class="post-card-body">
+              <p class="post-card-meta"><span class="kicker">Aprender</span></p>
+              <h3><a href="/es/blog/aprender-coreografias-rapido/">Cómo aprender coreografías rápido (y que no se te olviden)</a></h3>
+              <p class="post-card-text">Cómo aprender coreografías rápido: mapa de la pieza, aprender por ochos, marcar, usar bien el espejo, ralentizar el vídeo, repetir en bucle y grabarte.</p>
+              <p class="post-card-foot"><span></span><span class="read-more" aria-hidden="true">Leer el artículo</span></p>
+            </div>
+          </li>
+          <li class="post-card">
+            <div class="post-card-media"><img src="/assets/img/covers/es-progress-video-1200.webp" srcset="/assets/img/covers/es-progress-video-1200.webp 1200w, /assets/img/covers/es-progress-video-2400.webp 2400w" sizes="(min-width: 960px) 380px, 100vw" width="2400" height="1200" alt="" loading="lazy" decoding="async"></div>
+            <div class="post-card-body">
+              <p class="post-card-meta"><span class="kicker">Progreso</span></p>
+              <h3><a href="/es/blog/video-de-progreso-de-baile/">Cómo hacer un vídeo de progreso de baile honesto y motivador</a></h3>
+              <p class="post-card-text">Cómo hacer un vídeo de progreso de baile: graba la misma combinación igual, cada cuánto, qué comparar, secuencia, lado a lado o cuadrícula, fechas y compartir.</p>
+              <p class="post-card-foot"><span></span><span class="read-more" aria-hidden="true">Leer el artículo</span></p>
+            </div>
+          </li>
+          <li class="post-card">
+            <div class="post-card-media"><img src="/assets/img/covers/es-counting-music-1200.webp" srcset="/assets/img/covers/es-counting-music-1200.webp 1200w, /assets/img/covers/es-counting-music-2400.webp 2400w" sizes="(min-width: 960px) 380px, 100vw" width="2400" height="1200" alt="" loading="lazy" decoding="async"></div>
+            <div class="post-card-body">
+              <p class="post-card-meta"><span class="kicker">Musicalidad</span></p>
+              <h3><a href="/es/blog/como-contar-la-musica-en-el-baile/">Cómo contar la música en el baile: los ochos, el &quot;5, 6, 7, 8&quot; y el uno</a></h3>
+              <p class="post-card-text">Cómo contar la música en el baile: tiempos, compases y ochos, qué significa &quot;5, 6, 7, 8&quot;, cómo encontrar el uno, el &quot;y&quot;, el vals en 3/4 y los BPM por estilo.</p>
+              <p class="post-card-foot"><span></span><span class="read-more" aria-hidden="true">Leer el artículo</span></p>
+            </div>
+          </li>
+          <li class="post-card">
+            <div class="post-card-media"><img src="/assets/img/covers/es-practice-journal-1200.webp" srcset="/assets/img/covers/es-practice-journal-1200.webp 1200w, /assets/img/covers/es-practice-journal-2400.webp 2400w" sizes="(min-width: 960px) 380px, 100vw" width="2400" height="1200" alt="" loading="lazy" decoding="async"></div>
+            <div class="post-card-body">
+              <p class="post-card-meta"><span class="kicker">Práctica</span></p>
+              <h3><a href="/es/blog/diario-de-practica-de-baile/">Cómo llevar un diario de práctica de baile: qué apuntar, con preguntas</a></h3>
+              <p class="post-card-text">Cómo llevar un diario de práctica de baile: qué apuntar después de cada clase, una entrada de cinco minutos, preguntas para escribir y un repaso semanal.</p>
+              <p class="post-card-foot"><span></span><span class="read-more" aria-hidden="true">Leer el artículo</span></p>
+            </div>
+          </li>
+          <li class="post-card">
+            <div class="post-card-media"><img src="/assets/img/covers/es-practice-at-home-1200.webp" srcset="/assets/img/covers/es-practice-at-home-1200.webp 1200w, /assets/img/covers/es-practice-at-home-2400.webp 2400w" sizes="(min-width: 960px) 380px, 100vw" width="2400" height="1200" alt="" loading="lazy" decoding="async"></div>
+            <div class="post-card-body">
+              <p class="post-card-meta"><span class="kicker">Práctica</span></p>
+              <h3><a href="/es/blog/practicar-baile-en-casa/">Cómo practicar baile en casa: espacio, calentamiento y plan semanal</a></h3>
+              <p class="post-card-text">Cómo practicar baile en casa: espacio y suelo seguros, calcetines o zapatillas, calentamiento, una sesión de 30 minutos, plan semanal por nivel y descanso.</p>
+              <p class="post-card-foot"><span></span><span class="read-more" aria-hidden="true">Leer el artículo</span></p>
+            </div>
+          </li>
+        </ul>
+        <!-- blog-cards:end -->
+        <p class="blog-more"><a class="btn btn-ghost" href="/es/blog/">Todos los artículos</a></p>
+      </div>
+    </section>
+
+    <section class="section cta" style="padding-top:0">
+      <div class="container">
+        <div class="cta-card card" data-reveal>
+          <div class="cta-copy">
+            <img class="cta-icon" src="/assets/img/app-icon.webp" width="256" height="256" alt="" loading="lazy">
+            <h2>Guarda cada ensayo.</h2>
+            <p>Descarga gratuita. Sin cuenta ni anuncios. Graba el ensayo de hoy y ya está en tu diario.</p>
+            <a class="btn btn-store" href="https://apps.apple.com/app/id6830154598" data-store>
+              <svg aria-hidden="true"><use href="#i-apple"/></svg>
+              <span class="btn-label"><small>Descárgala en el</small><strong>App Store</strong></span>
+            </a>
+          </div>
+          <div class="cta-phone" aria-hidden="true">
+            <div class="phone" aria-hidden="true"><img src="/assets/img/app/es/day.webp" width="720" height="1564" alt="" loading="lazy" decoding="async"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span class="tape t-amber" aria-hidden="true"></span>
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a class="brand" href="/es/" aria-label="Inicio de Dancify"><img class="brand-mark" src="/assets/img/app-icon.webp" width="30" height="30" alt="" loading="lazy">Dancify</a>
+          <p class="footer-tagline">Grábalo. Guárdalo. Mírate bailar mejor.</p>
+        </div>
+        <ul class="footer-links">
+          <li><a href="/es/blog/">Blog</a></li>
+          <li><a href="https://apps.apple.com/app/id6830154598">App Store</a></li>
+          <li><a href="mailto:appriseven@gmail.com">Soporte</a></li>
+          <li><a href="/privacy/" hreflang="en">Privacidad (en inglés)</a></li>
+          <li><a href="/terms/" hreflang="en">Condiciones de uso (en inglés)</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> AppRise Ventures Oy · Espoo, Finlandia</span>
+        <ul class="footer-langs" data-lang aria-label="Idioma">
+          <li><a href="/" hreflang="en" lang="en">English</a></li>
+          <li><a href="/es/" hreflang="es" lang="es" aria-current="page">Español</a></li>
+          <li><a href="/de/" hreflang="de" lang="de">Deutsch</a></li>
+        </ul>
+        <span>N.º de empresa (Y-tunnus) 3336104-8</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

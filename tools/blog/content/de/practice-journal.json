@@ -1,0 +1,94 @@
+{
+  "id": "practice-journal",
+  "slug": "tanztagebuch-fuehren",
+  "title": "Tanztagebuch führen: Was notieren, mit Schreibfragen",
+  "headline": "Tanztagebuch führen: was du notieren solltest, mit Schreibfragen",
+  "h1": "Tanztagebuch führen: <span class=\"accent\">was du notieren solltest, mit Schreibfragen</span>",
+  "dek": "Korrekturen verblassen, kleine Erfolge gehen verloren, und drei Wochen Training verschwimmen zu einer. Ein Tanztagebuch hält sie fest. Was hineingehört, ein Fünf-Minuten-Eintrag, Schreibfragen und wie du zurückschaust.",
+  "description": "Tanztagebuch führen: was du nach jeder Stunde notieren solltest, ein Fünf-Minuten-Eintrag, Schreibfragen für Tanzende und ein Wochenrückblick für Fortschritt.",
+  "tag": "Training",
+  "og_title": "Tanztagebuch führen",
+  "og_kicker": "Trainingsratgeber",
+  "og_heading": "Dein Tanztagebuch <span>in fünf Minuten am Tag</span>",
+  "og_alt": "Dancify-Kalender mit Trainingsbildern und ein Tag mit Aufnahmen und Notizen neben der Überschrift: dein Tanztagebuch in fünf Minuten am Tag",
+  "keywords": [
+    "Tanztagebuch",
+    "Tanztagebuch führen",
+    "Trainingstagebuch Tanzen",
+    "Fortschritt beim Tanzen festhalten",
+    "Was schreibt man in ein Tanztagebuch",
+    "Tanztraining dokumentieren"
+  ],
+  "about": [
+    "Tanztraining",
+    "Trainingstagebuch",
+    "Selbstbeobachtung",
+    "Gezieltes Üben"
+  ],
+  "mentions": [
+    "Dancify"
+  ],
+  "published": "2026-10-25",
+  "modified": "2026-10-25",
+  "related": [
+    "film-yourself",
+    "practice-at-home"
+  ],
+  "cover": [
+    "journal",
+    "day",
+    "timeline"
+  ],
+  "cover_alt": [
+    "Dancify-Kalender, in dem jeder Trainingstag ein Bild aus der Aufnahme zeigt",
+    "Ein Tag in Dancify mit drei Aufnahmen, einer Notiz und Tags"
+  ],
+  "chips": [
+    {
+      "emoji": "📓",
+      "title": "Fünf Minuten",
+      "sub": "Ein Erfolg, eine Baustelle, eine Aufnahme"
+    },
+    {
+      "emoji": "🗓️",
+      "title": "Wochenrückblick",
+      "sub": "Einen Fokus wählen"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was schreibt man in ein Tanztagebuch?",
+      "a": "Datum und Art des Trainings, woran du gearbeitet hast (Choreo und Stelle), was gut lief, was du verbessern willst, Korrekturen im Wortlaut deiner Lehrkraft, wie sich dein Körper angefühlt hat, und den Link zur gefilmten Aufnahme. Fünf Minuten reichen."
+    },
+    {
+      "q": "Wie halte ich meinen Fortschritt beim Tanzen fest?",
+      "a": "Mit kurzen Notizen plus Video. Film dieselbe Stelle regelmäßig aus derselben Perspektive, schreib eine Zeile dazu, was sich verändert hat, und leg einmal im Monat deine erste Aufnahme neben die neueste. Die Notizen sagen dir, worauf du achten sollst; das Video zeigt, ob es passiert ist."
+    },
+    {
+      "q": "Wie oft sollte ich ins Tanztagebuch schreiben?",
+      "a": "Nach jeder Stunde oder jedem Training, am besten innerhalb einer Stunde und kurz. Einmal pro Woche liest du zehn Minuten zurück und wählst einen Fokus für die nächste Woche. Ruhetage gehören dazu; eine tägliche Serie brauchst du nicht."
+    },
+    {
+      "q": "Ist ein Notizbuch oder eine App besser als Tanztagebuch?",
+      "a": "Papier ist ideal für Handschrift und Skizzen von Formationen. Eine App hält Notiz, Video und Datum zusammen und findet die Geschichte einer Choreo sofort. Viele Tanzende nutzen beides."
+    },
+    {
+      "q": "Bringt ein Trainingstagebuch wirklich etwas?",
+      "a": "Die Forschung zur Zielbeobachtung sagt ja: Eine Auswertung von 138 Studien zeigte, dass das Beobachten des eigenen Fortschritts hilft, Ziele zu erreichen, besonders wenn er schriftlich festgehalten wird. Beim Tanzen sorgt das Tagebuch außerdem dafür, dass Korrekturen nicht vergessen werden und Fortschritt auch in zähen Wochen sichtbar bleibt."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Harkin B, Webb TL, Chang BPI, et al. (2016). Does monitoring goal progress promote goal attainment? A meta-analysis of the experimental evidence. Psychological Bulletin 142(2), 198–229. Abgerufen am 04.11.2026.",
+      "url": "https://eprints.whiterose.ac.uk/id/eprint/87431/"
+    },
+    {
+      "text": "Ericsson KA, Krampe RT, Tesch-Römer C (1993). The role of deliberate practice in the acquisition of expert performance. Psychological Review 100(3), 363–406. Abgerufen am 04.11.2026.",
+      "url": "https://doi.org/10.1037/0033-295X.100.3.363"
+    },
+    {
+      "text": "Walker MP, Brakefield T, Morgan A, Hobson JA, Stickgold R (2002). Practice with sleep makes perfect: sleep-dependent motor skill learning. Neuron 35(1), 205–211. Abgerufen am 04.11.2026.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12123620/"
+    }
+  ]
+}

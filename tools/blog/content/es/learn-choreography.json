@@ -1,0 +1,102 @@
+{
+  "id": "learn-choreography",
+  "slug": "aprender-coreografias-rapido",
+  "title": "Cómo aprender coreografías rápido y no olvidarlas",
+  "headline": "Cómo aprender coreografías rápido (y que no se te olviden)",
+  "h1": "Cómo aprender coreografías rápido <span class=\"accent\">y que no se te olviden</span>",
+  "dek": "Quien aprende rápido no tiene un don: hace un mapa de la pieza, la aprende por ochos, la marca antes de bailarla a tope y se revisa en vídeo. El método paso a paso, con una sesión de 45 minutos.",
+  "description": "Cómo aprender coreografías rápido: mapa de la pieza, aprender por ochos, marcar, usar bien el espejo, ralentizar el vídeo, repetir en bucle y grabarte.",
+  "tag": "Aprender",
+  "og_title": "Cómo aprender coreografías rápido",
+  "og_kicker": "Guía de práctica",
+  "og_heading": "Aprende coreografías <span>rápido, y recuérdalas</span>",
+  "og_alt": "Reproductor de Dancify con bucle A–B y cámara con vídeo de referencia junto al titular: aprende coreografías rápido, y recuérdalas",
+  "keywords": [
+    "aprender coreografías rápido",
+    "cómo memorizar una coreografía",
+    "cómo aprender una coreografía de un vídeo",
+    "marcar coreografía",
+    "vídeo en espejo y cámara lenta para bailar",
+    "trucos para recordar coreografías"
+  ],
+  "about": [
+    "Coreografía",
+    "Aprendizaje motor",
+    "Marcar en danza",
+    "Aprendizaje por bloques"
+  ],
+  "mentions": [
+    "Dancify"
+  ],
+  "published": "2026-11-01",
+  "modified": "2026-11-01",
+  "related": [
+    "counting-music",
+    "film-yourself"
+  ],
+  "cover": [
+    "player-loop",
+    "camera-reference",
+    "pieces"
+  ],
+  "cover_alt": [
+    "Reproductor de Dancify con un bucle A–B en un ocho",
+    "Cámara de Dancify con un vídeo de referencia en miniatura"
+  ],
+  "chips": [
+    {
+      "emoji": "🔁",
+      "title": "Ocho a ocho",
+      "sub": "Pies, brazos, detalles"
+    },
+    {
+      "emoji": "🐢",
+      "title": "Primero a 0,5×",
+      "sub": "La velocidad, al final"
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cómo puedo aprender coreografías más rápido?",
+      "a": "Mira la pieza entera para ubicar sus partes y repeticiones, y apréndela de uno en uno o de dos en dos ochos: primero pies, luego brazos, luego detalles. Marca cada bloque antes de bailarlo a tope, di las cuentas en voz alta, encadena los bloques nuevos a los anteriores, ralentiza el vídeo en lo difícil y grábate para comprobar."
+    },
+    {
+      "q": "¿Cómo memorizan los bailarines coreografías largas?",
+      "a": "Se apoyan en la estructura: partes con nombre, estribillos que se repiten, cuentas y referencias de la música, como una palabra de la letra que marca un paso. Un estudio con jóvenes bailarines de ballet encontró que las secuencias coreografiadas se recuerdan mucho mejor que las aleatorias y que la música ayuda a recordar. Repasar, dormir bien y empezar los pases desde distintas partes también ayuda."
+    },
+    {
+      "q": "¿Sirve marcar la coreografía para ensayar?",
+      "a": "Sí. Marcar, bailar la coreografía en pequeño, ahorra energía y parece dejar más atención libre para el orden, el tempo y las formas. En un estudio con estudiantes de danza, la rutina ensayada marcando salió mejor que la ensayada a tope. Combina pases marcados con pases a tope."
+    },
+    {
+      "q": "¿Pongo el vídeo en espejo para aprender una coreografía?",
+      "a": "Sí, cuando quien baila en el vídeo mira a cámara: así su derecha es tu derecha. Si está de espaldas, síguelo tal cual. Cuando ya sepas una parte, báilala sin mirar al espejo y grábate para comprobarla."
+    },
+    {
+      "q": "¿A qué velocidad ensayo una coreografía nueva?",
+      "a": "Descifra los pasos a 0,25×–0,5×, apréndelos a 0,5×–0,75×, límpialos entre 0,75× y velocidad real, y después interprétala entera a 1×. Pon en bucle el ocho que siempre falla en vez de repetir la pieza completa."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Warburton EC, Wilson M, Lynch M, Cuykendall S (2013). The cognitive benefits of movement reduction: evidence from dance marking. Psychological Science 24(9), 1732–1739. Consultado el 2026-11-04.",
+      "url": "https://doi.org/10.1177/0956797613478824"
+    },
+    {
+      "text": "Starkes JL, Deakin JM, Lindley S, Crisp F (1987). Motor versus verbal recall of ballet sequences by young expert dancers. Journal of Sport Psychology 9(3), 222–230. Consultado el 2026-11-04.",
+      "url": "https://doi.org/10.1123/jsp.9.3.222"
+    },
+    {
+      "text": "Duboff LA, DiPasquale S, Ives SJ (2024). Investigating the effects of visual feedback on muscle activity, heart rate, RPE, and perceptions of performance in ballet dancers. International Journal of Exercise Science 17(1), 1056–1067. Consultado el 2026-11-04.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11385289/"
+    },
+    {
+      "text": "Driskell JE, Copper C, Moran A (1994). Does mental practice enhance performance? Journal of Applied Psychology 79(4), 481–492. Consultado el 2026-11-04.",
+      "url": "https://doi.org/10.1037/0021-9010.79.4.481"
+    },
+    {
+      "text": "Walker MP, Brakefield T, Morgan A, Hobson JA, Stickgold R (2002). Practice with sleep makes perfect: sleep-dependent motor skill learning. Neuron 35(1), 205–211. Consultado el 2026-11-04.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12123620/"
+    }
+  ]
+}

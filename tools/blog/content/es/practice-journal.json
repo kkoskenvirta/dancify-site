@@ -1,0 +1,94 @@
+{
+  "id": "practice-journal",
+  "slug": "diario-de-practica-de-baile",
+  "title": "Diario de baile: qué apuntar y preguntas para escribir",
+  "headline": "Cómo llevar un diario de práctica de baile: qué apuntar, con preguntas",
+  "h1": "Cómo llevar un diario de baile: <span class=\"accent\">qué apuntar, con preguntas</span>",
+  "dek": "Las correcciones se olvidan, las pequeñas victorias se pierden y tres semanas de clases se mezclan en una. Un diario de baile las guarda. Qué escribir, una entrada de cinco minutos, preguntas para cuando no sale nada y cómo mirar atrás.",
+  "description": "Cómo llevar un diario de práctica de baile: qué apuntar después de cada clase, una entrada de cinco minutos, preguntas para escribir y un repaso semanal.",
+  "tag": "Práctica",
+  "og_title": "Cómo llevar un diario de práctica de baile",
+  "og_kicker": "Guía de práctica",
+  "og_heading": "Tu diario de baile <span>en cinco minutos al día</span>",
+  "og_alt": "Calendario de Dancify con fotogramas de ensayos y un día con tomas y notas junto al titular: tu diario de baile en cinco minutos al día",
+  "keywords": [
+    "diario de baile",
+    "diario de práctica de baile",
+    "cómo registrar tu progreso en el baile",
+    "cuaderno de baile",
+    "qué escribir en un diario de baile",
+    "registro de entrenamiento de baile"
+  ],
+  "about": [
+    "Práctica de baile",
+    "Diario de práctica",
+    "Autoseguimiento",
+    "Práctica deliberada"
+  ],
+  "mentions": [
+    "Dancify"
+  ],
+  "published": "2026-10-25",
+  "modified": "2026-10-25",
+  "related": [
+    "film-yourself",
+    "practice-at-home"
+  ],
+  "cover": [
+    "journal",
+    "day",
+    "timeline"
+  ],
+  "cover_alt": [
+    "Calendario de Dancify donde cada día de práctica muestra un fotograma de la toma",
+    "Día en Dancify con tres tomas, una nota y etiquetas"
+  ],
+  "chips": [
+    {
+      "emoji": "📓",
+      "title": "Cinco minutos",
+      "sub": "Una victoria, una corrección, una toma"
+    },
+    {
+      "emoji": "🗓️",
+      "title": "Repaso semanal",
+      "sub": "Elige un foco"
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué se escribe en un diario de baile?",
+      "a": "La fecha y el tipo de práctica, en qué trabajaste (pieza y parte), una cosa que salió bien, una que corregir, las correcciones de tu profe con sus palabras, cómo estaba el cuerpo y el enlace a la toma que grabaste. Cinco minutos bastan."
+    },
+    {
+      "q": "¿Cómo puedo ver mi progreso en el baile?",
+      "a": "Combina notas cortas con vídeo. Graba la misma parte desde el mismo ángulo con regularidad, escribe una línea sobre lo que cambió y una vez al mes pon tu primera toma junto a la última. Las notas te dicen qué buscar; el vídeo te enseña si ha pasado."
+    },
+    {
+      "q": "¿Cada cuánto escribo en mi diario de baile?",
+      "a": "Después de cada clase o ensayo, a ser posible en la primera hora, y en corto. Luego, una vez por semana, diez minutos para releer y elegir un foco para la semana siguiente. Los días de descanso también cuentan; no hace falta ninguna racha diaria."
+    },
+    {
+      "q": "¿Mejor un cuaderno de baile o una app?",
+      "a": "El papel es perfecto para escribir a mano y dibujar formaciones. Una app junta la nota, el vídeo y la fecha, y encuentra la historia de una pieza al momento. Muchos bailarines usan las dos cosas."
+    },
+    {
+      "q": "¿Sirve de verdad llevar un diario de práctica?",
+      "a": "La investigación sobre el seguimiento de metas dice que sí: una revisión de 138 estudios encontró que registrar el progreso ayuda a alcanzar las metas, más aún cuando se registra físicamente. En el baile, además, evita que se olviden las correcciones y hace visible el progreso en las semanas lentas."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Harkin B, Webb TL, Chang BPI, et al. (2016). Does monitoring goal progress promote goal attainment? A meta-analysis of the experimental evidence. Psychological Bulletin 142(2), 198–229. Consultado el 2026-11-04.",
+      "url": "https://eprints.whiterose.ac.uk/id/eprint/87431/"
+    },
+    {
+      "text": "Ericsson KA, Krampe RT, Tesch-Römer C (1993). The role of deliberate practice in the acquisition of expert performance. Psychological Review 100(3), 363–406. Consultado el 2026-11-04.",
+      "url": "https://doi.org/10.1037/0033-295X.100.3.363"
+    },
+    {
+      "text": "Walker MP, Brakefield T, Morgan A, Hobson JA, Stickgold R (2002). Practice with sleep makes perfect: sleep-dependent motor skill learning. Neuron 35(1), 205–211. Consultado el 2026-11-04.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12123620/"
+    }
+  ]
+}

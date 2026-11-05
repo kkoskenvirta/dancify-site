@@ -1,0 +1,99 @@
+{
+  "id": "counting-music",
+  "slug": "musik-zaehlen-beim-tanzen",
+  "title": "Musik zählen beim Tanzen: Achter, 5, 6, 7, 8 und die Eins",
+  "headline": "Musik zählen beim Tanzen: Achter, \"5, 6, 7, 8\" und die Eins finden",
+  "h1": "Musik zählen beim Tanzen: <span class=\"accent\">Achter und die Eins finden</span>",
+  "dek": "Warum fängt man bei fünf an? Wo ist die Eins? Was ist ein \"und\"? Schläge, Takte, Achter und Phrasen erklärt, dazu Walzer, Salsa und Swing, Tempo nach Tanzstil und fünf Übungen.",
+  "description": "Musik zählen beim Tanzen: Schläge, Takte und Achter, was \"5, 6, 7, 8\" bedeutet, die Eins finden, \"und\"-Counts, Walzer im 3/4-Takt und BPM nach Tanzstil.",
+  "tag": "Musikalität",
+  "og_title": "Musik zählen beim Tanzen",
+  "og_kicker": "Ratgeber Musikalität",
+  "og_heading": "Musik zählen <span>wie im Tanzsaal</span>",
+  "og_alt": "Dancify-Player mit eingeblendeten Counts von 1 bis 8 neben der Überschrift: Musik zählen wie im Tanzsaal",
+  "keywords": [
+    "Achter zählen",
+    "Musik zählen beim Tanzen",
+    "5 6 7 8 Bedeutung Tanzen",
+    "die Eins in der Musik finden",
+    "Tanz Counts BPM",
+    "Walzer zählen 3/4-Takt"
+  ],
+  "about": [
+    "Musikalität",
+    "Achter",
+    "Taktart",
+    "Tempo"
+  ],
+  "mentions": [
+    "Dancify",
+    "World DanceSport Federation"
+  ],
+  "published": "2026-10-28",
+  "modified": "2026-10-28",
+  "related": [
+    "learn-choreography",
+    "practice-at-home"
+  ],
+  "cover": [
+    "player-counts",
+    "player-loop",
+    "camera"
+  ],
+  "cover_alt": [
+    "Dancify-Player mit eingeblendeten Counts von 1 bis 8",
+    "Dancify-Player mit einer A–B-Schleife über einen Achter"
+  ],
+  "chips": [
+    {
+      "emoji": "🎵",
+      "title": "1 bis 8",
+      "sub": "Zwei Takte im 4/4"
+    },
+    {
+      "emoji": "👟",
+      "title": "5, 6, 7, 8",
+      "sub": "Los geht's auf der 1"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Was bedeutet \"5, 6, 7, 8\" beim Tanzen?",
+      "a": "Es ist das Einzählen. Die Lehrkraft zählt die letzten vier Schläge eines Achters laut im Tempo der Musik, damit alle gemeinsam auf der nächsten 1 einsetzen. So kennst du das Tempo, weißt, wann die 1 kommt, und hast vier Counts zum Bereitmachen."
+    },
+    {
+      "q": "Was ist ein Achter beim Tanzen?",
+      "a": "Acht Schläge Musik, gezählt von 1 bis 8, also zwei Takte im 4/4-Takt. Choreografien werden meist in Achtern gebaut und unterrichtet, und vier Achter ergeben meist eine Phrase von 32 Schlägen."
+    },
+    {
+      "q": "Wie finde ich die Eins in einem Song?",
+      "a": "Erst den Puls finden, dann die 2 und die 4: In den meisten Pop- und Hip-Hop-Songs liegen Snare oder Klatschen auf 2 und 4, die 1 ist also der Schlag vor der ersten Snare. Dann hören, wo sich etwas ändert, etwa wenn der Gesang oder der Refrain einsetzt. Dort liegt meist die 1 einer Phrase."
+    },
+    {
+      "q": "Was bedeutet \"und\" bei Tanz-Counts?",
+      "a": "Das \"und\" ist der halbe Schlag zwischen zwei Counts: \"1 und 2 und\". Eine Bewegung auf \"und-1\" beginnt kurz vor dem Schlag. Schritte, die auf einem \"und\" statt auf einer Zahl landen, sind synkopiert."
+    },
+    {
+      "q": "Wie zählt man einen Walzer?",
+      "a": "Der Walzer steht im 3/4-Takt, drei Schläge pro Takt, gezählt \"1, 2, 3\" mit betonter 1. Oft werden zwei Takte als sechs gezählt, oder \"und-a-1\" für den Auftakt. Im Turnier wird der Langsame Walzer mit 28 bis 30 Takten pro Minute gespielt, etwa 84 bis 90 BPM."
+    },
+    {
+      "q": "Welches Tempo hat Musik für welchen Tanz?",
+      "a": "Je nach Stil: etwa 84 bis 90 BPM beim Langsamen Walzer, 120 bis 128 beim Cha-Cha-Cha, ungefähr 160 bis 220 bei Salsa. Zum Lernen eine Kombination etwas langsamer als das echte Tempo üben und schrittweise steigern, bis sie im Songtempo sitzt."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Measures and time signatures. Music Appreciation 1, Lumen Learning. Abgerufen am 04.11.2026.",
+      "url": "https://courses.lumenlearning.com/music-app-rford/chapter/measures-and-time-signatures/"
+    },
+    {
+      "text": "WDSF Professional Division Competition Rules, Regel 9: Höchstdauer der Tänze; Tempi. World DanceSport Federation. Abgerufen am 04.11.2026.",
+      "url": "https://cdnb.worlddancesport.org/legacy-docs/wdsf/PD/WDSF%20Professional%20Division%20Competition%20Rules%20%202012.pdf"
+    },
+    {
+      "text": "Salsa vs bachata: what's the difference? SalsaVida. Abgerufen am 04.11.2026.",
+      "url": "https://www.salsavida.com/articles/salsa-vs-bachata/"
+    }
+  ]
+}

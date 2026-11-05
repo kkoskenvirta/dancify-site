@@ -1,0 +1,95 @@
+{
+  "id": "film-yourself",
+  "slug": "sich-beim-tanzen-filmen",
+  "title": "Sich beim Tanzen filmen: Perspektive, Licht, Aufbau",
+  "headline": "Sich beim Tanzen filmen: Perspektive, Licht und Aufbau",
+  "h1": "Sich beim Tanzen filmen: <span class=\"accent\">Perspektive, Licht und Aufbau</span>",
+  "dek": "Der Durchlauf fühlte sich sauber an, das Video zeigte gebeugte Knie und abgeschnittene Füße. So stellst du das Handy auf, damit es das Wichtige zeigt: Höhe und Abstand pro Stil, Licht, Ton, Stative und was du filmen solltest.",
+  "description": "Sich beim Tanzen filmen mit dem Handy: Kamerahöhe und Abstand pro Tanzstil, die beste Perspektive, Licht, Ton, Stative und sechs Fehler, die Videos ruinieren.",
+  "tag": "Filmen",
+  "og_title": "Sich beim Tanzen filmen: Perspektive, Licht und Aufbau",
+  "og_kicker": "Trainingsratgeber",
+  "og_heading": "Dich beim Tanzen filmen, <span>aber richtig</span>",
+  "og_alt": "Dancify-Kamera mit Folgen und Einzählen neben der Überschrift: dich beim Tanzen filmen, aber richtig",
+  "keywords": [
+    "sich beim Tanzen filmen",
+    "Tanzvideo mit dem Handy aufnehmen",
+    "beste Perspektive für Tanzvideos",
+    "Stativ für Tanzvideos",
+    "Tanztraining filmen",
+    "Kamerahöhe Tanzvideo"
+  ],
+  "about": [
+    "Tanztraining",
+    "Videoaufnahme",
+    "Selbstbewertung per Video",
+    "Filmen mit dem Smartphone"
+  ],
+  "mentions": [
+    "Dancify",
+    "DockKit"
+  ],
+  "published": "2026-11-03",
+  "modified": "2026-11-03",
+  "related": [
+    "progress-video",
+    "learn-choreography"
+  ],
+  "cover": [
+    "camera-follow",
+    "camera",
+    "camera-reference"
+  ],
+  "cover_alt": [
+    "Dancify-Kamera mit Folgen auf eine Tänzerin in Bewegung",
+    "Dancify-Kamera bereit zur Aufnahme, mit Einzählen und Zoom"
+  ],
+  "chips": [
+    {
+      "emoji": "🎥",
+      "title": "Hüft- bis Brusthöhe",
+      "sub": "3–5 m, Querformat"
+    },
+    {
+      "emoji": "👟",
+      "title": "Füße im Bild",
+      "sub": "Boden unter den Zehen"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Aus welcher Perspektive filme ich mich am besten beim Tanzen?",
+      "a": "Frontal, mit dem Handy auf Hüft- bis Brusthöhe: So sieht dich das Publikum, und das ist deine Hauptaufnahme. Nimm ab und zu eine seitliche Perspektive dazu, um Haltung und die echte Beinhöhe zu prüfen, und filme dich von hinten, wenn du von einem Video lernst, damit links und rechts übereinstimmen."
+    },
+    {
+      "q": "Wie weit muss das Handy beim Tanzen weg sein?",
+      "a": "Meist 3 bis 5 Meter für eine Person und 4 bis 6 Meter für ein Paar. Der Test: Auf deiner Markierung, mit erhobenen Armen und bei deinem größten Raumweg bleibst du im Bild, mit Platz über den Händen und unter den Füßen. Ist der Raum zu klein, nimm das 0,5×-Weitwinkel und bleib nah an der Bildmitte."
+    },
+    {
+      "q": "Tanzvideos hochkant oder quer filmen?",
+      "a": "Quer fürs Training, weil du Platz zum Reisen hast und die Füße im Bild bleiben. Hochkant passt für Videos für Social Media oder frontal gefilmte K-Pop-Cover, solange du ganz im Bild bist."
+    },
+    {
+      "q": "Wie filme ich mich beim Tanzen ohne Stativ?",
+      "a": "Lehn das Handy im Regal an einen Bücherstapel oder stell es auf einen Stuhl auf dem Tisch, sodass es auf Hüft- bis Brusthöhe steht. Leicht nach hinten neigen, kurz testen und den Platz mit Tape markieren, damit du den Aufbau wiederholen kannst."
+    },
+    {
+      "q": "Mit wie vielen fps sollte ich Tanztraining filmen?",
+      "a": "30 fps reichen für das meiste. Nimm 60 fps für Drehungen, Sprünge und schnelle Fußarbeit, damit die Zeitlupe flüssig bleibt. 120 oder 240 fps lohnen sich nur, um einen einzelnen Sprung oder eine Pirouette bei gutem Licht zu prüfen."
+    },
+    {
+      "q": "Bringt es wirklich etwas, sich selbst im Video anzusehen?",
+      "a": "Du siehst, was du nicht spürst. In einer kleinen Studie mit drei Wettkampftänzerinnen und -tänzern verbesserte das Bewerten der eigenen Videos anhand einer Checkliste jede gemessene Bewegung. Am besten wirkt es zusammen mit dem Feedback deiner Lehrkraft, nicht stattdessen."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Giambrone J, Miltenberger RG (2020). Using video self-evaluation to enhance performance in competitive dancers. Behavior Analysis in Practice 13(2), 445–453. Abgerufen am 04.11.2026.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7314870/"
+    },
+    {
+      "text": "Apple Developer Documentation: DockKit, motorisierte Halterungen, die einer Person vor der Kamera folgen. Apple. Abgerufen am 04.11.2026.",
+      "url": "https://developer.apple.com/documentation/dockkit"
+    }
+  ]
+}

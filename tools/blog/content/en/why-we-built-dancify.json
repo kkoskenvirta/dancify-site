@@ -1,0 +1,94 @@
+{
+  "id": "why-we-built-dancify",
+  "slug": "why-we-built-dancify",
+  "title": "Why We Built Dancify: A Practice Diary Made of Footage",
+  "headline": "Why we built a dance practice app with no feed and no scores",
+  "h1": "Why we built a dance practice app with <span class=\"accent\">no feed and no scores</span>",
+  "dek": "Dancers film everything and find nothing. Here's why we built Dancify around the camera and a calendar of frames, the decisions behind it, what we left out on purpose and where we're taking it.",
+  "description": "The story behind Dancify: why dancers' practice videos get lost, the six decisions that shaped the app, what we left out on purpose, and what comes next.",
+  "tag": "Behind Dancify",
+  "og_title": "Why we built a dance practice app with no feed and no scores",
+  "og_kicker": "Behind Dancify",
+  "og_heading": "A dance practice app with <span>no feed and no scores</span>",
+  "og_alt": "Dancify calendar and camera screens next to the headline: a dance practice app with no feed and no scores",
+  "keywords": [
+    "dance practice app",
+    "dance diary app iPhone",
+    "private dance video app",
+    "dance practice video organizer",
+    "app for dancers without social feed"
+  ],
+  "about": [
+    "Dance practice",
+    "Product design",
+    "Privacy",
+    "Video diary"
+  ],
+  "mentions": [
+    "Dancify",
+    "AppRise Ventures"
+  ],
+  "published": "2026-10-20",
+  "modified": "2026-10-20",
+  "related": [
+    "practice-journal",
+    "film-yourself"
+  ],
+  "cover": [
+    "journal",
+    "camera",
+    "editor"
+  ],
+  "cover_alt": [
+    "Dancify October calendar with a frame from each day's practice video",
+    "Dancify camera ready to record with the count-in and lens controls"
+  ],
+  "chips": [
+    {
+      "emoji": "🎞️",
+      "title": "Every take",
+      "sub": "On its day"
+    },
+    {
+      "emoji": "🔒",
+      "title": "No account",
+      "sub": "Data Not Collected"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Who makes Dancify?",
+      "a": "Dancify is designed and built by AppRise Ventures Oy, a small company in Espoo, Finland. The app is available for iPhone and iPad, in English, German, Finnish, Spanish, French and Japanese."
+    },
+    {
+      "q": "What's free in Dancify, and what's Premium?",
+      "a": "Recording, the calendar and timeline, notes, tags, milestones, the practice tools (count-in, reference video, A–B loop, counts), the video editor and iCloud sync are free. Dancify Premium, yearly with a one-week free trial or monthly, adds progress reel export, side-by-side compare and the pose guide."
+    },
+    {
+      "q": "Do I need an account to use Dancify?",
+      "a": "No. There's no account, no sign-in and no profile. Your videos and diary stay on your device, or in your own private iCloud if you turn sync on. The App Store privacy label is Data Not Collected."
+    },
+    {
+      "q": "Does Dancify use AI to score my dancing?",
+      "a": "No. Dancify doesn't score or rank dancing. The optional pose guide (Premium) uses Apple's Vision framework on your device to draw lines over shoulders, hips and balance so you can see your alignment; nothing is uploaded and nothing is graded."
+    },
+    {
+      "q": "Why doesn't Dancify have a social feed or streaks?",
+      "a": "Practice footage is meant to be unfinished, and rest days are part of training. A feed would make you film for an audience, and streaks would make a rest day feel like failure. You can still export and share any take or reel when you choose."
+    },
+    {
+      "q": "Is Dancify available on Android?",
+      "a": "No. Dancify is built natively for iPhone and iPad running iOS or iPadOS 26 or later, including the iPhone Duo. There's no Android or web version."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Giambrone J, Miltenberger RG (2020). Using video self-evaluation to enhance performance in competitive dancers. Behavior Analysis in Practice 13(2), 445–453. Checked 2026-11-04.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7314870/"
+    },
+    {
+      "text": "Apple Developer: App privacy details on the App Store (what counts as data collection). Checked 2026-11-04.",
+      "url": "https://developer.apple.com/app-store/app-privacy-details/"
+    }
+  ]
+}

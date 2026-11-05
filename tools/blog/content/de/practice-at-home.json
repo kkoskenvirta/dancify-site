@@ -1,0 +1,103 @@
+{
+  "id": "practice-at-home",
+  "slug": "tanzen-zu-hause-ueben",
+  "title": "Zu Hause tanzen üben: Wochenplan, Platz und Sicherheit",
+  "headline": "Zu Hause tanzen üben: Platz, Aufwärmen und ein Wochenplan",
+  "h1": "Zu Hause tanzen üben: <span class=\"accent\">Platz, Aufwärmen und ein Wochenplan</span>",
+  "dek": "Ein Wohnzimmer hat keine Lehrerin, keinen Schwingboden und keinen Plan. So richtest du eine sichere Fläche ein, wärmst dich auf, baust eine 30-Minuten-Einheit und planst eine Woche, die dich weiterbringt, ohne dich auszulaugen.",
+  "description": "Zu Hause tanzen üben: sichere Fläche und Boden, Socken oder Schuhe, Aufwärmen, eine 30-Minuten-Einheit, Wochenpläne für Einsteiger und Fortgeschrittene.",
+  "tag": "Training",
+  "og_title": "Zu Hause tanzen üben: Platz, Aufwärmen und ein Wochenplan",
+  "og_kicker": "Trainingsratgeber",
+  "og_heading": "Zu Hause tanzen üben, <span>mit Plan</span>",
+  "og_alt": "Dancify Player mit Schleife und Kamera neben der Überschrift: zu Hause tanzen üben, mit Plan",
+  "keywords": [
+    "zu Hause tanzen üben",
+    "Tanztraining zu Hause",
+    "Trainingsplan Tanzen",
+    "Tanzen üben Wochenplan",
+    "Tanzen zu Hause Boden",
+    "Aufwärmen vor dem Tanzen"
+  ],
+  "about": [
+    "Tanztraining",
+    "Training zu Hause",
+    "Verletzungsprävention",
+    "Aufwärmen"
+  ],
+  "mentions": [
+    "Dancify",
+    "Imperial Society of Teachers of Dancing"
+  ],
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "related": [
+    "learn-choreography",
+    "practice-journal"
+  ],
+  "cover": [
+    "player-loop",
+    "camera-reference",
+    "journal"
+  ],
+  "cover_alt": [
+    "Dancify Player mit einer A–B-Schleife um einen Teil eines Trainings-Takes",
+    "Dancify Kamera mit einem Vorlagenvideo in der Ecke beim Filmen"
+  ],
+  "chips": [
+    {
+      "emoji": "🗓️",
+      "title": "3–5 Einheiten",
+      "sub": "Je 20–45 Minuten"
+    },
+    {
+      "emoji": "🧦",
+      "title": "Socken auf Teppich",
+      "sub": "Grip auf glattem Boden"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie oft sollte ich zu Hause tanzen üben?",
+      "a": "Drei bis fünf Einheiten pro Woche mit 20 bis 45 Minuten passen für die meisten Einsteiger und Fortgeschrittenen, Tanzstunden mitgezählt. Fang mit drei an, verlängere zuerst die Einheiten, bevor du Tage dazunimmst, und plane ein bis zwei komplett freie Tage pro Woche ein."
+    },
+    {
+      "q": "Kann ich zu Hause auf hartem Boden tanzen?",
+      "a": "Ja, mit Anpassungen. Fliesen, Stein und Beton geben nicht nach, also wenige und niedrige Sprünge, Schuhe mit Grip und keine Bodenarbeit auf den Knien ohne Polster. Holz ist zu Hause der schonendste Boden, und ein ausrollbarer Tanzboden oder ein Übungsbrett gibt dir eine Studiooberfläche obendrauf."
+    },
+    {
+      "q": "Tanze ich zu Hause besser in Socken oder barfuß?",
+      "a": "Das hängt vom Boden ab. Die ISTD empfiehlt Socken oder weiche Tanzschuhe auf Teppich, barfuß oder Tanzschuhe mit griffiger Sohle auf glatten Innenböden und Schuhe mit Grip auf rutschigen Flächen. Auf Teppich oder rauen Böden solltest du die Haut bedecken, um Schürfwunden zu vermeiden."
+    },
+    {
+      "q": "Wie lange sollte das Aufwärmen vor dem Tanzen dauern?",
+      "a": "Etwa 10 bis 15 Minuten. Puls hochbringen, Gelenke mobilisieren, dynamisch durch die Muster deines Stils bewegen und sanft dehnen, und zwar allmählich. Lange gehaltene Dehnungen eher ans Ende des Trainings legen."
+    },
+    {
+      "q": "Was sollte ich als Anfänger zu Hause üben?",
+      "a": "Basics und Haltung deines Stils, kurze Übungen in langsamem Tempo, einen kleinen Teil der Choreo, bis er sauber ist, und zehn Minuten Kräftigung für Füße, Sprunggelenke und Hüfte. Film pro Einheit einen Take, damit du siehst, was sich wirklich verändert."
+    },
+    {
+      "q": "Wie vermeide ich Verletzungen beim Tanzen zu Hause?",
+      "a": "Immer aufwärmen, die Fläche freiräumen, Schuhe an den Boden anpassen, auf harten Böden wenig springen, das Training langsam steigern und Pausentage einhalten. Die meisten Tanzverletzungen sind Überlastungsverletzungen, Erholung zählt also. Lass es ärztlich oder physiotherapeutisch abklären, wenn der Schmerz stechend ist, etwas anschwillt oder sich deine Bewegung verändert."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Imperial Society of Teachers of Dancing (2021). ISTD Challenge: your health and safety (Aufwärmen, Hindernisse, Böden, Schuhe). Abgerufen am 2026-11-04.",
+      "url": "https://www.istd.org/documents/istd-challenge-health-and-safety-guidance/"
+    },
+    {
+      "text": "Morrin N, Redding E (2013). Acute effects of warm-up stretch protocols on balance, vertical jump height, and range of motion in dancers. Journal of Dance Medicine & Science 17(1), 34–40. Abgerufen am 2026-11-04.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23498355/"
+    },
+    {
+      "text": "Smith PJ et al. (2015). Incidence and prevalence of musculoskeletal injury in ballet: a systematic review. Orthopaedic Journal of Sports Medicine 3(7). Abgerufen am 2026-11-04.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26673541/"
+    },
+    {
+      "text": "Walker MP et al. (2002). Practice with sleep makes perfect: sleep-dependent motor skill learning. Neuron 35(1), 205–211. Abgerufen am 2026-11-04.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12123620/"
+    }
+  ]
+}

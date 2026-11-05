@@ -1,0 +1,1158 @@
+#!/usr/bin/env python3
+"""Builds the Dancify blog in English, Spanish and German.
+
+Writes the post pages, the three blog indexes, an RSS feed per language, sitemap.xml, llms.txt, llms-full.txt, the
+landing pages' blog cards and an index.md Markdown twin of every page from tools/blog/site.json (shared strings per
+language) and tools/blog/content/<lang>/<post>.json + .html. The output is plain HTML that gets committed, so GitHub
+Pages still serves the site without a build step.
+
+    python3 tools/blog/build.py          # pages, feeds, sitemap, llms.txt
+    python3 tools/blog/build.py --og     # also renders the covers and 1200x630 share images (Google Chrome, cwebp)
+
+Placeholders in article HTML: {img} = /assets/img/app/<lang>, {home} and {blog} = the language's home and
+blog, {post:<id>} = another post in the same language, {store} = the App Store link.
+
+Posts that are half written (a .json without its .html, JSON that doesn't parse, missing fields) are skipped or
+filled with defaults and reported as warnings, so the build always finishes.
+"""
+
+from __future__ import annotations
+
+import html
+from html.parser import HTMLParser
+import json
+import re
+import subprocess
+import sys
+import tempfile
+from datetime import date
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+TOOL = Path(__file__).resolve().parent
+SITE = json.loads((TOOL / "site.json").read_text())
+BASE = SITE["base"]
+LANGS = list(SITE["languages"])
+STORE = SITE["store"]
+APP_ID = SITE["app_id"]
+CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+WPM = {"en": 230, "es": 220, "de": 200}
+DEFAULT_COVER = ["camera-follow", "journal", "player-loop"]
+WARNINGS: list[str] = []
+
+esc = html.escape
+
+
+def warn(message: str) -> None:
+    WARNINGS.append(message)
+    print(f"warning: {message}", file=sys.stderr)
+
+
+def attr(value: str) -> str:
+    return html.escape(value, quote=True)
+
+
+def strip_tags(value: str) -> str:
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", value))).strip()
+
+
+def normalize(meta: dict, lang: str, rel: str) -> dict | None:
+    """Fills what a post can live without and checks what it can't."""
+    for key in ("id", "slug", "title", "headline"):
+        if not meta.get(key):
+            warn(f"{rel} has no \"{key}\", skipping it")
+            return None
+    L = SITE["languages"][lang]
+    meta.setdefault("h1", esc(meta["headline"]))
+    meta.setdefault("dek", meta.get("description", ""))
+    meta.setdefault("description", meta["dek"])
+    meta.setdefault("tag", L["blog_name"])
+    meta.setdefault("published", SITE["site_modified"])
+    meta.setdefault("modified", meta["published"])
+    meta.setdefault("og_kicker", L["blog_og_kicker"])
+    meta.setdefault("og_heading", esc(meta["headline"]))
+    meta["faq"] = [{"q": f.get("q") or f.get("question", ""), "a": f.get("a") or f.get("answer", "")} for f in meta.get("faq", []) if (f.get("q") or f.get("question"))]
+    sources = []
+    for s in meta.get("sources", []):
+        if isinstance(s, str):
+            s = {"text": s}
+        if not s.get("text"):
+            parts = [s.get("title", ""), s.get("publisher", "")]
+            text = ". ".join(esc(p) for p in parts if p)
+            if s.get("checked"):
+                text += f". {L['checked']} {s['checked']}"
+            s = {**s, "text": text + "."}
+        sources.append(s)
+    meta["sources"] = sources
+    for day in ("published", "modified"):
+        try:
+            date.fromisoformat(meta[day])
+        except ValueError:
+            warn(f"{rel}: \"{day}\" is not a date ({meta[day]}), using {SITE['site_modified']}")
+            meta[day] = SITE["site_modified"]
+    return meta
+
+
+def load_posts() -> dict[str, dict[str, dict]]:
+    """posts[id][lang] = metadata with "body" (article HTML)."""
+    posts: dict[str, dict[str, dict]] = {}
+    for lang in LANGS:
+        folder = TOOL / "content" / lang
+        if not folder.exists():
+            continue
+        for meta_path in sorted(folder.glob("*.json")):
+            rel = str(meta_path.relative_to(ROOT))
+            body_path = meta_path.with_suffix(".html")
+            if not body_path.exists():
+                warn(f"{body_path.relative_to(ROOT)} is missing, skipping that translation")
+                continue
+            try:
+                meta = json.loads(meta_path.read_text())
+            except json.JSONDecodeError as error:
+                warn(f"{rel} isn't valid JSON yet ({error}), skipping it")
+                continue
+            meta = normalize(meta, lang, rel)
+            if not meta:
+                continue
+            if lang in SITE.get("untranslated", {}).get(meta["id"], []):
+                warn(f"{rel}: {meta['id']} is marked untranslated for {lang} in site.json, skipping it")
+                continue
+            meta["lang"] = lang
+            meta["body"] = body_path.read_text()
+            meta["path"] = SITE["languages"][lang]["blog"] + meta["slug"].strip("/") + "/"
+            posts.setdefault(meta["id"], {})[lang] = meta
+    order = SITE["order"]
+    for pid in posts:
+        if pid not in order:
+            warn(f"{pid} isn't in \"order\" in site.json; it goes last")
+    return {pid: posts[pid] for pid in sorted(posts, key=lambda p: order.index(p) if p in order else 99)}
+
+
+def url(path: str) -> str:
+    return BASE + path
+
+
+def iso(day: str) -> str:
+    return f"{day}T08:00:00+02:00"
+
+
+def nice_date(day: str, lang: str) -> str:
+    d = date.fromisoformat(day)
+    months = SITE["languages"][lang]["months"]
+    return {"en": f"{months[d.month - 1]} {d.day}, {d.year}", "es": f"{d.day} de {months[d.month - 1]} de {d.year}", "de": f"{d.day}. {months[d.month - 1]} {d.year}"}[lang]
+
+
+def fill(text: str, lang: str, posts: dict) -> str:
+    L = SITE["languages"][lang]
+    text = text.replace("{img}", f"/assets/img/app/{lang}").replace("{home}", L["home"]).replace("{blog}", L["blog"]).replace("{store}", STORE)
+
+    def post_link(match: re.Match) -> str:
+        target = posts.get(match.group(1), {}).get(lang)
+        if target:
+            return target["path"]
+        warn(f"a {lang} post links to {{post:{match.group(1)}}}, which has no {lang} version yet; linking the blog instead")
+        return L["blog"]
+
+    return re.sub(r"\{post:([a-z0-9-]+)\}", post_link, text)
+
+
+def reading_minutes(meta: dict) -> int:
+    words = len(strip_tags(meta["body"]).split()) + sum(len(strip_tags(f["q"] + " " + f["a"]).split()) for f in meta.get("faq", []))
+    meta["word_count"] = words
+    return max(3, round(words / WPM[meta["lang"]]))
+
+
+# ---------- Shared chrome ----------
+
+SPRITE = (TOOL / "sprite.svg").read_text().strip()
+
+
+def head(L: dict, *, title: str, description: str, path: str, alternates: dict[str, str], og: dict, extra: str = "", feed: str | None = None) -> str:
+    lang = L["code"]
+    alt_links = "\n".join(f'  <link rel="alternate" hreflang="{code}" href="{url(p)}">' for code, p in alternates.items())
+    if "en" in alternates:
+        alt_links += f'\n  <link rel="alternate" hreflang="x-default" href="{url(alternates["en"])}">'
+    og_alt = "\n".join(f'  <meta property="og:locale:alternate" content="{SITE["languages"][c]["locale"]}">' for c in alternates if c != lang)
+    feed_link = f'\n  <link rel="alternate" type="application/rss+xml" title="{attr(L["feed_title"])}" href="{feed}">' if feed else ""
+    og_extra = "".join(f'\n  <meta property="{k}" content="{attr(v)}">' for k, v in og.get("extra", []))
+    return f"""<!doctype html>
+<html lang="{lang}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>{esc(title)}</title>
+  <meta name="description" content="{attr(description)}">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="{url(path)}">
+{alt_links}{feed_link}
+  <meta name="theme-color" content="#0a0a0b" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f6f5fa" media="(prefers-color-scheme: light)">
+  <meta name="apple-itunes-app" content="app-id={APP_ID}">
+
+  <meta property="og:type" content="{og['type']}">
+  <meta property="og:site_name" content="Dancify">
+  <meta property="og:locale" content="{L['locale']}">
+{og_alt}
+  <meta property="og:url" content="{url(path)}">
+  <meta property="og:title" content="{attr(og['title'])}">
+  <meta property="og:description" content="{attr(og.get('description', description))}">
+  <meta property="og:image" content="{url(og['image'])}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{attr(og['image_alt'])}">{og_extra}
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+
+  <link rel="preload" href="/assets/fonts/geist-semibold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script>document.documentElement.classList.add("js")</script>
+  <script src="/assets/js/main.js" defer></script>
+{extra}</head>"""
+
+
+def lang_menu(L: dict, alternates: dict[str, str]) -> str:
+    items = []
+    for code in LANGS:
+        other = SITE["languages"][code]
+        current = ' aria-current="page"' if code == L["code"] else ""
+        items.append(f'          <li><a href="{alternates.get(code, other["blog"])}" hreflang="{code}" lang="{code}"{current}>{other["name"]} <small>{code.upper()}</small></a></li>')
+    return f"""<details class="lang" data-lang>
+          <summary aria-label="{attr(L['language_label'])}: {L['name']}"><svg aria-hidden="true"><use href="#i-globe"/></svg>{L['code'].upper()}</summary>
+          <ul class="lang-menu">
+{chr(10).join(items)}
+          </ul>
+        </details>"""
+
+
+def nav(L: dict, alternates: dict[str, str], current: str | None = None) -> str:
+    links = []
+    for item in L["nav"]:
+        cls = ' class="nav-opt"' if item.get("optional") else ""
+        cur = ' aria-current="page"' if current and item["href"] == current else ""
+        links.append(f'        <li{cls}><a href="{item["href"]}"{cur}>{esc(item["label"])}</a></li>')
+    return f"""  <a class="skip-link" href="#main">{esc(L['skip'])}</a>
+
+  <header class="nav" data-nav>
+    <div class="container nav-inner">
+      <a class="brand" href="{L['home']}" aria-label="{attr(L['home_label'])}"><img class="brand-mark" src="/assets/img/app-icon.webp" width="30" height="30" alt="">Dancify</a>
+      <ul class="nav-links">
+{chr(10).join(links)}
+      </ul>
+      <div class="nav-end">
+        {lang_menu(L, alternates)}
+        <a class="btn btn-primary btn-sm" href="{STORE}" data-store>
+          <svg aria-hidden="true"><use href="#i-apple"/></svg><span>{esc(L['get_app'])}</span>
+        </a>
+      </div>
+    </div>
+  </header>"""
+
+
+def store_button(L: dict) -> str:
+    return f"""<a class="btn btn-primary btn-store" href="{STORE}" data-store>
+              <svg aria-hidden="true"><use href="#i-apple"/></svg>
+              <span class="btn-label"><small>{esc(L['store_small'])}</small><strong>{esc(L['store_big'])}</strong></span>
+            </a>"""
+
+
+def cta(L: dict) -> str:
+    return f"""    <section class="section cta" style="padding-top:0">
+      <div class="container">
+        <div class="cta-card card cta-contained">
+          <div class="cta-copy">
+            <img class="cta-icon" src="/assets/img/app-icon.webp" width="256" height="256" alt="" loading="lazy">
+            <h2>{esc(L['cta_title'])}</h2>
+            <p>{esc(L['cta_text'])}</p>
+            {store_button(L)}
+          </div>
+          <div class="cta-phone" aria-hidden="true">
+            <div class="phone"><img src="/assets/img/app/{L['code']}/journal.webp" width="720" height="1564" alt="" loading="lazy"></div>
+          </div>
+        </div>
+      </div>
+    </section>"""
+
+
+def footer(L: dict, alternates: dict[str, str]) -> str:
+    links = "\n".join(f'          <li><a href="{l["href"]}"{" hreflang=" + chr(34) + l["hreflang"] + chr(34) if l.get("hreflang") else ""}>{esc(l["label"])}</a></li>' for l in L["footer_links"])
+    langs = "\n".join(
+        f'          <li><a href="{alternates.get(c, SITE["languages"][c]["blog"])}" hreflang="{c}" lang="{c}"{" aria-current=" + chr(34) + "page" + chr(34) if c == L["code"] else ""}>{SITE["languages"][c]["name"]}</a></li>'
+        for c in LANGS
+    )
+    return f"""  <footer class="footer">
+    <span class="tape t-amber" aria-hidden="true"></span>
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a class="brand" href="{L['home']}" aria-label="{attr(L['home_label'])}"><img class="brand-mark" src="/assets/img/app-icon.webp" width="30" height="30" alt="">Dancify</a>
+          <p class="footer-tagline">{esc(L['tagline'])}</p>
+        </div>
+        <ul class="footer-links">
+{links}
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> AppRise Ventures Oy · {esc(L['city'])}</span>
+        <ul class="footer-langs" data-lang aria-label="{attr(L['language_label'])}">
+{langs}
+        </ul>
+        <span>{esc(L['business_id'])}</span>
+      </div>
+    </div>
+  </footer>"""
+
+
+def ld(data: object) -> str:
+    body = json.dumps(data, ensure_ascii=False, indent=2).replace("</", "<\\/")
+    return f'  <script type="application/ld+json">\n{body}\n  </script>\n'
+
+
+def publisher() -> dict:
+    return {
+        "@type": "Organization",
+        "@id": BASE + "/#organization",
+        "name": "AppRise Ventures Oy",
+        "url": BASE + "/",
+        "logo": {"@type": "ImageObject", "url": BASE + "/assets/img/icon-512.png", "width": 512, "height": 512},
+        "address": {"@type": "PostalAddress", "streetAddress": "Sokerilinnantie 1 A", "postalCode": "02600", "addressLocality": "Espoo", "addressCountry": "FI"},
+        "email": SITE["contact"],
+        "sameAs": [STORE],
+    }
+
+
+def author(L: dict) -> dict:
+    return {"@type": "Person", "@id": BASE + "/#author", "name": SITE["author"]["name"], "jobTitle": L["author_role"], "worksFor": {"@id": BASE + "/#organization"}, "url": BASE + L["home"]}
+
+
+def phone(src: str, alt: str, *, eager: bool = False) -> str:
+    loading = "" if eager else ' loading="lazy"'
+    alt_attr = f' alt="{attr(alt)}"' if alt else ' alt=""'
+    return f'<div class="phone"><img src="{src}" width="720" height="1564"{alt_attr}{loading}></div>'
+
+
+def initials(name: str) -> str:
+    return "".join(part[0] for part in name.split()[:2]).upper()
+
+
+def cover_img(meta: dict, *, alt: str = "", eager: bool = False, sizes: str = "(min-width: 1200px) 560px, (min-width: 960px) 45vw, 100vw") -> str:
+    base = f"/assets/img/covers/{meta['lang']}-{meta['id']}"
+    loading = ' fetchpriority="high"' if eager else ' loading="lazy" decoding="async"'
+    return f'<img src="{base}-1200.webp" srcset="{base}-1200.webp 1200w, {base}-2400.webp 2400w" sizes="{sizes}" width="2400" height="1200" alt="{attr(alt)}"{loading}>'
+
+
+# ---------- Post page ----------
+
+
+def toc(body: str, L: dict, faq: bool, sources: bool) -> str:
+    items = [(m.group(1), strip_tags(m.group(2))) for m in re.finditer(r'<h2[^>]*\bid="([^"]+)"[^>]*>(.*?)</h2>', body, re.S)]
+    if faq:
+        items.append(("faq", L["faq_title"]))
+    links = "\n".join(f'            <li><a href="#{i}">{esc(t)}</a></li>' for i, t in items)
+    return f"""        <details class="post-toc" data-toc open>
+          <summary>{esc(L['toc_title'])}</summary>
+          <ol>
+{links}
+          </ol>
+        </details>"""
+
+
+def faq_html(meta: dict, L: dict) -> str:
+    if not meta.get("faq"):
+        return ""
+    items = "\n".join(f"""          <details>
+            <summary>{esc(f['q'])}</summary>
+            <p>{f['a']}</p>
+          </details>""" for f in meta["faq"])
+    return f"""
+        <h2 id="faq">{esc(L['faq_title'])}</h2>
+        <div class="faq">
+{items}
+        </div>"""
+
+
+def sources_html(meta: dict, L: dict) -> str:
+    if not meta.get("sources"):
+        return ""
+    items = "\n".join(
+        f'            <li id="source-{i}">{s["text"]}{" " + chr(60) + "a href=" + chr(34) + attr(s["url"]) + chr(34) + " rel=" + chr(34) + "noopener" + chr(34) + ">" + esc(re.sub(r"^https?://(www[.])?", "", s["url"]).split("/")[0]) + "</a>" if s.get("url") else ""}</li>'
+        for i, s in enumerate(meta["sources"], 1)
+    )
+    return f"""
+        <section class="sources" aria-labelledby="sources">
+          <h2 id="sources">{esc(L['sources_title'])}</h2>
+          <ol>
+{items}
+          </ol>
+        </section>"""
+
+
+def post_card(meta: dict, L: dict, *, featured: bool = False, heading: str = "h3") -> str:
+    cls = "post-card is-featured" if featured else "post-card"
+    sizes = "(min-width: 960px) 640px, 100vw" if featured else "(min-width: 960px) 560px, 100vw"
+    return f"""        <li class="{cls}">
+          <div class="post-card-media">{cover_img(meta, sizes=sizes)}</div>
+          <div class="post-card-body">
+            <p class="post-card-meta"><span class="kicker">{esc(meta['tag'])}</span><span>{L['minutes'].format(n=meta['minutes'])}</span></p>
+            <{heading}><a href="{meta['path']}">{esc(meta['headline'])}</a></{heading}>
+            <p class="post-card-text">{esc(meta['description'])}</p>
+            <p class="post-card-foot"><time datetime="{meta['published']}">{nice_date(meta['published'], meta['lang'])}</time><span class="read-more" aria-hidden="true">{esc(L['read_more'])}</span></p>
+          </div>
+        </li>"""
+
+
+def render_post(meta: dict, siblings: dict[str, dict], posts: dict) -> str:
+    lang = meta["lang"]
+    L = SITE["languages"][lang]
+    alternates = {c: siblings[c]["path"] for c in LANGS if c in siblings}
+    body = fill(meta["body"], lang, posts)
+    og_image = f"/assets/img/og/{lang}-{meta['id']}.jpg"
+    path = meta["path"]
+    faq_items = meta.get("faq", [])
+
+    graph = [
+        {
+            "@type": "BlogPosting",
+            "@id": url(path) + "#article",
+            "headline": meta["headline"],
+            "description": meta["description"],
+            "image": [url(og_image)],
+            "datePublished": iso(meta["published"]),
+            "dateModified": iso(meta["modified"]),
+            "inLanguage": L["locale"].replace("_", "-"),
+            "author": author(L),
+            "publisher": publisher(),
+            "mainEntityOfPage": {"@type": "WebPage", "@id": url(path)},
+            "isPartOf": {"@type": "Blog", "@id": url(L["blog"]) + "#blog", "name": L["feed_title"]},
+            "articleSection": meta["tag"],
+            "keywords": ", ".join(meta.get("keywords", [])),
+            "wordCount": meta["word_count"],
+            "about": [{"@type": "Thing", "name": a} for a in meta.get("about", [])],
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": L["crumb_home"], "item": url(L["home"])},
+                {"@type": "ListItem", "position": 2, "name": L["blog_name"], "item": url(L["blog"])},
+                {"@type": "ListItem", "position": 3, "name": meta["headline"], "item": url(path)},
+            ],
+        },
+    ]
+    if meta.get("mentions"):
+        graph[0]["mentions"] = [{"@type": "SoftwareApplication", "name": m} if m != "Dancify" else {"@type": "MobileApplication", "@id": BASE + "/#app", "name": "Dancify"} for m in meta["mentions"]]
+    if meta.get("sources"):
+        graph[0]["citation"] = [s["url"] for s in meta["sources"] if s.get("url")]
+    if faq_items:
+        graph.append(
+            {
+                "@type": "FAQPage",
+                "@id": url(path) + "#faq",
+                "inLanguage": L["locale"].replace("_", "-"),
+                "mainEntity": [{"@type": "Question", "name": f["q"], "acceptedAnswer": {"@type": "Answer", "text": strip_tags(fill(f["a"], lang, posts))}} for f in faq_items],
+            }
+        )
+    extra = ld({"@context": "https://schema.org", "@graph": graph})
+
+    og = {
+        "type": "article",
+        "title": meta.get("og_title", meta["headline"]),
+        "image": og_image,
+        "image_alt": meta.get("og_alt", meta["headline"]),
+        "extra": [
+            ("article:published_time", iso(meta["published"])),
+            ("article:modified_time", iso(meta["modified"])),
+            ("article:section", meta["tag"]),
+        ]
+        + [("article:tag", k) for k in meta.get("keywords", [])[:5]],
+    }
+    meta_head = head(L, title=meta["title"], description=meta["description"], path=path, alternates=alternates, og=og, extra=extra, feed=L["blog"] + "feed.xml")
+
+    hero_image = cover_img(meta, alt=L["cover_alt"], eager=True, sizes="(min-width: 1200px) 1120px, calc(100vw - 40px)")
+    avatar = initials(SITE["author"]["name"])
+    updated = ""
+    if meta["modified"] != meta["published"]:
+        updated = f' · {esc(L["updated"])} <time datetime="{meta["modified"]}">{nice_date(meta["modified"], lang)}</time>'
+
+    # The post's own "related" list comes first, then the rest in site order.
+    preferred = [pid for pid in meta.get("related", []) if pid in posts]
+    related = [posts[pid][lang] for pid in preferred + [p for p in posts if p not in preferred] if pid != meta["id"] and lang in posts[pid]]
+    related_cards = "\n".join(post_card(r, L) for r in related[:2])
+    related_section = f"""    <section class="related" aria-labelledby="related-title">
+      <div class="container">
+        <h2 id="related-title">{esc(L['related_title'])}</h2>
+        <ul class="post-cards post-cards-related">
+{related_cards}
+        </ul>
+      </div>
+    </section>
+""" if related_cards else ""
+    faq_part = fill(faq_html(meta, L), lang, posts)
+
+    return f"""{meta_head}
+<body>
+  {SPRITE}
+
+{nav(L, alternates, L['blog'])}
+
+  <main id="main">
+    <article>
+      <header class="post-hero">
+        <span class="nav-sentinel" data-nav-sentinel aria-hidden="true"></span>
+        <div class="container post-head">
+          <nav class="crumbs" aria-label="{attr(L['crumbs_label'])}">
+            <ol>
+              <li><a href="{L['home']}">{esc(L['crumb_home'])}</a></li>
+              <li><a href="{L['blog']}">{esc(L['blog_name'])}</a></li>
+              <li aria-current="page">{esc(meta['headline'])}</li>
+            </ol>
+          </nav>
+          <p class="post-kicker"><span class="kicker">{esc(meta['tag'])}</span><span>{L['minutes'].format(n=meta['minutes'])}</span></p>
+          <h1>{meta['h1']}</h1>
+          <p class="post-dek">{esc(meta['dek'])}</p>
+          <div class="byline">
+            <span class="avatar" aria-hidden="true">{avatar}</span>
+            <p class="byline-text"><strong>{esc(SITE['author']['name'])}</strong><span>{esc(L['author_role'])} · {esc(L['published'])} <time datetime="{meta['published']}">{nice_date(meta['published'], lang)}</time>{updated}</span></p>
+          </div>
+        </div>
+        <figure class="container post-figure">{hero_image}</figure>
+      </header>
+
+      <div class="container post-wrap">
+{toc(body, L, bool(faq_items), bool(meta.get('sources')))}
+        <div class="article">
+{body.rstrip()}
+{faq_part}
+{sources_html(meta, L)}
+        <aside class="author-card">
+          <span class="avatar avatar-lg" aria-hidden="true">{avatar}</span>
+          <div>
+            <p class="author-name">{esc(SITE['author']['name'])}</p>
+            <p class="author-role">{esc(L['author_role'])}</p>
+            <p>{L['author_bio']}</p>
+          </div>
+        </aside>
+        </div>
+      </div>
+    </article>
+
+{related_section}
+{cta(L)}
+  </main>
+
+{footer(L, alternates)}
+</body>
+</html>
+"""
+
+
+# ---------- Blog index ----------
+
+
+def render_index(lang: str, posts: dict) -> str:
+    L = SITE["languages"][lang]
+    alternates = {c: SITE["languages"][c]["blog"] for c in LANGS}
+    items = [posts[pid][lang] for pid in posts if lang in posts[pid]]
+    cards = "\n".join(post_card(m, L, featured=(i == 0), heading="h2") for i, m in enumerate(items)) or f'        <li class="blog-empty card">{esc(L["blog_empty"])}</li>'
+    og_image = f"/assets/img/og/{lang}-blog.jpg"
+    graph = [
+        {
+            "@type": "Blog",
+            "@id": url(L["blog"]) + "#blog",
+            "name": L["feed_title"],
+            "description": L["blog_description"],
+            "url": url(L["blog"]),
+            "inLanguage": L["locale"].replace("_", "-"),
+            "publisher": publisher(),
+            "blogPost": [{"@type": "BlogPosting", "headline": m["headline"], "url": url(m["path"]), "datePublished": iso(m["published"]), "dateModified": iso(m["modified"]), "image": url(f"/assets/img/og/{lang}-{m['id']}.jpg"), "author": {"@id": BASE + "/#author"}} for m in items],
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": L["crumb_home"], "item": url(L["home"])},
+                {"@type": "ListItem", "position": 2, "name": L["blog_name"], "item": url(L["blog"])},
+            ],
+        },
+    ]
+    og = {"type": "website", "title": L["blog_og_title"], "image": og_image, "image_alt": L["blog_og_title"]}
+    return f"""{head(L, title=L['blog_title'], description=L['blog_description'], path=L['blog'], alternates=alternates, og=og, extra=ld({'@context': 'https://schema.org', '@graph': graph}), feed=L['blog'] + 'feed.xml')}
+<body>
+  {SPRITE}
+
+{nav(L, alternates, L['blog'])}
+
+  <main id="main">
+    <section class="blog-hero">
+      <span class="nav-sentinel" data-nav-sentinel aria-hidden="true"></span>
+      <div class="container">
+        <nav class="crumbs" aria-label="{attr(L['crumbs_label'])}">
+          <ol>
+            <li><a href="{L['home']}">{esc(L['crumb_home'])}</a></li>
+            <li aria-current="page">{esc(L['blog_name'])}</li>
+          </ol>
+        </nav>
+        <p class="kicker">{esc(L['blog_eyebrow'])}</p>
+        <h1>{L['blog_h1']}</h1>
+        <p class="lead">{esc(L['blog_lead'])}</p>
+      </div>
+    </section>
+
+    <section class="post-list">
+      <div class="container">
+        <ul class="post-cards">
+{cards}
+        </ul>
+      </div>
+    </section>
+
+{cta(L)}
+  </main>
+
+{footer(L, alternates)}
+</body>
+</html>
+"""
+
+
+# ---------- Feeds, sitemap, llms.txt ----------
+
+
+def render_feed(lang: str, posts: dict) -> str:
+    L = SITE["languages"][lang]
+    items = [posts[pid][lang] for pid in posts if lang in posts[pid]]
+    entries = "\n".join(
+        f"""    <item>
+      <title>{esc(m['headline'])}</title>
+      <link>{url(m['path'])}</link>
+      <guid isPermaLink="true">{url(m['path'])}</guid>
+      <pubDate>{date.fromisoformat(m['published']).strftime('%a, %d %b %Y')} 08:00:00 +0300</pubDate>
+      <description>{esc(m['description'])}</description>
+    </item>"""
+        for m in items
+    )
+    return f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{esc(L['feed_title'])}</title>
+    <link>{url(L['blog'])}</link>
+    <atom:link href="{url(L['blog'] + 'feed.xml')}" rel="self" type="application/rss+xml"/>
+    <description>{esc(L['blog_description'])}</description>
+    <language>{L['locale'].replace('_', '-').lower()}</language>
+{entries}
+  </channel>
+</rss>
+"""
+
+
+def render_sitemap(posts: dict) -> str:
+    groups: list[tuple[dict[str, str], str]] = []
+    today = SITE["site_modified"]
+    groups.append(({c: SITE["languages"][c]["home"] for c in LANGS}, today))
+    newest = max([m["modified"] for p in posts.values() for m in p.values()] + [today])
+    groups.append(({c: SITE["languages"][c]["blog"] for c in LANGS}, newest))
+    for pid, langs in posts.items():
+        groups.append(({c: langs[c]["path"] for c in LANGS if c in langs}, max(m["modified"] for m in langs.values())))
+    for path, mod in SITE.get("extra_pages", {}).items():
+        groups.append(({"en": path}, mod))
+    rows = []
+    for alts, mod in groups:
+        links = "".join(f'\n    <xhtml:link rel="alternate" hreflang="{c}" href="{url(p)}"/>' for c, p in alts.items())
+        if "en" in alts:
+            links += f'\n    <xhtml:link rel="alternate" hreflang="x-default" href="{url(alts["en"])}"/>'
+        if len(alts) == 1:
+            links = ""
+        for p in alts.values():
+            rows.append(f"  <url>\n    <loc>{url(p)}</loc>\n    <lastmod>{mod}</lastmod>{links}\n  </url>")
+    for path, mod in SITE["single_pages"].items():
+        rows.append(f"  <url>\n    <loc>{url(path)}</loc>\n    <lastmod>{mod}</lastmod>\n  </url>")
+    return '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n' + "\n".join(rows) + "\n</urlset>\n"
+
+
+def render_llms(posts: dict) -> str:
+    lines = [SITE["llms"]["intro"].rstrip(), "", "## Articles", ""]
+    for pid, langs in posts.items():
+        en = langs.get("en") or next(iter(langs.values()))
+        lines.append(f"- [{en['headline']}]({url(en['path'])}): {en['description']}")
+        for c in LANGS:
+            if c != en["lang"] and c in langs:
+                lines.append(f"  - {SITE['languages'][c]['name']}: [{langs[c]['headline']}]({url(langs[c]['path'])})")
+    lines += ["", "## Full text", "", f"- [All English articles in full, one file]({url('/llms-full.txt')})"]
+    lines += ["", SITE["llms"]["outro"].rstrip(), ""]
+    return "\n".join(lines)
+
+
+class Markdown(HTMLParser):
+    """Turns article HTML into plain Markdown for llms-full.txt: headings, lists, tables, links and footnote marks."""
+
+    BLOCKS = {"p", "div", "figure", "figcaption", "ul", "ol", "table", "caption", "blockquote", "tr", "section"}
+
+    def __init__(self, lang: str) -> None:
+        super().__init__(convert_charrefs=True)
+        self.out: list[str] = []
+        self.skip = 0
+        self.sup = 0
+        self.cells: list[int] = []
+        self.rows = 0
+        self.links: list[str | None] = []
+
+    def handle_starttag(self, tag: str, attrs: list) -> None:
+        a = dict(attrs)
+        if tag in ("script", "style", "svg"):
+            self.skip += 1
+        elif tag == "h2":
+            self.out.append("\n\n## ")
+        elif tag == "h3":
+            self.out.append("\n\n### ")
+        elif tag == "li":
+            self.out.append("\n\n" if "pick" in (a.get("class") or "") else "\n- ")
+        elif tag == "table":
+            self.rows = 0
+            self.out.append("\n\n")
+        elif tag == "tr":
+            self.out.append("\n| ")
+            self.cells.append(0)
+        elif tag in ("td", "th"):
+            if self.cells and self.cells[-1]:
+                self.out.append(" | ")
+            if self.cells:
+                self.cells[-1] += 1
+        elif tag == "small":
+            self.out.append(" ")
+        elif tag == "sup":
+            self.sup += 1
+            self.out.append("[")
+        elif tag == "span" and a.get("role") == "img" and a.get("aria-label"):
+            self.out.append(a["aria-label"] + ": ")
+        elif tag == "a":
+            href = a.get("href") or ""
+            keep = href and not href.startswith("#") and not self.sup
+            self.links.append(url(href) if keep and href.startswith("/") else (href if keep else None))
+            if keep:
+                self.out.append("[")
+        elif tag in self.BLOCKS:
+            self.out.append("\n\n")
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag in ("script", "style", "svg"):
+            self.skip -= 1
+        elif tag == "sup":
+            self.sup -= 1
+            self.out.append("]")
+        elif tag == "a" and self.links:
+            href = self.links.pop()
+            if href:
+                self.out.append(f"]({href})")
+        elif tag == "tr" and self.cells:
+            self.out.append(" |")
+            if self.rows == 0:
+                self.out.append("\n|" + "---|" * self.cells[-1])
+            self.rows += 1
+            self.cells.pop()
+        elif tag == "small":
+            self.out.append(" ")
+        elif tag in ("h2", "h3"):
+            self.out.append("\n\n")
+        elif tag in self.BLOCKS:
+            self.out.append("\n\n")
+
+    def handle_data(self, data: str) -> None:
+        if not self.skip:
+            self.out.append(re.sub(r"\s+", " ", data))
+
+    def text(self) -> str:
+        text = "".join(self.out)
+        text = re.sub(r"[ \t]+\n", "\n", text)
+        text = re.sub(r": +(\||\n)", r" \1", text)
+        text = re.sub(r" {2,}", " ", text)
+        text = re.sub(r"\n- +", "\n- ", text)
+        return re.sub(r"\n{3,}", "\n\n", text).strip()
+
+
+def render_llms_full(posts: dict) -> str:
+    """Every English article in full, for AI tools that read one file instead of crawling the site."""
+    lines = [SITE["llms"]["intro"].split("\n\n## Key pages")[0].rstrip(), "", "> The full text of the English articles on dancify.apphq.online. Spanish and German versions are listed in llms.txt.", ""]
+    for pid, langs in posts.items():
+        if "en" not in langs:
+            continue
+        m = langs["en"]
+        parser = Markdown("en")
+        parser.feed(fill(m["body"], "en", posts))
+        lines += ["", "---", "", f"# {m['headline']}", "", f"URL: {url(m['path'])}", f"Published: {m['published']} · Updated: {m['modified']} · By {SITE['author']['name']}", "", f"> {m['dek']}", "", parser.text(), ""]
+        if m.get("faq"):
+            lines += ["## Questions, answered", ""]
+            for item in m["faq"]:
+                lines += [f"### {item['q']}", "", strip_tags(item["a"]), ""]
+        if m.get("sources"):
+            lines += ["## Sources", ""] + [f"- {strip_tags(src['text'])}" + (f" {src['url']}" if src.get("url") else "") for src in m["sources"]] + [""]
+    return "\n".join(lines).rstrip() + "\n"
+
+
+class PageMarkdown(HTMLParser):
+    """Turns a whole page's <main> into Markdown for agents that send Accept: text/markdown. Skips decoration
+    (aria-hidden, icons, buttons, the video and the table of contents) and keeps text, links, lists, tables and image alts."""
+
+    SKIP = {"script", "style", "svg", "video", "button", "template"}
+    VOID = {"img", "br", "hr", "source", "use", "path", "input", "meta", "link", "wbr"}
+    BLOCKS = {"p", "div", "figure", "figcaption", "table", "caption", "blockquote", "section", "article", "header", "aside", "dl", "details", "nav"}
+    HEADINGS = {"h1": "#", "h2": "##", "h3": "###", "h4": "####", "summary": "###"}
+
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.out: list[str] = []
+        self.main = 0
+        self.skip: list[str] = []
+        self.lists: list[list] = []
+        self.links: list[str | None] = []
+        self.cells: list[int] = []
+        self.rows = 0
+        self.heading = 0
+        self.sup = 0
+        self.gap = False  # inline label just closed, so the next word needs a space ("<strong>When</strong>Are")
+        self.bullet = ""  # list marker held back until the item's first text; dropped for cards that open with a heading
+
+    def mark(self, marker: str, closing: bool) -> None:
+        if closing and self.out and self.out[-1] == marker:
+            self.out.pop()  # empty <strong></strong> or <em></em>
+        else:
+            self.out.append(marker)
+
+    def handle_starttag(self, tag: str, attrs: list) -> None:
+        a = dict(attrs)
+        if tag == "main":
+            self.main += 1
+            return
+        if not self.main or tag in self.VOID and tag != "img" and tag != "br":
+            return
+        if self.skip:
+            if tag not in self.VOID:
+                self.skip.append(tag)
+            return
+        if tag in self.SKIP or a.get("aria-hidden") == "true" or "hidden" in a or "post-toc" in (a.get("class") or ""):
+            if tag not in self.VOID:
+                self.skip.append(tag)
+            return
+        if self.bullet:
+            if tag in self.HEADINGS or tag == "img":
+                self.bullet = ""
+                self.out.append("\n\n")
+            elif tag in self.BLOCKS or tag == "span":
+                pass
+            else:
+                self.out.append(self.bullet)
+                self.bullet = ""
+        if tag in self.HEADINGS:
+            self.heading += 1
+            self.out.append(f"\n\n{self.HEADINGS[tag]} ")
+        elif tag in ("ul", "ol"):
+            self.lists.append([tag, 0])
+            self.out.append("\n")
+        elif tag == "li":
+            indent = "  " * (len(self.lists) - 1)
+            if self.lists and self.lists[-1][0] == "ol":
+                self.lists[-1][1] += 1
+                self.bullet = f"\n{indent}{self.lists[-1][1]}. "
+            else:
+                self.bullet = f"\n{indent}- "
+        elif tag == "tr":
+            self.out.append("\n| ")
+            self.cells.append(0)
+        elif tag in ("td", "th"):
+            if self.cells and self.cells[-1]:
+                self.out.append(" | ")
+            if self.cells:
+                self.cells[-1] += 1
+        elif tag == "table":
+            self.rows = 0
+            self.out.append("\n\n")
+        elif tag == "dt":
+            self.out.append("\n\n**")
+        elif tag == "dd":
+            self.out.append(": ")
+        elif tag in ("strong", "b") and not self.heading and not self.links:
+            self.mark("**", False)
+        elif tag in ("em", "i") and not self.heading and not self.links:
+            self.mark("*", False)
+        elif tag in ("small", "time"):
+            self.out.append(" ")
+        elif tag == "sup":
+            self.sup += 1
+            self.out.append("[")
+        elif tag == "br":
+            self.out.append("\n" if not self.cells else " ")
+        elif tag == "img":
+            alt = (a.get("alt") or "").strip()
+            if alt:
+                self.out.append(f"\n\n![{alt}]({url(a['src']) if a.get('src', '').startswith('/') else a.get('src', '')})\n\n")
+        elif tag == "a":
+            href = a.get("href") or ""
+            keep = bool(href) and not href.startswith("#") and not self.sup
+            self.links.append((url(href) if href.startswith("/") else href) if keep else None)
+            if keep:
+                self.out.append("[")
+        elif tag in self.BLOCKS:
+            self.out.append("\n\n")
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag == "main":
+            self.main -= 1
+            return
+        if not self.main or tag in self.VOID:
+            return
+        if self.skip:
+            if self.skip[-1] == tag:
+                self.skip.pop()
+            return
+        if tag == "li":
+            self.bullet = ""
+        elif tag in self.HEADINGS:
+            self.heading -= 1
+            self.out.append("\n\n")
+        elif tag in ("ul", "ol"):
+            if self.lists:
+                self.lists.pop()
+            self.out.append("\n\n" if not self.lists else "")
+        elif tag == "tr" and self.cells:
+            self.out.append(" |")
+            if self.rows == 0:
+                self.out.append("\n|" + "---|" * self.cells[-1])
+            self.rows += 1
+            self.cells.pop()
+        elif tag == "dt":
+            self.out.append("**")
+        elif tag in ("strong", "b") and not self.heading and not self.links:
+            self.mark("**", True)
+        elif tag in ("em", "i") and not self.heading and not self.links:
+            self.mark("*", True)
+        elif tag in ("small", "time"):
+            self.out.append(" ")
+        elif tag == "sup":
+            self.sup -= 1
+            self.out.append("]")
+        elif tag == "a" and self.links:
+            href = self.links.pop()
+            if href:
+                self.out.append(f"]({href})")
+        elif tag in self.BLOCKS:
+            self.out.append("\n\n")
+        self.gap = tag in ("strong", "b", "span")
+
+    def handle_data(self, data: str) -> None:
+        if self.main and not self.skip:
+            if self.bullet and data.strip():
+                self.out.append(self.bullet)
+                self.bullet = ""
+            if self.gap and data[:1].isalnum():
+                self.out.append(" ")
+            self.gap = False
+            self.out.append(re.sub(r"\s+", " ", data))
+
+    def text(self) -> str:
+        text = "".join(self.out)
+        text = re.sub(r"\[\s+", "[", text)
+        text = re.sub(r"\s+\]\(", "](", text)
+        text = re.sub(r"\[\]\([^)]*\)", "", text)
+        text = re.sub(r"[ \t]+\n", "\n", text)
+        text = re.sub(r"\n[ \t]+(?![-\d])", "\n", text)
+        text = re.sub(r"(?<=\S) {2,}", " ", text)
+        text = re.sub(r"\n(\d+)\. \*\*\1\*\* ", r"\n\1. ", text)  # steps that print their own number
+        text = re.sub(r"\n(#+ |- |\d+\. )\s+", r"\n\1", text)
+        text = re.sub(r"(?<=\n)( *(?:- |\d+\. )[^\n]*)\n{2,}(?= *(?:- |\d+\. ))", r"\1\n", text)
+        return re.sub(r"\n{3,}", "\n\n", text).strip()
+
+
+def render_page_markdown(path: str) -> str:
+    """The Markdown twin of one page: a short front matter from <head>, then its <main>."""
+    page = (ROOT / path.lstrip("/") / "index.html").read_text()
+
+    def meta(pattern: str) -> str:
+        m = re.search(pattern, page, re.S)
+        return html.unescape(m.group(1)).strip() if m else ""
+
+    front = {
+        "title": meta(r"<title>(.*?)</title>"),
+        "description": meta(r'<meta name="description" content="([^"]*)"'),
+        "url": url(path),
+        "language": meta(r'<html lang="([^"]+)"'),
+    }
+    parser = PageMarkdown()
+    parser.feed(page)
+    lines = ["---"] + [f"{k}: {json.dumps(v, ensure_ascii=False)}" for k, v in front.items() if v] + ["---", "", parser.text(), ""]
+    return "\n".join(lines)
+
+
+def write_markdown_pages() -> None:
+    """Writes index.md next to every page in sitemap.xml. Cloudflare rewrites requests with Accept: text/markdown to it."""
+    sitemap = (ROOT / "sitemap.xml").read_text()
+    for loc in dict.fromkeys(re.findall(r"<loc>(.*?)</loc>", sitemap)):
+        path = loc.removeprefix(BASE) or "/"
+        if not path.endswith("/") or not (ROOT / path.lstrip("/") / "index.html").exists():
+            continue
+        target = ROOT / path.lstrip("/") / "index.md"
+        target.write_text(render_page_markdown(path))
+    print("wrote index.md for every page in sitemap.xml")
+
+
+def render_home_cards(lang: str, posts: dict) -> str:
+    L = SITE["languages"][lang]
+    items = [posts[pid][lang] for pid in posts if lang in posts[pid]][: SITE["home_posts"]]
+    cards = []
+    for m in items:
+        cards.append(f"""          <li class="post-card">
+            <div class="post-card-media">{cover_img(m, sizes="(min-width: 960px) 380px, 100vw")}</div>
+            <div class="post-card-body">
+              <p class="post-card-meta"><span class="kicker">{esc(m['tag'])}</span></p>
+              <h3><a href="{m['path']}">{esc(m['headline'])}</a></h3>
+              <p class="post-card-text">{esc(m['description'])}</p>
+              <p class="post-card-foot"><span></span><span class="read-more" aria-hidden="true">{esc(L['home_read'])}</span></p>
+            </div>
+          </li>""")
+    return '        <ul class="post-cards post-cards-home">\n' + "\n".join(cards) + "\n        </ul>"
+
+
+def update_home_pages(posts: dict) -> None:
+    """Refreshes the "From the blog" cards between the markers on each landing page; the rest of the page is hand-written."""
+    for lang in LANGS:
+        path = ROOT / SITE["languages"][lang]["home"].strip("/") / "index.html"
+        if not path.exists():
+            warn(f"{path.relative_to(ROOT)} doesn't exist, so it gets no blog cards")
+            continue
+        text = path.read_text()
+        if "<!-- blog-cards:start -->" not in text:
+            warn(f"{path.relative_to(ROOT)} has no blog-cards markers")
+            continue
+        new = re.sub(r"(<!-- blog-cards:start -->\n).*?(\n\s*<!-- blog-cards:end -->)", lambda m: m.group(1) + render_home_cards(lang, posts) + m.group(2), text, flags=re.S)
+        if new != text:
+            path.write_text(new)
+        print("updated", path.relative_to(ROOT))
+
+
+# ---------- Share images ----------
+
+
+def render_og(posts: dict) -> None:
+    if not Path(CHROME).exists():
+        sys.exit("Google Chrome not found; share images need it.")
+    if subprocess.run(["which", "cwebp"], capture_output=True).returncode:
+        sys.exit("cwebp not found (brew install webp); covers need it.")
+    template = (TOOL / "og.html").read_text()
+    jobs = []
+    for pid, langs in posts.items():
+        for lang, m in langs.items():
+            jobs.append((f"{lang}-{pid}", m["og_kicker"], m["og_heading"], (m.get("cover") or cover_screens(pid))[:2], lang))
+    for lang in LANGS:
+        L = SITE["languages"][lang]
+        jobs.append((f"{lang}-blog", L["blog_og_kicker"], L["blog_og_heading"], L["blog_og_shots"], lang))
+    for extra in SITE.get("og_pages", []):
+        jobs.append((extra["name"], extra["kicker"], extra["heading"], extra["shots"], extra["lang"]))
+    render_covers(posts)
+    out_dir = ROOT / "assets/img/og"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory() as tmp:
+        for name, kicker, heading, shots, lang in jobs:
+            page = (
+                template.replace("{root}", ROOT.as_uri())
+                .replace("{lang}", lang)
+                .replace("{kicker}", esc(kicker))
+                .replace("{heading}", heading)
+                .replace("{shot1}", f"{ROOT.as_uri()}/assets/img/app/{lang}/{shots[0]}.webp")
+                .replace("{shot2}", f"{ROOT.as_uri()}/assets/img/app/{lang}/{shots[1]}.webp")
+            )
+            src = Path(tmp) / f"{name}.html"
+            src.write_text(page)
+            png = Path(tmp) / f"{name}.png"
+            jpg = out_dir / f"{name}.jpg"
+            subprocess.run(
+                [CHROME, "--headless=new", "--disable-gpu", "--hide-scrollbars", "--allow-file-access-from-files", "--force-device-scale-factor=1", "--window-size=1200,630", "--virtual-time-budget=3000", f"--screenshot={png}", src.as_uri()],
+                check=True,
+                capture_output=True,
+            )
+            # JPEG keeps each share image around 100 KB instead of 400 KB.
+            subprocess.run(["sips", "-s", "format", "jpeg", "-s", "formatOptions", "85", str(png), "--out", str(jpg)], check=True, capture_output=True)
+            print("og", jpg.relative_to(ROOT))
+
+
+def cover_screens(pid: str, meta: dict | None = None) -> list[str]:
+    """Three screens for a cover: site.json's covers, else the post's own "cover" list, topped up with defaults."""
+    screens = list(SITE["covers"].get(pid, {}).get("screens") or (meta or {}).get("cover") or [])
+    for extra in DEFAULT_COVER:
+        if len(screens) >= 3:
+            break
+        if extra not in screens:
+            screens.append(extra)
+    return screens[:3]
+
+
+def render_covers(posts: dict) -> None:
+    """Cover art for each post: three whole devices on a themed backdrop, at 1200 and 2400 px wide."""
+    template = (TOOL / "cover.html").read_text()
+    out_dir = ROOT / "assets/img/covers"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory() as tmp:
+        for pid, langs in posts.items():
+            spec = SITE["covers"].get(pid, {})
+            for lang in langs:
+                shots = [f"{ROOT.as_uri()}/assets/img/app/{lang}/{s}.webp" for s in cover_screens(pid, langs[lang])]
+                page = template.replace("{theme}", spec.get("theme", "violet")).replace("{tape}", spec.get("tape", "lavender")).replace("{root}", ROOT.as_uri()).replace("{left}", shots[0]).replace("{center}", shots[1]).replace("{right}", shots[2])
+                src = Path(tmp) / f"{lang}-{pid}.html"
+                src.write_text(page)
+                png = Path(tmp) / f"{lang}-{pid}.png"
+                subprocess.run(
+                    [CHROME, "--headless=new", "--disable-gpu", "--hide-scrollbars", "--allow-file-access-from-files", "--force-device-scale-factor=1", "--window-size=2400,1200", "--virtual-time-budget=3000", f"--screenshot={png}", src.as_uri()],
+                    check=True,
+                    capture_output=True,
+                )
+                for width in (2400, 1200):
+                    out = out_dir / f"{lang}-{pid}-{width}.webp"
+                    subprocess.run(["cwebp", "-quiet", "-q", "82", "-resize", str(width), "0", str(png), "-o", str(out)], check=True)
+                print("cover", f"assets/img/covers/{lang}-{pid}")
+
+
+# ---------- Main ----------
+
+
+def write(path: str, text: str) -> None:
+    target = ROOT / path.lstrip("/")
+    if path.endswith("/"):
+        target = target / "index.html"
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text(text)
+    print("wrote", target.relative_to(ROOT))
+
+
+def main() -> None:
+    for lang in LANGS:
+        SITE["languages"][lang]["code"] = lang
+    posts = load_posts()
+    for langs in posts.values():
+        for m in langs.values():
+            m["minutes"] = reading_minutes(m)
+    for pid, langs in posts.items():
+        missing = [c for c in LANGS if c not in langs and c not in SITE.get("untranslated", {}).get(pid, [])]
+        if missing:
+            warn(f"{pid} has no {', '.join(missing)} version yet")
+        for m in langs.values():
+            write(m["path"], render_post(m, langs, posts))
+    for lang in LANGS:
+        L = SITE["languages"][lang]
+        write(L["blog"], render_index(lang, posts))
+        (ROOT / L["blog"].lstrip("/") / "feed.xml").write_text(render_feed(lang, posts))
+        print("wrote", L["blog"].lstrip("/") + "feed.xml")
+    (ROOT / "sitemap.xml").write_text(render_sitemap(posts))
+    print("wrote sitemap.xml")
+    (ROOT / "llms.txt").write_text(render_llms(posts))
+    print("wrote llms.txt")
+    (ROOT / "llms-full.txt").write_text(render_llms_full(posts))
+    print("wrote llms-full.txt")
+    update_home_pages(posts)
+    write_markdown_pages()
+    if "--og" in sys.argv:
+        render_og(posts)
+    counts = {lang: sum(1 for p in posts.values() if lang in p) for lang in LANGS}
+    print("posts:", ", ".join(f"{lang} {n}" for lang, n in counts.items()))
+    if WARNINGS:
+        print(f"{len(WARNINGS)} warning(s), see above", file=sys.stderr)
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,102 @@
+{
+  "id": "learn-choreography",
+  "slug": "how-to-learn-choreography-faster",
+  "title": "How to Learn Choreography Faster and Remember It",
+  "headline": "How to learn choreography faster (and actually remember it)",
+  "h1": "How to learn choreography faster <span class=\"accent\">and actually remember it</span>",
+  "dek": "Quick learners aren't magic. They map the piece, learn it in eight-counts, mark before they dance full out and check themselves on video. The method, step by step, with a 45-minute session plan.",
+  "description": "How to learn choreography faster: map the piece, learn in eight-counts, mark it, use the mirror wisely, slow the video down, loop hard parts and film to check.",
+  "tag": "Learning",
+  "og_title": "How to learn choreography faster",
+  "og_kicker": "Practice guide",
+  "og_heading": "Learn choreography <span>faster, and keep it</span>",
+  "og_alt": "Dancify player with an A–B loop and the camera with a reference video next to the headline: learn choreography faster, and keep it",
+  "keywords": [
+    "how to learn choreography fast",
+    "remember dance routines",
+    "how to remember choreography",
+    "learn dance from video",
+    "mirror slow motion dance video",
+    "marking choreography"
+  ],
+  "about": [
+    "Choreography",
+    "Motor learning",
+    "Dance marking",
+    "Chunking"
+  ],
+  "mentions": [
+    "Dancify"
+  ],
+  "published": "2026-11-01",
+  "modified": "2026-11-01",
+  "related": [
+    "counting-music",
+    "film-yourself"
+  ],
+  "cover": [
+    "player-loop",
+    "camera-reference",
+    "pieces"
+  ],
+  "cover_alt": [
+    "Dancify player with an A–B loop on one eight-count",
+    "Dancify camera with a reference video picture-in-picture"
+  ],
+  "chips": [
+    {
+      "emoji": "🔁",
+      "title": "One eight at a time",
+      "sub": "Feet, then arms, then details"
+    },
+    {
+      "emoji": "🐢",
+      "title": "0.5× first",
+      "sub": "Speed comes last"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How can I learn choreography faster?",
+      "a": "Watch the whole piece first to map its sections and repeats, then learn it one or two eight-counts at a time: feet first, then arms, then details. Mark each chunk before dancing it full out, say the counts aloud, chain new chunks onto old ones, slow the video down for hard parts and film yourself to check."
+    },
+    {
+      "q": "How do dancers remember long routines?",
+      "a": "They lean on structure: named sections, repeated choruses, counts and musical landmarks such as a lyric that cues a move. Research on young ballet dancers found choreographed sequences are remembered far better than random ones, and that music helps recall. Regular review, a good night's sleep and starting runs from different sections all help too."
+    },
+    {
+      "q": "Is marking choreography a good way to practise?",
+      "a": "Yes. Marking, dancing the choreography small with reduced movement, saves energy and seems to free attention for the order, timing and shapes. In a study of dance students, the routine practised by marking was performed better than the one practised full out. Mix marking with full-out runs."
+    },
+    {
+      "q": "Should I mirror a dance video when learning it?",
+      "a": "Mirror it when the teacher in the video faces you, so their right is your right. If they face away from the camera, follow it as it is. Once you know a section, dance it facing away from any mirror and film it to check."
+    },
+    {
+      "q": "What speed should I practise choreography at?",
+      "a": "Decode new moves at 0.25× to 0.5×, learn them at 0.5× to 0.75×, clean them at 0.75× to full speed, then perform from the top at 1×. Loop the one eight-count that keeps going wrong rather than running the whole piece again."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Warburton EC, Wilson M, Lynch M, Cuykendall S (2013). The cognitive benefits of movement reduction: evidence from dance marking. Psychological Science 24(9), 1732–1739. Checked 2026-11-04.",
+      "url": "https://doi.org/10.1177/0956797613478824"
+    },
+    {
+      "text": "Starkes JL, Deakin JM, Lindley S, Crisp F (1987). Motor versus verbal recall of ballet sequences by young expert dancers. Journal of Sport Psychology 9(3), 222–230. Checked 2026-11-04.",
+      "url": "https://doi.org/10.1123/jsp.9.3.222"
+    },
+    {
+      "text": "Duboff LA, DiPasquale S, Ives SJ (2024). Investigating the effects of visual feedback on muscle activity, heart rate, RPE, and perceptions of performance in ballet dancers. International Journal of Exercise Science 17(1), 1056–1067. Checked 2026-11-04.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11385289/"
+    },
+    {
+      "text": "Driskell JE, Copper C, Moran A (1994). Does mental practice enhance performance? Journal of Applied Psychology 79(4), 481–492. Checked 2026-11-04.",
+      "url": "https://doi.org/10.1037/0021-9010.79.4.481"
+    },
+    {
+      "text": "Walker MP, Brakefield T, Morgan A, Hobson JA, Stickgold R (2002). Practice with sleep makes perfect: sleep-dependent motor skill learning. Neuron 35(1), 205–211. Checked 2026-11-04.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12123620/"
+    }
+  ]
+}

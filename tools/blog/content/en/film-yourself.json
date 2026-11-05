@@ -1,0 +1,95 @@
+{
+  "id": "film-yourself",
+  "slug": "how-to-film-yourself-dancing",
+  "title": "How to Film Yourself Dancing: Angles, Light and Setup",
+  "headline": "How to film yourself dancing: angles, light and setup",
+  "h1": "How to film yourself dancing: <span class=\"accent\">angles, light and setup</span>",
+  "dek": "The run felt clean, then the video showed bent knees and cropped feet. Here's how to set up a phone so it shows what matters: height and distance for each style, light, sound, stands and what to film.",
+  "description": "How to film yourself dancing with a phone: camera height and distance for each style, the best angle, light, sound, phone stands and six mistakes to avoid.",
+  "tag": "Filming",
+  "og_title": "How to film yourself dancing: angles, light and setup",
+  "og_kicker": "Practice guide",
+  "og_heading": "Film yourself dancing <span>the right way</span>",
+  "og_alt": "Dancify camera screens with Follow and a count-in next to the headline: film yourself dancing the right way",
+  "keywords": [
+    "how to film yourself dancing",
+    "best angle to record dance",
+    "phone tripod dance video",
+    "record dance practice",
+    "how to record dance video at home",
+    "dance video camera height"
+  ],
+  "about": [
+    "Dance practice",
+    "Video recording",
+    "Video self-evaluation",
+    "Smartphone filming"
+  ],
+  "mentions": [
+    "Dancify",
+    "DockKit"
+  ],
+  "published": "2026-11-03",
+  "modified": "2026-11-03",
+  "related": [
+    "progress-video",
+    "learn-choreography"
+  ],
+  "cover": [
+    "camera-follow",
+    "camera",
+    "camera-reference"
+  ],
+  "cover_alt": [
+    "Dancify camera with Follow locked on to a dancer as she moves",
+    "Dancify camera ready to record, with the count-in and lens controls"
+  ],
+  "chips": [
+    {
+      "emoji": "🎥",
+      "title": "Hip to chest height",
+      "sub": "3–5 m back, landscape"
+    },
+    {
+      "emoji": "👟",
+      "title": "Feet in frame",
+      "sub": "Floor below your toes"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the best angle to film yourself dancing?",
+      "a": "Straight on from the front, with the phone at about hip to chest height, is the best main angle because it's how an audience sees you. Add a side angle now and then to check posture and the real height of your legs, and film from behind when you're learning from a video so left and right match."
+    },
+    {
+      "q": "How far away should the camera be when filming dance?",
+      "a": "Usually 3 to 5 metres for one dancer, and 4 to 6 metres for a couple. The test is simple: on your mark, with your arms up and on your biggest travelling step, you should stay in frame with space above your hands and below your feet. If the room is too small, use the 0.5× wide lens and stay near the centre of the frame."
+    },
+    {
+      "q": "Should I film dance videos in portrait or landscape?",
+      "a": "Landscape for practice, because it leaves room to travel and keeps your feet in frame. Portrait is fine for videos made for social media, or K-pop covers filmed front-on like a fancam, as long as your whole body fits."
+    },
+    {
+      "q": "How do I film myself dancing without a tripod?",
+      "a": "Prop the phone on a bookshelf against a stack of books, or on a chair placed on a table, so it sits at about hip to chest height. Lean it back slightly, check the framing with a short test, and mark the spot with tape so you can set up the same way next time."
+    },
+    {
+      "q": "What frame rate should I use to record dance practice?",
+      "a": "30 fps is fine for most practice. Use 60 fps for turns, jumps and fast footwork so slowed-down replays stay smooth. Save 120 or 240 fps slow motion for checking a single jump or turn, in good light."
+    },
+    {
+      "q": "Does watching videos of yourself really improve your dancing?",
+      "a": "It helps you see what you can't feel. In a small study of three competitive dancers, scoring their own videos against a checklist improved every move that was tracked. Video works best alongside a teacher's feedback, not instead of it."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Giambrone J, Miltenberger RG (2020). Using video self-evaluation to enhance performance in competitive dancers. Behavior Analysis in Practice 13(2), 445–453. Checked 2026-11-04.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7314870/"
+    },
+    {
+      "text": "Apple Developer Documentation: DockKit, interacting with motorised stands that track subjects on camera. Apple. Checked 2026-11-04.",
+      "url": "https://developer.apple.com/documentation/dockkit"
+    }
+  ]
+}

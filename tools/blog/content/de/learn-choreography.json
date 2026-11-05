@@ -1,0 +1,102 @@
+{
+  "id": "learn-choreography",
+  "slug": "choreografie-schneller-lernen",
+  "title": "Choreografie schneller lernen und besser behalten",
+  "headline": "Choreografie schneller lernen (und wirklich behalten)",
+  "h1": "Choreografie schneller lernen <span class=\"accent\">und wirklich behalten</span>",
+  "dek": "Wer schnell lernt, hat keine Zauberkraft: Landkarte der Choreo, Lernen in Achtern, markieren vor dem vollen Tanzen und Kontrolle per Video. Die Methode Schritt für Schritt, mit einer Lerneinheit von 45 Minuten.",
+  "description": "Choreografie schneller lernen: Landkarte der Choreo, in Achtern lernen, markieren, den Spiegel klug nutzen, Video verlangsamen, Schleifen und Selbstkontrolle.",
+  "tag": "Lernen",
+  "og_title": "Choreografie schneller lernen",
+  "og_kicker": "Trainingsratgeber",
+  "og_heading": "Choreos schneller lernen <span>und behalten</span>",
+  "og_alt": "Dancify-Player mit A–B-Schleife und Kamera mit Vorlagenvideo neben der Überschrift: Choreos schneller lernen und behalten",
+  "keywords": [
+    "Choreografie lernen",
+    "Choreografie schneller lernen",
+    "Choreo merken",
+    "Tanz von Video lernen",
+    "Tanzvideo spiegeln und verlangsamen",
+    "Choreografie markieren"
+  ],
+  "about": [
+    "Choreografie",
+    "Motorisches Lernen",
+    "Markieren im Tanz",
+    "Lernen in Blöcken"
+  ],
+  "mentions": [
+    "Dancify"
+  ],
+  "published": "2026-11-01",
+  "modified": "2026-11-01",
+  "related": [
+    "counting-music",
+    "film-yourself"
+  ],
+  "cover": [
+    "player-loop",
+    "camera-reference",
+    "pieces"
+  ],
+  "cover_alt": [
+    "Dancify-Player mit einer A–B-Schleife über einen Achter",
+    "Dancify-Kamera mit einem Vorlagenvideo als Bild-in-Bild"
+  ],
+  "chips": [
+    {
+      "emoji": "🔁",
+      "title": "Achter für Achter",
+      "sub": "Füße, Arme, Details"
+    },
+    {
+      "emoji": "🐢",
+      "title": "Erst 0,5×",
+      "sub": "Tempo kommt zuletzt"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie lerne ich eine Choreografie schneller?",
+      "a": "Schau die Choreo erst ganz an, um Teile und Wiederholungen zu erkennen, und lern sie dann in Blöcken von ein bis zwei Achtern: erst Füße, dann Arme, dann Details. Markier jeden Block, bevor du ihn voll tanzt, sprich die Counts laut, häng neue Blöcke an die alten, verlangsame das Video an schweren Stellen und film dich zur Kontrolle."
+    },
+    {
+      "q": "Wie merken sich Tänzer lange Choreografien?",
+      "a": "Über Struktur: benannte Teile, wiederkehrende Refrains, Counts und Ankerpunkte in der Musik, etwa ein Wort im Text, das eine Bewegung auslöst. Eine Studie mit jungen Balletttänzern zeigte, dass choreografierte Abfolgen viel besser behalten werden als zufällige und Musik beim Erinnern hilft. Regelmäßiges Wiederholen, guter Schlaf und Durchläufe ab verschiedenen Stellen helfen zusätzlich."
+    },
+    {
+      "q": "Ist Markieren eine gute Art zu üben?",
+      "a": "Ja. Markieren, also die Choreo klein und mit reduzierter Bewegung tanzen, spart Kraft und scheint Aufmerksamkeit für Reihenfolge, Timing und Formen frei zu machen. In einer Studie mit Tanzstudierenden wurde die markiert geübte Kombination besser getanzt als die voll geübte. Wechsle markierte und volle Durchläufe ab."
+    },
+    {
+      "q": "Sollte ich ein Tanzvideo zum Lernen spiegeln?",
+      "a": "Ja, wenn die Person im Video in die Kamera schaut, damit ihr Rechts dein Rechts ist. Steht sie mit dem Rücken zur Kamera, folgst du dem Video so, wie es ist. Sobald ein Teil sitzt, tanz ihn ohne Spiegel und film dich zur Kontrolle."
+    },
+    {
+      "q": "In welchem Tempo sollte ich eine neue Choreo üben?",
+      "a": "Neue Bewegungen mit 0,25× bis 0,5× entschlüsseln, mit 0,5× bis 0,75× lernen, zwischen 0,75× und Originaltempo sauber machen und dann von vorn mit 1× performen. Leg den einen Achter, der immer schiefgeht, in eine Schleife, statt jedes Mal die ganze Choreo zu tanzen."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Warburton EC, Wilson M, Lynch M, Cuykendall S (2013). The cognitive benefits of movement reduction: evidence from dance marking. Psychological Science 24(9), 1732–1739. Abgerufen am 04.11.2026.",
+      "url": "https://doi.org/10.1177/0956797613478824"
+    },
+    {
+      "text": "Starkes JL, Deakin JM, Lindley S, Crisp F (1987). Motor versus verbal recall of ballet sequences by young expert dancers. Journal of Sport Psychology 9(3), 222–230. Abgerufen am 04.11.2026.",
+      "url": "https://doi.org/10.1123/jsp.9.3.222"
+    },
+    {
+      "text": "Duboff LA, DiPasquale S, Ives SJ (2024). Investigating the effects of visual feedback on muscle activity, heart rate, RPE, and perceptions of performance in ballet dancers. International Journal of Exercise Science 17(1), 1056–1067. Abgerufen am 04.11.2026.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11385289/"
+    },
+    {
+      "text": "Driskell JE, Copper C, Moran A (1994). Does mental practice enhance performance? Journal of Applied Psychology 79(4), 481–492. Abgerufen am 04.11.2026.",
+      "url": "https://doi.org/10.1037/0021-9010.79.4.481"
+    },
+    {
+      "text": "Walker MP, Brakefield T, Morgan A, Hobson JA, Stickgold R (2002). Practice with sleep makes perfect: sleep-dependent motor skill learning. Neuron 35(1), 205–211. Abgerufen am 04.11.2026.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12123620/"
+    }
+  ]
+}

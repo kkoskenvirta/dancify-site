@@ -1,0 +1,94 @@
+{
+  "id": "practice-journal",
+  "slug": "dance-practice-journal",
+  "title": "Dance Practice Journal: What to Track and Prompts",
+  "headline": "How to keep a dance practice journal: what to track, with prompts",
+  "h1": "How to keep a dance practice journal: <span class=\"accent\">what to track, with prompts</span>",
+  "dek": "Corrections fade, small wins get forgotten, and three weeks of classes blur into one. A practice journal keeps them. What to write, a five-minute entry, prompts for when the page stays blank, and how to look back.",
+  "description": "How to keep a dance practice journal: what to track after each class, a five-minute entry, journaling prompts for dancers and a weekly look back.",
+  "tag": "Practice",
+  "og_title": "How to keep a dance practice journal",
+  "og_kicker": "Practice guide",
+  "og_heading": "Keep a dance diary <span>in five minutes a day</span>",
+  "og_alt": "Dancify calendar of practice frames and a day with takes and notes next to the headline: keep a dance diary in five minutes a day",
+  "keywords": [
+    "dance practice journal",
+    "dance diary",
+    "track dance progress",
+    "dance training log",
+    "dance journal prompts",
+    "what to write in a dance journal"
+  ],
+  "about": [
+    "Dance practice",
+    "Practice journal",
+    "Self-monitoring",
+    "Deliberate practice"
+  ],
+  "mentions": [
+    "Dancify"
+  ],
+  "published": "2026-10-25",
+  "modified": "2026-10-25",
+  "related": [
+    "film-yourself",
+    "practice-at-home"
+  ],
+  "cover": [
+    "journal",
+    "day",
+    "timeline"
+  ],
+  "cover_alt": [
+    "Dancify calendar where each practice day shows a frame from that day's take",
+    "Dancify day with three takes, a note and tags"
+  ],
+  "chips": [
+    {
+      "emoji": "📓",
+      "title": "Five minutes",
+      "sub": "One win, one fix, one take"
+    },
+    {
+      "emoji": "🗓️",
+      "title": "Weekly look back",
+      "sub": "Choose one focus"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What should I write in a dance journal?",
+      "a": "The date and kind of practice, what you worked on (piece and section), one thing that went well, one thing to fix, any corrections in your teacher's own words, how your body felt, and a link to the take you filmed. Five minutes is enough."
+    },
+    {
+      "q": "How do I track my dance progress?",
+      "a": "Combine short notes with video. Film the same section from the same angle regularly, write one line about what changed, and once a month put your first take next to your latest. The notes tell you what to look for; the video shows whether it happened."
+    },
+    {
+      "q": "How often should I write in my dance diary?",
+      "a": "After every class or practice, ideally within an hour, and keep it short. Then read back once a week for ten minutes and choose one focus for the next week. Rest days can go in too; there's no need for a daily streak."
+    },
+    {
+      "q": "Is a paper dance journal or an app better?",
+      "a": "Paper is great for handwriting and drawing formations. An app is better at keeping the note, the video and the date together and at finding a piece's history quickly. Many dancers use both."
+    },
+    {
+      "q": "Does keeping a practice journal actually help?",
+      "a": "Research on goal monitoring says yes: a review of 138 studies found that tracking progress helps people reach their goals, more so when progress is physically recorded. For dancers, the journal also keeps corrections from being forgotten and makes progress visible on slow weeks."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Harkin B, Webb TL, Chang BPI, et al. (2016). Does monitoring goal progress promote goal attainment? A meta-analysis of the experimental evidence. Psychological Bulletin 142(2), 198–229. Checked 2026-11-04.",
+      "url": "https://eprints.whiterose.ac.uk/id/eprint/87431/"
+    },
+    {
+      "text": "Ericsson KA, Krampe RT, Tesch-Römer C (1993). The role of deliberate practice in the acquisition of expert performance. Psychological Review 100(3), 363–406. Checked 2026-11-04.",
+      "url": "https://doi.org/10.1037/0033-295X.100.3.363"
+    },
+    {
+      "text": "Walker MP, Brakefield T, Morgan A, Hobson JA, Stickgold R (2002). Practice with sleep makes perfect: sleep-dependent motor skill learning. Neuron 35(1), 205–211. Checked 2026-11-04.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12123620/"
+    }
+  ]
+}

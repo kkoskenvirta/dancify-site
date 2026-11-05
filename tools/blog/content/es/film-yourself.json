@@ -1,0 +1,95 @@
+{
+  "id": "film-yourself",
+  "slug": "como-grabarte-bailando",
+  "title": "Cómo grabarte bailando: ángulo, luz y altura del móvil",
+  "headline": "Cómo grabarte bailando: ángulo, luz y altura del móvil",
+  "h1": "Cómo grabarte bailando: <span class=\"accent\">ángulo, luz y altura del móvil</span>",
+  "dek": "El pase te pareció limpio y el vídeo enseñó rodillas dobladas y pies cortados. Cómo colocar el móvil para que muestre lo que importa: altura y distancia por estilo, luz, sonido, soportes y qué grabar.",
+  "description": "Cómo grabarte bailando con el móvil: altura y distancia de la cámara por estilo, el mejor ángulo, luz, sonido, trípodes y seis errores que estropean el vídeo.",
+  "tag": "Grabar",
+  "og_title": "Cómo grabarte bailando: ángulo, luz y altura del móvil",
+  "og_kicker": "Guía de ensayo",
+  "og_heading": "Grabarte bailando <span>como es debido</span>",
+  "og_alt": "Pantallas de la cámara de Dancify con Seguir y cuenta de entrada junto al titular: grabarte bailando como es debido",
+  "keywords": [
+    "cómo grabarte bailando",
+    "mejor ángulo para grabar baile",
+    "trípode para grabar baile",
+    "grabar ensayos de baile",
+    "cómo grabar un vídeo de baile en casa",
+    "altura de la cámara para grabar baile"
+  ],
+  "about": [
+    "Ensayo de baile",
+    "Grabación de vídeo",
+    "Autoevaluación con vídeo",
+    "Grabar con el móvil"
+  ],
+  "mentions": [
+    "Dancify",
+    "DockKit"
+  ],
+  "published": "2026-11-03",
+  "modified": "2026-11-03",
+  "related": [
+    "progress-video",
+    "learn-choreography"
+  ],
+  "cover": [
+    "camera-follow",
+    "camera",
+    "camera-reference"
+  ],
+  "cover_alt": [
+    "Cámara de Dancify con Seguir fijado en una bailarina mientras se mueve",
+    "Cámara de Dancify lista para grabar, con la cuenta de entrada y el zoom"
+  ],
+  "chips": [
+    {
+      "emoji": "🎥",
+      "title": "Cadera o pecho",
+      "sub": "A 3–5 m, en horizontal"
+    },
+    {
+      "emoji": "👟",
+      "title": "Pies dentro",
+      "sub": "Suelo bajo los dedos"
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cuál es el mejor ángulo para grabarte bailando?",
+      "a": "De frente, con el móvil a la altura de la cadera o del pecho: así te ve el público y es tu toma principal. De vez en cuando añade una toma de perfil para revisar la postura y la altura real de las piernas, y grábate de espaldas cuando aprendas de un vídeo, para que derecha e izquierda coincidan."
+    },
+    {
+      "q": "¿A qué distancia pongo el móvil para grabar un baile?",
+      "a": "Normalmente a 3–5 metros si bailas sola o solo, y a 4–6 metros en pareja. La prueba: en tu marca, con los brazos arriba y en tu desplazamiento más grande, tienes que seguir dentro con aire por encima de las manos y por debajo de los pies. Si la sala es pequeña, usa el gran angular 0,5× y quédate cerca del centro."
+    },
+    {
+      "q": "¿Grabo los vídeos de baile en vertical o en horizontal?",
+      "a": "En horizontal para ensayar, porque deja sitio para desplazarte y mantiene los pies dentro. El vertical vale para vídeos para redes o covers de K-pop grabados de frente, siempre que salgas de cuerpo entero."
+    },
+    {
+      "q": "¿Cómo me grabo bailando sin trípode?",
+      "a": "Apoya el móvil en una estantería contra una pila de libros, o en una silla sobre una mesa, a la altura de la cadera o del pecho. Inclínalo un poco hacia atrás, haz una prueba corta y marca el sitio con cinta para repetirlo la próxima vez."
+    },
+    {
+      "q": "¿A cuántos fps grabo los ensayos de baile?",
+      "a": "30 fps bastan para casi todo. Usa 60 fps para giros, saltos y pies rápidos, así la cámara lenta queda fluida. Deja los 120 o 240 fps para revisar un salto o un giro concreto, y con buena luz."
+    },
+    {
+      "q": "¿De verdad sirve verte en vídeo para bailar mejor?",
+      "a": "Te ayuda a ver lo que no sientes. En un estudio pequeño con tres bailarines de competición, puntuar sus propios vídeos con una lista de control mejoró todos los movimientos medidos. Funciona mejor junto a las correcciones de tu profe, no en su lugar."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Giambrone J, Miltenberger RG (2020). Using video self-evaluation to enhance performance in competitive dancers. Behavior Analysis in Practice 13(2), 445–453. Consultado el 2026-11-04.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7314870/"
+    },
+    {
+      "text": "Apple Developer Documentation: DockKit, soportes motorizados que siguen a una persona en cámara. Apple. Consultado el 2026-11-04.",
+      "url": "https://developer.apple.com/documentation/dockkit"
+    }
+  ]
+}

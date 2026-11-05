@@ -1,0 +1,600 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Warum wir Dancify bauen: ein Tanztagebuch aus Videos</title>
+  <meta name="description" content="Die Geschichte hinter Dancify: warum Trainingsvideos verloren gehen, sechs Entscheidungen, die die App geprägt haben, was fehlt und was als Nächstes kommt.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://dancify.apphq.online/de/blog/warum-wir-dancify-bauen/">
+  <link rel="alternate" hreflang="en" href="https://dancify.apphq.online/blog/why-we-built-dancify/">
+  <link rel="alternate" hreflang="es" href="https://dancify.apphq.online/es/blog/por-que-creamos-dancify/">
+  <link rel="alternate" hreflang="de" href="https://dancify.apphq.online/de/blog/warum-wir-dancify-bauen/">
+  <link rel="alternate" hreflang="x-default" href="https://dancify.apphq.online/blog/why-we-built-dancify/">
+  <link rel="alternate" type="application/rss+xml" title="Der Dancify Blog" href="/de/blog/feed.xml">
+  <meta name="theme-color" content="#0a0a0b" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f6f5fa" media="(prefers-color-scheme: light)">
+  <meta name="apple-itunes-app" content="app-id=6830154598">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Dancify">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:url" content="https://dancify.apphq.online/de/blog/warum-wir-dancify-bauen/">
+  <meta property="og:title" content="Warum wir eine Tanz-App ohne Feed und ohne Punkte bauen">
+  <meta property="og:description" content="Die Geschichte hinter Dancify: warum Trainingsvideos verloren gehen, sechs Entscheidungen, die die App geprägt haben, was fehlt und was als Nächstes kommt.">
+  <meta property="og:image" content="https://dancify.apphq.online/assets/img/og/de-why-we-built-dancify.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dancify Kalender und Kamera neben der Überschrift: eine Tanz-App ohne Feed und ohne Punkte">
+  <meta property="article:published_time" content="2026-10-20T08:00:00+02:00">
+  <meta property="article:modified_time" content="2026-10-20T08:00:00+02:00">
+  <meta property="article:section" content="Hinter Dancify">
+  <meta property="article:tag" content="Tanz-App fürs Training">
+  <meta property="article:tag" content="Tanztagebuch App iPhone">
+  <meta property="article:tag" content="private App für Tanzvideos">
+  <meta property="article:tag" content="Trainingsvideos Tanzen ordnen">
+  <meta property="article:tag" content="Tanz-App ohne Social Media">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+
+  <link rel="preload" href="/assets/fonts/geist-semibold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script>document.documentElement.classList.add("js")</script>
+  <script src="/assets/js/main.js" defer></script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://dancify.apphq.online/de/blog/warum-wir-dancify-bauen/#article",
+      "headline": "Warum wir eine Tanz-App ohne Feed und ohne Punkte bauen",
+      "description": "Die Geschichte hinter Dancify: warum Trainingsvideos verloren gehen, sechs Entscheidungen, die die App geprägt haben, was fehlt und was als Nächstes kommt.",
+      "image": [
+        "https://dancify.apphq.online/assets/img/og/de-why-we-built-dancify.jpg"
+      ],
+      "datePublished": "2026-10-20T08:00:00+02:00",
+      "dateModified": "2026-10-20T08:00:00+02:00",
+      "inLanguage": "de-DE",
+      "author": {
+        "@type": "Person",
+        "@id": "https://dancify.apphq.online/#author",
+        "name": "Kasper Koskenvirta",
+        "jobTitle": "Macher von Dancify",
+        "worksFor": {
+          "@id": "https://dancify.apphq.online/#organization"
+        },
+        "url": "https://dancify.apphq.online/de/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dancify.apphq.online/#organization",
+        "name": "AppRise Ventures Oy",
+        "url": "https://dancify.apphq.online/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dancify.apphq.online/assets/img/icon-512.png",
+          "width": 512,
+          "height": 512
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Sokerilinnantie 1 A",
+          "postalCode": "02600",
+          "addressLocality": "Espoo",
+          "addressCountry": "FI"
+        },
+        "email": "appriseven@gmail.com",
+        "sameAs": [
+          "https://apps.apple.com/app/id6830154598"
+        ]
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://dancify.apphq.online/de/blog/warum-wir-dancify-bauen/"
+      },
+      "isPartOf": {
+        "@type": "Blog",
+        "@id": "https://dancify.apphq.online/de/blog/#blog",
+        "name": "Der Dancify Blog"
+      },
+      "articleSection": "Hinter Dancify",
+      "keywords": "Tanz-App fürs Training, Tanztagebuch App iPhone, private App für Tanzvideos, Trainingsvideos Tanzen ordnen, Tanz-App ohne Social Media",
+      "wordCount": 1438,
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Tanztraining"
+        },
+        {
+          "@type": "Thing",
+          "name": "Produktdesign"
+        },
+        {
+          "@type": "Thing",
+          "name": "Datenschutz"
+        },
+        {
+          "@type": "Thing",
+          "name": "Videotagebuch"
+        }
+      ],
+      "mentions": [
+        {
+          "@type": "MobileApplication",
+          "@id": "https://dancify.apphq.online/#app",
+          "name": "Dancify"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "AppRise Ventures"
+        }
+      ],
+      "citation": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7314870/",
+        "https://developer.apple.com/de/app-store/app-privacy-details/"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Startseite",
+          "item": "https://dancify.apphq.online/de/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://dancify.apphq.online/de/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Warum wir eine Tanz-App ohne Feed und ohne Punkte bauen",
+          "item": "https://dancify.apphq.online/de/blog/warum-wir-dancify-bauen/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dancify.apphq.online/de/blog/warum-wir-dancify-bauen/#faq",
+      "inLanguage": "de-DE",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wer entwickelt Dancify?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dancify wird von AppRise Ventures Oy entworfen und entwickelt, einem kleinen Unternehmen in Espoo, Finnland. Die App gibt es für iPhone und iPad auf Deutsch, Englisch, Finnisch, Spanisch, Französisch und Japanisch."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was ist in Dancify kostenlos, was ist Premium?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aufnehmen, Kalender und Verlauf, Notizen, Tags und Meilensteine, die Übungswerkzeuge (Einzählen, Vorlagenvideo, A–B-Schleife, Counts), der Videoeditor und die iCloud-Synchronisierung sind kostenlos. Dancify Premium, jährlich mit einer Woche gratis zum Testen oder monatlich, bringt den Export von Fortschritts-Reels, den Vergleich zweier Takes nebeneinander und die Haltungslinien."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Brauche ich ein Konto für Dancify?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nein. Es gibt kein Konto, keine Anmeldung und kein Profil. Deine Videos und dein Tagebuch bleiben auf deinem Gerät oder in deiner eigenen privaten iCloud, wenn du die Synchronisierung einschaltest. Das Datenschutzlabel im App Store lautet: Keine Daten erfasst."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bewertet Dancify mein Tanzen mit KI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nein. Dancify bewertet und vergleicht kein Tanzen mit Punkten. Die optionalen Haltungslinien (Premium) nutzen Apples Vision-Framework direkt auf deinem Gerät, um Linien über Schultern, Hüfte und Gleichgewicht zu zeichnen, damit du deine Ausrichtung siehst. Nichts wird hochgeladen, nichts wird benotet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Warum hat Dancify keinen Feed und keine Streaks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trainingsvideos sind absichtlich unfertig, und Pausentage gehören zum Training. Ein Feed würde dich für ein Publikum filmen lassen, und Streaks würden einen Ruhetag wie Versagen wirken lassen. Teilen kannst du trotzdem: Jeden Take und jedes Reel kannst du exportieren, wann du willst."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gibt es Dancify für Android?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nein. Dancify ist nativ für iPhone und iPad mit iOS oder iPadOS 26 oder neuer gebaut, einschließlich iPhone Duo. Eine Android- oder Web-Version gibt es nicht."
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-apple" viewBox="0 0 24 24"><path fill="currentColor" d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" d="M7 7l10 10M17 7 7 17"/></symbol>
+    <symbol id="i-minus" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" d="M6.5 12h11"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5.5M12 7.6v.01" stroke-width="2.2"/></g></symbol>
+    <symbol id="i-smile" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M8.5 14.2s1.3 1.8 3.5 1.8 3.5-1.8 3.5-1.8M9 9.5h.01M15 9.5h.01" stroke-width="2"/></g></symbol>
+    <symbol id="i-sparkle" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="m11 3 1.9 5.1L18 10l-5.1 1.9L11 17l-1.9-5.1L4 10l5.1-1.9L11 3Z"/></g></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.8-3.8"/></g></symbol>
+    <symbol id="i-camera" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4.5 8H7l1.8-2.6c.2-.3.5-.4.8-.4h4.8c.3 0 .6.1.8.4L17 8h2.5A1.5 1.5 0 0 1 21 9.5v8a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5v-8A1.5 1.5 0 0 1 4.5 8Z"/><circle cx="12" cy="13.2" r="3.4"/></g></symbol>
+    <symbol id="i-video" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="6" width="13" height="12" rx="2.5"/><path d="m16 10.5 5-3v9l-5-3"/></g></symbol>
+    <symbol id="i-mic" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21"/></g></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M12 20s-7.5-4.6-7.5-10.3A4.2 4.2 0 0 1 12 7.2a4.2 4.2 0 0 1 7.5 2.5C19.5 15.4 12 20 12 20Z"/></symbol>
+    <symbol id="i-widgets" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3.5" y="3.5" width="7.5" height="7.5" rx="2.2"/><rect x="13" y="3.5" width="7.5" height="7.5" rx="3.75"/><rect x="3.5" y="13" width="17" height="7.5" rx="2.2"/></g></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3A4 4 0 0 0 11 18.7l1-1"/></g></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M20 12a8 8 0 0 1-11.6 7.1L4 20l1-4A8 8 0 1 1 20 12Z"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="5" y="10.5" width="14" height="10" rx="3"/><path d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5"/></g></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3Z"/></g></symbol>
+    <symbol id="i-swap" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 8h13l-3-3M20 16H7l3 3"/></symbol>
+    <symbol id="i-bookmark" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M7 4h10a1 1 0 0 1 1 1v15l-6-4-6 4V5a1 1 0 0 1 1-1Z"/></symbol>
+    <symbol id="i-wave" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M4 11v2M7.5 8v8M11 5v14M14.5 9v6M18 7v10M21 11v2"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="3"/></g></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5 5 6v5.5c0 4.2 2.9 7.6 7 9 4.1-1.4 7-4.8 7-9V6l-7-2.5Z"/><path d="m9 12 2.2 2.2L15.2 10"/></g></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M10 9v6M14 9v6" stroke-width="2.2"/></g></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M19.5 14.5A8 8 0 0 1 9.5 4.5a8 8 0 1 0 10 10Z"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></g></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 19h16M6.5 15l4-4.5 3 3L19 7"/></symbol>
+    <symbol id="i-record" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.6" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="5" fill="currentColor"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="15.5" rx="3"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/><path d="M7.5 15.6l3-.6" stroke-width="2.4"/></g></symbol>
+    <symbol id="i-timeline" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 6h11M9 12h11M9 18h7"/><path d="M4.5 6h.01M4.5 12h.01M4.5 18h.01" stroke-width="2.6"/></g></symbol>
+    <symbol id="i-stack" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="6.5" y="3.5" width="11" height="14" rx="2"/><path d="M4 8v11a2 2 0 0 0 2 2h9"/></g></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M8 5.5v13a.6.6 0 0 0 .9.5l10.2-6.5a.6.6 0 0 0 0-1L8.9 5a.6.6 0 0 0-.9.5Z"/></symbol>
+    <symbol id="i-loop" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5V11a4 4 0 0 1 4-4h11l-3-3"/><path d="M20 11.5V13a4 4 0 0 1-4 4H5l3 3"/></g></symbol>
+    <symbol id="i-metronome" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 3.5h5L18.5 20.5h-13l4-17Z"/><path d="M12 15.5 17.5 7M7 16.5h10"/></g></symbol>
+    <symbol id="i-music" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5.5l11-2V16"/><circle cx="6.5" cy="18" r="2.5"/><circle cx="17.5" cy="16" r="2.5"/></g></symbol>
+    <symbol id="i-scissors" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6.5" r="2.7"/><circle cx="6" cy="17.5" r="2.7"/><path d="M8.2 8.2 20 19M8.2 15.8 20 5"/></g></symbol>
+    <symbol id="i-speed" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.8 17a8.5 8.5 0 1 1 16.4 0"/><path d="m12 14.5 4.2-4.5"/><path d="M12 14.5h.01" stroke-width="3"/></g></symbol>
+    <symbol id="i-snow" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 3v18M4.2 7.5l15.6 9M4.2 16.5l15.6-9"/></g></symbol>
+    <symbol id="i-crop" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 2.5v13a2 2 0 0 0 2 2h13"/><path d="M2.5 6.5h13a2 2 0 0 1 2 2v13"/></g></symbol>
+    <symbol id="i-sliders" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h9M17 7h3M4 17h3M11 17h9"/><circle cx="15" cy="7" r="2"/><circle cx="9" cy="17" r="2"/></g></symbol>
+    <symbol id="i-text" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 7V5h14v2M12 5v14M9 19h6"/></g></symbol>
+    <symbol id="i-flag" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 21V4"/><path d="M5.5 4.5h11.5l-2.4 4 2.4 4H5.5"/></g></symbol>
+    <symbol id="i-undo" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 14 4 9l5-5"/><path d="M4 9h10.5a5.5 5.5 0 0 1 0 11H11"/></g></symbol>
+    <symbol id="i-mirror" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18" stroke-dasharray="2 2.6"/><path d="M8.5 6.5 3 17.5h5.5v-11ZM15.5 6.5l5.5 11h-5.5v-11Z"/></g></symbol>
+    <symbol id="i-person" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="4.8" r="2"/><path d="M5 9.5h14M12 9.5v5M12 14.5l-4 6.5M12 14.5l4 6.5"/></g></symbol>
+    <symbol id="i-focus" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8.5V5a1 1 0 0 1 1-1h3.5M15.5 4H19a1 1 0 0 1 1 1v3.5M20 15.5V19a1 1 0 0 1-1 1h-3.5M8.5 20H5a1 1 0 0 1-1-1v-3.5"/><circle cx="12" cy="12" r="3.2"/></g></symbol>
+    <symbol id="i-lens" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/></g></symbol>
+    <symbol id="i-slowmo" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5a8.5 8.5 0 1 1-8.5 8.5" stroke-dasharray="2.2 2.6"/><path d="M10 9v6l5-3-5-3Z"/></g></symbol>
+    <symbol id="i-headphones" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3.5" y="14" width="4.5" height="6.5" rx="1.8"/><rect x="16" y="14" width="4.5" height="6.5" rx="1.8"/></g></symbol>
+    <symbol id="i-pip" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="15" rx="2.5"/><rect x="12.5" y="11" width="6" height="6" rx="1.2"/></g></symbol>
+    <symbol id="i-cloud" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M7 18.5h10.5a4 4 0 0 0 .6-7.95A6 6 0 0 0 6.5 9.2 4.7 4.7 0 0 0 7 18.5Z"/></symbol>
+    <symbol id="i-user-off" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3.5"/><path d="M5 20a7 7 0 0 1 10.6-6M4 4l16 16"/></g></symbol>
+    <symbol id="i-ban" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="m6 6 12 12"/></g></symbol>
+    <symbol id="i-device" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="6.5" y="2.5" width="11" height="19" rx="2.8"/><path d="M10.5 18.5h3"/></g></symbol>
+    <symbol id="i-reel" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="2.5" y="6" width="5.5" height="12" rx="1.3"/><rect x="9.25" y="6" width="5.5" height="12" rx="1.3"/><rect x="16" y="6" width="5.5" height="12" rx="1.3"/></g></symbol>
+    <symbol id="i-compare" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="15" rx="2.5"/><path d="M12 4.5v15"/></g></symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3.5" y="3.5" width="7.5" height="7.5" rx="1.6"/><rect x="13" y="3.5" width="7.5" height="7.5" rx="1.6"/><rect x="3.5" y="13" width="7.5" height="7.5" rx="1.6"/><rect x="13" y="13" width="7.5" height="7.5" rx="1.6"/></g></symbol>
+    <symbol id="i-tag" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M3.5 12.2V4.5a1 1 0 0 1 1-1h7.7l8.3 8.3a1.4 1.4 0 0 1 0 2l-6.7 6.7a1.4 1.4 0 0 1-2 0l-8.3-8.3Z"/><circle cx="8" cy="8" r="1.4"/></g></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="m12 3.5 2.6 5.4 5.9.8-4.3 4.1 1 5.8L12 16.8l-5.2 2.8 1-5.8-4.3-4.1 5.9-.8L12 3.5Z"/></symbol>
+    <symbol id="i-note" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4.5 19.5 9.5 9 20H4v-5L14.5 4.5Z"/><path d="M12.5 6.5l5 5"/></g></symbol>
+    <symbol id="i-tripod" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="7.5" y="2.5" width="9" height="6" rx="1.5"/><path d="M12 8.5v4M12 12.5 6 21M12 12.5l6 8.5M12 12.5V21"/></g></symbol>
+    <symbol id="i-share" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11M8 7.5l4-4 4 4"/><path d="M8 10.5H6.5a1.5 1.5 0 0 0-1.5 1.5v7a1.5 1.5 0 0 0 1.5 1.5h11a1.5 1.5 0 0 0 1.5-1.5v-7a1.5 1.5 0 0 0-1.5-1.5H16"/></g></symbol>
+    <symbol id="i-frames" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3 9h18M3 15h18M7.5 5v4M12 5v4M16.5 5v4M7.5 15v4M12 15v4M16.5 15v4"/></g></symbol>
+    <symbol id="i-tv" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4" width="19" height="13" rx="2.5"/><path d="M8 21h8"/></g></symbol>
+  </svg>
+
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+  <header class="nav" data-nav>
+    <div class="container nav-inner">
+      <a class="brand" href="/de/" aria-label="Dancify Startseite"><img class="brand-mark" src="/assets/img/app-icon.webp" width="30" height="30" alt="">Dancify</a>
+      <ul class="nav-links">
+        <li><a href="/de/#camera">Kamera</a></li>
+        <li><a href="/de/#diary">Tagebuch</a></li>
+        <li class="nav-opt"><a href="/de/#editor">Editor</a></li>
+        <li class="nav-opt"><a href="/de/#premium">Premium</a></li>
+        <li><a href="/de/#faq">FAQ</a></li>
+        <li><a href="/de/blog/" aria-current="page">Blog</a></li>
+      </ul>
+      <div class="nav-end">
+        <details class="lang" data-lang>
+          <summary aria-label="Sprache: Deutsch"><svg aria-hidden="true"><use href="#i-globe"/></svg>DE</summary>
+          <ul class="lang-menu">
+          <li><a href="/blog/why-we-built-dancify/" hreflang="en" lang="en">English <small>EN</small></a></li>
+          <li><a href="/es/blog/por-que-creamos-dancify/" hreflang="es" lang="es">Español <small>ES</small></a></li>
+          <li><a href="/de/blog/warum-wir-dancify-bauen/" hreflang="de" lang="de" aria-current="page">Deutsch <small>DE</small></a></li>
+          </ul>
+        </details>
+        <a class="btn btn-primary btn-sm" href="https://apps.apple.com/app/id6830154598" data-store>
+          <svg aria-hidden="true"><use href="#i-apple"/></svg><span>App laden</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <article>
+      <header class="post-hero">
+        <span class="nav-sentinel" data-nav-sentinel aria-hidden="true"></span>
+        <div class="container post-head">
+          <nav class="crumbs" aria-label="Brotkrümelnavigation">
+            <ol>
+              <li><a href="/de/">Startseite</a></li>
+              <li><a href="/de/blog/">Blog</a></li>
+              <li aria-current="page">Warum wir eine Tanz-App ohne Feed und ohne Punkte bauen</li>
+            </ol>
+          </nav>
+          <p class="post-kicker"><span class="kicker">Hinter Dancify</span><span>7 Min. Lesezeit</span></p>
+          <h1>Warum wir eine Tanz-App <span class="accent">ohne Feed und ohne Punkte</span> bauen</h1>
+          <p class="post-dek">Wer tanzt, filmt alles und findet nichts wieder. Warum wir Dancify um die Kamera und einen Kalender aus Bildern gebaut haben, welche Entscheidungen dahinterstehen, was wir bewusst weggelassen haben und wohin es geht.</p>
+          <div class="byline">
+            <span class="avatar" aria-hidden="true">KK</span>
+            <p class="byline-text"><strong>Kasper Koskenvirta</strong><span>Macher von Dancify · Veröffentlicht am <time datetime="2026-10-20">20. Oktober 2026</time></span></p>
+          </div>
+        </div>
+        <figure class="container post-figure"><img src="/assets/img/covers/de-why-we-built-dancify-1200.webp" srcset="/assets/img/covers/de-why-we-built-dancify-1200.webp 1200w, /assets/img/covers/de-why-we-built-dancify-2400.webp 2400w" sizes="(min-width: 1200px) 1120px, calc(100vw - 40px)" width="2400" height="1200" alt="Drei Ansichten der Dancify-App auf dem iPhone" fetchpriority="high"></figure>
+      </header>
+
+      <div class="container post-wrap">
+        <details class="post-toc" data-toc open>
+          <summary>Auf dieser Seite</summary>
+          <ol>
+            <li><a href="#das-problem">Alles gefilmt, nichts wiedergefunden</a></li>
+            <li><a href="#entscheidungen">Sechs Entscheidungen, die Dancify geprägt haben</a></li>
+            <li><a href="#weggelassen">Was wir bewusst weggelassen haben</a></li>
+            <li><a href="#jeder-stil">Für jeden Stil</a></li>
+            <li><a href="#finanzierung">Wie sich Dancify trägt</a></li>
+            <li><a href="#wie-es-weitergeht">Wie es weitergeht</a></li>
+            <li><a href="#faq">Häufige Fragen</a></li>
+          </ol>
+        </details>
+        <div class="article">
+        <p class="lede">Wer tanzt, filmt alles. Das Aufwärmen, die Kombination am Ende der Stunde, den dritten Durchlauf der Choreo, den einen, der endlich geklappt hat. Dann versinken die Videos in der Galerie zwischen Screenshots und Urlaubsfotos, und wenn du wissen willst, ob deine Drehungen seit dem Frühjahr besser geworden sind, scrollst du zehn Minuten und gibst auf. Mit genau diesem Scrollen hat Dancify angefangen.</p>
+
+        <div class="answer">
+          <span class="answer-label">Kurz gesagt</span>
+          <p>Dancify ist <strong>Kamera, Tanztagebuch und Videoeditor für Tänzerinnen und Tänzer</strong>, entwickelt von AppRise Ventures, einem kleinen Team in Espoo, Finnland. Wir haben es gebaut, damit jeder Take einen Platz hat, du damit üben und nicht nur aufnehmen kannst und dein Fortschritt in deinen eigenen Videos sichtbar wird.</p>
+          <ul>
+            <li><span>Kamera, Kalender, Notizen und Editor sind kostenlos. Premium gibt es nur für die Fortschrittswerkzeuge.</span></li>
+            <li><span>Kein Konto, kein Feed, keine Follower, keine Werbung. Deine Videos gehören dir.</span></li>
+            <li><span>Keine Streaks, keine Likes, keine Punkte. Training und Erinnerung statt Wertung.</span></li>
+          </ul>
+        </div>
+
+        <h2 id="das-problem">Alles gefilmt, nichts wiedergefunden</h2>
+        <p>Sich selbst tanzen zu sehen, gehört zum Nützlichsten, was man fürs Training tun kann. Lehrkräfte wissen das, seit es Kameras im Studio gibt, und die Forschung zur Selbstbeobachtung per Video bestätigt es.<sup><a href="#source-1">1</a></sup> Das Smartphone hat das Filmen kostenlos gemacht. Nützlich gemacht hat es das Filmen nicht.</p>
+        <p>Eine Galerie ist für Fotos von Momenten gebaut, nicht für ein Training, das sich über Monate zieht. Sie weiß nicht, welches Video zu welcher Choreo gehört, welcher Take der gute war oder woran du an dem Tag gearbeitet hast. So wird die ehrlichste Aufzeichnung deines Tanzens zu Durcheinander, und die Frage "Werde ich besser?" beantwortest du nach Gefühl.</p>
+        <p>Wir wollten das Gegenteil: einen Ort, an dem das Filmen des Trainings und das Erinnern daran ein und dasselbe sind.</p>
+
+        <h2 id="entscheidungen">Sechs Entscheidungen, die Dancify geprägt haben</h2>
+        <ul class="principles">
+          <li>
+            <span class="icon-bubble" aria-hidden="true"><svg><use href="#i-camera"/></svg></span>
+            <strong>Die Kamera zuerst</strong>
+            <span>Aufnehmen ist im Kalender nur einen Tipp entfernt oder einen Satz zu Siri, denn ein Tagebuch, das Tippen verlangt, bleibt liegen. Die Kamera ist fürs Tanzen gemacht: musikalisches Einzählen, damit du an deine Markierung kommst, Folgen, damit Fokus und Belichtung bei dir bleiben, Zeitlupe, Spiegeln und Aufnahme mit den Lautstärketasten.</span>
+          </li>
+          <li>
+            <span class="icon-bubble" aria-hidden="true"><svg><use href="#i-bookmark"/></svg></span>
+            <strong>Ein Kalender aus Bildern</strong>
+            <span>Jeder Tag im Kalender zeigt ein Bild aus dem, was du getanzt hast. Ein Trainingsmonat sieht aus wie ein Kontaktabzug, und eine leere Woche wirkt ruhig, nie rot. Stunden und Proben ohne Video lassen sich ebenfalls eintragen.</span>
+          </li>
+          <li>
+            <span class="icon-bubble" aria-hidden="true"><svg><use href="#i-wave"/></svg></span>
+            <strong>Werkzeuge zum Üben, nicht nur zum Aufnehmen</strong>
+            <span>Ein Vorlagenvideo beim Filmen, das auf dem ersten Schlag nach dem Einzählen startet. Eine A–B-Schleife mit optionaler Pause von acht Counts. Counts von 1 bis 8 über der Musik. Das, wonach man mitten im Training greift, nicht erst hinterher.</span>
+          </li>
+          <li>
+            <span class="icon-bubble" aria-hidden="true"><svg><use href="#i-lock"/></svg></span>
+            <strong>Privat von Grund auf</strong>
+            <span>Kein Konto anlegen, nichts posten. Videos und Tagebuch bleiben auf deinem Gerät oder in deiner privaten iCloud, wenn du die Synchronisierung einschaltest, und wir können sie dort nicht sehen. Das Datenschutzlabel im App Store lautet: Keine Daten erfasst.<sup><a href="#source-2">2</a></sup></span>
+          </li>
+          <li>
+            <span class="icon-bubble" aria-hidden="true"><svg><use href="#i-heart"/></svg></span>
+            <strong>Ein kostenloser Editor</strong>
+            <span>Bildgenaues Trimmen, Tempo und Tempo-Rampen, Standbilder, Zuschnitt und Farbe, Titel, Untertitel, Datumsstempel und Musik. Beim Export entsteht ein neuer Take, das Original bleibt immer unverändert. Das eigene Training zu schneiden, sollte nichts extra kosten.</span>
+          </li>
+          <li>
+            <span class="icon-bubble" aria-hidden="true"><svg><use href="#i-chart"/></svg></span>
+            <strong>Premium nur für Fortschritt</strong>
+            <span>Dancify Premium bringt Fortschritts-Reels (vom ersten Versuch bis heute, mit Datum), den Vergleich zweier Takes nebeneinander und Haltungslinien. Alles, was du zum Filmen, Üben und Tagebuchführen brauchst, bleibt kostenlos.</span>
+          </li>
+        </ul>
+
+        <figure class="fig">
+          <div class="fig-media"><div class="phone"><img src="/assets/img/app/de/journal.webp" width="720" height="1564" alt="Dancify Kalender im Oktober, in dem Trainingstage ein Bild aus dem Video des Tages zeigen, mit farbigen Tape-Streifen für Stunden und Training, und der ausgewählte Tag mit drei Takes" loading="lazy"></div></div>
+          <figcaption>
+            <span class="tag">Kostenlos in Dancify</span>
+            <strong>Warum der Kalender Bilder zeigt statt Punkte</strong>
+            <span>Punkte und Heatmaps sagen dir, wie oft du trainiert hast. Bilder erinnern dich daran, was du trainiert hast: das Kostüm von der Aufführung, die Stange im alten Studio, den Abend, an dem die Drehung endlich saß. Farbige Tape-Streifen, wie das Markierungstape auf einem Bühnenboden, kennzeichnen Stunden, Proben und Training.</span>
+          </figcaption>
+        </figure>
+
+        <h2 id="weggelassen">Was wir bewusst weggelassen haben</h2>
+        <p>Manche Funktionen würden eine App vermutlich schneller wachsen lassen. Wir glauben, dass sie Dancify bei seiner eigentlichen Aufgabe schlechter machen würden.</p>
+        <div class="vs">
+          <div class="vs-card is-warm">
+            <h3><span aria-hidden="true"><svg><use href="#i-x"/></svg></span>Nicht in Dancify</h3>
+            <dl>
+              <div><dt>Ein sozialer Feed</dt><dd>Trainingsvideos sind absichtlich unfertig. Sie müssen keinem Publikum genügen.</dd></div>
+              <div><dt>Likes und Follower</dt><dd>Du würdest anfangen, für sie zu filmen statt für dich.</dd></div>
+              <div><dt>Streaks</dt><dd>Pausentage gehören zum Training. Eine gerissene Serie soll sich nicht wie Versagen anfühlen.</dd></div>
+              <div><dt>KI-Bewertungen</dt><dd>Eine Zahl weiß nicht, ob du die Musik gemeint hast. Die Haltungslinien zeichnen Linien über deinen Körper, damit du besser siehst. Sie vergeben keine Note.</dd></div>
+            </dl>
+          </div>
+          <div class="vs-card">
+            <h3><span aria-hidden="true"><svg><use href="#i-heart"/></svg></span>Was wir stattdessen gebaut haben</h3>
+            <dl>
+              <div><dt>Dein eigenes Archiv</dt><dd>Jeder Take an seinem Tag und in seiner Choreo, dazu ein Verlauf mit Filtern.</dd></div>
+              <div><dt>Notizen und Meilensteine</dt><dd>Ein Satz nach dem Training, ein Stern an dem Tag, an dem es klick gemacht hat.</dd></div>
+              <div><dt>Damals und jetzt</dt><dd>Dein erster Versuch neben dem neuesten, mit Datum.</dd></div>
+              <div><dt>Teilen, wenn du willst</dt><dd>Einen Take oder ein Reel exportieren, in Fotos sichern und schicken, wohin du möchtest.</dd></div>
+            </dl>
+          </div>
+        </div>
+        <blockquote class="pull">Fortschritt beim Tanzen ist leise. Wir wollten eine App, die genauso ruhig ist und dir dann in deinen eigenen Videos zeigt, wie weit du gekommen bist.</blockquote>
+
+        <h2 id="jeder-stil">Für jeden Stil</h2>
+        <p>Im Ballett oder Contemporary kannst du an der Stange deine Linien prüfen. Im Hip-Hop, Heels oder K-Pop kannst du die Achterphrase in Schleife legen, die einfach nicht sitzen will. Salsa-, Bachata- und Standardpaare können ihre Basics filmen, und im Stepptanz oder Irish Dance lässt sich die Fußarbeit auf ein Viertel der Geschwindigkeit verlangsamen. Die Werkzeuge sind dieselben, nur die Kamerahöhe ändert sich. Wie, steht in <a href="/de/blog/sich-beim-tanzen-filmen/">sich beim Tanzen filmen</a>.</p>
+        <p>Dancify läuft auf iPhone und iPad (iOS und iPadOS 26 oder neuer), auch auf dem iPhone Duo, wo die beiden Bereiche links und rechts vom Falz liegen. Die App spricht Deutsch, Englisch, Finnisch, Spanisch, Französisch und Japanisch. Mit Siri und Kurzbefehlen kannst du eine Aufnahme starten, ein Training eintragen, den heutigen Tag öffnen oder den Fortschritt einer Choreo zeigen. Mit einem externen Bildschirm oder AirPlay läuft der geöffnete Take groß im Vollbild, praktisch im Studio.</p>
+
+        <ul class="fig-row is-two">
+          <li>
+            <div class="phone"><img src="/assets/img/app/de/camera.webp" width="720" height="1564" alt="Dancify Kamera bereit zur Aufnahme, mit Einzählen, Objektivzoom und Formateinstellungen" loading="lazy"></div>
+            <p><b>Eine Kamera, die aufs Einzählen wartet</b>Einzählen, Folgen, Zeitlupe, Spiegeln, Raster und Wasserwaage.</p>
+          </li>
+          <li>
+            <div class="phone"><img src="/assets/img/app/de/editor.webp" width="720" height="1564" alt="Dancify Videoeditor mit einem Trainings-Take auf der Zeitleiste und Werkzeugen für Trimmen, Tempo, Zuschnitt, Anpassen, Text und Audio" loading="lazy"></div>
+            <p><b>Ein kostenloser Editor</b>Trimmen, Tempo, Standbild, Zuschnitt, Farbe, Untertitel und Musik. Das Original bleibt unberührt.</p>
+          </li>
+        </ul>
+
+        <h2 id="finanzierung">Wie sich Dancify trägt</h2>
+        <p>Wir sind ein kleines Unternehmen, deshalb sagen wir es lieber klar. Dancify ist kostenlos zu laden, ohne Werbung und ohne Daten, die wir verkaufen könnten. Dancify Premium, jährlich mit einer Woche gratis zum Testen oder monatlich, schaltet den Export von Fortschritts-Reels, den Vergleich nebeneinander und die Haltungslinien frei. Das ist das ganze Geschäftsmodell. Wenn Premium nichts für dich ist, bleibt die kostenlose App eine vollständige Kamera, ein Tanztagebuch und ein Editor.</p>
+
+        <h2 id="wie-es-weitergeht">Wie es weitergeht</h2>
+        <p>Wir verfeinern erst das Wesentliche, bevor wir mehr dazubauen: die Kamera, den Kalender und die Übungswerkzeuge, so wie Tänzerinnen und Tänzer uns erzählen, was sie mitten im Training brauchen. Die Grundsätze bleiben: Deine Videos gehören dir, Training wird nie zur Punktzahl, und die kostenlose App bleibt vollständig.</p>
+        <p>Termine, die wir nicht halten können, versprechen wir nicht. Was wir bauen, erzählen wir hier im Blog, neben Ratgebern wie <a href="/de/blog/tanztagebuch-fuehren/">ein Tanztagebuch führen</a> oder <a href="/de/blog/tanz-fortschritt-video/">ein Fortschrittsvideo machen</a>. Und wenn sich in Dancify etwas falsch anfühlt oder dir etwas fehlt, <a href="mailto:appriseven@gmail.com">schreib uns</a>. Wir lesen jede Nachricht.</p>
+
+        <div class="verdict">
+          <div>
+            <span class="eyebrow">Fang mit einem Take an</span>
+            <h3>Film dein nächstes Training mit Dancify</h3>
+            <p>Aufnahme starten, beim Einzählen an die Markierung gehen, tanzen. Morgen trägt dieser Tag in deinem Kalender dein Bild.</p>
+            <ul>
+              <li>Kamera, Tagebuch und Editor kostenlos</li>
+              <li>Kein Konto, kein Feed, keine Werbung</li>
+              <li>iPhone und iPad</li>
+            </ul>
+            <a class="btn" href="https://apps.apple.com/app/id6830154598" data-store>Dancify laden</a>
+          </div>
+          <div class="phone" aria-hidden="true"><img src="/assets/img/app/de/timeline.webp" width="720" height="1564" alt="" loading="lazy"></div>
+        </div>
+
+        <h2 id="faq">Häufige Fragen</h2>
+        <div class="faq">
+          <details>
+            <summary>Wer entwickelt Dancify?</summary>
+            <p>Dancify wird von AppRise Ventures Oy entworfen und entwickelt, einem kleinen Unternehmen in Espoo, Finnland. Die App gibt es für iPhone und iPad auf Deutsch, Englisch, Finnisch, Spanisch, Französisch und Japanisch.</p>
+          </details>
+          <details>
+            <summary>Was ist in Dancify kostenlos, was ist Premium?</summary>
+            <p>Aufnehmen, Kalender und Verlauf, Notizen, Tags und Meilensteine, die Übungswerkzeuge (Einzählen, Vorlagenvideo, A–B-Schleife, Counts), der Videoeditor und die iCloud-Synchronisierung sind kostenlos. Dancify Premium, jährlich mit einer Woche gratis zum Testen oder monatlich, bringt den Export von Fortschritts-Reels, den Vergleich zweier Takes nebeneinander und die Haltungslinien.</p>
+          </details>
+          <details>
+            <summary>Brauche ich ein Konto für Dancify?</summary>
+            <p>Nein. Es gibt kein Konto, keine Anmeldung und kein Profil. Deine Videos und dein Tagebuch bleiben auf deinem Gerät oder in deiner eigenen privaten iCloud, wenn du die Synchronisierung einschaltest. Das Datenschutzlabel im App Store lautet: Keine Daten erfasst.</p>
+          </details>
+          <details>
+            <summary>Bewertet Dancify mein Tanzen mit KI?</summary>
+            <p>Nein. Dancify bewertet und vergleicht kein Tanzen mit Punkten. Die optionalen Haltungslinien (Premium) nutzen Apples Vision-Framework direkt auf deinem Gerät, um Linien über Schultern, Hüfte und Gleichgewicht zu zeichnen, damit du deine Ausrichtung siehst. Nichts wird hochgeladen, nichts wird benotet.</p>
+          </details>
+          <details>
+            <summary>Warum hat Dancify keinen Feed und keine Streaks?</summary>
+            <p>Trainingsvideos sind absichtlich unfertig, und Pausentage gehören zum Training. Ein Feed würde dich für ein Publikum filmen lassen, und Streaks würden einen Ruhetag wie Versagen wirken lassen. Teilen kannst du trotzdem: Jeden Take und jedes Reel kannst du exportieren, wann du willst.</p>
+          </details>
+          <details>
+            <summary>Gibt es Dancify für Android?</summary>
+            <p>Nein. Dancify ist nativ für iPhone und iPad mit iOS oder iPadOS 26 oder neuer gebaut, einschließlich iPhone Duo. Eine Android- oder Web-Version gibt es nicht.</p>
+          </details>
+        </div>
+
+        <section class="sources" aria-labelledby="sources">
+          <h2 id="sources">Quellen</h2>
+          <ol>
+            <li id="source-1">Giambrone J, Miltenberger RG (2020). Using video self-evaluation to enhance performance in competitive dancers. Behavior Analysis in Practice 13(2), 445–453. Abgerufen am 2026-11-04. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7314870/" rel="noopener">pmc.ncbi.nlm.nih.gov</a></li>
+            <li id="source-2">Apple Developer: Datenschutzangaben im App Store (was als Datenerfassung gilt). Abgerufen am 2026-11-04. <a href="https://developer.apple.com/de/app-store/app-privacy-details/" rel="noopener">developer.apple.com</a></li>
+          </ol>
+        </section>
+        <aside class="author-card">
+          <span class="avatar avatar-lg" aria-hidden="true">KK</span>
+          <div>
+            <p class="author-name">Kasper Koskenvirta</p>
+            <p class="author-role">Macher von Dancify</p>
+            <p>Kasper entwirft und entwickelt Dancify bei AppRise Ventures in Espoo, Finnland. Dancify ist Kamera, Trainingstagebuch und Videoeditor für Tänzerinnen und Tänzer, für iPhone und iPad.</p>
+          </div>
+        </aside>
+        </div>
+      </div>
+    </article>
+
+    <section class="related" aria-labelledby="related-title">
+      <div class="container">
+        <h2 id="related-title">Weiterlesen</h2>
+        <ul class="post-cards post-cards-related">
+        <li class="post-card">
+          <div class="post-card-media"><img src="/assets/img/covers/de-practice-journal-1200.webp" srcset="/assets/img/covers/de-practice-journal-1200.webp 1200w, /assets/img/covers/de-practice-journal-2400.webp 2400w" sizes="(min-width: 960px) 560px, 100vw" width="2400" height="1200" alt="" loading="lazy" decoding="async"></div>
+          <div class="post-card-body">
+            <p class="post-card-meta"><span class="kicker">Training</span><span>8 Min. Lesezeit</span></p>
+            <h3><a href="/de/blog/tanztagebuch-fuehren/">Tanztagebuch führen: was du notieren solltest, mit Schreibfragen</a></h3>
+            <p class="post-card-text">Tanztagebuch führen: was du nach jeder Stunde notieren solltest, ein Fünf-Minuten-Eintrag, Schreibfragen für Tanzende und ein Wochenrückblick für Fortschritt.</p>
+            <p class="post-card-foot"><time datetime="2026-10-25">25. Oktober 2026</time><span class="read-more" aria-hidden="true">Lesen</span></p>
+          </div>
+        </li>
+        <li class="post-card">
+          <div class="post-card-media"><img src="/assets/img/covers/de-film-yourself-1200.webp" srcset="/assets/img/covers/de-film-yourself-1200.webp 1200w, /assets/img/covers/de-film-yourself-2400.webp 2400w" sizes="(min-width: 960px) 560px, 100vw" width="2400" height="1200" alt="" loading="lazy" decoding="async"></div>
+          <div class="post-card-body">
+            <p class="post-card-meta"><span class="kicker">Filmen</span><span>9 Min. Lesezeit</span></p>
+            <h3><a href="/de/blog/sich-beim-tanzen-filmen/">Sich beim Tanzen filmen: Perspektive, Licht und Aufbau</a></h3>
+            <p class="post-card-text">Sich beim Tanzen filmen mit dem Handy: Kamerahöhe und Abstand pro Tanzstil, die beste Perspektive, Licht, Ton, Stative und sechs Fehler, die Videos ruinieren.</p>
+            <p class="post-card-foot"><time datetime="2026-11-03">3. November 2026</time><span class="read-more" aria-hidden="true">Lesen</span></p>
+          </div>
+        </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section cta" style="padding-top:0">
+      <div class="container">
+        <div class="cta-card card cta-contained">
+          <div class="cta-copy">
+            <img class="cta-icon" src="/assets/img/app-icon.webp" width="256" height="256" alt="" loading="lazy">
+            <h2>Jedes Training bleibt</h2>
+            <p>Kostenlos laden. Ohne Konto, ohne Werbung. Film das heutige Training, und es steht in deinem Tagebuch.</p>
+            <a class="btn btn-primary btn-store" href="https://apps.apple.com/app/id6830154598" data-store>
+              <svg aria-hidden="true"><use href="#i-apple"/></svg>
+              <span class="btn-label"><small>Laden im</small><strong>App Store</strong></span>
+            </a>
+          </div>
+          <div class="cta-phone" aria-hidden="true">
+            <div class="phone"><img src="/assets/img/app/de/journal.webp" width="720" height="1564" alt="" loading="lazy"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span class="tape t-amber" aria-hidden="true"></span>
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a class="brand" href="/de/" aria-label="Dancify Startseite"><img class="brand-mark" src="/assets/img/app-icon.webp" width="30" height="30" alt="">Dancify</a>
+          <p class="footer-tagline">Filmen. Behalten. Besser werden.</p>
+        </div>
+        <ul class="footer-links">
+          <li><a href="/de/blog/">Blog</a></li>
+          <li><a href="https://apps.apple.com/app/id6830154598">App Store</a></li>
+          <li><a href="mailto:appriseven@gmail.com">Support</a></li>
+          <li><a href="/privacy/" hreflang="en">Datenschutz (Englisch)</a></li>
+          <li><a href="/terms/" hreflang="en">Nutzungsbedingungen (Englisch)</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> AppRise Ventures Oy · Espoo, Finnland</span>
+        <ul class="footer-langs" data-lang aria-label="Sprache">
+          <li><a href="/blog/why-we-built-dancify/" hreflang="en" lang="en">English</a></li>
+          <li><a href="/es/blog/por-que-creamos-dancify/" hreflang="es" lang="es">Español</a></li>
+          <li><a href="/de/blog/warum-wir-dancify-bauen/" hreflang="de" lang="de" aria-current="page">Deutsch</a></li>
+        </ul>
+        <span>Unternehmens-ID (Y-tunnus) 3336104-8</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

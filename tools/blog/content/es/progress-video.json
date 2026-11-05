@@ -1,0 +1,95 @@
+{
+  "id": "progress-video",
+  "slug": "video-de-progreso-de-baile",
+  "title": "Vídeo de progreso de baile: cómo hacer un antes y después",
+  "headline": "Cómo hacer un vídeo de progreso de baile honesto y motivador",
+  "h1": "Cómo hacer un vídeo de progreso de baile <span class=\"accent\">honesto y motivador</span>",
+  "dek": "Un antes y después solo significa algo si las dos tomas se grabaron igual. Cómo prepararlo, cada cuánto grabar, qué comparar, qué formato usar y cómo montarlo con cualquier editor.",
+  "description": "Cómo hacer un vídeo de progreso de baile: graba la misma combinación igual, cada cuánto, qué comparar, secuencia, lado a lado o cuadrícula, fechas y compartir.",
+  "tag": "Progreso",
+  "og_title": "Cómo hacer un vídeo de progreso de baile honesto y motivador",
+  "og_kicker": "Guía de práctica",
+  "og_heading": "Un vídeo de progreso <span>en el que confiar</span>",
+  "og_alt": "Pantallas de reel de progreso y comparación lado a lado de Dancify junto al titular: un vídeo de progreso en el que confiar",
+  "keywords": [
+    "vídeo de progreso de baile",
+    "antes y después baile",
+    "comparar vídeos de baile",
+    "vídeo de evolución bailando",
+    "cómo ver mi progreso en el baile",
+    "reel de progreso de baile"
+  ],
+  "about": [
+    "Práctica de baile",
+    "Seguimiento del progreso",
+    "Autoevaluación con vídeo",
+    "Edición de vídeo"
+  ],
+  "mentions": [
+    "Dancify",
+    "iMovie"
+  ],
+  "published": "2026-10-29",
+  "modified": "2026-10-29",
+  "related": [
+    "film-yourself",
+    "practice-journal"
+  ],
+  "cover": [
+    "reel",
+    "compare",
+    "pieces"
+  ],
+  "cover_alt": [
+    "Reel de progreso de Dancify de la coreografía Slow Burn, cuatro tomas de agosto a octubre",
+    "Dancify comparando dos tomas de la misma combinación de ballet, Antes en agosto y Ahora en octubre"
+  ],
+  "chips": [
+    {
+      "emoji": "🎞️",
+      "title": "Antes y ahora",
+      "sub": "83 días después"
+    },
+    {
+      "emoji": "📍",
+      "title": "Misma marca",
+      "sub": "Misma altura, misma lente"
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cómo se hace un vídeo de progreso de baile?",
+      "a": "Elige una combinación corta y grábala siempre igual cada cierto tiempo: mismo sitio, misma altura, distancia y lente, misma música y tempo, ropa y luz parecidas. Pon fecha a cada toma. Después monta la primera y la última lado a lado o una detrás de otra en un editor, añade las fechas y expórtalo como un vídeo nuevo."
+    },
+    {
+      "q": "¿Cada cuánto debería grabar mi progreso bailando?",
+      "a": "Cada semana mientras aprendes una coreografía concreta, cada dos a cuatro semanas para técnica como giros y saltos, y una vez al mes para flexibilidad. Tres meses suelen bastar para ver una diferencia clara en técnica."
+    },
+    {
+      "q": "¿Es mejor comparar vídeos de baile lado a lado o uno detrás de otro?",
+      "a": "Lado a lado es mejor para el detalle, porque las dos tomas suenan a la vez y las diferencias de tiempo y líneas se ven enseguida. Una secuencia cuenta mejor la historia y va bien para compartir. La cuadrícula sirve para enseñar cuatro fechas o más a la vez."
+    },
+    {
+      "q": "¿Qué tengo que mirar al comparar dos vídeos de baile?",
+      "a": "Una cosa cada vez: líneas y colocación, el tiempo respecto a la cuenta, musicalidad y dinámicas, resistencia al final de la combinación, uso del espacio y seguridad. Pausa en la misma pose en las dos tomas y avanza fotograma a fotograma en los acentos."
+    },
+    {
+      "q": "¿Se puede hacer un vídeo de progreso de baile gratis?",
+      "a": "Sí. Sirve cualquier editor que divida la pantalla y añada texto, por ejemplo iMovie en iPhone con su pantalla dividida. En Dancify, grabar, el calendario y el editor son gratis; exportar reels de progreso y comparar tomas lado a lado forman parte de Dancify Premium."
+    },
+    {
+      "q": "¿Por qué mi vídeo de progreso no parece que muestre progreso?",
+      "a": "Normalmente porque algo cambió en la grabación: otra lente o distancia, otra luz, otra canción o tempo, o una toma al final de un ensayo agotador. Fija la grabación y vuelve a grabar. Y recuerda que la constancia, el tiempo y la seguridad también son progreso, aunque las formas se parezcan."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Giambrone J, Miltenberger RG (2020). Using video self-evaluation to enhance performance in competitive dancers. Behavior Analysis in Practice 13(2), 445–453. Consultado el 2026-11-04.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7314870/"
+    },
+    {
+      "text": "Soporte de Apple: añadir efectos de superposición de vídeo (pantalla dividida, imagen en imagen) en iMovie para iPhone. Consultado el 2026-11-04.",
+      "url": "https://support.apple.com/es-es/guide/imovie-iphone/kna831efee4d/ios"
+    }
+  ]
+}

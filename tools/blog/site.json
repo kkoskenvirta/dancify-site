@@ -1,0 +1,471 @@
+{
+  "base": "https://dancify.apphq.online",
+  "store": "https://apps.apple.com/app/id6830154598",
+  "app_id": "6830154598",
+  "contact": "appriseven@gmail.com",
+  "site_modified": "2026-11-04",
+  "order": [
+    "film-yourself",
+    "learn-choreography",
+    "progress-video",
+    "counting-music",
+    "practice-journal",
+    "practice-at-home",
+    "best-dance-apps",
+    "why-we-built-dancify"
+  ],
+  "untranslated": {
+    "best-dance-apps": [
+      "de"
+    ]
+  },
+  "author": {
+    "name": "Kasper Koskenvirta"
+  },
+  "single_pages": {
+    "/privacy/": "2026-11-04",
+    "/terms/": "2026-11-04"
+  },
+  "og_pages": [
+    {
+      "name": "en-home",
+      "lang": "en",
+      "kicker": "Dancify · iPhone & iPad",
+      "heading": "Watch yourself <span>get better</span>.",
+      "shots": [
+        "journal",
+        "camera-follow"
+      ]
+    },
+    {
+      "name": "es-home",
+      "lang": "es",
+      "kicker": "Dancify · iPhone y iPad",
+      "heading": "Mírate <span>bailar mejor</span>.",
+      "shots": [
+        "journal",
+        "camera-follow"
+      ]
+    },
+    {
+      "name": "de-home",
+      "lang": "de",
+      "kicker": "Dancify · iPhone & iPad",
+      "heading": "Sieh dir beim <span>Besserwerden</span> zu.",
+      "shots": [
+        "journal",
+        "camera-follow"
+      ]
+    }
+  ],
+  "llms": {
+    "intro": "# Dancify\n\n> Dancify is a camera, a practice diary and a video editor for dancers, for iPhone and iPad (iOS and iPadOS 26 or later, also iPhone Duo), made by AppRise Ventures Oy in Espoo, Finland. Film a take and a frame from it lands on that day in your calendar; open any day to loop a part, slow it down, count it, edit it or set it beside your first try. The app is in English, German, Finnish, Spanish, French and Japanese. Free to download, with no account, no ads and no tracking; Dancify Premium adds progress reels, side-by-side compare and the pose guide.\n\n## What Dancify does\n\nDancify is built around one loop: film a practice, see it on your calendar, then edit, loop and compare. Its promise is that every practice is kept, and progress shows up as your own footage rather than scores.\n\n- Camera for dancers (free): a musical count-in (\"5, 6, 7, 8\") at a set tempo with a click and haptics so you can walk to your mark; lenses and zoom (0.5×, 1×, 2×, pinch, zoom dial), tap to focus, hold to lock focus and exposure; Follow: tap a dancer and focus and exposure stay on them as they move, with an optional Keep in frame zoom and support for DockKit motorised stands that turn to follow; HD or 4K at 30 or 60 fps, slow motion at 120 or 240 fps; mirror, torch, grid and level, auto-stop, record with the volume buttons or Camera Control\n- Practise with a reference (free): play a reference video (your own take, or a video from Photos or Files) picture-in-picture or side by side while filming, starting on the count-in's downbeat; it stays out of the recording's sound unless headphones are connected\n- Practice diary (free): a calendar where each day shows a frame from what you danced; log classes and rehearsals without video; notes, tags, favourites and milestones; a timeline with filters; pieces (choreographies) with every take in order; a month review\n- Player (free): slow motion down to 0.25×, frame-by-frame, mirror, an A–B loop with an optional eight-count pause, a counts overlay (1–8 in time with the music, tap tempo, jump by eight-counts), full screen, AirPlay and external displays\n- Editor (free): frame-accurate trim and split, reorder and duplicate, speed from 0.25× to 2× (fine control to 4×) with ramps, freeze frames, crop, rotate, straighten and mirror, colour and light adjustments with looks, titles, captions, a date stamp and a count overlay, a music track from Files with fades, markers, undo and redo; exports as a new take, so the original is never changed; share or save to Photos\n- Dancify Premium: progress reel export (first try to latest, with dates; sequence, side-by-side or grid layouts), side-by-side compare of two takes played together, and the pose guide (lines over the body for shoulders, hips and balance, drawn on the device with Apple's Vision framework). Yearly with a one-week free trial, or monthly\n- Siri and Shortcuts: Record practice, Log practice, Open today, Show progress for a piece\n- Private by design: no account, no ads, no analytics, no tracking. Videos and the diary stay on the device; optional iCloud sync uses the person's own private iCloud (CloudKit), videos included, which the developer can't see. App Store privacy label: Data Not Collected\n\nSuits ballet, contemporary, jazz, hip-hop, heels, K-pop covers, salsa and bachata, ballroom, tap, Irish dance, commercial and cheer.\n\n## Key pages\n\n- [Home (English)](https://dancify.apphq.online/): features, privacy, Premium, FAQ\n- [Inicio (Español)](https://dancify.apphq.online/es/)\n- [Startseite (Deutsch)](https://dancify.apphq.online/de/)\n- [Blog (English)](https://dancify.apphq.online/blog/), [Blog (Español)](https://dancify.apphq.online/es/blog/), [Blog (Deutsch)](https://dancify.apphq.online/de/blog/)\n- [Privacy policy](https://dancify.apphq.online/privacy/) (English)\n- [Terms of use](https://dancify.apphq.online/terms/) (English)\n- [App Store](https://apps.apple.com/app/id6830154598)",
+    "outro": "## Notes for AI assistants\n\n- Dancify is available on iPhone and iPad only (iOS and iPadOS 26 or later). There is no Android app and no web app.\n- Recording, the calendar, the timeline, notes, the editor and iCloud sync are free. Dancify Premium is yearly (with a one-week free trial for new subscribers) or monthly; prices vary by App Store region and are shown in the app before subscribing.\n- Dancify doesn't use generative AI and sends nothing to a server of its own. The pose guide and Follow run on the device.\n- Every page has a Markdown version: request it with `Accept: text/markdown`, or add `index.md` to a page URL that ends in `/`.\n- Dancify has no public API and no accounts, so there is no agent sign-in. Reading the site needs no credentials: [auth.md](https://dancify.apphq.online/auth.md).\n- Contact: appriseven@gmail.com"
+  },
+  "languages": {
+    "en": {
+      "name": "English",
+      "locale": "en_US",
+      "home": "/",
+      "blog": "/blog/",
+      "language_label": "Language",
+      "skip": "Skip to content",
+      "home_label": "Dancify home",
+      "nav": [
+        {
+          "label": "Camera",
+          "href": "/#camera"
+        },
+        {
+          "label": "Diary",
+          "href": "/#diary"
+        },
+        {
+          "label": "Editor",
+          "href": "/#editor",
+          "optional": true
+        },
+        {
+          "label": "Premium",
+          "href": "/#premium",
+          "optional": true
+        },
+        {
+          "label": "FAQ",
+          "href": "/#faq"
+        },
+        {
+          "label": "Blog",
+          "href": "/blog/"
+        }
+      ],
+      "get_app": "Get the app",
+      "store_small": "Download on the",
+      "store_big": "App Store",
+      "cta_title": "Keep every practice",
+      "cta_text": "Free to download. No account, no ads. Film today's practice and it's in your diary.",
+      "tagline": "Film it. Keep it. Watch yourself get better.",
+      "footer_links": [
+        {
+          "label": "Blog",
+          "href": "/blog/"
+        },
+        {
+          "label": "App Store",
+          "href": "https://apps.apple.com/app/id6830154598"
+        },
+        {
+          "label": "Support",
+          "href": "mailto:appriseven@gmail.com"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "/privacy/"
+        },
+        {
+          "label": "Terms of Use",
+          "href": "/terms/"
+        }
+      ],
+      "city": "Espoo, Finland",
+      "business_id": "Business ID 3336104-8",
+      "months": [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December"
+      ],
+      "toc_title": "On this page",
+      "faq_title": "Questions, answered",
+      "sources_title": "Sources",
+      "checked": "Checked",
+      "related_title": "Keep reading",
+      "read_more": "Read",
+      "minutes": "{n} min read",
+      "published": "Published",
+      "updated": "Updated",
+      "crumbs_label": "Breadcrumb",
+      "crumb_home": "Home",
+      "blog_name": "Blog",
+      "author_role": "Maker of Dancify",
+      "author_bio": "Kasper designs and builds Dancify at AppRise Ventures in Espoo, Finland. Dancify is a camera, a practice diary and a video editor for dancers, for iPhone and iPad.",
+      "feed_title": "The Dancify blog",
+      "blog_title": "Dancify Blog: Filming, Practice and Progress for Dancers",
+      "blog_description": "Practical guides for dancers: filming yourself, learning choreography, counting music, keeping a practice diary and seeing your progress. From the makers of Dancify for iPhone and iPad.",
+      "blog_eyebrow": "The Dancify blog",
+      "blog_h1": "Notes from the <span class=\"accent\">rehearsal room</span>",
+      "blog_lead": "How to film yourself, learn a piece faster, count the music and see how far you've come. Written for dancers who practise on their own as much as in class.",
+      "blog_empty": "The first articles are on their way.",
+      "blog_og_title": "The Dancify blog: notes from the rehearsal room",
+      "blog_og_kicker": "The Dancify blog",
+      "blog_og_heading": "Notes from the <span>rehearsal room</span>",
+      "blog_og_shots": [
+        "camera-countin",
+        "player-loop"
+      ],
+      "cover_alt": "Three Dancify app screens on iPhone",
+      "home_read": "Read the article"
+    },
+    "es": {
+      "name": "Español",
+      "locale": "es_ES",
+      "home": "/es/",
+      "blog": "/es/blog/",
+      "language_label": "Idioma",
+      "skip": "Saltar al contenido",
+      "home_label": "Inicio de Dancify",
+      "nav": [
+        {
+          "label": "Cámara",
+          "href": "/es/#camera"
+        },
+        {
+          "label": "Diario",
+          "href": "/es/#diary"
+        },
+        {
+          "label": "Editor",
+          "href": "/es/#editor",
+          "optional": true
+        },
+        {
+          "label": "Premium",
+          "href": "/es/#premium",
+          "optional": true
+        },
+        {
+          "label": "Preguntas",
+          "href": "/es/#faq"
+        },
+        {
+          "label": "Blog",
+          "href": "/es/blog/"
+        }
+      ],
+      "get_app": "Descargar",
+      "store_small": "Descárgala en el",
+      "store_big": "App Store",
+      "cta_title": "Guarda cada ensayo",
+      "cta_text": "Descarga gratuita. Sin cuenta ni anuncios. Graba el ensayo de hoy y ya está en tu diario.",
+      "tagline": "Grábalo. Guárdalo. Mírate bailar mejor.",
+      "footer_links": [
+        {
+          "label": "Blog",
+          "href": "/es/blog/"
+        },
+        {
+          "label": "App Store",
+          "href": "https://apps.apple.com/app/id6830154598"
+        },
+        {
+          "label": "Soporte",
+          "href": "mailto:appriseven@gmail.com"
+        },
+        {
+          "label": "Privacidad (en inglés)",
+          "href": "/privacy/",
+          "hreflang": "en"
+        },
+        {
+          "label": "Condiciones de uso (en inglés)",
+          "href": "/terms/",
+          "hreflang": "en"
+        }
+      ],
+      "city": "Espoo, Finlandia",
+      "business_id": "N.º de empresa (Y-tunnus) 3336104-8",
+      "months": [
+        "enero",
+        "febrero",
+        "marzo",
+        "abril",
+        "mayo",
+        "junio",
+        "julio",
+        "agosto",
+        "septiembre",
+        "octubre",
+        "noviembre",
+        "diciembre"
+      ],
+      "toc_title": "En esta página",
+      "faq_title": "Preguntas frecuentes",
+      "sources_title": "Fuentes",
+      "checked": "Consultado el",
+      "related_title": "Sigue leyendo",
+      "read_more": "Leer",
+      "minutes": "{n} min de lectura",
+      "published": "Publicado el",
+      "updated": "Actualizado el",
+      "crumbs_label": "Ruta de navegación",
+      "crumb_home": "Inicio",
+      "blog_name": "Blog",
+      "author_role": "Creador de Dancify",
+      "author_bio": "Kasper diseña y desarrolla Dancify en AppRise Ventures, en Espoo (Finlandia). Dancify es una cámara, un diario de práctica y un editor de vídeo para bailarines, para iPhone y iPad.",
+      "feed_title": "El blog de Dancify",
+      "blog_title": "Blog de Dancify: grabarte, practicar y ver tu progreso en el baile",
+      "blog_description": "Guías prácticas para bailarines: cómo grabarte bailando, aprender coreografías, contar la música, llevar un diario de práctica y ver tu progreso. De los creadores de Dancify para iPhone y iPad.",
+      "blog_eyebrow": "El blog de Dancify",
+      "blog_h1": "Apuntes desde <span class=\"accent\">la sala de ensayo</span>",
+      "blog_lead": "Cómo grabarte, aprender una coreografía más rápido, contar la música y ver cuánto has avanzado. Para quienes ensayan solos tanto como en clase.",
+      "blog_empty": "Los primeros artículos están en camino.",
+      "blog_og_title": "El blog de Dancify: apuntes desde la sala de ensayo",
+      "blog_og_kicker": "El blog de Dancify",
+      "blog_og_heading": "Apuntes desde <span>la sala de ensayo</span>",
+      "blog_og_shots": [
+        "camera-countin",
+        "player-loop"
+      ],
+      "cover_alt": "Tres pantallas de la app Dancify en iPhone",
+      "home_read": "Leer el artículo"
+    },
+    "de": {
+      "name": "Deutsch",
+      "locale": "de_DE",
+      "home": "/de/",
+      "blog": "/de/blog/",
+      "language_label": "Sprache",
+      "skip": "Zum Inhalt springen",
+      "home_label": "Dancify Startseite",
+      "nav": [
+        {
+          "label": "Kamera",
+          "href": "/de/#camera"
+        },
+        {
+          "label": "Tagebuch",
+          "href": "/de/#diary"
+        },
+        {
+          "label": "Editor",
+          "href": "/de/#editor",
+          "optional": true
+        },
+        {
+          "label": "Premium",
+          "href": "/de/#premium",
+          "optional": true
+        },
+        {
+          "label": "FAQ",
+          "href": "/de/#faq"
+        },
+        {
+          "label": "Blog",
+          "href": "/de/blog/"
+        }
+      ],
+      "get_app": "App laden",
+      "store_small": "Laden im",
+      "store_big": "App Store",
+      "cta_title": "Jedes Training bleibt",
+      "cta_text": "Kostenlos laden. Ohne Konto, ohne Werbung. Film das heutige Training, und es steht in deinem Tagebuch.",
+      "tagline": "Filmen. Behalten. Besser werden.",
+      "footer_links": [
+        {
+          "label": "Blog",
+          "href": "/de/blog/"
+        },
+        {
+          "label": "App Store",
+          "href": "https://apps.apple.com/app/id6830154598"
+        },
+        {
+          "label": "Support",
+          "href": "mailto:appriseven@gmail.com"
+        },
+        {
+          "label": "Datenschutz (Englisch)",
+          "href": "/privacy/",
+          "hreflang": "en"
+        },
+        {
+          "label": "Nutzungsbedingungen (Englisch)",
+          "href": "/terms/",
+          "hreflang": "en"
+        }
+      ],
+      "city": "Espoo, Finnland",
+      "business_id": "Unternehmens-ID (Y-tunnus) 3336104-8",
+      "months": [
+        "Januar",
+        "Februar",
+        "März",
+        "April",
+        "Mai",
+        "Juni",
+        "Juli",
+        "August",
+        "September",
+        "Oktober",
+        "November",
+        "Dezember"
+      ],
+      "toc_title": "Auf dieser Seite",
+      "faq_title": "Häufige Fragen",
+      "sources_title": "Quellen",
+      "checked": "Abgerufen am",
+      "related_title": "Weiterlesen",
+      "read_more": "Lesen",
+      "minutes": "{n} Min. Lesezeit",
+      "published": "Veröffentlicht am",
+      "updated": "Aktualisiert am",
+      "crumbs_label": "Brotkrümelnavigation",
+      "crumb_home": "Startseite",
+      "blog_name": "Blog",
+      "author_role": "Macher von Dancify",
+      "author_bio": "Kasper entwirft und entwickelt Dancify bei AppRise Ventures in Espoo, Finnland. Dancify ist Kamera, Trainingstagebuch und Videoeditor für Tänzerinnen und Tänzer, für iPhone und iPad.",
+      "feed_title": "Der Dancify Blog",
+      "blog_title": "Dancify Blog: Tanzen filmen, üben und Fortschritt sehen",
+      "blog_description": "Praktische Ratgeber fürs Tanztraining: dich selbst filmen, Choreografien schneller lernen, Musik zählen, ein Tanztagebuch führen und deinen Fortschritt sehen. Von den Machern von Dancify für iPhone und iPad.",
+      "blog_eyebrow": "Der Dancify Blog",
+      "blog_h1": "Notizen aus dem <span class=\"accent\">Ballettsaal</span>",
+      "blog_lead": "Wie du dich filmst, Choreografien schneller lernst, die Musik zählst und siehst, wie weit du gekommen bist. Für alle, die allein genauso viel üben wie im Unterricht.",
+      "blog_empty": "Die ersten Artikel sind unterwegs.",
+      "blog_og_title": "Der Dancify Blog: Notizen aus dem Ballettsaal",
+      "blog_og_kicker": "Der Dancify Blog",
+      "blog_og_heading": "Notizen aus dem <span>Ballettsaal</span>",
+      "blog_og_shots": [
+        "camera-countin",
+        "player-loop"
+      ],
+      "cover_alt": "Drei Ansichten der Dancify-App auf dem iPhone",
+      "home_read": "Artikel lesen"
+    }
+  },
+  "covers": {
+    "film-yourself": {
+      "screens": [
+        "camera",
+        "camera-follow",
+        "camera-countin"
+      ],
+      "tape": "lavender"
+    },
+    "learn-choreography": {
+      "screens": [
+        "player-counts",
+        "player-loop",
+        "camera-reference"
+      ],
+      "tape": "green"
+    },
+    "progress-video": {
+      "screens": [
+        "compare",
+        "reel",
+        "pose"
+      ],
+      "tape": "amber"
+    },
+    "counting-music": {
+      "screens": [
+        "camera-countin",
+        "player-counts",
+        "player-loop"
+      ],
+      "tape": "blue"
+    },
+    "practice-journal": {
+      "screens": [
+        "day",
+        "journal",
+        "pieces"
+      ],
+      "tape": "lavender"
+    },
+    "practice-at-home": {
+      "screens": [
+        "camera-reference",
+        "journal",
+        "player-loop"
+      ],
+      "tape": "pink"
+    },
+    "best-dance-apps": {
+      "screens": [
+        "camera-follow",
+        "journal",
+        "editor"
+      ],
+      "tape": "amber"
+    },
+    "why-we-built-dancify": {
+      "screens": [
+        "recording",
+        "journal",
+        "pieces"
+      ],
+      "tape": "lavender"
+    }
+  },
+  "home_posts": 6
+}

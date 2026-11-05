@@ -1,0 +1,103 @@
+{
+  "id": "counting-music",
+  "slug": "como-contar-la-musica-en-el-baile",
+  "title": "Cómo contar la música en el baile: ochos y 5, 6, 7, 8",
+  "headline": "Cómo contar la música en el baile: los ochos, el \"5, 6, 7, 8\" y el uno",
+  "h1": "Cómo contar la música en el baile: <span class=\"accent\">los ochos y cómo encontrar el uno</span>",
+  "dek": "¿Por qué se empieza en el cinco? ¿Dónde está el uno? ¿Qué es un \"y\"? Tiempos, compases, ochos y frases explicados, más las cuentas del vals, la salsa y el swing, el tempo por estilo y cinco ejercicios.",
+  "description": "Cómo contar la música en el baile: tiempos, compases y ochos, qué significa \"5, 6, 7, 8\", cómo encontrar el uno, el \"y\", el vals en 3/4 y los BPM por estilo.",
+  "tag": "Musicalidad",
+  "og_title": "Cómo contar la música en el baile",
+  "og_kicker": "Guía de musicalidad",
+  "og_heading": "Cuenta la música <span>como un bailarín</span>",
+  "og_alt": "Reproductor de Dancify con las cuentas del 1 al 8 en pantalla junto al titular: cuenta la música como un bailarín",
+  "keywords": [
+    "contar en ocho tiempos",
+    "cómo contar la música en el baile",
+    "qué significa 5 6 7 8 en baile",
+    "cómo encontrar el uno en la música",
+    "cuentas de baile BPM",
+    "contar tiempos en salsa"
+  ],
+  "about": [
+    "Musicalidad",
+    "Cuenta de ocho",
+    "Compás musical",
+    "Tempo"
+  ],
+  "mentions": [
+    "Dancify",
+    "World DanceSport Federation"
+  ],
+  "published": "2026-10-28",
+  "modified": "2026-10-28",
+  "related": [
+    "learn-choreography",
+    "practice-at-home"
+  ],
+  "cover": [
+    "player-counts",
+    "player-loop",
+    "camera"
+  ],
+  "cover_alt": [
+    "Reproductor de Dancify con las cuentas del 1 al 8 en pantalla",
+    "Reproductor de Dancify con un bucle A–B en un ocho"
+  ],
+  "chips": [
+    {
+      "emoji": "🎵",
+      "title": "Del 1 al 8",
+      "sub": "Dos compases de 4/4"
+    },
+    {
+      "emoji": "👟",
+      "title": "5, 6, 7, 8",
+      "sub": "Y se entra en el 1"
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Qué significa \"5, 6, 7, 8\" en el baile?",
+      "a": "Es una cuenta de entrada. La profe cuenta en voz alta los cuatro últimos tiempos de un ocho, al tempo de la música, para que todo el mundo empiece a la vez en el siguiente 1. Te da el tempo, te dice cuándo cae el 1 y te deja cuatro tiempos para prepararte."
+    },
+    {
+      "q": "¿Qué es contar en ocho tiempos?",
+      "a": "Contar la música del 1 al 8, que son dos compases de 4/4. Las coreografías se montan y se enseñan por ochos, y cuatro ochos suelen formar una frase musical de 32 tiempos."
+    },
+    {
+      "q": "¿Cómo encuentro el uno en una canción?",
+      "a": "Busca el pulso y después el 2 y el 4: en casi todo el pop y el hip-hop la caja o la palmada suenan en el 2 y el 4, así que el 1 es el tiempo antes de la primera caja. Luego escucha dónde cambia algo, como la entrada de la voz o el estribillo: ahí suele estar el 1 de una frase."
+    },
+    {
+      "q": "¿Qué es el \"y\" en las cuentas de baile?",
+      "a": "El medio tiempo entre dos cuentas: \"1 y 2 y\". Un movimiento contado \"y-1\" empieza justo antes del tiempo. Los pasos que caen en un \"y\" en lugar de en un número van sincopados."
+    },
+    {
+      "q": "¿Cómo se cuenta un vals?",
+      "a": "El vals va en 3/4, tres tiempos por compás, y se cuenta \"1, 2, 3\" con el 1 más fuerte. Muchas veces se cuentan dos compases como seis, o \"y-a-1\" para entrar. En competición, el vals inglés se toca a 28–30 compases por minuto, unos 84–90 BPM."
+    },
+    {
+      "q": "¿Qué BPM tiene la música de cada baile?",
+      "a": "Depende del estilo: unos 84–90 BPM el vals inglés, 120–128 el chachachá y aproximadamente 160–220 la salsa. Para aprender, ensaya una combinación un poco más lenta que el tempo real y súbelo poco a poco hasta bailarla a la velocidad de la canción."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Measures and time signatures. Music Appreciation 1, Lumen Learning. Consultado el 2026-11-04.",
+      "url": "https://courses.lumenlearning.com/music-app-rford/chapter/measures-and-time-signatures/"
+    },
+    {
+      "text": "WDSF Professional Division Competition Rules, regla 9: duración máxima de los bailes; tempos. World DanceSport Federation. Consultado el 2026-11-04.",
+      "url": "https://cdnb.worlddancesport.org/legacy-docs/wdsf/PD/WDSF%20Professional%20Division%20Competition%20Rules%20%202012.pdf"
+    },
+    {
+      "text": "Salsa vs bachata: what's the difference? SalsaVida. Consultado el 2026-11-04.",
+      "url": "https://www.salsavida.com/articles/salsa-vs-bachata/"
+    },
+    {
+      "text": "Tempo and genre. Ableton Learning Music. Consultado el 2026-11-04.",
+      "url": "https://learningmusic.ableton.com/make-beats/tempo-and-genre.html"
+    }
+  ]
+}

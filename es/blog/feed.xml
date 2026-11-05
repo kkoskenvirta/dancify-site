@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>El blog de Dancify</title>
+    <link>https://dancify.apphq.online/es/blog/</link>
+    <atom:link href="https://dancify.apphq.online/es/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Guías prácticas para bailarines: cómo grabarte bailando, aprender coreografías, contar la música, llevar un diario de práctica y ver tu progreso. De los creadores de Dancify para iPhone y iPad.</description>
+    <language>es-es</language>
+    <item>
+      <title>Cómo grabarte bailando: ángulo, luz y altura del móvil</title>
+      <link>https://dancify.apphq.online/es/blog/como-grabarte-bailando/</link>
+      <guid isPermaLink="true">https://dancify.apphq.online/es/blog/como-grabarte-bailando/</guid>
+      <pubDate>Tue, 03 Nov 2026 08:00:00 +0300</pubDate>
+      <description>Cómo grabarte bailando con el móvil: altura y distancia de la cámara por estilo, el mejor ángulo, luz, sonido, trípodes y seis errores que estropean el vídeo.</description>
+    </item>
+    <item>
+      <title>Cómo aprender coreografías rápido (y que no se te olviden)</title>
+      <link>https://dancify.apphq.online/es/blog/aprender-coreografias-rapido/</link>
+      <guid isPermaLink="true">https://dancify.apphq.online/es/blog/aprender-coreografias-rapido/</guid>
+      <pubDate>Sun, 01 Nov 2026 08:00:00 +0300</pubDate>
+      <description>Cómo aprender coreografías rápido: mapa de la pieza, aprender por ochos, marcar, usar bien el espejo, ralentizar el vídeo, repetir en bucle y grabarte.</description>
+    </item>
+    <item>
+      <title>Cómo hacer un vídeo de progreso de baile honesto y motivador</title>
+      <link>https://dancify.apphq.online/es/blog/video-de-progreso-de-baile/</link>
+      <guid isPermaLink="true">https://dancify.apphq.online/es/blog/video-de-progreso-de-baile/</guid>
+      <pubDate>Thu, 29 Oct 2026 08:00:00 +0300</pubDate>
+      <description>Cómo hacer un vídeo de progreso de baile: graba la misma combinación igual, cada cuánto, qué comparar, secuencia, lado a lado o cuadrícula, fechas y compartir.</description>
+    </item>
+    <item>
+      <title>Cómo contar la música en el baile: los ochos, el &quot;5, 6, 7, 8&quot; y el uno</title>
+      <link>https://dancify.apphq.online/es/blog/como-contar-la-musica-en-el-baile/</link>
+      <guid isPermaLink="true">https://dancify.apphq.online/es/blog/como-contar-la-musica-en-el-baile/</guid>
+      <pubDate>Wed, 28 Oct 2026 08:00:00 +0300</pubDate>
+      <description>Cómo contar la música en el baile: tiempos, compases y ochos, qué significa &quot;5, 6, 7, 8&quot;, cómo encontrar el uno, el &quot;y&quot;, el vals en 3/4 y los BPM por estilo.</description>
+    </item>
+    <item>
+      <title>Cómo llevar un diario de práctica de baile: qué apuntar, con preguntas</title>
+      <link>https://dancify.apphq.online/es/blog/diario-de-practica-de-baile/</link>
+      <guid isPermaLink="true">https://dancify.apphq.online/es/blog/diario-de-practica-de-baile/</guid>
+      <pubDate>Sun, 25 Oct 2026 08:00:00 +0300</pubDate>
+      <description>Cómo llevar un diario de práctica de baile: qué apuntar después de cada clase, una entrada de cinco minutos, preguntas para escribir y un repaso semanal.</description>
+    </item>
+    <item>
+      <title>Cómo practicar baile en casa: espacio, calentamiento y plan semanal</title>
+      <link>https://dancify.apphq.online/es/blog/practicar-baile-en-casa/</link>
+      <guid isPermaLink="true">https://dancify.apphq.online/es/blog/practicar-baile-en-casa/</guid>
+      <pubDate>Fri, 23 Oct 2026 08:00:00 +0300</pubDate>
+      <description>Cómo practicar baile en casa: espacio y suelo seguros, calcetines o zapatillas, calentamiento, una sesión de 30 minutos, plan semanal por nivel y descanso.</description>
+    </item>
+    <item>
+      <title>Las mejores apps para bailarines en 2026, según para qué las necesitas</title>
+      <link>https://dancify.apphq.online/es/blog/mejores-apps-para-bailarines/</link>
+      <guid isPermaLink="true">https://dancify.apphq.online/es/blog/mejores-apps-para-bailarines/</guid>
+      <pubDate>Wed, 21 Oct 2026 08:00:00 +0300</pubDate>
+      <description>Las mejores apps para bailarines en 2026 por tarea: STEEZY, Dancify, Dance.io, OnForm, CapCut, Edits, iMovie, Anytune y más, con tabla comparativa y sin humo.</description>
+    </item>
+    <item>
+      <title>Por qué creamos una app de práctica de baile sin feed ni puntuaciones</title>
+      <link>https://dancify.apphq.online/es/blog/por-que-creamos-dancify/</link>
+      <guid isPermaLink="true">https://dancify.apphq.online/es/blog/por-que-creamos-dancify/</guid>
+      <pubDate>Tue, 20 Oct 2026 08:00:00 +0300</pubDate>
+      <description>La historia de Dancify: por qué se pierden los vídeos de práctica, las seis decisiones detrás de la app, lo que dejamos fuera a propósito y lo que viene.</description>
+    </item>
+  </channel>
+</rss>

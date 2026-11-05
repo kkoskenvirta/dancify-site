@@ -1,0 +1,90 @@
+{
+  "id": "progress-video",
+  "slug": "tanz-fortschritt-video",
+  "title": "Tanz-Fortschrittsvideo: ein ehrliches Vorher-Nachher",
+  "headline": "So machst du ein Tanz-Fortschrittsvideo, das ehrlich ist und motiviert",
+  "h1": "So machst du ein Tanz-Fortschrittsvideo, das <span class=\"accent\">ehrlich ist und motiviert</span>",
+  "dek": "Ein Vorher-Nachher bedeutet nur etwas, wenn beide Takes gleich gefilmt wurden. Aufbau, wie oft du filmst, was du vergleichst, welches Layout passt und wie du es mit jedem Videoeditor zusammensetzt.",
+  "description": "Tanz-Fortschrittsvideo erstellen: dieselbe Kombination gleich filmen, wie oft, was vergleichen, Abfolge, nebeneinander oder Raster, Datum und Teilen.",
+  "tag": "Fortschritt",
+  "og_title": "So machst du ein Tanz-Fortschrittsvideo, das ehrlich ist und motiviert",
+  "og_kicker": "Trainingsratgeber",
+  "og_heading": "Ein Fortschrittsvideo, <span>dem du trauen kannst</span>",
+  "og_alt": "Dancify Fortschritts-Reel und Vergleich nebeneinander neben der Überschrift: ein Fortschrittsvideo, dem du trauen kannst",
+  "keywords": [
+    "Tanz-Fortschrittsvideo",
+    "Tanz Vorher Nachher Video",
+    "Tanzvideos vergleichen",
+    "Fortschritt beim Tanzen sehen",
+    "Tanzvideos nebeneinander",
+    "Fortschritts-Reel Tanz"
+  ],
+  "about": [
+    "Tanztraining",
+    "Fortschritt dokumentieren",
+    "Selbstbeobachtung per Video",
+    "Videoschnitt"
+  ],
+  "mentions": [
+    "Dancify"
+  ],
+  "published": "2026-10-29",
+  "modified": "2026-10-29",
+  "related": [
+    "film-yourself",
+    "practice-journal"
+  ],
+  "cover": [
+    "reel",
+    "compare",
+    "pieces"
+  ],
+  "cover_alt": [
+    "Dancify Fortschritts-Reel der Choreo Slow Burn, vier Takes von August bis Oktober",
+    "Dancify vergleicht zwei Takes derselben Ballettkombination, Damals im August und Jetzt im Oktober"
+  ],
+  "chips": [
+    {
+      "emoji": "🎞️",
+      "title": "Damals und jetzt",
+      "sub": "83 Tage dazwischen"
+    },
+    {
+      "emoji": "📍",
+      "title": "Gleiche Markierung",
+      "sub": "Gleiche Höhe, gleiches Objektiv"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie mache ich ein Tanz-Fortschrittsvideo?",
+      "a": "Such dir eine kurze Kombination aus und filme sie in regelmäßigen Abständen immer gleich: gleicher Platz, gleiche Kamerahöhe, Entfernung und gleiches Objektiv, gleiche Musik und gleiches Tempo, ähnliche Kleidung und ähnliches Licht. Versieh jeden Take mit Datum. Dann setzt du den ersten und den neuesten Take in einem Videoeditor nebeneinander oder hintereinander, blendest die Daten ein und exportierst ein neues Video."
+    },
+    {
+      "q": "Wie oft sollte ich meinen Tanzfortschritt filmen?",
+      "a": "Wöchentlich, solange du eine bestimmte Choreo lernst, alle zwei bis vier Wochen für Technik wie Drehungen und Sprünge und einmal im Monat für Beweglichkeit. Für Technik reichen meist drei Monate, um einen deutlichen Unterschied zu sehen."
+    },
+    {
+      "q": "Ist nebeneinander oder hintereinander besser, um Tanzvideos zu vergleichen?",
+      "a": "Nebeneinander ist besser fürs Detail, weil beide Takes gleichzeitig laufen und Unterschiede in Timing und Linien sofort auffallen. Eine Abfolge erzählt die Geschichte besser und eignet sich zum Teilen. Ein Raster passt, wenn du vier oder mehr Termine auf einmal zeigen willst."
+    },
+    {
+      "q": "Worauf achte ich beim Vergleich zweier Tanzvideos?",
+      "a": "Auf eine Sache pro Durchgang: Linien und Platzierung, Timing zu den Counts, Musikalität und Dynamik, Ausdauer am Ende der Kombination, Raumnutzung und Präsenz. Halte in beiden Takes auf derselben Pose an und geh an den Akzenten Bild für Bild weiter."
+    },
+    {
+      "q": "Kann ich ein Tanz-Fortschrittsvideo kostenlos machen?",
+      "a": "Ja. Jeder Videoeditor, der den Bildschirm teilen und Text einblenden kann, reicht aus, und viele sind kostenlos. In Dancify sind Filmen, Kalender und Editor kostenlos; der Export von Fortschritts-Reels und der Vergleich zweier Takes nebeneinander gehören zu Dancify Premium."
+    },
+    {
+      "q": "Warum sieht mein Fortschrittsvideo nicht nach Fortschritt aus?",
+      "a": "Meist, weil sich am Aufbau etwas geändert hat: anderes Objektiv oder andere Entfernung, anderes Licht, ein anderer Song oder ein anderes Tempo, oder ein Take am Ende eines anstrengenden Trainings. Leg den Aufbau fest und film noch einmal. Und denk daran: Beständigkeit, Timing und Präsenz sind auch Fortschritt, selbst wenn die Formen ähnlich aussehen."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Giambrone J, Miltenberger RG (2020). Using video self-evaluation to enhance performance in competitive dancers. Behavior Analysis in Practice 13(2), 445–453. Abgerufen am 2026-11-04.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7314870/"
+    }
+  ]
+}

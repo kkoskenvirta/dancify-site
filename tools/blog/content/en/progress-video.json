@@ -1,0 +1,95 @@
+{
+  "id": "progress-video",
+  "slug": "dance-progress-video",
+  "title": "Dance Progress Video: How to Make an Honest Before & After",
+  "headline": "How to make a dance progress video that's honest and motivating",
+  "h1": "How to make a dance progress video that's <span class=\"accent\">honest and motivating</span>",
+  "dek": "A before-and-after only means something if both takes were filmed the same way. How to set up, how often to film, what to compare, which layout to use and how to put it together with any editor.",
+  "description": "How to make a dance progress video: film the same combo the same way, how often, what to compare, sequence vs side-by-side vs grid, dates and sharing.",
+  "tag": "Progress",
+  "og_title": "How to make a dance progress video that's honest and motivating",
+  "og_kicker": "Practice guide",
+  "og_heading": "A dance progress video <span>you can trust</span>",
+  "og_alt": "Dancify progress reel and side-by-side compare screens next to the headline: a dance progress video you can trust",
+  "keywords": [
+    "dance progress video",
+    "before and after dance video",
+    "dance transformation video",
+    "compare dance videos side by side",
+    "how to track dance progress",
+    "dance progress reel"
+  ],
+  "about": [
+    "Dance practice",
+    "Progress tracking",
+    "Video self-evaluation",
+    "Video editing"
+  ],
+  "mentions": [
+    "Dancify",
+    "iMovie"
+  ],
+  "published": "2026-10-29",
+  "modified": "2026-10-29",
+  "related": [
+    "film-yourself",
+    "practice-journal"
+  ],
+  "cover": [
+    "reel",
+    "compare",
+    "pieces"
+  ],
+  "cover_alt": [
+    "Dancify progress reel of the piece Slow Burn over three months, four takes from August to October",
+    "Dancify comparing two takes of the same ballet combination, Then in August and Now in October"
+  ],
+  "chips": [
+    {
+      "emoji": "🎞️",
+      "title": "Then and now",
+      "sub": "83 days apart"
+    },
+    {
+      "emoji": "📍",
+      "title": "Same mark",
+      "sub": "Same height, same lens"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I make a dance progress video?",
+      "a": "Choose a short combination and film it the same way at regular intervals: the same spot, camera height, distance and lens, the same music and tempo, similar clothes and light. Date every take. Then put the first and the latest take side by side or one after the other in a video editor, add the dates and export it as a new video."
+    },
+    {
+      "q": "How often should I film my dance progress?",
+      "a": "Weekly while you're learning a specific piece, every two to four weeks for technique such as turns and jumps, and monthly for flexibility. Three months is usually long enough for a technique comparison to show a clear difference."
+    },
+    {
+      "q": "Is side by side or before-and-after better for comparing dance videos?",
+      "a": "Side by side is better for detail, because both takes play at the same time and differences in timing and lines are easy to see. A sequence, one take after the other, tells the story better and suits sharing. A grid works when you want to show four or more dates at once."
+    },
+    {
+      "q": "What should I look for when comparing two dance videos?",
+      "a": "Look at one thing per viewing: lines and placement, timing against the counts, musicality and dynamics, stamina at the end of the combination, how you use space, and confidence. Pause on the same pose in both takes and step frame by frame through the accents."
+    },
+    {
+      "q": "Can I make a dance progress video for free?",
+      "a": "Yes. Any editor that can split the screen and add text works, for example iMovie on iPhone with its Split Screen overlay. In Dancify, filming, the calendar and the editor are free; progress reel export and side-by-side compare are part of Dancify Premium."
+    },
+    {
+      "q": "Why does my progress video not look like progress?",
+      "a": "Usually because something in the setup changed: a different lens or distance, different light, a different song or tempo, or a take filmed at the end of a tiring session. Fix the setup and film again; and remember that consistency, timing and confidence are progress too, even when the shapes look similar."
+    }
+  ],
+  "sources": [
+    {
+      "text": "Giambrone J, Miltenberger RG (2020). Using video self-evaluation to enhance performance in competitive dancers. Behavior Analysis in Practice 13(2), 445–453. Checked 2026-11-04.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7314870/"
+    },
+    {
+      "text": "Apple Support: Add video overlay effects (split screen, picture in picture) in iMovie on iPhone. Apple. Checked 2026-11-04.",
+      "url": "https://support.apple.com/guide/imovie-iphone/add-video-overlay-effects-kna831efee4d/ios"
+    }
+  ]
+}
