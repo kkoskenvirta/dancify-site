@@ -111,7 +111,7 @@ The seeded demo content (piece names such as "Slow Burn", take names such as "Fu
 
 1. Create the GitHub repository and push `main`. Settings → Pages → Build and deployment: **Deploy from a branch**, branch `main`, folder `/ (root)`. No Actions workflow is needed.
 2. Settings → Pages → Custom domain: `dancify.apphq.online` (the `CNAME` file already says so). Wait for the DNS check, then tick **Enforce HTTPS** once GitHub has issued the certificate.
-3. Cloudflare, `apphq.online` zone → DNS: add `CNAME` `dancify` → `<github-user-or-org>.github.io`, **Proxied** (orange cloud). If GitHub's certificate check stalls, set it to DNS only until Pages shows the certificate, then switch the proxy back on.
+3. Cloudflare, `apphq.online` zone → DNS: add `CNAME` `dancify` → `appriseventures.github.io` (repo `AppRiseVentures/dancify-site`), **Proxied** (orange cloud). If GitHub's certificate check stalls, set it to DNS only until Pages shows the certificate, then switch the proxy back on.
 4. Cloudflare → SSL/TLS: encryption mode **Full** (GitHub Pages serves HTTPS). SSL/TLS → Edge Certificates: **Always Use HTTPS** on.
 
 GitHub Pages can't set response headers or look at the `Accept` header, so three rules in the Cloudflare dashboard (apphq.online zone, Rules > Overview) do it. They aren't in this repo, so keep this list in step with the dashboard.
