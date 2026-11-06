@@ -1,0 +1,417 @@
+{
+  "alts": {
+    "camera-countin": "Dancify-Kamera beim Einzählen mit 100 bpm, eine große 7 im Bild",
+    "recording": "Ein Take im Player von Dancify",
+    "journal": "Dancify-Kalender für Oktober: Jeder Trainingstag zeigt ein Bild aus seiner Aufnahme",
+    "camera": "Dancify-Kamera bereit zur Aufnahme, mit Objektivtasten und Einzählen auf 100 bpm",
+    "day": "Ein Trainingstag in Dancify mit drei Takes, einer Notiz und dem Monatsrückblick",
+    "editor": "Der Editor von Dancify mit einem gekürzten Take in der Zeitleiste",
+    "camera-follow": "Dancify-Kamera, die mit „Folgen“ einer Tänzerin folgt, mit Fokusrahmen um sie herum",
+    "camera-reference": "Dancify-Kamera filmt eine Tänzerin, in der Ecke läuft ein Referenzvideo als Bild-im-Bild",
+    "timeline": "Verlauf in Dancify mit Trainings und ihren Takes, das Neueste zuerst",
+    "pieces": "Die Choreo Slow Burn in Dancify: 10 Takes, 12 Trainings und 13 Stunden, vom ersten Versuch bis heute",
+    "player-loop": "Player von Dancify mit einer A–B-Schleife um eine Phrase und geöffnetem Übungsbereich",
+    "player-counts": "Player von Dancify mit Counts über dem Video, bei der 8 mit 100 bpm",
+    "editor-adjust": "Das Werkzeug „Anpassen“ im Editor von Dancify mit Belichtung, Kontrast und Looks",
+    "reel": "Fortschritts-Reel in Dancify: Slow Burn, drei Monate, vier Takes nacheinander",
+    "compare": "Vergleich in Dancify: der erste Take aus dem August neben dem neuesten aus dem Oktober",
+    "pose": "Haltungslinien in Dancify mit Linien über Schultern, Hüften und Beinen einer Tänzerin",
+    "hands-free": "Dancify-Kamera mit Freihändig: ein Ring um eine erhobene Hand und die Worte Halten zum Weitermachen",
+    "camera-formats": "Dancify-Kamera mit geöffnetem Formatmenü: HD oder 4K mit 30 oder 60 fps und Zeitlupe",
+    "camera-split": "Dancify-Kamera mit einem Vorlagenvideo nebeneinander mit der tanzenden Person",
+    "day-calendar": "Ein Trainingstag im Dancify-Kalender ausgewählt, darunter seine Takes",
+    "journal-light": "Der Dancify-Kalender im hellen Look, jeder Trainingstag zeigt ein Bild aus der Aufnahme des Tages"
+  },
+  "hero": {
+    "meta": [
+      "Kostenlos laden",
+      "Kein Konto",
+      "Keine Werbung, kein Tracking",
+      "iPhone und iPad"
+    ],
+    "store_small": "Laden im",
+    "store": "App Store",
+    "how_link": "So funktioniert’s",
+    "chip": "Kamera, Trainingstagebuch und Videoeditor fürs Tanzen",
+    "title": "Sieh, wie {dein Tanzen wächst.}",
+    "lead": "Film dein Training, und dein Kalender füllt sich mit Bildern von dir beim Tanzen. Öffne einen beliebigen Tag, um den schweren Achter in Schleife zu üben, zu verlangsamen oder neben deinen ersten Versuch zu legen."
+  },
+  "how": {
+    "chip": "So funktioniert’s",
+    "title": "Filmen. Im Kalender sehen. {Dann genau hinschauen.}",
+    "lead": "Drei Schritte, die du nach jedem Unterricht, jeder Probe und jedem Training zu Hause wiederholst.",
+    "steps": [
+      [
+        "Filmen mit Einzählen",
+        "Tempo wählen, Aufnahme tippen und auf deine Position gehen, während gezählt wird: 5, 6, 7, 8."
+      ],
+      [
+        "Im Kalender sehen",
+        "Jeder Take landet an seinem Tag, als Bild aus deinem eigenen Tanzen. Mehrere Takes stapeln sich wie Abzüge."
+      ],
+      [
+        "Schneiden, wiederholen, vergleichen",
+        "Üb den Achter in Schleife, den du immer verpasst, spiel ihn mit Viertelgeschwindigkeit, kürz den Take oder leg ihn neben deinen ersten Versuch."
+      ]
+    ]
+  },
+  "camera": {
+    "chip": "Rec · Folgen",
+    "title": "Eine Kamera, {die weiß, dass du tanzt.}",
+    "lead": "Dich selbst zu filmen sollte nicht heißen, ständig zum Handy zu laufen. Die Kamera von Dancify zählt dich ein, hält dich im Fokus und steht dir nicht im Weg.",
+    "points": [
+      [
+        "Einzählen im eigenen Tempo",
+        "Ein musikalisches 5, 6, 7, 8 mit Klick und Haptik, damit du auf deiner Position stehst, wenn die Aufnahme beginnt."
+      ],
+      [
+        "Folgen",
+        "Tipp auf die Person, die tanzt, und Fokus und Belichtung bleiben bei ihr, auch in Bewegung. Auf Wunsch zoomt die Kamera sanft mit, damit niemand aus dem Bild läuft."
+      ],
+      [
+        "Motorisierte Halterungen",
+        "Mit einer DockKit-Halterung dreht sich die Halterung selbst und folgt dir durch den Raum."
+      ],
+      [
+        "Alle Objektive",
+        "0,5×, 1×, 2× und Zoom per Fingergeste oder Drehrad. Tippen zum Fokussieren, halten, um Fokus und Belichtung zu sperren."
+      ],
+      [
+        "Zeitlupe und 4K",
+        "HD oder 4K mit 30 oder 60 fps und Zeitlupe mit 120 oder 240 fps für Drehungen und Sprünge."
+      ],
+      [
+        "Aufnehmen, ohne hinzulaufen",
+        "Starte mit den Lautstärketasten oder der Kamerasteuerung, der automatische Stopp beendet den Take. Spiegeln, Taschenlampe, Raster und Wasserwaage sind auch da."
+      ]
+    ]
+  },
+  "reference": {
+    "chip": "Mit Vorlage üben",
+    "title": "Tanz mit dem Video, {von dem du lernst.}",
+    "lead": "Spiel beim Filmen eine Referenz ab: einen früheren Take von dir, das Video aus dem Unterricht oder etwas aus Fotos oder Dateien. Als Bild-im-Bild oder nebeneinander, und sie startet nach dem Einzählen auf der Eins, damit ihr vom ersten Count an zusammen seid.",
+    "points": [
+      [
+        "Bild-im-Bild oder nebeneinander",
+        "Lass die Referenz klein in der Ecke laufen oder gib ihr den halben Bildschirm."
+      ],
+      [
+        "Startet mit dir auf der Eins",
+        "Die Referenz wartet aufs Einzählen und beginnt gleichzeitig mit dir."
+      ],
+      [
+        "Nicht in deinem Take",
+        "Beim Filmen stumm, damit sie nicht in deiner Aufnahme landet, außer du hast Kopfhörer verbunden."
+      ],
+      [
+        "Jede Choreo merkt sich ihre",
+        "Dancify behält Referenz und Tempo jeder Choreografie fürs nächste Mal."
+      ]
+    ]
+  },
+  "diary": {
+    "chip": "Oktober · Dein Tagebuch",
+    "title": "Dein Training, {ein Bild pro Tag.}",
+    "lead": "Woche für Woche füllt sich der Kalender mit deinem eigenen Tanzen: ein Tagebuch in Bildern, das zeigt, wie viel Arbeit du reinsteckst. Trag einen Kurs ohne Video ein, schreib eine Notiz, solange sie frisch ist, und finde jeden Take in Sekunden wieder.",
+    "screens": [
+      [
+        "Kalender",
+        "Jeder Tag zeigt ein Bild aus dem, was du getanzt hast. Mehrere Takes stapeln sich. Bühnenlicht oder Tageslicht: Du wählst den Look."
+      ],
+      [
+        "Verlauf",
+        "Alle Trainings, Takes und Meilensteine der Reihe nach, gefiltert nach Takes, Trainings oder Choreos."
+      ],
+      [
+        "Choreos",
+        "Alle Takes einer Choreografie in Reihenfolge, vom ersten Versuch bis zum Durchlauf."
+      ]
+    ],
+    "notes": [
+      "Notizen, Tags und Favoriten",
+      "Kurse und Proben ohne Video",
+      "Meilensteine",
+      "Monatsrückblick",
+      "Siri und Kurzbefehle"
+    ]
+  },
+  "player": {
+    "chip": "Schleife · 100 BPM",
+    "title": "Üb den {schweren Achter.}",
+    "lead": "Setz eine A–B-Schleife um die schwierige Stelle, verlangsame sie, spiegle sie und zähl mit. Der Player ist zum Üben gemacht, nicht nur zum Anschauen.",
+    "points": [
+      [
+        "A–B-Schleife",
+        "A und B setzen, und die Stelle wiederholt sich, auf Wunsch mit einer Pause von einem Achter zwischen den Durchgängen."
+      ],
+      [
+        "Counts im Bild",
+        "1 bis 8 im Takt der Musik. Tempo antippen, dann achterweise vor- oder zurückspringen."
+      ],
+      [
+        "Zeitlupe bis 0,25×",
+        "Und Bild für Bild, um eine Landung, eine Linie oder den Weg des Arms genau zu prüfen."
+      ],
+      [
+        "Spiegeln",
+        "Dreh das Bild um und sieh es so wie im Spiegel im Saal."
+      ],
+      [
+        "Auf dem großen Bildschirm",
+        "Vollbild, AirPlay oder ein externer Bildschirm, damit die ganze Gruppe mitschauen kann."
+      ],
+      [
+        "Findet den Beat",
+        "Dancify hört die Musik eines Takes ab und findet Tempo und Eins, bereit, wenn du die Counts einschaltest. Tipp dein eigenes Tempo, wann du willst."
+      ]
+    ]
+  },
+  "editor": {
+    "chip": "Editor · Tempo-Rampe",
+    "title": "Schneiden, {wie Tanzende es brauchen.}",
+    "lead": "Kürz den Take, schneid das Reden raus, geh per Rampe in Zeitlupe und leg die Musik wieder drunter. Jede Bearbeitung wird ein neuer Take, dein Original bleibt immer unverändert.",
+    "after": "Teilen, in Fotos sichern oder im Tagebuch behalten.",
+    "tools": [
+      [
+        "Kürzen und teilen",
+        "Bildgenau, mit Umsortieren und Duplizieren."
+      ],
+      [
+        "Tempo und Rampen",
+        "0,25× bis 2×, fein einstellbar bis 4×, mit sanften Übergängen."
+      ],
+      [
+        "Standbilder",
+        "Halt den Moment fest, in dem die Linie perfekt ist."
+      ],
+      [
+        "Zuschneiden und ausrichten",
+        "Zuschneiden, drehen, gerade ausrichten und spiegeln."
+      ],
+      [
+        "Farbe und Licht",
+        "Anpassungen und Looks für das Licht im Saal."
+      ],
+      [
+        "Titel und Counts",
+        "Untertitel, Datumsstempel und Counts im Bild."
+      ],
+      [
+        "Musikspur",
+        "Einen Song aus Dateien hinzufügen, mit Ein- und Ausblenden."
+      ],
+      [
+        "Marker, Rückgängig, Wiederholen",
+        "Momente markieren und sich jederzeit umentscheiden."
+      ]
+    ]
+  },
+  "premium": {
+    "chip": "Tag 1 → Tag 84",
+    "title": "Sieh, {wie weit du gekommen bist.}",
+    "lead": "Von Tag zu Tag merkst du es kaum. Leg den ersten Versuch neben den von heute, und es ist offensichtlich.",
+    "cards": [
+      [
+        "Derselbe Schritt, Monate später",
+        "Zwei Takes gleichzeitig und zur Musik ausgerichtet, damit du genau siehst, was sich verändert hat."
+      ],
+      [
+        "Vom ersten Versuch zum Durchlauf",
+        "Fortschritts-Reels mit Datum im Bild, nacheinander, nebeneinander oder im Raster. Im Format für TikTok, Reels und Shorts, oder in 4:5, 1:1 und 16:9. Dancify sichert das Reel in Fotos, kopiert deinen Text und öffnet die App."
+      ],
+      [
+        "Prüf deine Linien",
+        "Linien über deinem Körper für Schultern, Hüften und Balance, berechnet auf deinem iPhone mit Apples Vision."
+      ]
+    ],
+    "tag": "Premium"
+  },
+  "privacy": {
+    "chip": "Datenschutz",
+    "title": "Dein Tanzen {gehört dir.}",
+    "lead": "Trainingsvideos sind persönlich. Dancify behält sie auf deinem Gerät und, wenn du möchtest, in deiner eigenen iCloud, damit du sie auf all deinen Geräten hast.",
+    "badge": [
+      "Datenschutzangabe im App Store",
+      "Keine Daten erfasst"
+    ],
+    "more": "Datenschutzerklärung lesen (Englisch) →",
+    "items": [
+      [
+        "Kein Konto",
+        "App öffnen und filmen. Keine Anmeldung, keine E-Mail, kein Passwort."
+      ],
+      [
+        "Keine Werbung, kein Tracking",
+        "Keine Analyse-Tools und keine Werbenetzwerke, die dir folgen."
+      ],
+      [
+        "Deine eigene iCloud",
+        "Der optionale Abgleich nutzt deine private iCloud, Videos inklusive. Wir können nichts davon sehen."
+      ],
+      [
+        "Auf deinem Gerät",
+        "Folgen und die Haltungslinien laufen auf deinem iPhone. Nichts wird zur Verarbeitung hochgeladen."
+      ]
+    ]
+  },
+  "styles": {
+    "chip": "Für jeden Stil",
+    "title": "Egal, was du diesen Monat lernst.",
+    "lead": "",
+    "list": [
+      "Ballett",
+      "Contemporary",
+      "Jazz",
+      "Hip-Hop",
+      "Heels",
+      "K-Pop",
+      "Salsa",
+      "Bachata",
+      "Standard & Latein",
+      "Stepptanz",
+      "Irish Dance",
+      "Commercial",
+      "Cheerleading"
+    ],
+    "note": "Für jede Choreografie mit Counts oder Musik, vom Prüfungsstück bis zur Choreo aus dem Kurs. Auch für Bodenküren im Eiskunstlauf und Turnen."
+  },
+  "pricing": {
+    "chip": "Kostenlos und Premium",
+    "title": "Kostenlos filmen, {behalten und schneiden.}",
+    "lead": "Alles, was du zum Üben mit Video brauchst, ist kostenlos. Premium bringt die Werkzeuge, mit denen du Fortschritt über die Zeit siehst.",
+    "plans": [
+      {
+        "name": "Dancify",
+        "tag": "Kostenlos",
+        "price": "Kostenlos",
+        "price_note": "Kein Konto, keine Werbung, kein Zeitlimit.",
+        "list": [
+          "Die Kamera: Einzählen, Folgen, Objektive, Zeitlupe",
+          "Freihändig: Hand heben für den nächsten Take",
+          "Üben mit Vorlage",
+          "Kalender, Verlauf, Choreos und Notizen",
+          "Player: A–B-Schleife, Counts, Zeitlupe, Spiegeln",
+          "Der Editor, mit Export",
+          "iCloud-Abgleich zwischen deinen Geräten"
+        ],
+        "button": "Dancify laden"
+      },
+      {
+        "name": "Dancify Premium",
+        "tag": "Premium",
+        "price": "Jährlich mit einer kostenlosen Testwoche, oder monatlich",
+        "price_note": "Die Preise in deiner Währung stehen im App Store.",
+        "list": [
+          "Alles aus der kostenlosen Version",
+          "Fortschritts-Reels exportieren",
+          "Nebeneinander vergleichen",
+          "Haltungslinien"
+        ],
+        "button": "Dancify laden"
+      }
+    ],
+    "note": "Dancify Premium verlängert sich automatisch, wenn es nicht mindestens 24 Stunden vor Ende des Zeitraums gekündigt wird. Verwalten oder kündigen kannst du es jederzeit in den Einstellungen deines App-Store-Accounts."
+  },
+  "faq": {
+    "chip": "FAQ",
+    "title": "Häufige {Fragen.}",
+    "lead": "Noch etwas offen? Schreib an appriseven@gmail.com.",
+    "lead_html": "Noch etwas offen? Schreib an <a href=\"mailto:appriseven@gmail.com\">appriseven@gmail.com</a>.",
+    "items": [
+      [
+        "Ist Dancify kostenlos?",
+        "Ja. Aufnehmen, Kalender, Verlauf, Notizen, Player, Editor und iCloud-Abgleich sind kostenlos, ohne Werbung und ohne Konto. Dancify Premium bringt den Export von Fortschritts-Reels, den Vergleich nebeneinander und die Haltungslinien, jährlich mit einer kostenlosen Testwoche oder monatlich."
+      ],
+      [
+        "Auf welchen Geräten läuft die App?",
+        "Auf iPhone und iPad mit iOS bzw. iPadOS 26 oder neuer, auch auf dem iPhone Duo. Eine Android- oder Web-Version gibt es nicht."
+      ],
+      [
+        "Brauche ich ein Konto?",
+        "Nein. Es gibt keine Anmeldung. Dein Tagebuch liegt auf deinem Gerät und, wenn du den Abgleich einschaltest, in deiner eigenen iCloud."
+      ],
+      [
+        "Wo werden meine Videos gespeichert? Kann sie jemand anderes sehen?",
+        "Auf deinem Gerät. Mit iCloud-Abgleich zusätzlich in deiner privaten iCloud, damit dein anderes iPhone oder iPad sie zeigen kann. Wir können sie nicht sehen, und nichts wird auf einen Server von uns hochgeladen."
+      ],
+      [
+        "Wie funktioniert das Einzählen?",
+        "Du wählst ein Tempo, tippst auf Aufnahme, und Dancify zählt dich mit Klick und Haptik ein, „5, 6, 7, 8“, während du auf deine Position gehst. So stehst du bereit, wenn es losgeht."
+      ],
+      [
+        "Was macht „Folgen“?",
+        "Du tippst in der Kamera auf die Person, die tanzt, und Dancify hält Fokus und Belichtung auf ihr, während sie sich bewegt, auch wenn sie kurz verdeckt ist. Auf Wunsch zoomt die Kamera mit, oder eine motorisierte DockKit-Halterung dreht sich hinterher."
+      ],
+      [
+        "Was macht „Freihändig“?",
+        "Schalt es in der Kamera ein, heb eine Hand neben den Kopf, Handfläche offen, und halt sie etwa anderthalb Sekunden still. Der Take wird gesichert und das nächste Einzählen beginnt. Stehst du schon bereit, startet dieselbe Hand einen Take."
+      ],
+      [
+        "Kann ich zu einem Video mittanzen?",
+        "Ja. Wähl eine Referenz, einen früheren Take oder ein Video aus Fotos oder Dateien, und sie läuft beim Filmen als Bild-im-Bild oder nebeneinander mit, ab dem Einzählen. In deiner Aufnahme ist sie stumm, außer du hast Kopfhörer verbunden."
+      ],
+      [
+        "Kann ich eine Stelle verlangsamen und wiederholen?",
+        "Ja. Der Player geht bis 0,25× herunter und springt Bild für Bild. Setz eine A–B-Schleife um eine Phrase, auf Wunsch mit einer Achter-Pause zwischen den Durchgängen, und blende die Counts ein, um 1 bis 8 im Takt der Musik zu sehen."
+      ],
+      [
+        "Verändert das Schneiden mein Originalvideo?",
+        "Nein. Jede Bearbeitung wird als neuer Take exportiert, das Original bleibt so, wie du es gefilmt hast. Du kannst das Ergebnis teilen oder in Fotos sichern."
+      ],
+      [
+        "Lassen sich Takes zur Musik ausrichten?",
+        "Ja. Teilen sich zwei Takes dieselbe Musik, richtet Vergleichen sie beim Öffnen aus und hält sie im Takt, und Reels nebeneinander oder im Raster starten jeden Take an derselben Stelle des Songs."
+      ],
+      [
+        "Kann ich ein Reel auf TikTok, Instagram oder YouTube posten?",
+        "Ja. Reels gibt es in 9:16 für TikTok, Reels und Shorts, oder in 4:5, 1:1 und 16:9. Dancify sichert die Datei in Fotos, kopiert deinen Text und öffnet die App, posten tust du selbst. Der Export von Fortschritts-Reels gehört zu Dancify Premium."
+      ],
+      [
+        "Für welche Tanzstile ist die App?",
+        "Für jeden Stil, den du mit Counts oder Musik übst: Ballett, Contemporary, Jazz, Hip-Hop, Heels, K-Pop-Covers, Salsa und Bachata, Standard und Latein, Stepptanz, Irish Dance, Commercial und Cheerleading."
+      ],
+      [
+        "Nutzt Dancify KI?",
+        "Keine generative KI, und nichts wird an einen Server geschickt. Folgen und die Haltungslinien nutzen Apples Frameworks direkt auf dem Gerät und laufen komplett auf deinem iPhone oder iPad."
+      ],
+      [
+        "Gibt es die App auf Deutsch?",
+        "Ja. Dancify gibt es auf Deutsch, Englisch, Finnisch, Spanisch, Französisch und Japanisch."
+      ]
+    ]
+  },
+  "blog": {
+    "chip": "Aus dem Blog",
+    "title": "Notizen aus {dem Ballettsaal.}",
+    "lead": "",
+    "more": "Alle Artikel"
+  },
+  "cta": {
+    "title": "Jedes Training {bleibt.}",
+    "lead": "Kostenlos laden. Ohne Konto, ohne Werbung. Film das heutige Training, und es steht in deinem Tagebuch."
+  },
+  "handsfree": {
+    "chip": "Freihändig",
+    "title": "Hand heben. {Noch ein Take.}",
+    "lead": "Sich selbst filmen heißt: ständig zurück zum Handy. Mit Freihändig hebst du einfach eine Hand neben den Kopf und hältst sie kurz, direkt von deiner Position aus.",
+    "points": [
+      [
+        "Take behalten und weiter",
+        "Der Take wird gesichert und das nächste Einzählen beginnt, ohne dass du deine Position verlässt."
+      ],
+      [
+        "Oder direkt starten",
+        "Du stehst schon bereit? Dieselbe Hand startet den ersten Take."
+      ],
+      [
+        "Landet am richtigen Platz",
+        "Jeder Take kommt zur Choreo und Art, die du zuletzt gefilmt hast. Dein Tagebuch bleibt geordnet."
+      ],
+      [
+        "Läuft auf deinem iPhone",
+        "Die Kamera erkennt die Hand direkt auf dem Gerät. Nichts wird hochgeladen."
+      ]
+    ]
+  },
+  "skip": "Zum Inhalt springen"
+}

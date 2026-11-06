@@ -4,8 +4,9 @@ Website for [Dancify](https://apps.apple.com/app/id6830154598), the camera, prac
 
 | Path | Contents |
 | --- | --- |
-| `index.html` | Landing page (English, also `x-default`) |
-| `es/`, `de/` | Spanish and German landing pages |
+| `index.html` | Landing page (English, also `x-default`), generated |
+| `es/`, `de/` | Spanish and German landing pages, generated |
+| `tools/home/` | The landing pages' template, their words per language and their `<head>`, bar and footer |
 | `blog/`, `es/blog/`, `de/blog/` | Blog indexes, posts and RSS feeds per language (generated, see below) |
 | `tools/blog/` | Blog generator, its templates and the posts (not linked, disallowed in `robots.txt`) |
 | `tools/check_site.py` | Local checks: every internal link and asset resolves, JSON-LD parses |
@@ -25,7 +26,13 @@ Preview locally with `python3 -m http.server 8000` and open http://localhost:800
 
 ## Design
 
-"Studio Night", the app's own look (`Dancify/DesignSystem/Theme.swift`, `Surfaces.swift`, `SpikeTape.swift` in the app repo): a near-black stage (`#0A0A0B`) under a faint violet wash with sparse purple grain specks (`assets/img/grain.png`), lavender `#A98BFF` as the one accent (deep `#7C5CFA`), camera red `#FF3B3B` only for the REC dot, ink `#F5F2FB`, cards `#19181C` with a `#2A2830` rim and a soft top light. Geist for headings (self-hosted, Latin subset WOFF2), the system font for reading. Spike tape (a strip of gaffer tape with torn ends) is the one loud mark: under the hero phones, before section labels in the activity colours, under the marked headline word, and on the blog covers. A light "rehearsal room" variant follows `prefers-color-scheme: light`. Motion is gentle and turns off under Reduce Motion.
+"Studio Night", the look of the app and its App Store set (`appstore/marketing/BRAND.md` in the app repo). Dark only: the light look is an option inside the app, not the brand's face. A near-black stage (`#0A0A0B`) under the set's violet wash and sparse lavender specks, one soft stage light per shot (a CSS cone, `.beam`, so it costs no blur), lavender `#A98BFF` as the one accent, camera red only for what the app shows on screen. Geist SemiBold headlines in sentence case, with one phrase in the accent colour (`{braces}` in the copy files), under a stamp: a lavender dot and a sentence-case label.
+
+Spike tape is the one recurring mark: a flat, matte lavender strip with torn ends that runs in from the page's edge behind the phones, as it runs on from shot to shot in the App Store set. The other activity colours belong to the app's calendar, not to the site.
+
+Phones are the set's device (lavender-grey metal band, black glass, Dynamic Island) in its calm poses. **They're always whole:** never cropped, faded or laid over one another, and `--fit` keeps every phone shorter than the window. On small screens rows of phones swipe, and each stops whole. Primary buttons are lavender-tinted glass, the bar is a floating glass capsule, and content sits on cards. Motion is gentle and turns off under Reduce Motion.
+
+The page tells the App Store set's story in the same order and words: watch your dance grow → film (camera, hands-free, reference) → your journal → drill the hard eight-count → edit → see how far you've come → privacy, plans, questions, and the dancer from the app icon at the end.
 
 ## Languages
 
@@ -36,7 +43,7 @@ English is the default and lives at the root. Spanish is under `/es/` and German
 - A language picked in the menu is remembered in `localStorage` (`dancify-lang`, disclosed in the privacy policy, section 9). Then `/` opens the saved language, and the English-only pages (`<body data-shared>`) point their home, section and blog links at it.
 - Visitors whose browser prefers another available language see a small hint to switch, never a redirect, so search engines always get the page they asked for.
 
-The Spanish and German landing pages are hand-written HTML like `index.html`. Keep their structure in step when the English page changes. The one exception is the "From the blog" cards between the `blog-cards` comments: the blog build rewrites them with the newest six posts, so don't edit them by hand.
+The three landing pages are built from one template, `tools/home/build.py`, so their structure can't drift apart: don't edit `index.html`, `es/index.html` or `de/index.html` by hand. Words are in `tools/home/copy-<lang>.json`; each language's `<head>` (meta, hreflang, structured data), bar and footer in `tools/home/parts/`. The FAQ's structured data comes from the copy. Use the app's own words for its features (`Localizable.xcstrings`): Manos libres, Freihändig, Vorlage, Haltungslinien.
 
 The German site never names other apps. Comparative advertising follows the same EU rules everywhere, but in Germany (UWG §6) competitors and associations enforce them with costly cease-and-desist letters, so the comparison post (`best-dance-apps`) has no German version (`untranslated` in `site.json`) and German posts don't link to it. Keep competitor names out of `tools/blog/content/de/` and `de/`.
 
@@ -45,7 +52,7 @@ The German site never names other apps. Comparative advertising follows the same
 Posts are written once per language and built into static pages by `tools/blog/build.py` (Python 3, no dependencies). The generated HTML is committed, so GitHub Pages still has no build step.
 
 ```bash
-python3 tools/blog/build.py        # posts, blog indexes, feeds, sitemap.xml, llms.txt, llms-full.txt, home page blog cards, index.md per page
+python3 tools/blog/build.py        # landing pages, posts, blog indexes, feeds, sitemap.xml, llms.txt, llms-full.txt, index.md per page
 python3 tools/blog/build.py --og   # also renders the covers and 1200×630 share images (Google Chrome, cwebp)
 python3 tools/check_site.py        # internal links, assets and JSON-LD
 python3 tools/blog/indexnow.py     # after publishing: tell Bing and other IndexNow engines about every URL
@@ -64,7 +71,7 @@ Each post page gets `BlogPosting`, `BreadcrumbList` and `FAQPage` structured dat
 
 ## App screens
 
-`assets/img/app/<lang>/<name>.webp` are 720 px wide captures of the current app (dark appearance, demo journal) from the Debug build on the `Dancify App Store iPhone 6.9` simulator: `journal`, `day`, `recording`, `timeline`, `reel`, `compare`, `camera`, `camera-countin`, `camera-follow`, `camera-reference`, `editor`, `editor-adjust`, `player-loop`, `player-counts`, `pieces`, `pieces-list`, `pose`. To recapture (app repo: `~/.t3/projects/dancify`):
+`assets/img/app/<lang>/<name>.webp` are 780 px wide captures of the current app (dark appearance, demo journal) from the Debug build on the `Dancify App Store iPhone 6.9` simulator: `journal`, `day`, `recording`, `timeline`, `reel`, `compare`, `camera`, `camera-countin`, `camera-follow`, `camera-reference`, `editor`, `camera-formats`, `camera-split`, `hands-free`, `day-calendar`, `journal-light`, `editor-adjust`, `player-loop`, `player-counts`, `pieces`, `pieces-list`, `pose`. To recapture (app repo: `~/.t3/projects/dancify`):
 
 ```bash
 cd ~/.t3/projects/dancify
@@ -81,7 +88,7 @@ xcrun simctl launch --terminate-running-process $UDID com.kkoskenvirta.dancify -
   -demo YES -demoFootageDir ~/.t3/projects/dancify/appstore/demo-footage -demoAppearance dark -demoToday 2026-10-27 \
   -demoTab journal
 sleep 8; xcrun simctl io $UDID screenshot es-journal.png
-cwebp -resize 720 0 -q 82 -sharp_yuv es-journal.png -o assets/img/app/es/journal.webp
+cwebp -resize 780 0 -q 84 -sharp_yuv es-journal.png -o assets/img/app/es/journal.webp
 xcrun simctl shutdown $UDID
 ```
 
@@ -97,13 +104,20 @@ xcrun simctl shutdown $UDID
 | `camera-countin` | `-demoSheet record -demoCapture countIn` | 10 s |
 | `camera-follow` | `-demoSheet record -demoCapture follow` | 10 s |
 | `camera-reference` | `-demoSheet record -demoCapture reference` | 11 s |
-| `editor` | `-demoTab journal -demoRecording hero -demoEditor YES -demoEditorSample YES -demoEditorTool trim` | 13 s |
-| `editor-adjust` | same with `-demoEditorTool adjust` | 13 s |
+| `camera-split` | `-demoSheet record -demoCapture referenceSplit` | 11 s |
+| `camera-formats` | `-demoSheet record -demoCapture formats` | 10 s |
+| `hands-free` | `-demoSheet record -demoCapture handsFree` | 10 s |
+| `day-calendar` | `-demoTab journal -demoDay latest` | 10 s |
+| `journal-light` | `-demoTab journal`, with `-demoAppearance light` instead of `dark` | 8 s |
+| `editor` | `-demoTab journal -demoRecording month-one -demoEditor YES -demoEditorSample YES` | 13 s |
+| `editor-adjust` | `-demoTab journal -demoRecording hero -demoEditor YES -demoEditorSample YES -demoEditorTool adjust` | 13 s |
 | `player-loop` | `-demoTab journal -demoRecording hero -demoPlayerLoop YES` | 11 s |
 | `player-counts` | `-demoTab journal -demoRecording hero -demoPlayerCounts YES` | 11 s |
 | `pieces` | `-demoPiece "Slow Burn"` | 9 s |
 | `pieces-list` | `-demoTab pieces -demoDay none` | 9 s |
 | `pose` | `-demoTab journal -demoRecording hero -demoPose YES` | 11 s |
+
+The Mac needs more than 3 GB free while capturing: below that the journal shows its real low-space card, even in demo mode.
 
 The seeded demo content (piece names such as "Slow Burn", take names such as "Full run") stays English in every language; the app's own UI is localized. The footage is the app repo's `appstore/demo-footage`.
 

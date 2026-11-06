@@ -6,9 +6,9 @@ url: "https://kkoskenvirta.github.io/dancify-site/"
 
 A camera, a practice diary and a video editor for dancers
 
-# Watch yourself get better.
+# Watch your dance grow.
 
-Film a take and a frame from it lands on today in your calendar. Open any day to loop the tricky part, slow it down, count it out, or set it beside your first try.
+Film your practice, and your calendar fills with frames of you dancing. Open any day to loop the hard eight-count, slow it down, or set it beside your first try.
 
 [Download on the App Store](https://apps.apple.com/app/id6830154598) See how it works
 
@@ -19,9 +19,23 @@ Film a take and a frame from it lands on today in your calendar. Open any day to
 
 ![Dancify camera counting in at 100 bpm, showing a large 7](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/camera-countin.webp)
 
-![A take called Full run open in the Dancify player](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/recording.webp)
-
 ![Dancify calendar for October where each practice day shows a frame from that day's recording](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/journal.webp)
+
+- Ballet
+- Contemporary
+- Jazz
+- Hip-hop
+- Heels
+- K-pop
+- Salsa
+- Bachata
+- Ballroom
+- Tap
+- Irish dance
+- Commercial
+- Cheer
+
+For any routine set to counts or music, from exam pieces to class choreography. It works for floor routines in figure skating and gymnastics too.
 
 How it works
 
@@ -29,31 +43,31 @@ How it works
 
 Three steps you'll repeat after every class, rehearsal and practice at home.
 
-![Dancify camera ready to record, with lens buttons and the count-in set to 100 bpm](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/camera.webp)
-
- 01
+1. 01
 
 ### Film with a count-in
 
 Set the tempo, tap record and walk to your mark while it counts you in: 5, 6, 7, 8.
 
-![One practice day in Dancify with three takes, a note and the month in review](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/day.webp)
+![Dancify camera ready to record, with lens buttons and the count-in set to 100 bpm](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/camera.webp)
 
- 02
+2. 02
 
 ### See it on your calendar
 
 Each take lands on its day as a frame of your own dancing. Several takes stack like prints.
 
-![The Dancify editor with a trimmed take on its timeline](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/editor.webp)
+![One practice day selected on the Dancify calendar, with its takes below](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/day-calendar.webp)
 
- 03
+3. 03
 
 ### Edit, loop and compare
 
 Loop the eight-count you keep missing, slow it to a quarter speed, trim the take, or put it next to your first try.
 
-Camera
+![A take called Full run open in the Dancify player](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/recording.webp)
+
+Rec · Follow
 
 ## A camera that knows you're dancing.
 
@@ -85,7 +99,31 @@ Start with the volume buttons or Camera Control; auto-stop ends the take. Mirror
 
 ![Dancify camera with Follow locked on to a dancer, a focus frame around her](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/camera-follow.webp)
 
-![Dancify camera counting a dancer in, showing a large 7 at 100 bpm](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/camera-countin.webp)
+![Dancify camera with its format menu open: HD or 4K at 30 or 60 fps and slow motion](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/camera-formats.webp)
+
+Hands-free
+
+## Raise a hand. Go again.
+
+Filming yourself means a lot of walking back to the phone. With Hands-free on, hold a hand up beside your head for a moment, right from your mark.
+
+- ** Keep the take and go again**
+
+The take is saved and the next count-in starts, so you never leave your mark.
+
+- ** Or start from standing**
+
+Ready and in place? The same hand starts the first take.
+
+- ** Saved where it belongs**
+
+Each take goes to the piece and kind you filmed last, so the diary stays in order.
+
+- ** Worked out on your iPhone**
+
+The camera watches for the hand on the device. Nothing is uploaded.
+
+![Dancify camera in Hands-free: a hold ring around a raised hand and the words Hold to go again](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/hands-free.webp)
 
 Practise with a reference
 
@@ -111,15 +149,17 @@ Each piece keeps its reference and tempo ready for next time.
 
 ![Dancify camera filming a dancer with a reference video playing picture-in-picture in the corner](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/camera-reference.webp)
 
-Practice diary
+![Dancify camera with a reference video playing side by side with the dancer](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/camera-split.webp)
+
+October · Your journal
 
 ## Your practice, one frame a day.
 
 Over weeks and months the calendar fills with your own dancing: a visual diary of the work you put in. Log a class without filming, add a note while it's fresh, and find any take again in seconds.
 
-![Dancify calendar where each practice day shows a frame from that day's recording](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/journal.webp)
+![The Dancify calendar in its light look, each practice day showing a frame from that day's recording](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/journal-light.webp)
 
-**Calendar** Each day shows a frame from what you danced. Several takes stack like prints.
+**Calendar** Each day shows a frame from what you danced. Several takes stack like prints. Stage lights or daylight: pick your look.
 
 ![Dancify timeline with practice sessions and their takes, newest first](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/timeline.webp)
 
@@ -131,9 +171,9 @@ Over weeks and months the calendar fills with your own dancing: a visual diary o
 
 Notes, tags and favourites Classes and rehearsals without video Milestones Month review Siri and Shortcuts
 
-Player
+Loop · 100 BPM
 
-## Loop the eight-count you keep missing.
+## Drill the hard eight-count.
 
 Set an A–B loop around the tricky phrase, slow it down, mirror it and count it. The player is made for drilling, not just watching.
 
@@ -157,19 +197,23 @@ Flip the picture to see it the way you'd see it in the studio mirror.
 
 Full screen, AirPlay or an external display, for the whole class to see.
 
+- ** Finds the beat**
+
+Dancify listens to a take's music for its tempo and its 1, ready when you turn counts on. Tap your own whenever you like.
+
 ![Dancify player with an A–B loop set around a phrase and the practice panel open](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/player-loop.webp)
 
 ![Dancify player with eight-counts over the video, showing count 8 at 100 bpm](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/player-counts.webp)
 
-Editor
+Editor · Speed ramp
 
-## A real editor, free, built in.
+## Edit like a dancer.
 
-Trim the take, cut the talking, put the music back and export a clean clip. Every edit becomes a new take; your original is never changed.
+Trim the take, cut the talking, ramp into slow motion and put the music back. Every edit becomes a new take; your original is never changed.
 
 Share it, save it to Photos, or keep it in your diary.
 
-![The Dancify editor with a take split into segments on the timeline](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/editor.webp)
+![The Dancify editor with a trimmed take on its timeline](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/editor.webp)
 
 ![The Dancify editor's Adjust tool with exposure, contrast and looks](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/editor-adjust.webp)
 
@@ -205,29 +249,23 @@ Add a track from Files, with fades in and out.
 
 Mark the moments and change your mind freely.
 
-Premium
+Day 1 → Day 84Premium
 
 ## See how far you've come.
 
 Day to day, progress is hard to see. Put the first try next to today's and it's obvious.
 
-![Dancify progress reel builder: Slow Burn, three months, four takes in sequence](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/reel.webp)
-
-### Progress reels
-
-First try to latest, with the dates on screen. Sequence, side by side or grid; export and share.
-
 ![Dancify compare: the first take from August beside the latest from October](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/compare.webp)
 
-### Side-by-side compare
+**Same step, months apart** Two takes played together and lined up to the music, so you see exactly what changed.
 
-Two takes played together, so you can see exactly what changed.
+![Dancify progress reel builder: Slow Burn, three months, four takes in sequence](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/reel.webp)
+
+**First try to full run** Progress reels with the dates on screen, in sequence, side by side or in a grid. Framed for TikTok, Reels and Shorts, or 4:5, 1:1 and 16:9. Dancify saves it to Photos, copies your caption and opens the app.
 
 ![Dancify pose guide drawing lines over a dancer's shoulders, hips and legs](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/pose.webp)
 
-### Pose guide
-
-Lines over your body for shoulders, hips and balance, worked out on your iPhone with Apple's Vision.
+**Check your lines** Lines over your body for shoulders, hips and balance, worked out on your iPhone with Apple's Vision.
 
 Privacy
 
@@ -255,26 +293,6 @@ Optional sync uses your private iCloud, videos included. We can't see it.
 
 Follow and the pose guide run on your iPhone. Nothing is uploaded for processing.
 
-For every style
-
-## Whatever you're learning this month.
-
-- Ballet
-- Contemporary
-- Jazz
-- Hip-hop
-- Heels
-- K-pop
-- Salsa
-- Bachata
-- Ballroom
-- Tap
-- Irish dance
-- Commercial
-- Cheer
-
-For any routine set to counts or music, from exam pieces to class choreography. It works for floor routines in figure skating and gymnastics too.
-
 Free and Premium
 
 ## Free to film, keep and edit.
@@ -286,11 +304,14 @@ Everything you need to practise with video is free. Premium adds the tools for s
 Free No account, no ads, no time limit.
 
 - The camera: count-in, Follow, lenses, slow motion
+- Hands-free: raise a hand to go again
 - Practise with a reference video
 - Calendar, timeline, pieces and notes
 - Player: A–B loop, counts, slow motion, mirror
 - The editor, with export
 - iCloud sync across your own devices
+
+[Get Dancify](https://apps.apple.com/app/id6830154598)
 
 ### Dancify Premium Premium
 
@@ -307,7 +328,7 @@ Dancify Premium renews automatically unless it's cancelled at least 24 hours bef
 
 FAQ
 
-## Questions, answered
+## Questions, answered.
 
 Something else? Write to [appriseven@gmail.com](mailto:appriseven@gmail.com).
 
@@ -335,6 +356,10 @@ Set a tempo, tap record, and Dancify counts you in with a click and haptics, “
 
 Tap a dancer in the camera and Dancify keeps focus and exposure on them as they move, holding on if they're briefly hidden. Turn on Keep in frame to zoom gently with them, or use a DockKit motorised stand that turns to follow.
 
+### What is Hands-free?
+
+Turn it on in the camera, then raise a hand beside your head, palm open, and hold it still for about a second and a half. The take is saved and the next count-in starts. Standing ready, the same hand starts a take.
+
 ### Can I practise along to a video?
 
 Yes. Pick a reference, your own earlier take or a video from Photos or Files, and it plays picture-in-picture or side by side while you film, starting with the count-in. It's muted in your recording unless headphones are connected.
@@ -346,6 +371,14 @@ Yes. The player goes down to 0.25× and steps frame by frame. Set an A–B loop 
 ### Does editing change my original video?
 
 No. Every edit exports as a new take, so the original stays exactly as you filmed it. Share the result or save it to Photos.
+
+### Can takes line up to the music?
+
+Yes. When two takes share their music, Compare lines them up on open and keeps them in step, and side-by-side and grid reels start every take on the same moment of the song.
+
+### Can I post a reel to TikTok, Instagram or YouTube?
+
+Yes. Reels come in 9:16 for TikTok, Reels and Shorts, or 4:5, 1:1 and 16:9. Dancify saves the file to Photos, copies your caption and opens the app, so you post it yourself. Progress reel export is part of Dancify Premium.
 
 ### Which dance styles is it for?
 
@@ -361,7 +394,7 @@ English, German, Finnish, Spanish, French and Japanese.
 
 From the blog
 
-## Notes from the rehearsal room
+## Notes from the rehearsal room.
 
 Filming
 

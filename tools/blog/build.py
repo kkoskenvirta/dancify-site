@@ -31,6 +31,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "tools"))
 import rebase  # noqa: E402
+import importlib.util  # noqa: E402
+
+_home = importlib.util.spec_from_file_location("home_build", ROOT / "tools/home/build.py")
+home = importlib.util.module_from_spec(_home)
+_home.loader.exec_module(home)
 TOOL = Path(__file__).resolve().parent
 SITE = json.loads((TOOL / "site.json").read_text())
 BASE = SITE["base"]
@@ -190,8 +195,7 @@ def head(L: dict, *, title: str, description: str, path: str, alternates: dict[s
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <link rel="canonical" href="{url(path)}">
 {alt_links}{feed_link}
-  <meta name="theme-color" content="#0a0a0b" media="(prefers-color-scheme: dark)">
-  <meta name="theme-color" content="#f6f5fa" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0a0b">
   <meta name="apple-itunes-app" content="app-id={APP_ID}">
 
   <meta property="og:type" content="{og['type']}">
@@ -288,7 +292,6 @@ def footer(L: dict, alternates: dict[str, str]) -> str:
         for c in LANGS
     )
     return f"""  <footer class="footer">
-    <span class="tape t-amber" aria-hidden="true"></span>
     <div class="container">
       <div class="footer-top">
         <div>
@@ -1126,6 +1129,7 @@ def write(path: str, text: str) -> None:
 
 
 def main() -> None:
+    home.build()
     for lang in LANGS:
         SITE["languages"][lang]["code"] = lang
     posts = load_posts()

@@ -16,8 +16,7 @@
   <link rel="icon" href="/dancify-site/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="/dancify-site/favicon.png" type="image/png" sizes="48x48">
   <link rel="apple-touch-icon" href="/dancify-site/assets/img/apple-touch-icon.png">
-  <meta name="theme-color" content="#0a0a0b" media="(prefers-color-scheme: dark)">
-  <meta name="theme-color" content="#f6f5fa" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0a0b">
   <meta name="apple-itunes-app" content="app-id=6830154598">
 
   <meta property="og:type" content="website">
@@ -26,7 +25,7 @@
   <meta property="og:locale:alternate" content="es_ES">
   <meta property="og:locale:alternate" content="de_DE">
   <meta property="og:url" content="https://kkoskenvirta.github.io/dancify-site/">
-  <meta property="og:title" content="Dancify – watch yourself get better">
+  <meta property="og:title" content="Dancify – watch your dance grow">
   <meta property="og:description" content="A camera, a practice diary and a video editor for dancers. Free on the App Store, with no account and no ads.">
   <meta property="og:image" content="https://kkoskenvirta.github.io/dancify-site/assets/img/og/en-home.jpg">
   <meta property="og:image:width" content="1200">
@@ -66,7 +65,10 @@
     "Side-by-side compare (Premium)",
     "Pose guide on device (Premium)",
     "iCloud sync",
-    "Siri and Shortcuts"
+    "Siri and Shortcuts",
+    "Hands-free: raise a hand to keep the take and go again",
+    "Takes lined up to the music",
+    "Reels framed for TikTok, Reels and Shorts (Premium)"
   ],
   "inLanguage": [
     "en",
@@ -163,8 +165,6 @@
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "@id": "https://kkoskenvirta.github.io/dancify-site/#faq",
-  "inLanguage": "en-US",
   "mainEntity": [
     {
       "@type": "Question",
@@ -216,6 +216,14 @@
     },
     {
       "@type": "Question",
+      "name": "What is Hands-free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Turn it on in the camera, then raise a hand beside your head, palm open, and hold it still for about a second and a half. The take is saved and the next count-in starts. Standing ready, the same hand starts a take."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Can I practise along to a video?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -236,6 +244,22 @@
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "No. Every edit exports as a new take, so the original stays exactly as you filmed it. Share the result or save it to Photos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can takes line up to the music?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. When two takes share their music, Compare lines them up on open and keeps them in step, and side-by-side and grid reels start every take on the same moment of the song."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I post a reel to TikTok, Instagram or YouTube?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Reels come in 9:16 for TikTok, Reels and Shorts, or 4:5, 1:1 and 16:9. Dancify saves the file to Photos, copies your caption and opens the app, so you post it yourself. Progress reel export is part of Dancify Premium."
       }
     },
     {
@@ -332,7 +356,6 @@
     <symbol id="i-frames" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3 9h18M3 15h18M7.5 5v4M12 5v4M16.5 5v4M7.5 15v4M12 15v4M16.5 15v4"/></g></symbol>
     <symbol id="i-tv" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4" width="19" height="13" rx="2.5"/><path d="M8 21h8"/></g></symbol>
   </svg>
-
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="nav" data-nav>
@@ -368,8 +391,8 @@
       <div class="container hero-grid">
         <div class="hero-copy">
           <p class="eyebrow hero-hook" data-reveal><span class="mark" aria-hidden="true"></span>A camera, a practice diary and a video editor for dancers</p>
-          <h1 data-reveal style="--delay:.06s">Watch yourself get <span class="marked">better</span>.</h1>
-          <p class="hero-lead" data-reveal style="--delay:.12s">Film a take and a frame from it lands on today in your calendar. Open any day to loop the tricky part, slow it down, count it out, or set it beside your first try.</p>
+          <h1 data-reveal style="--delay:.06s">Watch your <span class="marked">dance grow.</span></h1>
+          <p class="hero-lead" data-reveal style="--delay:.12s">Film your practice, and your calendar fills with frames of you dancing. Open any day to loop the hard eight-count, slow it down, or set it beside your first try.</p>
           <div class="hero-actions" data-reveal style="--delay:.18s">
             <a class="btn btn-store" href="https://apps.apple.com/app/id6830154598" data-store>
               <svg aria-hidden="true"><use href="#i-apple"/></svg>
@@ -377,61 +400,51 @@
             </a>
             <a class="btn btn-ghost" href="#how">See how it works</a>
           </div>
-          <ul class="hero-meta" data-reveal style="--delay:.24s">
-            <li><svg aria-hidden="true"><use href="#i-check"/></svg>Free to download</li>
-            <li><svg aria-hidden="true"><use href="#i-check"/></svg>No account</li>
-            <li><svg aria-hidden="true"><use href="#i-check"/></svg>No ads, no tracking</li>
-            <li><svg aria-hidden="true"><use href="#i-check"/></svg>iPhone and iPad</li>
-          </ul>
+          <ul class="hero-meta" data-reveal style="--delay:.24s"><li><svg aria-hidden="true"><use href="#i-check"/></svg>Free to download</li><li><svg aria-hidden="true"><use href="#i-check"/></svg>No account</li><li><svg aria-hidden="true"><use href="#i-check"/></svg>No ads, no tracking</li><li><svg aria-hidden="true"><use href="#i-check"/></svg>iPhone and iPad</li></ul>
         </div>
-
-        <div class="stage" data-reveal style="--delay:.15s">
+        <div class="stage" data-reveal style="--delay:.12s">
           <span class="beam" aria-hidden="true"></span>
-          <div class="stage-phones">
-            <div class="phone p-left"><img src="/dancify-site/assets/img/app/en/camera-countin.webp" width="720" height="1564" alt="Dancify camera counting in at 100 bpm, showing a large 7" loading="lazy" decoding="async"></div>
-            <div class="phone p-right"><img src="/dancify-site/assets/img/app/en/recording.webp" width="720" height="1564" alt="A take called Full run open in the Dancify player" loading="lazy" decoding="async"></div>
-            <div class="phone p-center"><img src="/dancify-site/assets/img/app/en/journal.webp" width="720" height="1564" alt="Dancify calendar for October where each practice day shows a frame from that day&#x27;s recording" fetchpriority="high"></div>
-          </div>
-          <span class="tape stage-tape" aria-hidden="true"></span>
-          <span class="chip chip-rec" aria-hidden="true"><span class="dot"></span><span><time>00:00:42</time><small>Full run</small></span></span>
-          <span class="chip chip-count" aria-hidden="true"><span>Count-in<small>100 bpm</small></span><span class="count"><span>5</span><span>6</span><span>7</span><span>8</span></span></span>
+          <span class="tape floor from-right" aria-hidden="true"></span>
+          <div class="phone p-side pose-right"><img src="/dancify-site/assets/img/app/en/camera-countin.webp" width="780" height="1695" loading="lazy" decoding="async" alt="Dancify camera counting in at 100 bpm, showing a large 7"></div>
+          <div class="phone p-main pose-tilt"><img src="/dancify-site/assets/img/app/en/journal.webp" width="780" height="1695" fetchpriority="high" decoding="async" alt="Dancify calendar for October where each practice day shows a frame from that day&#x27;s recording"></div>
         </div>
       </div>
     </section>
 
-    <section class="section" id="how" aria-labelledby="how-title" style="padding-top:clamp(40px,6vw,80px)">
+    <section class="styles-band" id="styles" aria-label="For every style">
+      <div class="container">
+        <ul class="styles"><li>Ballet</li><li>Contemporary</li><li>Jazz</li><li>Hip-hop</li><li>Heels</li><li>K-pop</li><li>Salsa</li><li>Bachata</li><li>Ballroom</li><li>Tap</li><li>Irish dance</li><li>Commercial</li><li>Cheer</li></ul>
+        <p class="styles-note">For any routine set to counts or music, from exam pieces to class choreography. It works for floor routines in figure skating and gymnastics too.</p>
+      </div>
+    </section>
+
+    <section class="section" id="how" aria-labelledby="how-title">
       <div class="container">
         <div class="section-head is-center" data-reveal>
-          <p class="eyebrow"><span class="mark " aria-hidden="true"></span>How it works</p>
-          <h2 id="how-title">Film. See it on your calendar. Then really look.</h2>
+          <p class="eyebrow"><span class="mark" aria-hidden="true"></span>How it works</p>
+          <h2 id="how-title">Film. See it on your calendar. <span class="marked">Then really look.</span></h2>
           <p>Three steps you&#x27;ll repeat after every class, rehearsal and practice at home.</p>
         </div>
-        <div class="loop-wrap">
-          <span class="tape is-b" aria-hidden="true"></span>
-          <ol class="loop-steps">
-          <li class="loop-step card" data-reveal style="--delay:0.00s">
-            <div class="loop-shot"><div class="phone"><img src="/dancify-site/assets/img/app/en/camera.webp" width="720" height="1564" alt="Dancify camera ready to record, with lens buttons and the count-in set to 100 bpm" loading="lazy" decoding="async"></div></div>
-            <div class="loop-body">
-              <span class="step-no">01</span>
-              <h3>Film with a count-in</h3>
-              <p>Set the tempo, tap record and walk to your mark while it counts you in: 5, 6, 7, 8.</p>
-            </div>
+        <div class="how-wrap">
+          <span class="tape floor across" aria-hidden="true"></span>
+          <ol class="how-steps">
+          <li class="how-step" data-reveal style="--delay:0.00s">
+            <span class="step-no">01</span>
+            <h3>Film with a count-in</h3>
+            <p>Set the tempo, tap record and walk to your mark while it counts you in: 5, 6, 7, 8.</p>
+            <div class="phone"><img src="/dancify-site/assets/img/app/en/camera.webp" width="780" height="1695" loading="lazy" decoding="async" alt="Dancify camera ready to record, with lens buttons and the count-in set to 100 bpm"></div>
           </li>
-          <li class="loop-step card" data-reveal style="--delay:0.08s">
-            <div class="loop-shot"><div class="phone"><img src="/dancify-site/assets/img/app/en/day.webp" width="720" height="1564" alt="One practice day in Dancify with three takes, a note and the month in review" loading="lazy" decoding="async"></div></div>
-            <div class="loop-body">
-              <span class="step-no">02</span>
-              <h3>See it on your calendar</h3>
-              <p>Each take lands on its day as a frame of your own dancing. Several takes stack like prints.</p>
-            </div>
+          <li class="how-step" data-reveal style="--delay:0.07s">
+            <span class="step-no">02</span>
+            <h3>See it on your calendar</h3>
+            <p>Each take lands on its day as a frame of your own dancing. Several takes stack like prints.</p>
+            <div class="phone"><img src="/dancify-site/assets/img/app/en/day-calendar.webp" width="780" height="1695" loading="lazy" decoding="async" alt="One practice day selected on the Dancify calendar, with its takes below"></div>
           </li>
-          <li class="loop-step card" data-reveal style="--delay:0.16s">
-            <div class="loop-shot"><div class="phone"><img src="/dancify-site/assets/img/app/en/editor.webp" width="720" height="1564" alt="The Dancify editor with a trimmed take on its timeline" loading="lazy" decoding="async"></div></div>
-            <div class="loop-body">
-              <span class="step-no">03</span>
-              <h3>Edit, loop and compare</h3>
-              <p>Loop the eight-count you keep missing, slow it to a quarter speed, trim the take, or put it next to your first try.</p>
-            </div>
+          <li class="how-step" data-reveal style="--delay:0.14s">
+            <span class="step-no">03</span>
+            <h3>Edit, loop and compare</h3>
+            <p>Loop the eight-count you keep missing, slow it to a quarter speed, trim the take, or put it next to your first try.</p>
+            <div class="phone"><img src="/dancify-site/assets/img/app/en/recording.webp" width="780" height="1695" loading="lazy" decoding="async" alt="A take called Full run open in the Dancify player"></div>
           </li>
           </ol>
         </div>
@@ -441,8 +454,8 @@
     <section class="section" id="camera" aria-labelledby="camera-title">
       <div class="container feature">
         <div class="feature-copy" data-reveal>
-          <p class="eyebrow"><span class="mark t-amber" aria-hidden="true"></span>Camera</p>
-          <h2 id="camera-title">A camera that knows you&#x27;re dancing.</h2>
+          <p class="eyebrow"><span class="mark" aria-hidden="true"></span>Rec · Follow</p>
+          <h2 id="camera-title">A camera that <span class="marked">knows you&#x27;re dancing.</span></h2>
           <p>Recording yourself shouldn&#x27;t mean running back and forth to the phone. Dancify&#x27;s camera counts you in, keeps you in focus and stays out of the way.</p>
           <ul class="points">
             <li><span class="ico"><svg aria-hidden="true"><use href="#i-metronome"/></svg></span><b>Count-in at your tempo</b><p>A musical 5, 6, 7, 8 with a click and haptics, so you&#x27;re on your mark when recording starts.</p></li>
@@ -453,19 +466,41 @@
             <li><span class="ico"><svg aria-hidden="true"><use href="#i-record"/></svg></span><b>Record from across the room</b><p>Start with the volume buttons or Camera Control; auto-stop ends the take. Mirror, torch, grid and level are there too.</p></li>
           </ul>
         </div>
-        <div class="feature-visual is-pair" data-reveal style="--delay:.1s">
-          <div class="phone"><img src="/dancify-site/assets/img/app/en/camera-follow.webp" width="720" height="1564" alt="Dancify camera with Follow locked on to a dancer, a focus frame around her" loading="lazy" decoding="async"></div>
-          <div class="phone"><img src="/dancify-site/assets/img/app/en/camera-countin.webp" width="720" height="1564" alt="Dancify camera counting a dancer in, showing a large 7 at 100 bpm" loading="lazy" decoding="async"></div>
-          <span class="tape t-amber is-c" aria-hidden="true"></span>
+        <div class="feature-visual is-pair" data-reveal style="--delay:.08s">
+          <span class="beam" aria-hidden="true"></span>
+          <span class="tape floor from-right" aria-hidden="true"></span>
+          <div class="phone pose-left"><img src="/dancify-site/assets/img/app/en/camera-follow.webp" width="780" height="1695" loading="lazy" decoding="async" alt="Dancify camera with Follow locked on to a dancer, a focus frame around her"></div>
+          <div class="phone pose-right"><img src="/dancify-site/assets/img/app/en/camera-formats.webp" width="780" height="1695" loading="lazy" decoding="async" alt="Dancify camera with its format menu open: HD or 4K at 30 or 60 fps and slow motion"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="handsfree" aria-labelledby="handsfree-title" style="padding-top:0">
+      <div class="container feature is-flip">
+        <div class="feature-copy" data-reveal>
+          <p class="eyebrow"><span class="mark" aria-hidden="true"></span>Hands-free</p>
+          <h2 id="handsfree-title">Raise a hand. <span class="marked">Go again.</span></h2>
+          <p>Filming yourself means a lot of walking back to the phone. With Hands-free on, hold a hand up beside your head for a moment, right from your mark.</p>
+          <ul class="points">
+            <li><span class="ico"><svg aria-hidden="true"><use href="#i-check"/></svg></span><b>Keep the take and go again</b><p>The take is saved and the next count-in starts, so you never leave your mark.</p></li>
+            <li><span class="ico"><svg aria-hidden="true"><use href="#i-play"/></svg></span><b>Or start from standing</b><p>Ready and in place? The same hand starts the first take.</p></li>
+            <li><span class="ico"><svg aria-hidden="true"><use href="#i-stack"/></svg></span><b>Saved where it belongs</b><p>Each take goes to the piece and kind you filmed last, so the diary stays in order.</p></li>
+            <li><span class="ico"><svg aria-hidden="true"><use href="#i-device"/></svg></span><b>Worked out on your iPhone</b><p>The camera watches for the hand on the device. Nothing is uploaded.</p></li>
+          </ul>
+        </div>
+        <div class="feature-visual" data-reveal style="--delay:.08s">
+          <span class="beam" aria-hidden="true"></span>
+          <span class="tape floor from-left" aria-hidden="true"></span>
+          <div class="phone pose-left"><img src="/dancify-site/assets/img/app/en/hands-free.webp" width="780" height="1695" loading="lazy" decoding="async" alt="Dancify camera in Hands-free: a hold ring around a raised hand and the words Hold to go again"></div>
         </div>
       </div>
     </section>
 
     <section class="section" id="reference" aria-labelledby="reference-title" style="padding-top:0">
-      <div class="container feature is-flip">
+      <div class="container feature">
         <div class="feature-copy" data-reveal>
-          <p class="eyebrow"><span class="mark t-green" aria-hidden="true"></span>Practise with a reference</p>
-          <h2 id="reference-title">Dance along to the video you&#x27;re learning from.</h2>
+          <p class="eyebrow"><span class="mark" aria-hidden="true"></span>Practise with a reference</p>
+          <h2 id="reference-title">Dance along to <span class="marked">the video you&#x27;re learning from.</span></h2>
           <p>Play a reference while you film: your own earlier take, a class video, or anything from Photos or Files. Picture-in-picture or side by side, it starts on the count-in&#x27;s downbeat, so you&#x27;re together from the first count.</p>
           <ul class="points">
             <li><span class="ico"><svg aria-hidden="true"><use href="#i-pip"/></svg></span><b>Picture-in-picture or side by side</b><p>Keep the reference small in a corner, or give it half the screen.</p></li>
@@ -474,9 +509,11 @@
             <li><span class="ico"><svg aria-hidden="true"><use href="#i-stack"/></svg></span><b>Remembered per piece</b><p>Each piece keeps its reference and tempo ready for next time.</p></li>
           </ul>
         </div>
-        <div class="feature-visual" data-reveal style="--delay:.1s">
-          <div class="phone"><img src="/dancify-site/assets/img/app/en/camera-reference.webp" width="720" height="1564" alt="Dancify camera filming a dancer with a reference video playing picture-in-picture in the corner" loading="lazy" decoding="async"></div>
-          <span class="tape t-green" aria-hidden="true"></span>
+        <div class="feature-visual is-pair" data-reveal style="--delay:.08s">
+          <span class="beam" aria-hidden="true"></span>
+          <span class="tape floor from-right" aria-hidden="true"></span>
+          <div class="phone pose-left"><img src="/dancify-site/assets/img/app/en/camera-reference.webp" width="780" height="1695" loading="lazy" decoding="async" alt="Dancify camera filming a dancer with a reference video playing picture-in-picture in the corner"></div>
+          <div class="phone pose-right"><img src="/dancify-site/assets/img/app/en/camera-split.webp" width="780" height="1695" loading="lazy" decoding="async" alt="Dancify camera with a reference video playing side by side with the dancer"></div>
         </div>
       </div>
     </section>
@@ -484,39 +521,37 @@
     <section class="section" id="diary" aria-labelledby="diary-title">
       <div class="container">
         <div class="section-head is-center" data-reveal>
-          <p class="eyebrow"><span class="mark " aria-hidden="true"></span>Practice diary</p>
-          <h2 id="diary-title">Your practice, one frame a day.</h2>
+          <p class="eyebrow"><span class="mark" aria-hidden="true"></span>October · Your journal</p>
+          <h2 id="diary-title">Your practice, <span class="marked">one frame a day.</span></h2>
           <p>Over weeks and months the calendar fills with your own dancing: a visual diary of the work you put in. Log a class without filming, add a note while it&#x27;s fresh, and find any take again in seconds.</p>
         </div>
-        <div class="screens">
+        <div class="screens-wrap">
+          <span class="beam" aria-hidden="true"></span>
+          <span class="tape floor across" aria-hidden="true"></span>
+          <div class="screens">
           <figure class="screen" data-reveal style="--delay:0.00s">
-            <div class="phone"><img src="/dancify-site/assets/img/app/en/journal.webp" width="720" height="1564" alt="Dancify calendar where each practice day shows a frame from that day&#x27;s recording" loading="lazy" decoding="async"></div>
-            <figcaption><b>Calendar</b>Each day shows a frame from what you danced. Several takes stack like prints.</figcaption>
+            <div class="phone"><img src="/dancify-site/assets/img/app/en/journal-light.webp" width="780" height="1695" loading="lazy" decoding="async" alt="The Dancify calendar in its light look, each practice day showing a frame from that day&#x27;s recording"></div>
+            <figcaption><b>Calendar</b>Each day shows a frame from what you danced. Several takes stack like prints. Stage lights or daylight: pick your look.</figcaption>
           </figure>
-          <figure class="screen" data-reveal style="--delay:0.08s">
-            <div class="phone"><img src="/dancify-site/assets/img/app/en/timeline.webp" width="720" height="1564" alt="Dancify timeline with practice sessions and their takes, newest first" loading="lazy" decoding="async"></div>
+          <figure class="screen" data-reveal style="--delay:0.07s">
+            <div class="phone"><img src="/dancify-site/assets/img/app/en/timeline.webp" width="780" height="1695" loading="lazy" decoding="async" alt="Dancify timeline with practice sessions and their takes, newest first"></div>
             <figcaption><b>Timeline</b>Every session, take and milestone in order, filtered by takes, sessions or pieces.</figcaption>
           </figure>
-          <figure class="screen" data-reveal style="--delay:0.16s">
-            <div class="phone"><img src="/dancify-site/assets/img/app/en/pieces.webp" width="720" height="1564" alt="The piece Slow Burn in Dancify: 10 takes, 12 sessions and 13 hours, from first try to latest" loading="lazy" decoding="async"></div>
+          <figure class="screen" data-reveal style="--delay:0.14s">
+            <div class="phone"><img src="/dancify-site/assets/img/app/en/pieces.webp" width="780" height="1695" loading="lazy" decoding="async" alt="The piece Slow Burn in Dancify: 10 takes, 12 sessions and 13 hours, from first try to latest"></div>
             <figcaption><b>Pieces</b>Every take of a choreography in order, from first try to full run.</figcaption>
           </figure>
+          </div>
         </div>
-        <p class="screens-note" data-reveal>
-          <span><span class="mark " aria-hidden="true"></span>Notes, tags and favourites</span>
-          <span><span class="mark t-amber" aria-hidden="true"></span>Classes and rehearsals without video</span>
-          <span><span class="mark t-green" aria-hidden="true"></span>Milestones</span>
-          <span><span class="mark t-pink" aria-hidden="true"></span>Month review</span>
-          <span><span class="mark t-blue" aria-hidden="true"></span>Siri and Shortcuts</span>
-        </p>
+        <p class="screens-note" data-reveal><span><span class="mark" aria-hidden="true"></span>Notes, tags and favourites</span><span><span class="mark" aria-hidden="true"></span>Classes and rehearsals without video</span><span><span class="mark" aria-hidden="true"></span>Milestones</span><span><span class="mark" aria-hidden="true"></span>Month review</span><span><span class="mark" aria-hidden="true"></span>Siri and Shortcuts</span></p>
       </div>
     </section>
 
     <section class="section" id="player" aria-labelledby="player-title">
       <div class="container feature">
         <div class="feature-copy" data-reveal>
-          <p class="eyebrow"><span class="mark t-blue" aria-hidden="true"></span>Player</p>
-          <h2 id="player-title">Loop the eight-count you keep missing.</h2>
+          <p class="eyebrow"><span class="mark" aria-hidden="true"></span>Loop · 100 BPM</p>
+          <h2 id="player-title">Drill the hard <span class="marked">eight-count.</span></h2>
           <p>Set an A–B loop around the tricky phrase, slow it down, mirror it and count it. The player is made for drilling, not just watching.</p>
           <ul class="points">
             <li><span class="ico"><svg aria-hidden="true"><use href="#i-loop"/></svg></span><b>A–B loop</b><p>Mark A and B and it repeats, with an optional eight-count pause between reps to reset.</p></li>
@@ -524,12 +559,14 @@
             <li><span class="ico"><svg aria-hidden="true"><use href="#i-slowmo"/></svg></span><b>Slow motion to 0.25×</b><p>And frame by frame, to check a landing, a line, or where the arm really goes.</p></li>
             <li><span class="ico"><svg aria-hidden="true"><use href="#i-mirror"/></svg></span><b>Mirror</b><p>Flip the picture to see it the way you&#x27;d see it in the studio mirror.</p></li>
             <li><span class="ico"><svg aria-hidden="true"><use href="#i-tv"/></svg></span><b>On the big screen</b><p>Full screen, AirPlay or an external display, for the whole class to see.</p></li>
+            <li><span class="ico"><svg aria-hidden="true"><use href="#i-music"/></svg></span><b>Finds the beat</b><p>Dancify listens to a take&#x27;s music for its tempo and its 1, ready when you turn counts on. Tap your own whenever you like.</p></li>
           </ul>
         </div>
-        <div class="feature-visual is-pair" data-reveal style="--delay:.1s">
-          <div class="phone"><img src="/dancify-site/assets/img/app/en/player-loop.webp" width="720" height="1564" alt="Dancify player with an A–B loop set around a phrase and the practice panel open" loading="lazy" decoding="async"></div>
-          <div class="phone"><img src="/dancify-site/assets/img/app/en/player-counts.webp" width="720" height="1564" alt="Dancify player with eight-counts over the video, showing count 8 at 100 bpm" loading="lazy" decoding="async"></div>
-          <span class="tape t-blue is-b" aria-hidden="true"></span>
+        <div class="feature-visual is-pair" data-reveal style="--delay:.08s">
+          <span class="beam" aria-hidden="true"></span>
+          <span class="tape floor from-right" aria-hidden="true"></span>
+          <div class="phone pose-left"><img src="/dancify-site/assets/img/app/en/player-loop.webp" width="780" height="1695" loading="lazy" decoding="async" alt="Dancify player with an A–B loop set around a phrase and the practice panel open"></div>
+          <div class="phone pose-right"><img src="/dancify-site/assets/img/app/en/player-counts.webp" width="780" height="1695" loading="lazy" decoding="async" alt="Dancify player with eight-counts over the video, showing count 8 at 100 bpm"></div>
         </div>
       </div>
     </section>
@@ -538,26 +575,27 @@
       <div class="container">
         <div class="feature is-flip">
           <div class="feature-copy" data-reveal>
-            <p class="eyebrow"><span class="mark t-pink" aria-hidden="true"></span>Editor</p>
-            <h2 id="editor-title">A real editor, free, built in.</h2>
-            <p>Trim the take, cut the talking, put the music back and export a clean clip. Every edit becomes a new take; your original is never changed.</p>
+            <p class="eyebrow"><span class="mark" aria-hidden="true"></span>Editor · Speed ramp</p>
+            <h2 id="editor-title">Edit <span class="marked">like a dancer.</span></h2>
+            <p>Trim the take, cut the talking, ramp into slow motion and put the music back. Every edit becomes a new take; your original is never changed.</p>
             <p class="editor-after">Share it, save it to Photos, or keep it in your diary.</p>
           </div>
-          <div class="feature-visual is-pair" data-reveal style="--delay:.1s">
-            <div class="phone"><img src="/dancify-site/assets/img/app/en/editor.webp" width="720" height="1564" alt="The Dancify editor with a take split into segments on the timeline" loading="lazy" decoding="async"></div>
-            <div class="phone"><img src="/dancify-site/assets/img/app/en/editor-adjust.webp" width="720" height="1564" alt="The Dancify editor&#x27;s Adjust tool with exposure, contrast and looks" loading="lazy" decoding="async"></div>
-            <span class="tape t-pink is-c" aria-hidden="true"></span>
+          <div class="feature-visual is-pair" data-reveal style="--delay:.08s">
+            <span class="beam" aria-hidden="true"></span>
+            <span class="tape floor from-left" aria-hidden="true"></span>
+            <div class="phone pose-left"><img src="/dancify-site/assets/img/app/en/editor.webp" width="780" height="1695" loading="lazy" decoding="async" alt="The Dancify editor with a trimmed take on its timeline"></div>
+            <div class="phone pose-right"><img src="/dancify-site/assets/img/app/en/editor-adjust.webp" width="780" height="1695" loading="lazy" decoding="async" alt="The Dancify editor&#x27;s Adjust tool with exposure, contrast and looks"></div>
           </div>
         </div>
         <ul class="bento">
-          <li class="card" data-reveal style="--delay:0.00s"><span class="ico"><svg aria-hidden="true"><use href="#i-scissors"/></svg></span><b>Trim and split</b><p>Frame-accurate, with reorder and duplicate.</p></li>
-          <li class="card" data-reveal style="--delay:0.05s"><span class="ico"><svg aria-hidden="true"><use href="#i-speed"/></svg></span><b>Speed and ramps</b><p>0.25× to 2×, fine control to 4×, with smooth ramps.</p></li>
-          <li class="card" data-reveal style="--delay:0.10s"><span class="ico"><svg aria-hidden="true"><use href="#i-snow"/></svg></span><b>Freeze frames</b><p>Hold the moment the line is perfect.</p></li>
-          <li class="card" data-reveal style="--delay:0.15s"><span class="ico"><svg aria-hidden="true"><use href="#i-crop"/></svg></span><b>Crop and straighten</b><p>Crop, rotate, straighten and mirror.</p></li>
-          <li class="card" data-reveal style="--delay:0.00s"><span class="ico"><svg aria-hidden="true"><use href="#i-sliders"/></svg></span><b>Colour and light</b><p>Adjustments and looks for studio light.</p></li>
-          <li class="card" data-reveal style="--delay:0.05s"><span class="ico"><svg aria-hidden="true"><use href="#i-text"/></svg></span><b>Titles and counts</b><p>Captions, a date stamp and a count overlay.</p></li>
-          <li class="card" data-reveal style="--delay:0.10s"><span class="ico"><svg aria-hidden="true"><use href="#i-music"/></svg></span><b>Music track</b><p>Add a track from Files, with fades in and out.</p></li>
-          <li class="card" data-reveal style="--delay:0.15s"><span class="ico"><svg aria-hidden="true"><use href="#i-flag"/></svg></span><b>Markers, undo, redo</b><p>Mark the moments and change your mind freely.</p></li>
+          <li data-reveal style="--delay:0.00s"><span class="ico"><svg aria-hidden="true"><use href="#i-scissors"/></svg></span><b>Trim and split</b><p>Frame-accurate, with reorder and duplicate.</p></li>
+          <li data-reveal style="--delay:0.03s"><span class="ico"><svg aria-hidden="true"><use href="#i-speed"/></svg></span><b>Speed and ramps</b><p>0.25× to 2×, fine control to 4×, with smooth ramps.</p></li>
+          <li data-reveal style="--delay:0.06s"><span class="ico"><svg aria-hidden="true"><use href="#i-snow"/></svg></span><b>Freeze frames</b><p>Hold the moment the line is perfect.</p></li>
+          <li data-reveal style="--delay:0.09s"><span class="ico"><svg aria-hidden="true"><use href="#i-crop"/></svg></span><b>Crop and straighten</b><p>Crop, rotate, straighten and mirror.</p></li>
+          <li data-reveal style="--delay:0.12s"><span class="ico"><svg aria-hidden="true"><use href="#i-sliders"/></svg></span><b>Colour and light</b><p>Adjustments and looks for studio light.</p></li>
+          <li data-reveal style="--delay:0.15s"><span class="ico"><svg aria-hidden="true"><use href="#i-text"/></svg></span><b>Titles and counts</b><p>Captions, a date stamp and a count overlay.</p></li>
+          <li data-reveal style="--delay:0.18s"><span class="ico"><svg aria-hidden="true"><use href="#i-music"/></svg></span><b>Music track</b><p>Add a track from Files, with fades in and out.</p></li>
+          <li data-reveal style="--delay:0.21s"><span class="ico"><svg aria-hidden="true"><use href="#i-flag"/></svg></span><b>Markers, undo, redo</b><p>Mark the moments and change your mind freely.</p></li>
         </ul>
       </div>
     </section>
@@ -565,42 +603,37 @@
     <section class="section" id="premium" aria-labelledby="premium-title">
       <div class="container">
         <div class="section-head is-center" data-reveal>
-          <p class="eyebrow"><span class="mark" aria-hidden="true"></span><span class="tag tag-premium">Premium</span></p>
-          <h2 id="premium-title">See how far you&#x27;ve come.</h2>
+          <p class="eyebrow"><span class="mark" aria-hidden="true"></span>Day 1 → Day 84<span class="tag tag-premium">Premium</span></p>
+          <h2 id="premium-title">See <span class="marked">how far you&#x27;ve come.</span></h2>
           <p>Day to day, progress is hard to see. Put the first try next to today&#x27;s and it&#x27;s obvious.</p>
         </div>
-        <ul class="progress-grid">
-          <li class="progress-card card" data-reveal style="--delay:0.00s">
-            <div class="loop-shot"><div class="phone"><img src="/dancify-site/assets/img/app/en/reel.webp" width="720" height="1564" alt="Dancify progress reel builder: Slow Burn, three months, four takes in sequence" loading="lazy" decoding="async"></div></div>
-            <div class="loop-body">
-              <h3>Progress reels</h3>
-              <p>First try to latest, with the dates on screen. Sequence, side by side or grid; export and share.</p>
-            </div>
-          </li>
-          <li class="progress-card card" data-reveal style="--delay:0.08s">
-            <div class="loop-shot"><div class="phone"><img src="/dancify-site/assets/img/app/en/compare.webp" width="720" height="1564" alt="Dancify compare: the first take from August beside the latest from October" loading="lazy" decoding="async"></div></div>
-            <div class="loop-body">
-              <h3>Side-by-side compare</h3>
-              <p>Two takes played together, so you can see exactly what changed.</p>
-            </div>
-          </li>
-          <li class="progress-card card" data-reveal style="--delay:0.16s">
-            <div class="loop-shot"><div class="phone"><img src="/dancify-site/assets/img/app/en/pose.webp" width="720" height="1564" alt="Dancify pose guide drawing lines over a dancer&#x27;s shoulders, hips and legs" loading="lazy" decoding="async"></div></div>
-            <div class="loop-body">
-              <h3>Pose guide</h3>
-              <p>Lines over your body for shoulders, hips and balance, worked out on your iPhone with Apple&#x27;s Vision.</p>
-            </div>
-          </li>
-        </ul>
+        <div class="screens-wrap">
+          <span class="beam" aria-hidden="true"></span>
+          <span class="tape floor across" aria-hidden="true"></span>
+          <div class="screens">
+          <figure class="screen" data-reveal style="--delay:0.00s">
+            <div class="phone"><img src="/dancify-site/assets/img/app/en/compare.webp" width="780" height="1695" loading="lazy" decoding="async" alt="Dancify compare: the first take from August beside the latest from October"></div>
+            <figcaption><b>Same step, months apart</b>Two takes played together and lined up to the music, so you see exactly what changed.</figcaption>
+          </figure>
+          <figure class="screen" data-reveal style="--delay:0.07s">
+            <div class="phone"><img src="/dancify-site/assets/img/app/en/reel.webp" width="780" height="1695" loading="lazy" decoding="async" alt="Dancify progress reel builder: Slow Burn, three months, four takes in sequence"></div>
+            <figcaption><b>First try to full run</b>Progress reels with the dates on screen, in sequence, side by side or in a grid. Framed for TikTok, Reels and Shorts, or 4:5, 1:1 and 16:9. Dancify saves it to Photos, copies your caption and opens the app.</figcaption>
+          </figure>
+          <figure class="screen" data-reveal style="--delay:0.14s">
+            <div class="phone"><img src="/dancify-site/assets/img/app/en/pose.webp" width="780" height="1695" loading="lazy" decoding="async" alt="Dancify pose guide drawing lines over a dancer&#x27;s shoulders, hips and legs"></div>
+            <figcaption><b>Check your lines</b>Lines over your body for shoulders, hips and balance, worked out on your iPhone with Apple&#x27;s Vision.</figcaption>
+          </figure>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="section" id="privacy" aria-labelledby="privacy-title" style="padding-top:0">
+    <section class="section" id="privacy" aria-labelledby="privacy-title">
       <div class="container">
         <div class="privacy-card card" data-reveal>
           <div>
-            <p class="eyebrow"><span class="mark t-green" aria-hidden="true"></span>Privacy</p>
-            <h2 id="privacy-title">Your dancing stays yours.</h2>
+            <p class="eyebrow"><span class="mark" aria-hidden="true"></span>Privacy</p>
+            <h2 id="privacy-title">Your dancing <span class="marked">stays yours.</span></h2>
             <p>Practice videos are personal. Dancify keeps them on your device, and in your own iCloud if you want them on all your devices.</p>
             <div class="label-badge"><svg aria-hidden="true"><use href="#i-shield"/></svg><small>App Store privacy label</small><b>Data Not Collected</b></div>
             <p><a class="privacy-more" href="/dancify-site/privacy/" hreflang="en">Read the privacy policy →</a></p>
@@ -615,60 +648,24 @@
       </div>
     </section>
 
-    <section class="section" id="styles" aria-labelledby="styles-title" style="padding-top:0">
+    <section class="section" id="pricing" aria-labelledby="pricing-title" style="padding-top:0">
       <div class="container">
         <div class="section-head is-center" data-reveal>
-          <p class="eyebrow"><span class="mark t-amber" aria-hidden="true"></span>For every style</p>
-          <h2 id="styles-title">Whatever you&#x27;re learning this month.</h2>
-        </div>
-        <ul class="styles" data-reveal>
-          <li>Ballet</li>
-          <li>Contemporary</li>
-          <li>Jazz</li>
-          <li>Hip-hop</li>
-          <li>Heels</li>
-          <li>K-pop</li>
-          <li>Salsa</li>
-          <li>Bachata</li>
-          <li>Ballroom</li>
-          <li>Tap</li>
-          <li>Irish dance</li>
-          <li>Commercial</li>
-          <li>Cheer</li>
-        </ul>
-        <p class="styles-note" data-reveal>For any routine set to counts or music, from exam pieces to class choreography. It works for floor routines in figure skating and gymnastics too.</p>
-      </div>
-    </section>
-
-    <section class="section" id="pricing" aria-labelledby="pricing-title">
-      <div class="container">
-        <div class="section-head is-center" data-reveal>
-          <p class="eyebrow"><span class="mark " aria-hidden="true"></span>Free and Premium</p>
-          <h2 id="pricing-title">Free to film, keep and edit.</h2>
+          <p class="eyebrow"><span class="mark" aria-hidden="true"></span>Free and Premium</p>
+          <h2 id="pricing-title">Free to film, <span class="marked">keep and edit.</span></h2>
           <p>Everything you need to practise with video is free. Premium adds the tools for seeing progress over time.</p>
         </div>
         <div class="plans">
           <article class="plan card" data-reveal>
             <h3>Dancify <span class="tag tag-free">Free</span></h3>
             <p class="plan-price">Free<small>No account, no ads, no time limit.</small></p>
-            <ul>
-              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>The camera: count-in, Follow, lenses, slow motion</span></li>
-              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Practise with a reference video</span></li>
-              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Calendar, timeline, pieces and notes</span></li>
-              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Player: A–B loop, counts, slow motion, mirror</span></li>
-              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>The editor, with export</span></li>
-              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>iCloud sync across your own devices</span></li>
-            </ul>
+            <ul><li><svg aria-hidden="true"><use href="#i-check"/></svg><span>The camera: count-in, Follow, lenses, slow motion</span></li><li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Hands-free: raise a hand to go again</span></li><li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Practise with a reference video</span></li><li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Calendar, timeline, pieces and notes</span></li><li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Player: A–B loop, counts, slow motion, mirror</span></li><li><svg aria-hidden="true"><use href="#i-check"/></svg><span>The editor, with export</span></li><li><svg aria-hidden="true"><use href="#i-check"/></svg><span>iCloud sync across your own devices</span></li></ul>
+            <a class="btn btn-primary" href="https://apps.apple.com/app/id6830154598" data-store><svg aria-hidden="true"><use href="#i-apple"/></svg>Get Dancify</a>
           </article>
           <article class="plan card is-premium" data-reveal style="--delay:.08s">
             <h3>Dancify Premium <span class="tag tag-premium">Premium</span></h3>
             <p class="plan-price">Yearly, with a one-week free trial, or monthly<small>Prices in your currency are in the App Store.</small></p>
-            <ul>
-              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Everything in Free</span></li>
-              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Progress reel export</span></li>
-              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Side-by-side compare</span></li>
-              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Pose guide</span></li>
-            </ul>
+            <ul><li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Everything in Free</span></li><li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Progress reel export</span></li><li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Side-by-side compare</span></li><li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Pose guide</span></li></ul>
             <a class="btn btn-primary" href="https://apps.apple.com/app/id6830154598" data-store><svg aria-hidden="true"><use href="#i-apple"/></svg>Get Dancify</a>
           </article>
         </div>
@@ -679,8 +676,8 @@
     <section class="section" id="faq" aria-labelledby="faq-title" style="padding-top:0">
       <div class="container faq-wrap">
         <div class="section-head" data-reveal>
-          <p class="eyebrow"><span class="mark t-blue" aria-hidden="true"></span>FAQ</p>
-          <h2 id="faq-title">Questions, answered</h2>
+          <p class="eyebrow"><span class="mark" aria-hidden="true"></span>FAQ</p>
+          <h2 id="faq-title">Questions, <span class="marked">answered.</span></h2>
           <p>Something else? Write to <a href="mailto:appriseven@gmail.com">appriseven@gmail.com</a>.</p>
         </div>
         <div class="faq" data-reveal>
@@ -709,6 +706,10 @@
             <p>Tap a dancer in the camera and Dancify keeps focus and exposure on them as they move, holding on if they&#x27;re briefly hidden. Turn on Keep in frame to zoom gently with them, or use a DockKit motorised stand that turns to follow.</p>
           </details>
           <details>
+            <summary>What is Hands-free?</summary>
+            <p>Turn it on in the camera, then raise a hand beside your head, palm open, and hold it still for about a second and a half. The take is saved and the next count-in starts. Standing ready, the same hand starts a take.</p>
+          </details>
+          <details>
             <summary>Can I practise along to a video?</summary>
             <p>Yes. Pick a reference, your own earlier take or a video from Photos or Files, and it plays picture-in-picture or side by side while you film, starting with the count-in. It&#x27;s muted in your recording unless headphones are connected.</p>
           </details>
@@ -719,6 +720,14 @@
           <details>
             <summary>Does editing change my original video?</summary>
             <p>No. Every edit exports as a new take, so the original stays exactly as you filmed it. Share the result or save it to Photos.</p>
+          </details>
+          <details>
+            <summary>Can takes line up to the music?</summary>
+            <p>Yes. When two takes share their music, Compare lines them up on open and keeps them in step, and side-by-side and grid reels start every take on the same moment of the song.</p>
+          </details>
+          <details>
+            <summary>Can I post a reel to TikTok, Instagram or YouTube?</summary>
+            <p>Yes. Reels come in 9:16 for TikTok, Reels and Shorts, or 4:5, 1:1 and 16:9. Dancify saves the file to Photos, copies your caption and opens the app, so you post it yourself. Progress reel export is part of Dancify Premium.</p>
           </details>
           <details>
             <summary>Which dance styles is it for?</summary>
@@ -739,8 +748,8 @@
     <section class="section" id="blog" aria-labelledby="blog-title" style="padding-top:0">
       <div class="container">
         <div class="section-head" data-reveal>
-          <p class="eyebrow"><span class="mark t-pink" aria-hidden="true"></span>From the blog</p>
-          <h2 id="blog-title">Notes from the rehearsal room</h2>
+          <p class="eyebrow"><span class="mark" aria-hidden="true"></span>From the blog</p>
+          <h2 id="blog-title">Notes from <span class="marked">the rehearsal room.</span></h2>
         </div>
         <!-- blog-cards:start -->
         <ul class="post-cards post-cards-home">
@@ -804,33 +813,29 @@
       </div>
     </section>
 
-    <section class="section cta" style="padding-top:0">
-      <div class="container">
-        <div class="cta-card card" data-reveal>
-          <div class="cta-copy">
-            <img class="cta-icon" src="/dancify-site/assets/img/app-icon.webp" width="256" height="256" alt="" loading="lazy">
-            <h2>Keep every practice.</h2>
-            <p>Free to download. No account, no ads. Film today&#x27;s practice and it&#x27;s in your diary.</p>
-            <a class="btn btn-store" href="https://apps.apple.com/app/id6830154598" data-store>
+    <section class="finale">
+      <span class="beam" aria-hidden="true"></span>
+      <div class="container finale-inner" data-reveal>
+        <div class="finale-mark" aria-hidden="true">
+          <img class="finale-dancer" src="/dancify-site/assets/img/dancer.svg" width="595" height="300" alt="">
+          <span class="tape floor-strip"></span>
+        </div>
+        <h2>Keep <span class="marked">every practice.</span></h2>
+        <p>Free to download. No account, no ads. Film today&#x27;s practice and it&#x27;s in your diary.</p>
+        <a class="btn btn-store" href="https://apps.apple.com/app/id6830154598" data-store>
               <svg aria-hidden="true"><use href="#i-apple"/></svg>
               <span class="btn-label"><small>Download on the</small><strong>App Store</strong></span>
             </a>
-          </div>
-          <div class="cta-phone" aria-hidden="true">
-            <div class="phone" aria-hidden="true"><img src="/dancify-site/assets/img/app/en/day.webp" width="720" height="1564" alt="" loading="lazy" decoding="async"></div>
-          </div>
-        </div>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <span class="tape t-amber" aria-hidden="true"></span>
     <div class="container">
       <div class="footer-top">
         <div>
           <a class="brand" href="/dancify-site/" aria-label="Dancify home"><img class="brand-mark" src="/dancify-site/assets/img/app-icon.webp" width="30" height="30" alt="" loading="lazy">Dancify</a>
-          <p class="footer-tagline">Film it. Keep it. Watch yourself get better.</p>
+          <p class="footer-tagline">Film it. Keep it. Watch your dance grow.</p>
         </div>
         <ul class="footer-links">
           <li><a href="/dancify-site/blog/">Blog</a></li>
