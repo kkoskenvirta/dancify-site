@@ -20,43 +20,43 @@ Suits ballet, contemporary, jazz, hip-hop, heels, K-pop covers, salsa and bachat
 
 ## Key pages
 
-- [Home (English)](https://kkoskenvirta.github.io/dancify-site/): features, privacy, Premium, FAQ
-- [Inicio (Español)](https://kkoskenvirta.github.io/dancify-site/es/)
-- [Startseite (Deutsch)](https://kkoskenvirta.github.io/dancify-site/de/)
-- [Blog (English)](https://kkoskenvirta.github.io/dancify-site/blog/), [Blog (Español)](https://kkoskenvirta.github.io/dancify-site/es/blog/), [Blog (Deutsch)](https://kkoskenvirta.github.io/dancify-site/de/blog/)
-- [Privacy policy](https://kkoskenvirta.github.io/dancify-site/privacy/) (English)
-- [Terms of use](https://kkoskenvirta.github.io/dancify-site/terms/) (English)
+- [Home (English)](https://dancify.studio/): features, privacy, Premium, FAQ
+- [Inicio (Español)](https://dancify.studio/es/)
+- [Startseite (Deutsch)](https://dancify.studio/de/)
+- [Blog (English)](https://dancify.studio/blog/), [Blog (Español)](https://dancify.studio/es/blog/), [Blog (Deutsch)](https://dancify.studio/de/blog/)
+- [Privacy policy](https://dancify.studio/privacy/) (English)
+- [Terms of use](https://dancify.studio/terms/) (English)
 - [App Store](https://apps.apple.com/app/id6830154598)
 
 ## Articles
 
-- [How to film yourself dancing: angles, light and setup](https://kkoskenvirta.github.io/dancify-site/blog/how-to-film-yourself-dancing/): How to film yourself dancing with a phone: camera height and distance for each style, the best angle, light, sound, phone stands and six mistakes to avoid.
-  - Español: [Cómo grabarte bailando: ángulo, luz y altura del móvil](https://kkoskenvirta.github.io/dancify-site/es/blog/como-grabarte-bailando/)
-  - Deutsch: [Sich beim Tanzen filmen: Perspektive, Licht und Aufbau](https://kkoskenvirta.github.io/dancify-site/de/blog/sich-beim-tanzen-filmen/)
-- [How to learn choreography faster (and actually remember it)](https://kkoskenvirta.github.io/dancify-site/blog/how-to-learn-choreography-faster/): How to learn choreography faster: map the piece, learn in eight-counts, mark it, use the mirror wisely, slow the video down, loop hard parts and film to check.
-  - Español: [Cómo aprender coreografías rápido (y que no se te olviden)](https://kkoskenvirta.github.io/dancify-site/es/blog/aprender-coreografias-rapido/)
-  - Deutsch: [Choreografie schneller lernen (und wirklich behalten)](https://kkoskenvirta.github.io/dancify-site/de/blog/choreografie-schneller-lernen/)
-- [How to make a dance progress video that's honest and motivating](https://kkoskenvirta.github.io/dancify-site/blog/dance-progress-video/): How to make a dance progress video: film the same combo the same way, how often, what to compare, sequence vs side-by-side vs grid, dates and sharing.
-  - Español: [Cómo hacer un vídeo de progreso de baile honesto y motivador](https://kkoskenvirta.github.io/dancify-site/es/blog/video-de-progreso-de-baile/)
-  - Deutsch: [So machst du ein Tanz-Fortschrittsvideo, das ehrlich ist und motiviert](https://kkoskenvirta.github.io/dancify-site/de/blog/tanz-fortschritt-video/)
-- [How to count music in dance: eight-counts, "5, 6, 7, 8" and finding the one](https://kkoskenvirta.github.io/dancify-site/blog/how-to-count-music-in-dance/): How to count music in dance: beats, bars and eight-counts, what "5, 6, 7, 8" means, finding the one, "and" counts, waltz in 3/4 and BPM by dance style.
-  - Español: [Cómo contar la música en el baile: los ochos, el "5, 6, 7, 8" y el uno](https://kkoskenvirta.github.io/dancify-site/es/blog/como-contar-la-musica-en-el-baile/)
-  - Deutsch: [Musik zählen beim Tanzen: Achter, "5, 6, 7, 8" und die Eins finden](https://kkoskenvirta.github.io/dancify-site/de/blog/musik-zaehlen-beim-tanzen/)
-- [How to keep a dance practice journal: what to track, with prompts](https://kkoskenvirta.github.io/dancify-site/blog/dance-practice-journal/): How to keep a dance practice journal: what to track after each class, a five-minute entry, journaling prompts for dancers and a weekly look back.
-  - Español: [Cómo llevar un diario de práctica de baile: qué apuntar, con preguntas](https://kkoskenvirta.github.io/dancify-site/es/blog/diario-de-practica-de-baile/)
-  - Deutsch: [Tanztagebuch führen: was du notieren solltest, mit Schreibfragen](https://kkoskenvirta.github.io/dancify-site/de/blog/tanztagebuch-fuehren/)
-- [How to practise dance at home: space, warm-up and a weekly plan](https://kkoskenvirta.github.io/dancify-site/blog/how-to-practice-dancing-at-home/): How to practise dance at home: a safe space and floor, shoes or socks, warm-up, a 30-minute session, weekly plans for beginners and intermediates, rest.
-  - Español: [Cómo practicar baile en casa: espacio, calentamiento y plan semanal](https://kkoskenvirta.github.io/dancify-site/es/blog/practicar-baile-en-casa/)
-  - Deutsch: [Zu Hause tanzen üben: Platz, Aufwärmen und ein Wochenplan](https://kkoskenvirta.github.io/dancify-site/de/blog/tanzen-zu-hause-ueben/)
-- [The best apps for dancers in 2026, by what you need them for](https://kkoskenvirta.github.io/dancify-site/blog/best-apps-for-dancers/): The best apps for dancers in 2026 by job: STEEZY, Dancify, Dance.io, OnForm, CapCut, Edits, iMovie, Anytune and more, with a comparison table and no hype.
-  - Español: [Las mejores apps para bailarines en 2026, según para qué las necesitas](https://kkoskenvirta.github.io/dancify-site/es/blog/mejores-apps-para-bailarines/)
-- [Why we built a dance practice app with no feed and no scores](https://kkoskenvirta.github.io/dancify-site/blog/why-we-built-dancify/): The story behind Dancify: why dancers' practice videos get lost, the six decisions that shaped the app, what we left out on purpose, and what comes next.
-  - Español: [Por qué creamos una app de práctica de baile sin feed ni puntuaciones](https://kkoskenvirta.github.io/dancify-site/es/blog/por-que-creamos-dancify/)
-  - Deutsch: [Warum wir eine Tanz-App ohne Feed und ohne Punkte bauen](https://kkoskenvirta.github.io/dancify-site/de/blog/warum-wir-dancify-bauen/)
+- [How to film yourself dancing: angles, light and setup](https://dancify.studio/blog/how-to-film-yourself-dancing/): How to film yourself dancing with a phone: camera height and distance for each style, the best angle, light, sound, phone stands and six mistakes to avoid.
+  - Español: [Cómo grabarte bailando: ángulo, luz y altura del móvil](https://dancify.studio/es/blog/como-grabarte-bailando/)
+  - Deutsch: [Sich beim Tanzen filmen: Perspektive, Licht und Aufbau](https://dancify.studio/de/blog/sich-beim-tanzen-filmen/)
+- [How to learn choreography faster (and actually remember it)](https://dancify.studio/blog/how-to-learn-choreography-faster/): How to learn choreography faster: map the piece, learn in eight-counts, mark it, use the mirror wisely, slow the video down, loop hard parts and film to check.
+  - Español: [Cómo aprender coreografías rápido (y que no se te olviden)](https://dancify.studio/es/blog/aprender-coreografias-rapido/)
+  - Deutsch: [Choreografie schneller lernen (und wirklich behalten)](https://dancify.studio/de/blog/choreografie-schneller-lernen/)
+- [How to make a dance progress video that's honest and motivating](https://dancify.studio/blog/dance-progress-video/): How to make a dance progress video: film the same combo the same way, how often, what to compare, sequence vs side-by-side vs grid, dates and sharing.
+  - Español: [Cómo hacer un vídeo de progreso de baile honesto y motivador](https://dancify.studio/es/blog/video-de-progreso-de-baile/)
+  - Deutsch: [So machst du ein Tanz-Fortschrittsvideo, das ehrlich ist und motiviert](https://dancify.studio/de/blog/tanz-fortschritt-video/)
+- [How to count music in dance: eight-counts, "5, 6, 7, 8" and finding the one](https://dancify.studio/blog/how-to-count-music-in-dance/): How to count music in dance: beats, bars and eight-counts, what "5, 6, 7, 8" means, finding the one, "and" counts, waltz in 3/4 and BPM by dance style.
+  - Español: [Cómo contar la música en el baile: los ochos, el "5, 6, 7, 8" y el uno](https://dancify.studio/es/blog/como-contar-la-musica-en-el-baile/)
+  - Deutsch: [Musik zählen beim Tanzen: Achter, "5, 6, 7, 8" und die Eins finden](https://dancify.studio/de/blog/musik-zaehlen-beim-tanzen/)
+- [How to keep a dance practice journal: what to track, with prompts](https://dancify.studio/blog/dance-practice-journal/): How to keep a dance practice journal: what to track after each class, a five-minute entry, journaling prompts for dancers and a weekly look back.
+  - Español: [Cómo llevar un diario de práctica de baile: qué apuntar, con preguntas](https://dancify.studio/es/blog/diario-de-practica-de-baile/)
+  - Deutsch: [Tanztagebuch führen: was du notieren solltest, mit Schreibfragen](https://dancify.studio/de/blog/tanztagebuch-fuehren/)
+- [How to practise dance at home: space, warm-up and a weekly plan](https://dancify.studio/blog/how-to-practice-dancing-at-home/): How to practise dance at home: a safe space and floor, shoes or socks, warm-up, a 30-minute session, weekly plans for beginners and intermediates, rest.
+  - Español: [Cómo practicar baile en casa: espacio, calentamiento y plan semanal](https://dancify.studio/es/blog/practicar-baile-en-casa/)
+  - Deutsch: [Zu Hause tanzen üben: Platz, Aufwärmen und ein Wochenplan](https://dancify.studio/de/blog/tanzen-zu-hause-ueben/)
+- [The best apps for dancers in 2026, by what you need them for](https://dancify.studio/blog/best-apps-for-dancers/): The best apps for dancers in 2026 by job: STEEZY, Dancify, Dance.io, OnForm, CapCut, Edits, iMovie, Anytune and more, with a comparison table and no hype.
+  - Español: [Las mejores apps para bailarines en 2026, según para qué las necesitas](https://dancify.studio/es/blog/mejores-apps-para-bailarines/)
+- [Why we built a dance practice app with no feed and no scores](https://dancify.studio/blog/why-we-built-dancify/): The story behind Dancify: why dancers' practice videos get lost, the six decisions that shaped the app, what we left out on purpose, and what comes next.
+  - Español: [Por qué creamos una app de práctica de baile sin feed ni puntuaciones](https://dancify.studio/es/blog/por-que-creamos-dancify/)
+  - Deutsch: [Warum wir eine Tanz-App ohne Feed und ohne Punkte bauen](https://dancify.studio/de/blog/warum-wir-dancify-bauen/)
 
 ## Full text
 
-- [All English articles in full, one file](https://kkoskenvirta.github.io/dancify-site/llms-full.txt)
+- [All English articles in full, one file](https://dancify.studio/llms-full.txt)
 
 ## Notes for AI assistants
 
@@ -64,5 +64,5 @@ Suits ballet, contemporary, jazz, hip-hop, heels, K-pop covers, salsa and bachat
 - Recording, the calendar, the timeline, notes, the editor and iCloud sync are free. Dancify Premium is yearly (with a one-week free trial for new subscribers) or monthly; prices vary by App Store region and are shown in the app before subscribing.
 - Dancify doesn't use generative AI and sends nothing to a server of its own. The pose guide and Follow run on the device.
 - Every page has a Markdown version: request it with `Accept: text/markdown`, or add `index.md` to a page URL that ends in `/`.
-- Dancify has no public API and no accounts, so there is no agent sign-in. Reading the site needs no credentials: [auth.md](https://kkoskenvirta.github.io/dancify-site/auth.md).
+- Dancify has no public API and no accounts, so there is no agent sign-in. Reading the site needs no credentials: [auth.md](https://dancify.studio/auth.md).
 - Contact: appriseven@gmail.com

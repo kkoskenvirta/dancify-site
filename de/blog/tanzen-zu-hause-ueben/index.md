@@ -1,11 +1,11 @@
 ---
 title: "Zu Hause tanzen üben: Wochenplan, Platz und Sicherheit"
 description: "Zu Hause tanzen üben: sichere Fläche und Boden, Socken oder Schuhe, Aufwärmen, eine 30-Minuten-Einheit, Wochenpläne für Einsteiger und Fortgeschrittene."
-url: "https://kkoskenvirta.github.io/dancify-site/de/blog/tanzen-zu-hause-ueben/"
+url: "https://dancify.studio/de/blog/tanzen-zu-hause-ueben/"
 ---
 
-1. [Startseite](https://kkoskenvirta.github.io/dancify-site/de/)
-2. [Blog](https://kkoskenvirta.github.io/dancify-site/de/blog/)
+1. [Startseite](https://dancify.studio/de/)
+2. [Blog](https://dancify.studio/de/blog/)
 3. Zu Hause tanzen üben: Platz, Aufwärmen und ein Wochenplan
 
 Training 10 Min. Lesezeit
@@ -16,7 +16,7 @@ Ein Wohnzimmer hat keine Lehrerin, keinen Schwingboden und keinen Plan. So richt
 
 **Kasper Koskenvirta** Macher von Dancify · Veröffentlicht am 23. Oktober 2026
 
-![Drei Ansichten der Dancify-App auf dem iPhone](https://kkoskenvirta.github.io/dancify-site/assets/img/covers/de-practice-at-home-1200.webp)
+![Drei Ansichten der Dancify-App auf dem iPhone](https://dancify.studio/assets/img/covers/de-practice-at-home-1200.webp)
 
 Im Unterricht lernst du die Schritte. Zu Hause werden sie zu deinen. Nur hat ein Wohnzimmer keine Lehrerin, keinen Schwingboden und keinen Plan, und so endet das Üben oft beim Suchen nach Tutorials oder beim zehnten gleichen Durchlauf. Mit ein bisschen Struktur lässt sich das meiste davon lösen.
 
@@ -95,7 +95,7 @@ Verlängere zuerst die Einheiten, bevor du Tage dazunimmst. Von einer Woche auf 
 - **Paartänze** Basics und Timing allein: Salsa- oder Bachata-Grundschritt im Takt, Rahmen und Armführung, Fußmuster.
 - **Stepptanz und Irish Dance** Grundtechniken auf einem Übungsbrett in langsamem, gleichmäßigem Tempo, dann in kleinen Schritten schneller.
 
-Bei Choreos zählt, wie du sie in Stücke teilst, genauso viel wie die Zeit, die du investierst. Mehr dazu in [Choreografie schneller lernen](https://kkoskenvirta.github.io/dancify-site/de/blog/choreografie-schneller-lernen/), und wenn du im Song den Faden verlierst, hilft [Musik zählen beim Tanzen](https://kkoskenvirta.github.io/dancify-site/de/blog/musik-zaehlen-beim-tanzen/).
+Bei Choreos zählt, wie du sie in Stücke teilst, genauso viel wie die Zeit, die du investierst. Mehr dazu in [Choreografie schneller lernen](https://dancify.studio/de/blog/choreografie-schneller-lernen/), und wenn du im Song den Faden verlierst, hilft [Musik zählen beim Tanzen](https://dancify.studio/de/blog/musik-zaehlen-beim-tanzen/).
 
 ## Zehn Minuten Kräftigung
 
@@ -111,7 +111,7 @@ Die meisten Tanzverletzungen betreffen den Unterkörper. In einer systematischen
 
 Der Spiegel zeigt dir einen Blickwinkel, während du mit Tanzen beschäftigt bist. Die Aufnahme zeigt, was wirklich passiert ist. Du musst nicht alles filmen: ein Take zum heutigen Ziel, immer vom selben Platz, reicht. Schreib einen Satz dazu: was besser wurde und was du als Nächstes korrigierst.
 
-Nach ein paar Wochen werden diese Takes zu etwas Besserem als Motivation: zu Belegen. Sammle sie in einem [Tanztagebuch](https://kkoskenvirta.github.io/dancify-site/de/blog/tanztagebuch-fuehren/), und wenn ein, zwei Monate zusammengekommen sind, stell den ersten und den neuesten in einem [Fortschrittsvideo](https://kkoskenvirta.github.io/dancify-site/de/blog/tanz-fortschritt-video/) nebeneinander. Wie du das Handy richtig aufstellst, steht in [sich beim Tanzen filmen](https://kkoskenvirta.github.io/dancify-site/de/blog/sich-beim-tanzen-filmen/).
+Nach ein paar Wochen werden diese Takes zu etwas Besserem als Motivation: zu Belegen. Sammle sie in einem [Tanztagebuch](https://dancify.studio/de/blog/tanztagebuch-fuehren/), und wenn ein, zwei Monate zusammengekommen sind, stell den ersten und den neuesten in einem [Fortschrittsvideo](https://dancify.studio/de/blog/tanz-fortschritt-video/) nebeneinander. Wie du das Handy richtig aufstellst, steht in [sich beim Tanzen filmen](https://dancify.studio/de/blog/sich-beim-tanzen-filmen/).
 
 ## Pausen und Verletzungsvorbeugung
 
@@ -128,15 +128,15 @@ Das Training zu Hause kommt zum Unterricht dazu, deshalb übertreibt man schnell
 
 Zu Hause übt es sich leichter mit ein paar Werkzeugen, die ein Wohnzimmer nicht hat. Dancify bringt sie in einer App für iPhone und iPad zusammen.
 
-![Dancify Player mit einer A–B-Schleife um einen Teil eines Trainings-Takes, mit Zeitlupe und Spiegeln](https://kkoskenvirta.github.io/dancify-site/assets/img/app/de/player-loop.webp)
+![Dancify Player mit einer A–B-Schleife um einen Teil eines Trainings-Takes, mit Zeitlupe und Spiegeln](https://dancify.studio/assets/img/app/de/player-loop.webp)
 
 Kostenlos in Dancify **Einen Teil wiederholen, langsam** Setz eine A–B-Schleife um die Achterphrase, die immer schiefgeht, auf Wunsch mit einer Pause von acht Counts, um zurück an deine Markierung zu kommen. Verlangsame bis auf 0,25×, spiegle das Bild und blende die Counts ein, um 1 bis 8 auf der Musik zu sehen.
 
-![Dancify Kamera filmt eine Tänzerin, während in der Ecke ein Vorlagenvideo läuft](https://kkoskenvirta.github.io/dancify-site/assets/img/app/de/camera-reference.webp)
+![Dancify Kamera filmt eine Tänzerin, während in der Ecke ein Vorlagenvideo läuft](https://dancify.studio/assets/img/app/de/camera-reference.webp)
 
 **Mit Vorlage üben** Lass das Video deiner Lehrkraft oder einen früheren eigenen Take beim Filmen mitlaufen, ab dem ersten Schlag nach dem Einzählen.
 
-![Dancify Kalender im Oktober, in dem jeder Trainingstag ein Bild aus dem Video dieses Tages zeigt, mit farbigem Tape für Stunden und Training](https://kkoskenvirta.github.io/dancify-site/assets/img/app/de/journal.webp)
+![Dancify Kalender im Oktober, in dem jeder Trainingstag ein Bild aus dem Video dieses Tages zeigt, mit farbigem Tape für Stunden und Training](https://dancify.studio/assets/img/app/de/journal.webp)
 
 **Ein Kalender aus Bildern** Jeder Tag zeigt ein Bild aus dem, was du getanzt hast, und auch Tage ohne Video lassen sich eintragen.
 
@@ -197,7 +197,7 @@ Kasper entwirft und entwickelt Dancify bei AppRise Ventures in Espoo, Finnland. 
 
 Lernen 8 Min. Lesezeit
 
-### [Choreografie schneller lernen (und wirklich behalten)](https://kkoskenvirta.github.io/dancify-site/de/blog/choreografie-schneller-lernen/)
+### [Choreografie schneller lernen (und wirklich behalten)](https://dancify.studio/de/blog/choreografie-schneller-lernen/)
 
 Choreografie schneller lernen: Landkarte der Choreo, in Achtern lernen, markieren, den Spiegel klug nutzen, Video verlangsamen, Schleifen und Selbstkontrolle.
 
@@ -205,7 +205,7 @@ Choreografie schneller lernen: Landkarte der Choreo, in Achtern lernen, markiere
 
 Training 8 Min. Lesezeit
 
-### [Tanztagebuch führen: was du notieren solltest, mit Schreibfragen](https://kkoskenvirta.github.io/dancify-site/de/blog/tanztagebuch-fuehren/)
+### [Tanztagebuch führen: was du notieren solltest, mit Schreibfragen](https://dancify.studio/de/blog/tanztagebuch-fuehren/)
 
 Tanztagebuch führen: was du nach jeder Stunde notieren solltest, ein Fünf-Minuten-Eintrag, Schreibfragen für Tanzende und ein Wochenrückblick für Fortschritt.
 

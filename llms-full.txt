@@ -25,7 +25,7 @@ Suits ballet, contemporary, jazz, hip-hop, heels, K-pop covers, salsa and bachat
 
 # How to film yourself dancing: angles, light and setup
 
-URL: https://kkoskenvirta.github.io/dancify-site/blog/how-to-film-yourself-dancing/
+URL: https://dancify.studio/blog/how-to-film-yourself-dancing/
 Published: 2026-11-03 · Updated: 2026-11-03 · By Kasper Koskenvirta
 
 > The run felt clean, then the video showed bent knees and cropped feet. Here's how to set up a phone so it shows what matters: height and distance for each style, light, sound, stands and what to film.
@@ -105,7 +105,7 @@ Front is the default because it's how an audience sees you. But it hides depth: 
 - Front corner (45°): the most flattering and most honest at once, great for showcase runs.
 - From behind: when you're learning from a video, filming from behind means you and the teacher face the same way, so left is left.
 
-If you want to compare your progress later, pick one angle as your "record" angle and never change it. Same spot, same height, same lens. Our guide to [making a dance progress video](https://kkoskenvirta.github.io/dancify-site/blog/dance-progress-video/) explains why that consistency matters more than anything else.
+If you want to compare your progress later, pick one angle as your "record" angle and never change it. Same spot, same height, same lens. Our guide to [making a dance progress video](https://dancify.studio/blog/dance-progress-video/) explains why that consistency matters more than anything else.
 
 ## Light, frame rate and sound
 
@@ -137,9 +137,9 @@ Filming everything means watching nothing. A simple rhythm that works for most d
 
 - One full runFrom the top, with music, at performance energy. This is your record of the day.
 - One problem sectionThe eight-counts that keep going wrong, filmed two or three times, so you can see if the fix is working.
-- One noteA sentence about what you noticed. It's the start of a [dance practice journal](https://kkoskenvirta.github.io/dancify-site/blog/dance-practice-journal/), and it's what makes a pile of videos useful.
+- One noteA sentence about what you noticed. It's the start of a [dance practice journal](https://dancify.studio/blog/dance-practice-journal/), and it's what makes a pile of videos useful.
 
-If you're still learning the piece, filming the section you just learned is the fastest way to find out what you actually remember. More on that in [how to learn choreography faster](https://kkoskenvirta.github.io/dancify-site/blog/how-to-learn-choreography-faster/).
+If you're still learning the piece, filming the section you just learned is the fastest way to find out what you actually remember. More on that in [how to learn choreography faster](https://dancify.studio/blog/how-to-learn-choreography-faster/).
 
 ## Six mistakes that ruin dance videos
 
@@ -209,7 +209,7 @@ It helps you see what you can't feel. In a small study of three competitive danc
 
 # How to learn choreography faster (and actually remember it)
 
-URL: https://kkoskenvirta.github.io/dancify-site/blog/how-to-learn-choreography-faster/
+URL: https://dancify.studio/blog/how-to-learn-choreography-faster/
 Published: 2026-11-01 · Updated: 2026-11-01 · By Kasper Koskenvirta
 
 > Quick learners aren't magic. They map the piece, learn it in eight-counts, mark before they dance full out and check themselves on video. The method, step by step, with a 45-minute session plan.
@@ -271,7 +271,7 @@ A good pattern: mark a new chunk two or three times, dance it full out once, mar
 
 ## Counts or music?
 
-Both, in that order. Counts give you structure: you know exactly where each move lands. Music gives you the feel: the accents, the breaths, the lyrics that cue a move. Learn a chunk on counts, then dance it to the track at once, so the counts get attached to the sound. If counting itself is the hard part, our guide to [counting music in dance](https://kkoskenvirta.github.io/dancify-site/blog/how-to-count-music-in-dance/) explains eight-counts, "and" counts and finding the one.
+Both, in that order. Counts give you structure: you know exactly where each move lands. Music gives you the feel: the accents, the breaths, the lyrics that cue a move. Learn a chunk on counts, then dance it to the track at once, so the counts get attached to the sound. If counting itself is the hard part, our guide to [counting music in dance](https://dancify.studio/blog/how-to-count-music-in-dance/) explains eight-counts, "and" counts and finding the one.
 
 One trick from teachers: pick out landmarks in the music. "The arm goes up on the word 'fire'" sticks better than "on 6 of the third eight".
 
@@ -296,7 +296,7 @@ Speed is the last thing to add. Most fast choreography is unlearnable at tempo a
 
 Loop the one eight-count that keeps going wrong instead of running the whole piece again. Ten loops of the hard part beat three full runs.
 
-Then film each chunk as soon as you think you have it. The video answers questions memory can't: is the arm really at shoulder height? Is the turn on 7 or on 7-and? Put your take next to the reference and look for one difference at a time. Our guide to [filming yourself dancing](https://kkoskenvirta.github.io/dancify-site/blog/how-to-film-yourself-dancing/) covers the camera setup.
+Then film each chunk as soon as you think you have it. The video answers questions memory can't: is the arm really at shoulder height? Is the turn on 7 or on 7-and? Put your take next to the reference and look for one difference at a time. Our guide to [filming yourself dancing](https://dancify.studio/blog/how-to-film-yourself-dancing/) covers the camera setup.
 
 ## Between practices: listen, visualise, sleep
 
@@ -311,7 +311,7 @@ Sleep on it, then review. Motor learning keeps settling overnight; in one study,
 - 5 min: reviewMark and then dance everything you learned last time, with the music.
 - 25 min: new chunksTwo to four new eight-counts: decode slowly, mark, count, dance, chain.
 - 10 min: film and checkOne take of everything so far. Watch it once, note one fix.
-- 5 min: write it downWhere you stopped, what's shaky, tomorrow's first task. That's your [practice journal](https://kkoskenvirta.github.io/dancify-site/blog/dance-practice-journal/).
+- 5 min: write it downWhere you stopped, what's shaky, tomorrow's first task. That's your [practice journal](https://dancify.studio/blog/dance-practice-journal/).
 
 ## How Dancify helps you learn a piece
 
@@ -368,7 +368,7 @@ Decode new moves at 0.25× to 0.5×, learn them at 0.5× to 0.75×, clean them a
 
 # How to make a dance progress video that's honest and motivating
 
-URL: https://kkoskenvirta.github.io/dancify-site/blog/dance-progress-video/
+URL: https://dancify.studio/blog/dance-progress-video/
 Published: 2026-10-29 · Updated: 2026-10-29 · By Kasper Koskenvirta
 
 > A before-and-after only means something if both takes were filmed the same way. How to set up, how often to film, what to compare, which layout to use and how to put it together with any editor.
@@ -393,7 +393,7 @@ But a progress video can lie, too. A wide lens in the first clip and a closer on
 
 ## Film it the same way every time
 
-Pick one short combination, 16 to 32 counts, that shows what you're working on. Then fix everything around it. Write the setup down once, in your notes or a [practice journal](https://kkoskenvirta.github.io/dancify-site/blog/dance-practice-journal/), so future you can repeat it.
+Pick one short combination, 16 to 32 counts, that shows what you're working on. Then fix everything around it. Write the setup down once, in your notes or a [practice journal](https://dancify.studio/blog/dance-practice-journal/), so future you can repeat it.
 
 - Same spot, height and lensTape a mark on the floor for you and one for the stand. Keep the phone at the same height (hip to chest for most styles) and on the same lens. Never mix 0.5× and 1×.
 - Same music, same tempoUse the same track at the same speed. If you slowed it down to learn, film the progress take at the final tempo, or always at the same slower one.
@@ -401,7 +401,7 @@ Pick one short combination, 16 to 32 counts, that shows what you're working on. 
 - Same point in the sessionAfter a full warm-up, before you're tired. A take at minute 10 and one at minute 80 show two different dancers.
 - The first honest takeDon't wait until you're "ready" for the first clip. The whole point is that it isn't good yet.
 
-If you need help with the setup itself, our guide to [filming yourself dancing](https://kkoskenvirta.github.io/dancify-site/blog/how-to-film-yourself-dancing/) covers height, distance and light for each style.
+If you need help with the setup itself, our guide to [filming yourself dancing](https://dancify.studio/blog/how-to-film-yourself-dancing/) covers height, distance and light for each style.
 
 ## How often to film
 
@@ -430,7 +430,7 @@ Put the dates in your calendar like a class. Progress takes that depend on remem
 | Space and travel | How far you travel, direction changes, spacing | Use your floor marks as a reference |
 | Confidence | Face, focus, breath, the moments you used to hesitate | Watch at normal speed, as an audience would |
 
-If timing is the thing you're chasing, it helps to know exactly where the counts fall. Our guide to [counting music in dance](https://kkoskenvirta.github.io/dancify-site/blog/how-to-count-music-in-dance/) explains eight-counts and tempo.
+If timing is the thing you're chasing, it helps to know exactly where the counts fall. Our guide to [counting music in dance](https://dancify.studio/blog/how-to-count-music-in-dance/) explains eight-counts and tempo.
 
 ## Choose a layout: sequence, side by side or grid
 
@@ -553,7 +553,7 @@ Usually because something in the setup changed: a different lens or distance, di
 
 # How to count music in dance: eight-counts, "5, 6, 7, 8" and finding the one
 
-URL: https://kkoskenvirta.github.io/dancify-site/blog/how-to-count-music-in-dance/
+URL: https://dancify.studio/blog/how-to-count-music-in-dance/
 Published: 2026-10-28 · Updated: 2026-10-28 · By Kasper Koskenvirta
 
 > Why do teachers start at five? Where is one? What's an "and"? Beats, bars, eight-counts and phrases explained, plus waltz, salsa and swing counts, tempo by style and five drills.
@@ -671,9 +671,9 @@ Slow and build. Practise a hard eight at a slower tempo, then raise it a few BPM
 
 -
 
-Film and check. Record a run with the music audible and watch whether your accents land on the counts. More in [how to film yourself dancing](https://kkoskenvirta.github.io/dancify-site/blog/how-to-film-yourself-dancing/).
+Film and check. Record a run with the music audible and watch whether your accents land on the counts. More in [how to film yourself dancing](https://dancify.studio/blog/how-to-film-yourself-dancing/).
 
-Counting is also the backbone of learning choreography: once you can hear the eights, breaking a piece into chunks becomes natural. See [how to learn choreography faster](https://kkoskenvirta.github.io/dancify-site/blog/how-to-learn-choreography-faster/).
+Counting is also the backbone of learning choreography: once you can hear the eights, breaking a piece into chunks becomes natural. See [how to learn choreography faster](https://dancify.studio/blog/how-to-learn-choreography-faster/).
 
 ## How Dancify helps you count
 
@@ -732,7 +732,7 @@ It depends on the style: about 84 to 90 BPM for a slow waltz, 120 to 128 for cha
 
 # How to keep a dance practice journal: what to track, with prompts
 
-URL: https://kkoskenvirta.github.io/dancify-site/blog/dance-practice-journal/
+URL: https://dancify.studio/blog/dance-practice-journal/
 Published: 2026-10-25 · Updated: 2026-10-25 · By Kasper Koskenvirta
 
 > Corrections fade, small wins get forgotten, and three weeks of classes blur into one. A practice journal keeps them. What to write, a five-minute entry, prompts for when the page stays blank, and how to look back.
@@ -796,7 +796,7 @@ Copy the correction word for word. Your teacher's exact phrase is often the cue 
 
 -
 
-Attach a take. Even 30 seconds of the section. Words say what you think happened; video shows what did. If you're not filming yet, our guide to [filming yourself dancing](https://kkoskenvirta.github.io/dancify-site/blog/how-to-film-yourself-dancing/) covers the setup.
+Attach a take. Even 30 seconds of the section. Words say what you think happened; video shows what did. If you're not filming yet, our guide to [filming yourself dancing](https://dancify.studio/blog/how-to-film-yourself-dancing/) covers the setup.
 
 -
 
@@ -804,7 +804,7 @@ Write tomorrow's first task. "Start with the arm timing in the chorus." Then you
 
 A real entry, start to finish. "Thu 24 Oct, own practice, 40 min, Slow Burn. Win: the turn sequence in the second chorus is finally on the music. Fix: I travel too far on the slide on 6 and arrive late for 7. Teacher's note from Tuesday: 'Smaller, faster, then bigger.' Take: full run, take 3. Body: fine, calves tight. Tomorrow: slide on 6 with a mark on the floor, ten loops."
 
-That's under a hundred words and two minutes of typing. If you practise at home between classes, pair the journal with a simple [weekly practice plan](https://kkoskenvirta.github.io/dancify-site/blog/how-to-practice-dancing-at-home/), so each entry has something to report back on.
+That's under a hundred words and two minutes of typing. If you practise at home between classes, pair the journal with a simple [weekly practice plan](https://dancify.studio/blog/how-to-practice-dancing-at-home/), so each entry has something to report back on.
 
 ## Journaling prompts for dancers
 
@@ -826,7 +826,7 @@ A diary nobody reads is just storage. Ten minutes once a week is where the patte
 
 Read yesterday's entry before today's practice, too. Sleep seems to help motor skills settle: in a well-known study, people who learned a finger-tapping sequence were about 20% faster after a night's sleep, while the same hours awake brought no significant gain.[3] Dance is far more complex than finger-tapping, but the habit costs nothing: start where yesterday ended, not from scratch.
 
-Once a month, go further back. Put your first take of a piece next to the latest one. That's often the moment you see how much has changed, and it's the raw material for a [dance progress video](https://kkoskenvirta.github.io/dancify-site/blog/dance-progress-video/).
+Once a month, go further back. Put your first take of a piece next to the latest one. That's often the moment you see how much has changed, and it's the raw material for a [dance progress video](https://dancify.studio/blog/dance-progress-video/).
 
 ## Paper notebook or app?
 
@@ -903,7 +903,7 @@ Research on goal monitoring says yes: a review of 138 studies found that trackin
 
 # How to practise dance at home: space, warm-up and a weekly plan
 
-URL: https://kkoskenvirta.github.io/dancify-site/blog/how-to-practice-dancing-at-home/
+URL: https://dancify.studio/blog/how-to-practice-dancing-at-home/
 Published: 2026-10-23 · Updated: 2026-10-23 · By Kasper Koskenvirta
 
 > A living room has no teacher, no sprung floor and no plan. Here's how to set up a safe space, warm up, structure a 30-minute session and build a week that improves you without wearing you out.
@@ -996,7 +996,7 @@ Add time before you add days. Going from three to five sessions in one week is h
 - Partner stylesBasics and timing alone: salsa or bachata basic on the beat, frame and arm styling, footwork patterns.
 - Tap and IrishRudiments on a practice board at a slow, steady tempo, then faster in small steps.
 
-For choreography, the way you break a piece into chunks matters as much as the time you spend. Our guide to [learning choreography faster](https://kkoskenvirta.github.io/dancify-site/blog/how-to-learn-choreography-faster/) goes deeper, and [counting music](https://kkoskenvirta.github.io/dancify-site/blog/how-to-count-music-in-dance/) helps if you lose your place in the song.
+For choreography, the way you break a piece into chunks matters as much as the time you spend. Our guide to [learning choreography faster](https://dancify.studio/blog/how-to-learn-choreography-faster/) goes deeper, and [counting music](https://dancify.studio/blog/how-to-count-music-in-dance/) helps if you lose your place in the song.
 
 ## Ten minutes of conditioning
 
@@ -1012,7 +1012,7 @@ Most dance injuries are in the lower body. In a systematic review of ballet inju
 
 The mirror shows you one angle while you're busy dancing. A recording shows you what actually happened. You don't need to film everything; one take of today's focus, from the same spot every time, is enough. Write one sentence next to it: what improved and what to fix next time.
 
-After a few weeks those takes become something better than motivation: evidence. Keep them in a [practice journal](https://kkoskenvirta.github.io/dancify-site/blog/dance-practice-journal/), and when you have a month or two, put the first and the latest side by side as a [progress video](https://kkoskenvirta.github.io/dancify-site/blog/dance-progress-video/). If you're unsure about the setup, see [how to film yourself dancing](https://kkoskenvirta.github.io/dancify-site/blog/how-to-film-yourself-dancing/).
+After a few weeks those takes become something better than motivation: evidence. Keep them in a [practice journal](https://dancify.studio/blog/dance-practice-journal/), and when you have a month or two, put the first and the latest side by side as a [progress video](https://dancify.studio/blog/dance-progress-video/). If you're unsure about the setup, see [how to film yourself dancing](https://dancify.studio/blog/how-to-film-yourself-dancing/).
 
 ## Rest and injury prevention
 
@@ -1091,7 +1091,7 @@ Warm up every time, clear the space, match footwear to the floor, limit jumps on
 
 # The best apps for dancers in 2026, by what you need them for
 
-URL: https://kkoskenvirta.github.io/dancify-site/blog/best-apps-for-dancers/
+URL: https://dancify.studio/blog/best-apps-for-dancers/
 Published: 2026-10-21 · Updated: 2026-11-04 · By Kasper Koskenvirta
 
 > Classes, filming, slow motion and mirror, counts and tempo, editing and a diary: the apps that do each job well, checked against their own listings, plus the two old favourites that are gone.
@@ -1243,7 +1243,7 @@ We built Dancify for the part of practice the other apps leave out: what happens
 - No account, no ads, no tracking
 - Videos stay on your device, or in your own iCloud
 
-It pairs well with the others. Learn on STEEZY or YouTube, slow the song in Anytune if you need to, then film your practice in Dancify with the class video playing as a reference. If you want to post a cover, Dancify's editor handles trims, speed, captions and music, or export the take to CapCut or Edits. More on the practice side in our guides to [learning choreography faster](https://kkoskenvirta.github.io/dancify-site/blog/how-to-learn-choreography-faster/) and [filming yourself dancing](https://kkoskenvirta.github.io/dancify-site/blog/how-to-film-yourself-dancing/).
+It pairs well with the others. Learn on STEEZY or YouTube, slow the song in Anytune if you need to, then film your practice in Dancify with the class video playing as a reference. If you want to post a cover, Dancify's editor handles trims, speed, captions and music, or export the take to CapCut or Edits. More on the practice side in our guides to [learning choreography faster](https://dancify.studio/blog/how-to-learn-choreography-faster/) and [filming yourself dancing](https://dancify.studio/blog/how-to-film-yourself-dancing/).
 
  For your own practice
 
@@ -1325,7 +1325,7 @@ No. Dancify is a camera, practice diary and video editor for your own practice, 
 
 # Why we built a dance practice app with no feed and no scores
 
-URL: https://kkoskenvirta.github.io/dancify-site/blog/why-we-built-dancify/
+URL: https://dancify.studio/blog/why-we-built-dancify/
 Published: 2026-10-20 · Updated: 2026-10-20 · By Kasper Koskenvirta
 
 > Dancers film everything and find nothing. Here's why we built Dancify around the camera and a calendar of frames, the decisions behind it, what we left out on purpose and where we're taking it.
@@ -1387,7 +1387,7 @@ Progress in dance is quiet. We wanted an app that's quiet too, and then shows yo
 
 ## Made for every style
 
-A ballet or contemporary dancer can check lines at the barre. A hip-hop, heels or K-pop dancer can loop the eight-count that won't stick. Salsa and ballroom couples can film their basics, and tap and Irish dancers can slow their footwork to a quarter of the speed. The tools are the same; the camera height changes. Our guide to [filming yourself dancing](https://kkoskenvirta.github.io/dancify-site/blog/how-to-film-yourself-dancing/) covers that part.
+A ballet or contemporary dancer can check lines at the barre. A hip-hop, heels or K-pop dancer can loop the eight-count that won't stick. Salsa and ballroom couples can film their basics, and tap and Irish dancers can slow their footwork to a quarter of the speed. The tools are the same; the camera height changes. Our guide to [filming yourself dancing](https://dancify.studio/blog/how-to-film-yourself-dancing/) covers that part.
 
 It runs on iPhone and iPad (iOS and iPadOS 26 or later), including the iPhone Duo, where the panes sit on either side of the fold. The app speaks English, German, Finnish, Spanish, French and Japanese. Siri and Shortcuts can start a recording, log a practice, open today or show progress for a piece. With an external display or AirPlay, the open take plays full screen on the big screen, which is handy in a studio.
 
@@ -1407,7 +1407,7 @@ We're a small company, so we'd rather be clear about this. Dancify is free to do
 
 We'll keep refining the core before we add more: the camera, the calendar and the practice tools, shaped by what dancers tell us they need in the middle of a session. The principles won't change: your videos stay yours, practice is never turned into a score, and the free app stays complete.
 
-We won't promise dates we can't keep. We'll write about what we build here on the blog, alongside guides like [keeping a dance practice journal](https://kkoskenvirta.github.io/dancify-site/blog/dance-practice-journal/) and [making a progress video](https://kkoskenvirta.github.io/dancify-site/blog/dance-progress-video/). And if something in Dancify feels wrong, or you're missing something, [write to us](mailto:appriseven@gmail.com). We read every message.
+We won't promise dates we can't keep. We'll write about what we build here on the blog, alongside guides like [keeping a dance practice journal](https://dancify.studio/blog/dance-practice-journal/) and [making a progress video](https://dancify.studio/blog/dance-progress-video/). And if something in Dancify feels wrong, or you're missing something, [write to us](mailto:appriseven@gmail.com). We read every message.
 
  Start with one take
 

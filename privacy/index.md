@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy – Dancify"
 description: "Dancify collects no data: no account, no analytics, no ads, no tracking. Your videos and diary stay on your device and in your own iCloud."
-url: "https://kkoskenvirta.github.io/dancify-site/privacy/"
+url: "https://dancify.studio/privacy/"
 ---
 
 Privacy policy
@@ -21,7 +21,7 @@ Effective 4 November 2026
 
 Dancify is made by AppRise Ventures Oy, Espoo, Finland (business ID 3336104-8). We are the controller for anything this policy covers. You can reach us at [appriseven@gmail.com](mailto:appriseven@gmail.com).
 
-This policy covers the Dancify app for iPhone and iPad and this website, kkoskenvirta.github.io/dancify-site.
+This policy covers the Dancify app for iPhone and iPad and this website, dancify.studio.
 
 ## 2. What we collect
 

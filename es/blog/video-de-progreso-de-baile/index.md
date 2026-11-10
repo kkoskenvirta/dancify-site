@@ -1,11 +1,11 @@
 ---
 title: "Vídeo de progreso de baile: cómo hacer un antes y después"
 description: "Cómo hacer un vídeo de progreso de baile: graba la misma combinación igual, cada cuánto, qué comparar, secuencia, lado a lado o cuadrícula, fechas y compartir."
-url: "https://kkoskenvirta.github.io/dancify-site/es/blog/video-de-progreso-de-baile/"
+url: "https://dancify.studio/es/blog/video-de-progreso-de-baile/"
 ---
 
-1. [Inicio](https://kkoskenvirta.github.io/dancify-site/es/)
-2. [Blog](https://kkoskenvirta.github.io/dancify-site/es/blog/)
+1. [Inicio](https://dancify.studio/es/)
+2. [Blog](https://dancify.studio/es/blog/)
 3. Cómo hacer un vídeo de progreso de baile honesto y motivador
 
 Progreso 9 min de lectura
@@ -16,7 +16,7 @@ Un antes y después solo significa algo si las dos tomas se grabaron igual. Cóm
 
 **Kasper Koskenvirta** Creador de Dancify · Publicado el 29 de octubre de 2026
 
-![Tres pantallas de la app Dancify en iPhone](https://kkoskenvirta.github.io/dancify-site/assets/img/covers/es-progress-video-1200.webp)
+![Tres pantallas de la app Dancify en iPhone](https://dancify.studio/assets/img/covers/es-progress-video-1200.webp)
 
 Casi siempre descubrimos que hemos mejorado por casualidad: aparece un vídeo viejo en la galería y, de repente, la diferencia salta a la vista. Un vídeo de progreso hace eso a propósito. Pone tu primer intento y el último uno frente al otro, con honestidad, para que veas qué ha cambiado y qué sigue pendiente.
 
@@ -38,7 +38,7 @@ Pero un antes y después también puede engañar. Un gran angular en el primer v
 
 ## Grábalo siempre de la misma manera
 
-Elige una combinación corta, de 16 a 32 tiempos, que muestre lo que estás trabajando. Después fija todo lo demás y apúntalo una vez en tus notas o en un [diario de práctica](https://kkoskenvirta.github.io/dancify-site/es/blog/diario-de-practica-de-baile/), para poder repetirlo dentro de tres meses.
+Elige una combinación corta, de 16 a 32 tiempos, que muestre lo que estás trabajando. Después fija todo lo demás y apúntalo una vez en tus notas o en un [diario de práctica](https://dancify.studio/es/blog/diario-de-practica-de-baile/), para poder repetirlo dentro de tres meses.
 
 - **Mismo sitio, altura y lente** Marca con cinta tu posición y la del trípode. Deja el móvil a la misma altura (entre cadera y pecho para casi todos los estilos) y con la misma lente. Nunca mezcles 0,5× y 1×.
 - **Misma música, mismo tempo** La misma canción a la misma velocidad. Si la ralentizaste para aprender, graba la toma de progreso al tempo final o siempre al mismo tempo lento.
@@ -46,7 +46,7 @@ Elige una combinación corta, de 16 a 32 tiempos, que muestre lo que estás trab
 - **Mismo momento del ensayo** Después de calentar bien y antes de estar cansada o cansado. Una toma al minuto 10 y otra al minuto 80 enseñan a dos bailarines distintos.
 - **La primera toma, sin esperar** No esperes a "estar lista" para grabar la primera. La gracia es justamente que todavía no sale bien.
 
-Si te cuesta la parte técnica, nuestra guía sobre [cómo grabarte bailando](https://kkoskenvirta.github.io/dancify-site/es/blog/como-grabarte-bailando/) explica altura, distancia y luz para cada estilo.
+Si te cuesta la parte técnica, nuestra guía sobre [cómo grabarte bailando](https://dancify.studio/es/blog/como-grabarte-bailando/) explica altura, distancia y luz para cada estilo.
 
 ## Cada cuánto grabar
 
@@ -75,7 +75,7 @@ Apunta las fechas en el calendario como si fueran clases. Las tomas que dependen
 | Espacio y desplazamientos | Cuánto te desplazas, cambios de dirección | Usa las marcas del suelo como referencia |
 | Seguridad | Cara, mirada, respiración, los momentos en que dudabas | A velocidad normal, como lo vería el público |
 
-Si lo que buscas es el tiempo, ayuda saber exactamente dónde caen los tiempos. Nuestra guía sobre [cómo contar la música en el baile](https://kkoskenvirta.github.io/dancify-site/es/blog/como-contar-la-musica-en-el-baile/) explica los ochos y el tempo.
+Si lo que buscas es el tiempo, ayuda saber exactamente dónde caen los tiempos. Nuestra guía sobre [cómo contar la música en el baile](https://dancify.studio/es/blog/como-contar-la-musica-en-el-baile/) explica los ochos y el tempo.
 
 ## Elige formato: secuencia, lado a lado o cuadrícula
 
@@ -127,11 +127,11 @@ Desde dentro, el progreso pasa desapercibido. Dos tomas con fecha, una al lado d
 
 Creamos Dancify para que el vídeo de progreso deje de ser un proyecto de fin de semana. Cada toma que grabas aparece en su día del calendario, y todas las tomas de una coreografía quedan en orden en su página, así que la primera y la última están siempre a dos toques.
 
-![Reel de progreso de Dancify de la coreografía Slow Burn a lo largo de tres meses, con cuatro tomas de agosto a octubre de 2026, una bailarina en la barra y los formatos Secuencia, Lado a lado y Cuadrícula](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/reel.webp)
+![Reel de progreso de Dancify de la coreografía Slow Burn a lo largo de tres meses, con cuatro tomas de agosto a octubre de 2026, una bailarina en la barra y los formatos Secuencia, Lado a lado y Cuadrícula](https://dancify.studio/assets/img/app/es/reel.webp)
 
 Premium **Reels de progreso, del primer intento al último** Elige las tomas, ordénalas arrastrando y escoge el formato: secuencia, lado a lado o una cuadrícula de hasta cuatro. Puedes mostrar la fecha en cada clip y decidir cuántos segundos dura cada toma. El reel se exporta como un vídeo nuevo para compartir; tus grabaciones originales no se tocan.
 
-![Pantalla de comparación de Dancify con dos tomas de la misma combinación de ballet lado a lado, Antes el 4 de agosto de 2026 y Ahora el 26 de octubre de 2026](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/compare.webp)
+![Pantalla de comparación de Dancify con dos tomas de la misma combinación de ballet lado a lado, Antes el 4 de agosto de 2026 y Ahora el 26 de octubre de 2026](https://dancify.studio/assets/img/app/es/compare.webp)
 
 Premium **Antes y ahora, fotograma a fotograma** Comparar pone dos tomas lado a lado con sus fechas. Reprodúcelas a la vez, avanza las dos fotograma a fotograma o ralentízalas a la mitad o a un cuarto para ver exactamente dónde cambió el tiempo.
 
@@ -190,7 +190,7 @@ Kasper diseña y desarrolla Dancify en AppRise Ventures, en Espoo (Finlandia). D
 
 Grabar 10 min de lectura
 
-### [Cómo grabarte bailando: ángulo, luz y altura del móvil](https://kkoskenvirta.github.io/dancify-site/es/blog/como-grabarte-bailando/)
+### [Cómo grabarte bailando: ángulo, luz y altura del móvil](https://dancify.studio/es/blog/como-grabarte-bailando/)
 
 Cómo grabarte bailando con el móvil: altura y distancia de la cámara por estilo, el mejor ángulo, luz, sonido, trípodes y seis errores que estropean el vídeo.
 
@@ -198,7 +198,7 @@ Cómo grabarte bailando con el móvil: altura y distancia de la cámara por esti
 
 Práctica 8 min de lectura
 
-### [Cómo llevar un diario de práctica de baile: qué apuntar, con preguntas](https://kkoskenvirta.github.io/dancify-site/es/blog/diario-de-practica-de-baile/)
+### [Cómo llevar un diario de práctica de baile: qué apuntar, con preguntas](https://dancify.studio/es/blog/diario-de-practica-de-baile/)
 
 Cómo llevar un diario de práctica de baile: qué apuntar después de cada clase, una entrada de cinco minutos, preguntas para escribir y un repaso semanal.
 

@@ -1,11 +1,11 @@
 ---
 title: "Dance Progress Video: How to Make an Honest Before & After"
 description: "How to make a dance progress video: film the same combo the same way, how often, what to compare, sequence vs side-by-side vs grid, dates and sharing."
-url: "https://kkoskenvirta.github.io/dancify-site/blog/dance-progress-video/"
+url: "https://dancify.studio/blog/dance-progress-video/"
 ---
 
-1. [Home](https://kkoskenvirta.github.io/dancify-site/)
-2. [Blog](https://kkoskenvirta.github.io/dancify-site/blog/)
+1. [Home](https://dancify.studio/)
+2. [Blog](https://dancify.studio/blog/)
 3. How to make a dance progress video that's honest and motivating
 
 Progress 8 min read
@@ -16,7 +16,7 @@ A before-and-after only means something if both takes were filmed the same way. 
 
 **Kasper Koskenvirta** Maker of Dancify · Published October 29, 2026
 
-![Three Dancify app screens on iPhone](https://kkoskenvirta.github.io/dancify-site/assets/img/covers/en-progress-video-1200.webp)
+![Three Dancify app screens on iPhone](https://dancify.studio/assets/img/covers/en-progress-video-1200.webp)
 
 Most dancers only notice their progress by accident: an old clip turns up in the camera roll and suddenly the difference is obvious. A progress video does that on purpose. It puts your first attempt and your latest one in front of you, honestly, so you can see what changed and what still needs work.
 
@@ -38,7 +38,7 @@ But a progress video can lie, too. A wide lens in the first clip and a closer on
 
 ## Film it the same way every time
 
-Pick one short combination, 16 to 32 counts, that shows what you're working on. Then fix everything around it. Write the setup down once, in your notes or a [practice journal](https://kkoskenvirta.github.io/dancify-site/blog/dance-practice-journal/), so future you can repeat it.
+Pick one short combination, 16 to 32 counts, that shows what you're working on. Then fix everything around it. Write the setup down once, in your notes or a [practice journal](https://dancify.studio/blog/dance-practice-journal/), so future you can repeat it.
 
 - **Same spot, height and lens** Tape a mark on the floor for you and one for the stand. Keep the phone at the same height (hip to chest for most styles) and on the same lens. Never mix 0.5× and 1×.
 - **Same music, same tempo** Use the same track at the same speed. If you slowed it down to learn, film the progress take at the final tempo, or always at the same slower one.
@@ -46,7 +46,7 @@ Pick one short combination, 16 to 32 counts, that shows what you're working on. 
 - **Same point in the session** After a full warm-up, before you're tired. A take at minute 10 and one at minute 80 show two different dancers.
 - **The first honest take** Don't wait until you're "ready" for the first clip. The whole point is that it isn't good yet.
 
-If you need help with the setup itself, our guide to [filming yourself dancing](https://kkoskenvirta.github.io/dancify-site/blog/how-to-film-yourself-dancing/) covers height, distance and light for each style.
+If you need help with the setup itself, our guide to [filming yourself dancing](https://dancify.studio/blog/how-to-film-yourself-dancing/) covers height, distance and light for each style.
 
 ## How often to film
 
@@ -75,7 +75,7 @@ Put the dates in your calendar like a class. Progress takes that depend on remem
 | Space and travel | How far you travel, direction changes, spacing | Use your floor marks as a reference |
 | Confidence | Face, focus, breath, the moments you used to hesitate | Watch at normal speed, as an audience would |
 
-If timing is the thing you're chasing, it helps to know exactly where the counts fall. Our guide to [counting music in dance](https://kkoskenvirta.github.io/dancify-site/blog/how-to-count-music-in-dance/) explains eight-counts and tempo.
+If timing is the thing you're chasing, it helps to know exactly where the counts fall. Our guide to [counting music in dance](https://dancify.studio/blog/how-to-count-music-in-dance/) explains eight-counts and tempo.
 
 ## Choose a layout: sequence, side by side or grid
 
@@ -127,11 +127,11 @@ Progress is easy to miss from the inside. Two dated clips side by side make it i
 
 We built Dancify so that progress videos stop being a weekend project. Every take you film lands on its day in the calendar, and every take of a piece sits in order on that piece's page, so the first and the latest are always two taps apart.
 
-![Dancify progress reel titled Slow Burn, three months, from 4 August to 26 October 2026 with four takes, showing a ballet dancer at the barre and the Sequence, Side by side and Grid layouts](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/reel.webp)
+![Dancify progress reel titled Slow Burn, three months, from 4 August to 26 October 2026 with four takes, showing a ballet dancer at the barre and the Sequence, Side by side and Grid layouts](https://dancify.studio/assets/img/app/en/reel.webp)
 
 Premium **Progress reels, from first try to latest** Pick the takes, drag them into order and choose a layout: sequence, side by side, or a grid of up to four. Dates go on each clip if you want them, and you set how many seconds each take plays. The reel exports as a new video you can share. Your original recordings stay as they are.
 
-![Dancify compare screen with two takes of the same ballet combination side by side, labelled Then, 4 August 2026, and Now, 26 October 2026](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/compare.webp)
+![Dancify compare screen with two takes of the same ballet combination side by side, labelled Then, 4 August 2026, and Now, 26 October 2026](https://dancify.studio/assets/img/app/en/compare.webp)
 
 Premium **Then and now, frame by frame** Compare puts two takes side by side with their dates. Play both together, step both a frame at a time, or slow both to half or quarter speed to see exactly where the timing changed.
 
@@ -190,7 +190,7 @@ Kasper designs and builds Dancify at AppRise Ventures in Espoo, Finland. Dancify
 
 Filming 9 min read
 
-### [How to film yourself dancing: angles, light and setup](https://kkoskenvirta.github.io/dancify-site/blog/how-to-film-yourself-dancing/)
+### [How to film yourself dancing: angles, light and setup](https://dancify.studio/blog/how-to-film-yourself-dancing/)
 
 How to film yourself dancing with a phone: camera height and distance for each style, the best angle, light, sound, phone stands and six mistakes to avoid.
 
@@ -198,7 +198,7 @@ November 3, 2026
 
 Practice 7 min read
 
-### [How to keep a dance practice journal: what to track, with prompts](https://kkoskenvirta.github.io/dancify-site/blog/dance-practice-journal/)
+### [How to keep a dance practice journal: what to track, with prompts](https://dancify.studio/blog/dance-practice-journal/)
 
 How to keep a dance practice journal: what to track after each class, a five-minute entry, journaling prompts for dancers and a weekly look back.
 

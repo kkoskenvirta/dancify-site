@@ -1,11 +1,11 @@
 ---
 title: "Cómo grabarte bailando: ángulo, luz y altura del móvil"
 description: "Cómo grabarte bailando con el móvil: altura y distancia de la cámara por estilo, el mejor ángulo, luz, sonido, trípodes y seis errores que estropean el vídeo."
-url: "https://kkoskenvirta.github.io/dancify-site/es/blog/como-grabarte-bailando/"
+url: "https://dancify.studio/es/blog/como-grabarte-bailando/"
 ---
 
-1. [Inicio](https://kkoskenvirta.github.io/dancify-site/es/)
-2. [Blog](https://kkoskenvirta.github.io/dancify-site/es/blog/)
+1. [Inicio](https://dancify.studio/es/)
+2. [Blog](https://dancify.studio/es/blog/)
 3. Cómo grabarte bailando: ángulo, luz y altura del móvil
 
 Grabar 10 min de lectura
@@ -16,7 +16,7 @@ El pase te pareció limpio y el vídeo enseñó rodillas dobladas y pies cortado
 
 **Kasper Koskenvirta** Creador de Dancify · Publicado el 3 de noviembre de 2026
 
-![Tres pantallas de la app Dancify en iPhone](https://kkoskenvirta.github.io/dancify-site/assets/img/covers/es-film-yourself-1200.webp)
+![Tres pantallas de la app Dancify en iPhone](https://dancify.studio/assets/img/covers/es-film-yourself-1200.webp)
 
 Te pasa a todos: el pase te pareció limpio y luego el vídeo enseña una rodilla doblada, un brazo que llega tarde y unos pies que nunca terminaron de estirarse. Grabarte bailando es el profesor más sincero que vas a tener, siempre que el móvil esté colocado para mostrar lo que importa. Así se hace bien, sin más equipo que tu teléfono.
 
@@ -70,7 +70,7 @@ De frente es lo normal porque así te ve el público. Pero oculta la profundidad
 - **En diagonal (45°):** el más favorecedor y a la vez sincero, ideal para pases de muestra.
 - **De espaldas:** si aprendes de un vídeo, grabarte de espaldas hace que mires hacia el mismo lado que la profe, así que la izquierda es la izquierda.
 
-Si quieres comparar tu progreso más adelante, elige un ángulo "oficial" y no lo cambies nunca: mismo sitio, misma altura, mismo objetivo. En nuestra guía para [hacer un vídeo de progreso de baile](https://kkoskenvirta.github.io/dancify-site/es/blog/video-de-progreso-de-baile/) verás por qué esa constancia importa más que nada.
+Si quieres comparar tu progreso más adelante, elige un ángulo "oficial" y no lo cambies nunca: mismo sitio, misma altura, mismo objetivo. En nuestra guía para [hacer un vídeo de progreso de baile](https://dancify.studio/es/blog/video-de-progreso-de-baile/) verás por qué esa constancia importa más que nada.
 
 ## Luz, fotogramas por segundo y sonido
 
@@ -102,9 +102,9 @@ Grabarlo todo es no ver nada. Un ritmo sencillo que funciona a casi todo el mund
 
 1. **Un pase entero** Desde el principio, con música y con energía de función. Es el registro del día.
 2. **Una parte difícil** Los ochos que siempre se te tuercen, dos o tres veces, para ver si la corrección funciona.
-3. **Una nota** Una frase sobre lo que viste. Es el comienzo de un [diario de práctica de baile](https://kkoskenvirta.github.io/dancify-site/es/blog/diario-de-practica-de-baile/), y es lo que convierte un montón de vídeos en algo útil.
+3. **Una nota** Una frase sobre lo que viste. Es el comienzo de un [diario de práctica de baile](https://dancify.studio/es/blog/diario-de-practica-de-baile/), y es lo que convierte un montón de vídeos en algo útil.
 
-Si todavía estás aprendiendo la pieza, grabar la parte que acabas de sacar es la forma más rápida de saber qué recuerdas de verdad. Más en [cómo aprender coreografías rápido](https://kkoskenvirta.github.io/dancify-site/es/blog/aprender-coreografias-rapido/).
+Si todavía estás aprendiendo la pieza, grabar la parte que acabas de sacar es la forma más rápida de saber qué recuerdas de verdad. Más en [cómo aprender coreografías rápido](https://dancify.studio/es/blog/aprender-coreografias-rapido/).
 
 ## Seis errores que estropean un vídeo de baile
 
@@ -119,7 +119,7 @@ Si todavía estás aprendiendo la pieza, grabar la parte que acabas de sacar es 
 
 Hicimos la cámara de Dancify justo para esto, porque la cámara de siempre no está pensada para alguien que tiene que cruzar la sala hasta su marca.
 
-![Cámara de Dancify con Seguir fijado en una bailarina en pleno movimiento, con el enfoque y la exposición sobre ella](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/camera-follow.webp)
+![Cámara de Dancify con Seguir fijado en una bailarina en pleno movimiento, con el enfoque y la exposición sobre ella](https://dancify.studio/assets/img/app/es/camera-follow.webp)
 
 Gratis en Dancify **Una cámara que espera a la cuenta** Le das a grabar y una cuenta de entrada musical ("5, 6, 7, 8") a tu tempo te da tiempo de llegar a tu marca. Toca sobre ti para Seguir: el enfoque y la exposición se quedan contigo mientras te mueves, y Mantener en el encuadre puede hacer zoom con suavidad para no perderte. Con un soporte DockKit, el soporte gira contigo.
 
@@ -181,7 +181,7 @@ Kasper diseña y desarrolla Dancify en AppRise Ventures, en Espoo (Finlandia). D
 
 Progreso 9 min de lectura
 
-### [Cómo hacer un vídeo de progreso de baile honesto y motivador](https://kkoskenvirta.github.io/dancify-site/es/blog/video-de-progreso-de-baile/)
+### [Cómo hacer un vídeo de progreso de baile honesto y motivador](https://dancify.studio/es/blog/video-de-progreso-de-baile/)
 
 Cómo hacer un vídeo de progreso de baile: graba la misma combinación igual, cada cuánto, qué comparar, secuencia, lado a lado o cuadrícula, fechas y compartir.
 
@@ -189,7 +189,7 @@ Cómo hacer un vídeo de progreso de baile: graba la misma combinación igual, c
 
 Aprender 8 min de lectura
 
-### [Cómo aprender coreografías rápido (y que no se te olviden)](https://kkoskenvirta.github.io/dancify-site/es/blog/aprender-coreografias-rapido/)
+### [Cómo aprender coreografías rápido (y que no se te olviden)](https://dancify.studio/es/blog/aprender-coreografias-rapido/)
 
 Cómo aprender coreografías rápido: mapa de la pieza, aprender por ochos, marcar, usar bien el espejo, ralentizar el vídeo, repetir en bucle y grabarte.
 

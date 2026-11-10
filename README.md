@@ -1,6 +1,6 @@
 # Dancify website
 
-Website for [Dancify](https://apps.apple.com/app/id6830154598), the camera, practice diary and video editor for dancers (iPhone and iPad). Served by GitHub Pages from `main` (root) at https://kkoskenvirta.github.io/dancify-site/ for now. Plain HTML, CSS and JS with no build step on Pages (`.nojekyll` turns off Jekyll); the blog is generated locally and committed.
+Website for [Dancify](https://apps.apple.com/app/id6830154598), the camera, practice diary and video editor for dancers (iPhone and iPad). Served by GitHub Pages from `main` (root) at https://dancify.studio. Plain HTML, CSS and JS with no build step on Pages (`.nojekyll` turns off Jekyll); the blog is generated locally and committed.
 
 | Path | Contents |
 | --- | --- |
@@ -123,16 +123,14 @@ The seeded demo content (piece names such as "Slow Burn", take names such as "Fu
 
 ## Hosting: GitHub Pages
 
-Repo `kkoskenvirta/dancify-site`, Settings → Pages: **Deploy from a branch**, `main`, `/ (root)`, no custom domain, so the site is a project page at https://kkoskenvirta.github.io/dancify-site/. (It isn't in the AppRiseVentures org: that org's Pages domain is fimbl.app, and every project page there would show up under it.)
+Repo `kkoskenvirta/dancify-site`, Settings → Pages: **Deploy from a branch**, `main`, `/ (root)`, custom domain `dancify.studio` (the `CNAME` file). (It isn't in the AppRiseVentures org: that org's Pages domain is fimbl.app, and every project page there would show up under it.)
 
-The pages are written with root paths (`/assets/…`, `/es/`). `tools/rebase.py` prefixes them with the path of `base` in `tools/blog/site.json` (`/dancify-site`): `href`, `src`, `srcset` and `poster` in the HTML, `url()` in the CSS, `const ROOT` in `main.js`, and `data-root` on `<html>` for the inline scripts (the language redirect, the 404 page). The blog build runs it last, so a rebuild keeps everything in step; `check_site.py` flags a root path without the prefix.
+The pages are written with root paths (`/assets/…`, `/es/`). `tools/rebase.py` points them at `base` in `tools/blog/site.json` (`https://dancify.studio`): when `base` has a path of its own (a project page like `https://kkoskenvirta.github.io/dancify-site`), it prefixes `href`, `src`, `srcset` and `poster` in the HTML, `url()` in the CSS, `const ROOT` in `main.js`, and `data-root` on `<html>` for the inline scripts (the language redirect, the 404 page). On the domain's root there's no prefix. The blog build runs it last, so a rebuild keeps everything in step; `check_site.py` flags a root path that doesn't match `base`.
 
-On a project page `robots.txt`, `llms.txt`, `auth.md` and `.well-known/apple-app-site-association` aren't at the host's root, so crawlers and Apple don't read them there. They start working once the site has its own domain.
+### Changing the address
 
-### Moving to a custom domain later
-
-1. Set `base` in `tools/blog/site.json` to the domain (e.g. `https://dancify.apphq.online`), then run `python3 tools/rebase.py --from https://kkoskenvirta.github.io/dancify-site` and `python3 tools/blog/build.py`. Mentions of the address in `privacy/index.html` are plain text: update them by hand.
-2. Add a `CNAME` file with the domain and set it under Settings → Pages → Custom domain. Tick **Enforce HTTPS** once GitHub has issued the certificate.
+1. Set `base` in `tools/blog/site.json` to the new address (the old one also appears in its llms intro and outro), then run `python3 tools/rebase.py --from https://dancify.studio` and `python3 tools/blog/build.py`. Mentions of the address in `privacy/index.html` are plain text: update them by hand.
+2. Put the domain in `CNAME` and set it under Settings → Pages → Custom domain. Tick **Enforce HTTPS** once GitHub has issued the certificate.
 3. DNS: `CNAME` from the subdomain to `kkoskenvirta.github.io`. With Cloudflare: proxied, SSL/TLS mode **Full**, **Always Use HTTPS** on (if GitHub's certificate check stalls, use DNS only until Pages shows the certificate). Then add the three rules below.
 
 ### Cloudflare rules (with a custom domain)

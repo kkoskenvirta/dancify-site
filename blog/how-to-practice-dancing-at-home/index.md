@@ -1,11 +1,11 @@
 ---
 title: "How to Practice Dance at Home: A Weekly Plan That Works"
 description: "How to practise dance at home: a safe space and floor, shoes or socks, warm-up, a 30-minute session, weekly plans for beginners and intermediates, rest."
-url: "https://kkoskenvirta.github.io/dancify-site/blog/how-to-practice-dancing-at-home/"
+url: "https://dancify.studio/blog/how-to-practice-dancing-at-home/"
 ---
 
-1. [Home](https://kkoskenvirta.github.io/dancify-site/)
-2. [Blog](https://kkoskenvirta.github.io/dancify-site/blog/)
+1. [Home](https://dancify.studio/)
+2. [Blog](https://dancify.studio/blog/)
 3. How to practise dance at home: space, warm-up and a weekly plan
 
 Practice 9 min read
@@ -16,7 +16,7 @@ A living room has no teacher, no sprung floor and no plan. Here's how to set up 
 
 **Kasper Koskenvirta** Maker of Dancify · Published October 23, 2026
 
-![Three Dancify app screens on iPhone](https://kkoskenvirta.github.io/dancify-site/assets/img/covers/en-practice-at-home-1200.webp)
+![Three Dancify app screens on iPhone](https://dancify.studio/assets/img/covers/en-practice-at-home-1200.webp)
 
 Class gives you the steps. Home is where they become yours. The trouble is that a living room has no teacher, no sprung floor and no plan, so practice either turns into scrolling for a tutorial or into the same run-through ten times. A little structure fixes most of that.
 
@@ -95,7 +95,7 @@ Add time before you add days. Going from three to five sessions in one week is h
 - **Partner styles** Basics and timing alone: salsa or bachata basic on the beat, frame and arm styling, footwork patterns.
 - **Tap and Irish** Rudiments on a practice board at a slow, steady tempo, then faster in small steps.
 
-For choreography, the way you break a piece into chunks matters as much as the time you spend. Our guide to [learning choreography faster](https://kkoskenvirta.github.io/dancify-site/blog/how-to-learn-choreography-faster/) goes deeper, and [counting music](https://kkoskenvirta.github.io/dancify-site/blog/how-to-count-music-in-dance/) helps if you lose your place in the song.
+For choreography, the way you break a piece into chunks matters as much as the time you spend. Our guide to [learning choreography faster](https://dancify.studio/blog/how-to-learn-choreography-faster/) goes deeper, and [counting music](https://dancify.studio/blog/how-to-count-music-in-dance/) helps if you lose your place in the song.
 
 ## Ten minutes of conditioning
 
@@ -111,7 +111,7 @@ Most dance injuries are in the lower body. In a systematic review of ballet inju
 
 The mirror shows you one angle while you're busy dancing. A recording shows you what actually happened. You don't need to film everything; one take of today's focus, from the same spot every time, is enough. Write one sentence next to it: what improved and what to fix next time.
 
-After a few weeks those takes become something better than motivation: evidence. Keep them in a [practice journal](https://kkoskenvirta.github.io/dancify-site/blog/dance-practice-journal/), and when you have a month or two, put the first and the latest side by side as a [progress video](https://kkoskenvirta.github.io/dancify-site/blog/dance-progress-video/). If you're unsure about the setup, see [how to film yourself dancing](https://kkoskenvirta.github.io/dancify-site/blog/how-to-film-yourself-dancing/).
+After a few weeks those takes become something better than motivation: evidence. Keep them in a [practice journal](https://dancify.studio/blog/dance-practice-journal/), and when you have a month or two, put the first and the latest side by side as a [progress video](https://dancify.studio/blog/dance-progress-video/). If you're unsure about the setup, see [how to film yourself dancing](https://dancify.studio/blog/how-to-film-yourself-dancing/).
 
 ## Rest and injury prevention
 
@@ -128,15 +128,15 @@ Home practice comes on top of class, so it's easy to do too much. Most dance inj
 
 Home practice goes better with a few tools a living room doesn't have. Dancify puts them in one app for iPhone and iPad.
 
-![Dancify player with an A to B loop set around one section of a practice take, with slow-motion and mirror controls](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/player-loop.webp)
+![Dancify player with an A to B loop set around one section of a practice take, with slow-motion and mirror controls](https://dancify.studio/assets/img/app/en/player-loop.webp)
 
 Free in Dancify **Loop one section, slowly** Set an A–B loop around the eight-count that keeps going wrong, with an optional eight-count pause to get back to your mark. Slow it down to 0.25×, mirror it, and turn on the counts overlay to see 1 to 8 on the music.
 
-![Dancify camera filming a dancer while a reference video plays picture in picture in the corner](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/camera-reference.webp)
+![Dancify camera filming a dancer while a reference video plays picture in picture in the corner](https://dancify.studio/assets/img/app/en/camera-reference.webp)
 
 **Practise with a reference** Play your teacher's video or your own earlier take while you film, starting on the count-in's downbeat.
 
-![Dancify October calendar where each practice day shows a frame from that day's video, with coloured tape for classes and practice](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/journal.webp)
+![Dancify October calendar where each practice day shows a frame from that day's video, with coloured tape for classes and practice](https://dancify.studio/assets/img/app/en/journal.webp)
 
 **A calendar of frames** Each day shows a frame from what you danced, and days without video still get logged.
 
@@ -197,7 +197,7 @@ Kasper designs and builds Dancify at AppRise Ventures in Espoo, Finland. Dancify
 
 Learning 7 min read
 
-### [How to learn choreography faster (and actually remember it)](https://kkoskenvirta.github.io/dancify-site/blog/how-to-learn-choreography-faster/)
+### [How to learn choreography faster (and actually remember it)](https://dancify.studio/blog/how-to-learn-choreography-faster/)
 
 How to learn choreography faster: map the piece, learn in eight-counts, mark it, use the mirror wisely, slow the video down, loop hard parts and film to check.
 
@@ -205,7 +205,7 @@ November 1, 2026
 
 Practice 7 min read
 
-### [How to keep a dance practice journal: what to track, with prompts](https://kkoskenvirta.github.io/dancify-site/blog/dance-practice-journal/)
+### [How to keep a dance practice journal: what to track, with prompts](https://dancify.studio/blog/dance-practice-journal/)
 
 How to keep a dance practice journal: what to track after each class, a five-minute entry, journaling prompts for dancers and a weekly look back.
 

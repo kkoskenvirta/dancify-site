@@ -1,11 +1,11 @@
 ---
 title: "How to Learn Choreography Faster and Remember It"
 description: "How to learn choreography faster: map the piece, learn in eight-counts, mark it, use the mirror wisely, slow the video down, loop hard parts and film to check."
-url: "https://kkoskenvirta.github.io/dancify-site/blog/how-to-learn-choreography-faster/"
+url: "https://dancify.studio/blog/how-to-learn-choreography-faster/"
 ---
 
-1. [Home](https://kkoskenvirta.github.io/dancify-site/)
-2. [Blog](https://kkoskenvirta.github.io/dancify-site/blog/)
+1. [Home](https://dancify.studio/)
+2. [Blog](https://dancify.studio/blog/)
 3. How to learn choreography faster (and actually remember it)
 
 Learning 7 min read
@@ -16,7 +16,7 @@ Quick learners aren't magic. They map the piece, learn it in eight-counts, mark 
 
 **Kasper Koskenvirta** Maker of Dancify · Published November 1, 2026
 
-![Three Dancify app screens on iPhone](https://kkoskenvirta.github.io/dancify-site/assets/img/covers/en-learn-choreography-1200.webp)
+![Three Dancify app screens on iPhone](https://dancify.studio/assets/img/covers/en-learn-choreography-1200.webp)
 
 Some dancers seem to pick up a combination after two run-throughs. It isn't magic and it usually isn't talent. They watch in a particular way, break the piece into pieces, mark before they dance it full out, and check themselves on video. All of that can be learned. Here's the method, from the first viewing to the night before the show.
 
@@ -58,7 +58,7 @@ A good pattern: mark a new chunk two or three times, dance it full out once, mar
 
 ## Counts or music?
 
-Both, in that order. Counts give you structure: you know exactly where each move lands. Music gives you the feel: the accents, the breaths, the lyrics that cue a move. Learn a chunk on counts, then dance it to the track at once, so the counts get attached to the sound. If counting itself is the hard part, our guide to [counting music in dance](https://kkoskenvirta.github.io/dancify-site/blog/how-to-count-music-in-dance/) explains eight-counts, "and" counts and finding the one.
+Both, in that order. Counts give you structure: you know exactly where each move lands. Music gives you the feel: the accents, the breaths, the lyrics that cue a move. Learn a chunk on counts, then dance it to the track at once, so the counts get attached to the sound. If counting itself is the hard part, our guide to [counting music in dance](https://dancify.studio/blog/how-to-count-music-in-dance/) explains eight-counts, "and" counts and finding the one.
 
 One trick from teachers: pick out landmarks in the music. "The arm goes up on the word 'fire'" sticks better than "on 6 of the third eight".
 
@@ -83,7 +83,7 @@ Speed is the last thing to add. Most fast choreography is unlearnable at tempo a
 
 Loop the one eight-count that keeps going wrong instead of running the whole piece again. Ten loops of the hard part beat three full runs.
 
-Then film each chunk as soon as you think you have it. The video answers questions memory can't: is the arm really at shoulder height? Is the turn on 7 or on 7-and? Put your take next to the reference and look for one difference at a time. Our guide to [filming yourself dancing](https://kkoskenvirta.github.io/dancify-site/blog/how-to-film-yourself-dancing/) covers the camera setup.
+Then film each chunk as soon as you think you have it. The video answers questions memory can't: is the arm really at shoulder height? Is the turn on 7 or on 7-and? Put your take next to the reference and look for one difference at a time. Our guide to [filming yourself dancing](https://dancify.studio/blog/how-to-film-yourself-dancing/) covers the camera setup.
 
 ## Between practices: listen, visualise, sleep
 
@@ -98,17 +98,17 @@ Then film each chunk as soon as you think you have it. The video answers questio
 1. **5 min: review** Mark and then dance everything you learned last time, with the music.
 2. **25 min: new chunks** Two to four new eight-counts: decode slowly, mark, count, dance, chain.
 3. **10 min: film and check** One take of everything so far. Watch it once, note one fix.
-4. **5 min: write it down** Where you stopped, what's shaky, tomorrow's first task. That's your [practice journal](https://kkoskenvirta.github.io/dancify-site/blog/dance-practice-journal/).
+4. **5 min: write it down** Where you stopped, what's shaky, tomorrow's first task. That's your [practice journal](https://dancify.studio/blog/dance-practice-journal/).
 
 ## How Dancify helps you learn a piece
 
 We designed Dancify's practice tools around this exact routine, and they're free.
 
-![Dancify player with an A–B loop set on one eight-count and the practice panel open](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/player-loop.webp)
+![Dancify player with an A–B loop set on one eight-count and the practice panel open](https://dancify.studio/assets/img/app/en/player-loop.webp)
 
 Free in Dancify **Loop the hard eight** Slow any take down to 0.25×, step frame by frame, and mirror it. Set an A–B loop on the eight-count that keeps going wrong, with an optional eight-count pause before it repeats, so you can get back to your spot. The counts overlay shows 1 to 8 in time with the music.
 
-![Dancify camera filming a dancer with the reference choreography video playing picture-in-picture](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/camera-reference.webp)
+![Dancify camera filming a dancer with the reference choreography video playing picture-in-picture](https://dancify.studio/assets/img/app/en/camera-reference.webp)
 
 Free in Dancify **Dance with the reference** Play the class video or your own earlier take picture-in-picture or side by side while you film, starting on the count-in's downbeat. Every take goes into the piece, in order, so you can see how it came together.
 
@@ -164,7 +164,7 @@ Kasper designs and builds Dancify at AppRise Ventures in Espoo, Finland. Dancify
 
 Musicality 7 min read
 
-### [How to count music in dance: eight-counts, "5, 6, 7, 8" and finding the one](https://kkoskenvirta.github.io/dancify-site/blog/how-to-count-music-in-dance/)
+### [How to count music in dance: eight-counts, "5, 6, 7, 8" and finding the one](https://dancify.studio/blog/how-to-count-music-in-dance/)
 
 How to count music in dance: beats, bars and eight-counts, what "5, 6, 7, 8" means, finding the one, "and" counts, waltz in 3/4 and BPM by dance style.
 
@@ -172,7 +172,7 @@ October 28, 2026
 
 Filming 9 min read
 
-### [How to film yourself dancing: angles, light and setup](https://kkoskenvirta.github.io/dancify-site/blog/how-to-film-yourself-dancing/)
+### [How to film yourself dancing: angles, light and setup](https://dancify.studio/blog/how-to-film-yourself-dancing/)
 
 How to film yourself dancing with a phone: camera height and distance for each style, the best angle, light, sound, phone stands and six mistakes to avoid.
 

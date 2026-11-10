@@ -1,11 +1,11 @@
 ---
 title: "Cómo contar la música en el baile: ochos y 5, 6, 7, 8"
 description: "Cómo contar la música en el baile: tiempos, compases y ochos, qué significa \"5, 6, 7, 8\", cómo encontrar el uno, el \"y\", el vals en 3/4 y los BPM por estilo."
-url: "https://kkoskenvirta.github.io/dancify-site/es/blog/como-contar-la-musica-en-el-baile/"
+url: "https://dancify.studio/es/blog/como-contar-la-musica-en-el-baile/"
 ---
 
-1. [Inicio](https://kkoskenvirta.github.io/dancify-site/es/)
-2. [Blog](https://kkoskenvirta.github.io/dancify-site/es/blog/)
+1. [Inicio](https://dancify.studio/es/)
+2. [Blog](https://dancify.studio/es/blog/)
 3. Cómo contar la música en el baile: los ochos, el "5, 6, 7, 8" y el uno
 
 Musicalidad 8 min de lectura
@@ -16,7 +16,7 @@ Musicalidad 8 min de lectura
 
 **Kasper Koskenvirta** Creador de Dancify · Publicado el 28 de octubre de 2026
 
-![Tres pantallas de la app Dancify en iPhone](https://kkoskenvirta.github.io/dancify-site/assets/img/covers/es-counting-music-1200.webp)
+![Tres pantallas de la app Dancify en iPhone](https://dancify.studio/assets/img/covers/es-counting-music-1200.webp)
 
 "¡Cinco, seis, siete, ocho!" es lo primero que oyes en casi cualquier clase de baile y, para mucha gente que empieza, también lo más confuso. ¿Por qué se empieza en el cinco? ¿Dónde está el uno? ¿Y qué es eso de "y"? Contar la música es una técnica, como una pirueta: unas pocas reglas y mucha práctica. Estas son las reglas.
 
@@ -103,13 +103,13 @@ Por qué importa al ensayar: aprender una combinación al 80 % del tempo real es
 2. **Da una palmada solo en el 1.** Cuenta por dentro y da una palmada en cada 1. Luego solo en el 1 de cada frase. Así entrenas la estructura grande.
 3. **Di los "y".** Canta las cuentas de una combinación con cada "y" mientras la marcas.
 4. **Despacio y subiendo.** Ensaya un ocho difícil más lento y sube unos pocos BPM cada vez.
-5. **Grábate y comprueba.** Graba un pase con la música bien audible y mira si tus acentos caen en las cuentas. Más en [cómo grabarte bailando](https://kkoskenvirta.github.io/dancify-site/es/blog/como-grabarte-bailando/).
+5. **Grábate y comprueba.** Graba un pase con la música bien audible y mira si tus acentos caen en las cuentas. Más en [cómo grabarte bailando](https://dancify.studio/es/blog/como-grabarte-bailando/).
 
-Contar es también la columna vertebral para aprender coreografías: cuando oyes los ochos, partir una pieza en bloques sale solo. Lo tienes en [cómo aprender coreografías rápido](https://kkoskenvirta.github.io/dancify-site/es/blog/aprender-coreografias-rapido/).
+Contar es también la columna vertebral para aprender coreografías: cuando oyes los ochos, partir una pieza en bloques sale solo. Lo tienes en [cómo aprender coreografías rápido](https://dancify.studio/es/blog/aprender-coreografias-rapido/).
 
 ## Cómo te ayuda Dancify a contar
 
-![Reproductor de Dancify con las cuentas del 1 al 8 en pantalla al compás de la música sobre una toma de ensayo](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/player-counts.webp)
+![Reproductor de Dancify con las cuentas del 1 al 8 en pantalla al compás de la música sobre una toma de ensayo](https://dancify.studio/assets/img/app/es/player-counts.webp)
 
 Gratis en Dancify **Las cuentas sobre tu propia toma** Activa Cuentas en el reproductor y el 1 al 8 avanza al compás de la música. Ajusta el tempo con Marcar tempo, indica dónde está el 1 y salta un ocho adelante o atrás. Repite un ocho con el bucle A–B, con una pausa opcional de un ocho antes de que vuelva a empezar.
 
@@ -171,7 +171,7 @@ Kasper diseña y desarrolla Dancify en AppRise Ventures, en Espoo (Finlandia). D
 
 Aprender 8 min de lectura
 
-### [Cómo aprender coreografías rápido (y que no se te olviden)](https://kkoskenvirta.github.io/dancify-site/es/blog/aprender-coreografias-rapido/)
+### [Cómo aprender coreografías rápido (y que no se te olviden)](https://dancify.studio/es/blog/aprender-coreografias-rapido/)
 
 Cómo aprender coreografías rápido: mapa de la pieza, aprender por ochos, marcar, usar bien el espejo, ralentizar el vídeo, repetir en bucle y grabarte.
 
@@ -179,7 +179,7 @@ Cómo aprender coreografías rápido: mapa de la pieza, aprender por ochos, marc
 
 Práctica 10 min de lectura
 
-### [Cómo practicar baile en casa: espacio, calentamiento y plan semanal](https://kkoskenvirta.github.io/dancify-site/es/blog/practicar-baile-en-casa/)
+### [Cómo practicar baile en casa: espacio, calentamiento y plan semanal](https://dancify.studio/es/blog/practicar-baile-en-casa/)
 
 Cómo practicar baile en casa: espacio y suelo seguros, calcetines o zapatillas, calentamiento, una sesión de 30 minutos, plan semanal por nivel y descanso.
 

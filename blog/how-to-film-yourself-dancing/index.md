@@ -1,11 +1,11 @@
 ---
 title: "How to Film Yourself Dancing: Angles, Light and Setup"
 description: "How to film yourself dancing with a phone: camera height and distance for each style, the best angle, light, sound, phone stands and six mistakes to avoid."
-url: "https://kkoskenvirta.github.io/dancify-site/blog/how-to-film-yourself-dancing/"
+url: "https://dancify.studio/blog/how-to-film-yourself-dancing/"
 ---
 
-1. [Home](https://kkoskenvirta.github.io/dancify-site/)
-2. [Blog](https://kkoskenvirta.github.io/dancify-site/blog/)
+1. [Home](https://dancify.studio/)
+2. [Blog](https://dancify.studio/blog/)
 3. How to film yourself dancing: angles, light and setup
 
 Filming 9 min read
@@ -16,7 +16,7 @@ The run felt clean, then the video showed bent knees and cropped feet. Here's ho
 
 **Kasper Koskenvirta** Maker of Dancify · Published November 3, 2026
 
-![Three Dancify app screens on iPhone](https://kkoskenvirta.github.io/dancify-site/assets/img/covers/en-film-yourself-1200.webp)
+![Three Dancify app screens on iPhone](https://dancify.studio/assets/img/covers/en-film-yourself-1200.webp)
 
 Every dancer knows the moment: the run felt clean, then the video shows a bent supporting knee, a late arm and feet that never quite pointed. Filming yourself is the most honest teacher you'll ever have, as long as the camera is set up to show what matters. Here's how to do it well with nothing more than a phone.
 
@@ -70,7 +70,7 @@ Front is the default because it's how an audience sees you. But it hides depth: 
 - **Front corner (45°):** the most flattering and most honest at once, great for showcase runs.
 - **From behind:** when you're learning from a video, filming from behind means you and the teacher face the same way, so left is left.
 
-If you want to compare your progress later, pick one angle as your "record" angle and never change it. Same spot, same height, same lens. Our guide to [making a dance progress video](https://kkoskenvirta.github.io/dancify-site/blog/dance-progress-video/) explains why that consistency matters more than anything else.
+If you want to compare your progress later, pick one angle as your "record" angle and never change it. Same spot, same height, same lens. Our guide to [making a dance progress video](https://dancify.studio/blog/dance-progress-video/) explains why that consistency matters more than anything else.
 
 ## Light, frame rate and sound
 
@@ -102,9 +102,9 @@ Filming everything means watching nothing. A simple rhythm that works for most d
 
 1. **One full run** From the top, with music, at performance energy. This is your record of the day.
 2. **One problem section** The eight-counts that keep going wrong, filmed two or three times, so you can see if the fix is working.
-3. **One note** A sentence about what you noticed. It's the start of a [dance practice journal](https://kkoskenvirta.github.io/dancify-site/blog/dance-practice-journal/), and it's what makes a pile of videos useful.
+3. **One note** A sentence about what you noticed. It's the start of a [dance practice journal](https://dancify.studio/blog/dance-practice-journal/), and it's what makes a pile of videos useful.
 
-If you're still learning the piece, filming the section you just learned is the fastest way to find out what you actually remember. More on that in [how to learn choreography faster](https://kkoskenvirta.github.io/dancify-site/blog/how-to-learn-choreography-faster/).
+If you're still learning the piece, filming the section you just learned is the fastest way to find out what you actually remember. More on that in [how to learn choreography faster](https://dancify.studio/blog/how-to-learn-choreography-faster/).
 
 ## Six mistakes that ruin dance videos
 
@@ -119,7 +119,7 @@ If you're still learning the piece, filming the section you just learned is the 
 
 We built Dancify's camera for exactly this, because the standard camera app wasn't made for someone who has to run to a mark across the room.
 
-![Dancify camera with Follow locked on to a dancer mid-move, focus and exposure staying on her](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/camera-follow.webp)
+![Dancify camera with Follow locked on to a dancer mid-move, focus and exposure staying on her](https://dancify.studio/assets/img/app/en/camera-follow.webp)
 
 Free in Dancify **A camera that waits for the count** Hit record and a musical count-in ("5, 6, 7, 8") at your tempo gives you time to walk to your mark. Tap yourself to Follow: focus and exposure stay on you as you move, and Keep in frame can zoom gently to hold you. With a DockKit stand, the stand turns with you.
 
@@ -181,7 +181,7 @@ Kasper designs and builds Dancify at AppRise Ventures in Espoo, Finland. Dancify
 
 Progress 8 min read
 
-### [How to make a dance progress video that's honest and motivating](https://kkoskenvirta.github.io/dancify-site/blog/dance-progress-video/)
+### [How to make a dance progress video that's honest and motivating](https://dancify.studio/blog/dance-progress-video/)
 
 How to make a dance progress video: film the same combo the same way, how often, what to compare, sequence vs side-by-side vs grid, dates and sharing.
 
@@ -189,7 +189,7 @@ October 29, 2026
 
 Learning 7 min read
 
-### [How to learn choreography faster (and actually remember it)](https://kkoskenvirta.github.io/dancify-site/blog/how-to-learn-choreography-faster/)
+### [How to learn choreography faster (and actually remember it)](https://dancify.studio/blog/how-to-learn-choreography-faster/)
 
 How to learn choreography faster: map the piece, learn in eight-counts, mark it, use the mirror wisely, slow the video down, loop hard parts and film to check.
 

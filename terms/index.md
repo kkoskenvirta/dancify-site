@@ -1,7 +1,7 @@
 ---
 title: "Terms of Use – Dancify"
 description: "Terms of use for Dancify, the camera, practice diary and video editor for dancers, including Dancify Premium subscriptions."
-url: "https://kkoskenvirta.github.io/dancify-site/terms/"
+url: "https://dancify.studio/terms/"
 ---
 
 Terms of use
@@ -20,7 +20,7 @@ We give you a personal, non-exclusive, non-transferable licence to use Dancify o
 
 ## 3. Your recordings and diary
 
-What you record and write in Dancify is yours. It's stored on your device and, if you turn on sync, in your own iCloud (see the [privacy policy](https://kkoskenvirta.github.io/dancify-site/privacy/)). We don't receive it and claim no rights to it.
+What you record and write in Dancify is yours. It's stored on your device and, if you turn on sync, in your own iCloud (see the [privacy policy](https://dancify.studio/privacy/)). We don't receive it and claim no rights to it.
 
 You're responsible for what you film and share. Only film people who are happy to be filmed, respect your studio's rules about cameras, and make sure you have the rights to music, choreography and reference videos you use, especially before sharing or publishing an edit or a reel.
 

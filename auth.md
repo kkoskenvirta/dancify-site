@@ -8,7 +8,7 @@ AI agents, assistants and crawlers that read this site or are asked to do someth
 
 ## Reading the site: no credentials
 
-Everything on this site is public and read-only: the landing pages in English, Spanish and German, the blog, the privacy policy and terms, [llms.txt](https://kkoskenvirta.github.io/dancify-site/llms.txt) and [llms-full.txt](https://kkoskenvirta.github.io/dancify-site/llms-full.txt). Every page also has a Markdown version: send `Accept: text/markdown`, or add `index.md` to a page URL that ends in `/` (for example `https://kkoskenvirta.github.io/dancify-site/blog/index.md`). There is no API key, token or sign-up. Please follow [robots.txt](https://kkoskenvirta.github.io/dancify-site/robots.txt) and its Content Signals.
+Everything on this site is public and read-only: the landing pages in English, Spanish and German, the blog, the privacy policy and terms, [llms.txt](https://dancify.studio/llms.txt) and [llms-full.txt](https://dancify.studio/llms-full.txt). Every page also has a Markdown version: send `Accept: text/markdown`, or add `index.md` to a page URL that ends in `/` (for example `https://dancify.studio/blog/index.md`). There is no API key, token or sign-up. Please follow [robots.txt](https://dancify.studio/robots.txt) and its Content Signals.
 
 ## Registration and provisioning
 

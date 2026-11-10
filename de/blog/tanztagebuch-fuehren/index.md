@@ -1,11 +1,11 @@
 ---
 title: "Tanztagebuch führen: Was notieren, mit Schreibfragen"
 description: "Tanztagebuch führen: was du nach jeder Stunde notieren solltest, ein Fünf-Minuten-Eintrag, Schreibfragen für Tanzende und ein Wochenrückblick für Fortschritt."
-url: "https://kkoskenvirta.github.io/dancify-site/de/blog/tanztagebuch-fuehren/"
+url: "https://dancify.studio/de/blog/tanztagebuch-fuehren/"
 ---
 
-1. [Startseite](https://kkoskenvirta.github.io/dancify-site/de/)
-2. [Blog](https://kkoskenvirta.github.io/dancify-site/de/blog/)
+1. [Startseite](https://dancify.studio/de/)
+2. [Blog](https://dancify.studio/de/blog/)
 3. Tanztagebuch führen: was du notieren solltest, mit Schreibfragen
 
 Training 8 Min. Lesezeit
@@ -16,7 +16,7 @@ Korrekturen verblassen, kleine Erfolge gehen verloren, und drei Wochen Training 
 
 **Kasper Koskenvirta** Macher von Dancify · Veröffentlicht am 25. Oktober 2026
 
-![Drei Ansichten der Dancify-App auf dem iPhone](https://kkoskenvirta.github.io/dancify-site/assets/img/covers/de-practice-journal-1200.webp)
+![Drei Ansichten der Dancify-App auf dem iPhone](https://dancify.studio/assets/img/covers/de-practice-journal-1200.webp)
 
 Frag eine Tänzerin, woran sie vor drei Wochen gearbeitet hat, und meistens kommt: nichts. Die Korrekturen, der kleine Erfolg im Donnerstagstraining, die Stelle, die endlich geklappt hat: Alles verschwimmt. Ein Tanztagebuch hält es fest. Es kostet fünf Minuten nach dem Tanzen und macht aus einem Stapel Stunden etwas, aus dem du lernen kannst.
 
@@ -60,12 +60,12 @@ Tags helfen später: die Choreo, der Stil, die Fähigkeit ("Drehungen", "Boden",
 3. **Einen Erfolg benennen.** Konkret: nicht "gute Stunde", sondern "Fersen unten beim Chassé". Um die kleinen Erfolge geht es.
 4. **Eine Baustelle benennen.** Nur eine. Eine Liste mit zehn ist eine Liste mit keiner.
 5. **Die Korrektur wörtlich aufschreiben.** Der genaue Satz deiner Lehrerin ist oft genau das Bild, das später klick macht.
-6. **Eine Aufnahme dazulegen.** Auch nur 30 Sekunden der Stelle. Worte sagen, was du glaubst, dass passiert ist; das Video zeigt, was passiert ist. Wenn du noch nicht filmst: In [sich beim Tanzen filmen](https://kkoskenvirta.github.io/dancify-site/de/blog/sich-beim-tanzen-filmen/) steht der ganze Aufbau.
+6. **Eine Aufnahme dazulegen.** Auch nur 30 Sekunden der Stelle. Worte sagen, was du glaubst, dass passiert ist; das Video zeigt, was passiert ist. Wenn du noch nicht filmst: In [sich beim Tanzen filmen](https://dancify.studio/de/blog/sich-beim-tanzen-filmen/) steht der ganze Aufbau.
 7. **Die erste Aufgabe für morgen notieren.** "Mit dem Arm-Timing im Refrain anfangen." So gehst du mit einem Plan ins nächste Training.
 
 **Ein echter Eintrag, von Anfang bis Ende.** "Do, 24. Okt., eigenes Training, 40 Min., Slow Burn. Erfolg: Die Drehfolge im zweiten Refrain sitzt endlich auf der Musik. Baustelle: Ich rutsche beim Slide auf der 6 zu weit und komme zu spät zur 7. Korrektur vom Dienstag: 'Kleiner, schneller, dann größer.' Aufnahme: ganzer Durchlauf, Aufnahme 3. Körper: gut, Waden fest. Morgen: Slide auf der 6 mit Markierung am Boden, zehn Schleifen."
 
-Unter hundert Wörter und zwei Minuten Tippen. Wenn du zwischen den Stunden zu Hause übst, kombinier das Tagebuch mit einem einfachen [Wochenplan fürs Tanzen zu Hause](https://kkoskenvirta.github.io/dancify-site/de/blog/tanzen-zu-hause-ueben/), dann hat jeder Eintrag etwas, worüber er berichten kann.
+Unter hundert Wörter und zwei Minuten Tippen. Wenn du zwischen den Stunden zu Hause übst, kombinier das Tagebuch mit einem einfachen [Wochenplan fürs Tanzen zu Hause](https://dancify.studio/de/blog/tanzen-zu-hause-ueben/), dann hat jeder Eintrag etwas, worüber er berichten kann.
 
 ## Schreibfragen für Tänzerinnen und Tänzer
 
@@ -87,7 +87,7 @@ Ein Tagebuch, das niemand liest, ist nur ein Archiv. Zehn Minuten pro Woche, und
 
 Lies auch den gestrigen Eintrag vor dem heutigen Training. Schlaf scheint motorischen Fähigkeiten beim Festigen zu helfen: In einer bekannten Studie waren Menschen, die eine Fingertipp-Sequenz geübt hatten, nach einer Nacht Schlaf rund 20 % schneller, während dieselbe Zeit im Wachzustand keinen nennenswerten Gewinn brachte.[3] Tanzen ist viel komplexer als Fingertippen, aber die Gewohnheit kostet nichts: Fang dort an, wo du gestern aufgehört hast, nicht bei null.
 
-Einmal im Monat gehst du weiter zurück. Leg deine erste Aufnahme einer Choreo neben die neueste. Oft ist das der Moment, in dem du siehst, wie viel sich verändert hat, und es ist das Rohmaterial für ein [Tanz-Fortschrittsvideo](https://kkoskenvirta.github.io/dancify-site/de/blog/tanz-fortschritt-video/).
+Einmal im Monat gehst du weiter zurück. Leg deine erste Aufnahme einer Choreo neben die neueste. Oft ist das der Moment, in dem du siehst, wie viel sich verändert hat, und es ist das Rohmaterial für ein [Tanz-Fortschrittsvideo](https://dancify.studio/de/blog/tanz-fortschritt-video/).
 
 ## Notizbuch oder App?
 
@@ -109,11 +109,11 @@ Einmal im Monat gehst du weiter zurück. Leg deine erste Aufnahme einer Choreo n
 
 Dancify beruht auf einer Idee: Ein Tanztagebuch sollte aus deinen eigenen Aufnahmen bestehen. Du filmst eine Aufnahme, und ein Bild daraus landet an diesem Tag im Kalender; über die Wochen füllt sich der Monat mit deinem eigenen Tanzen.
 
-![Dancify-Kalender, in dem jeder Trainingstag ein Bild aus der Aufnahme dieses Tages zeigt](https://kkoskenvirta.github.io/dancify-site/assets/img/app/de/journal.webp)
+![Dancify-Kalender, in dem jeder Trainingstag ein Bild aus der Aufnahme dieses Tages zeigt](https://dancify.studio/assets/img/app/de/journal.webp)
 
 **Ein Kalender aus Bildern** Jeder Tag zeigt ein Bild aus dem, was du getanzt hast; mehrere Aufnahmen stapeln sich wie Abzüge. Kostenlos.
 
-![Ein Tag in Dancify mit drei Aufnahmen, einer Notiz und Tags](https://kkoskenvirta.github.io/dancify-site/assets/img/app/de/day.webp)
+![Ein Tag in Dancify mit drei Aufnahmen, einer Notiz und Tags](https://dancify.studio/assets/img/app/de/day.webp)
 
 **Der Tag, mit Notizen** Aufnahmen, Notizen, Tags, Favoriten und Meilensteine zusammen. Stunden lassen sich auch ohne Video eintragen.
 
@@ -169,7 +169,7 @@ Kasper entwirft und entwickelt Dancify bei AppRise Ventures in Espoo, Finnland. 
 
 Filmen 9 Min. Lesezeit
 
-### [Sich beim Tanzen filmen: Perspektive, Licht und Aufbau](https://kkoskenvirta.github.io/dancify-site/de/blog/sich-beim-tanzen-filmen/)
+### [Sich beim Tanzen filmen: Perspektive, Licht und Aufbau](https://dancify.studio/de/blog/sich-beim-tanzen-filmen/)
 
 Sich beim Tanzen filmen mit dem Handy: Kamerahöhe und Abstand pro Tanzstil, die beste Perspektive, Licht, Ton, Stative und sechs Fehler, die Videos ruinieren.
 
@@ -177,7 +177,7 @@ Sich beim Tanzen filmen mit dem Handy: Kamerahöhe und Abstand pro Tanzstil, die
 
 Training 10 Min. Lesezeit
 
-### [Zu Hause tanzen üben: Platz, Aufwärmen und ein Wochenplan](https://kkoskenvirta.github.io/dancify-site/de/blog/tanzen-zu-hause-ueben/)
+### [Zu Hause tanzen üben: Platz, Aufwärmen und ein Wochenplan](https://dancify.studio/de/blog/tanzen-zu-hause-ueben/)
 
 Zu Hause tanzen üben: sichere Fläche und Boden, Socken oder Schuhe, Aufwärmen, eine 30-Minuten-Einheit, Wochenpläne für Einsteiger und Fortgeschrittene.
 

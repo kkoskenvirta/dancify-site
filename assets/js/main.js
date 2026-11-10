@@ -32,7 +32,7 @@ const initReveal = () => {
 // browser only (localStorage "dancify-lang"), so English-only pages (privacy, terms, 404) link back to the right
 // home and blog. Nobody is ever redirected away from the page they asked for, except "/" for someone who chose.
 // The site's path on its host ("" at a domain root). tools/rebase.py sets it from site.json "base".
-const ROOT = "/dancify-site";
+const ROOT = "";
 const LANGS = ["en", "es", "de"];
 const HOME = { en: ROOT + "/", es: ROOT + "/es/", de: ROOT + "/de/" };
 const BLOG = { en: ROOT + "/blog/", es: ROOT + "/es/blog/", de: ROOT + "/de/blog/" };

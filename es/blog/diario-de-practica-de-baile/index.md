@@ -1,11 +1,11 @@
 ---
 title: "Diario de baile: qué apuntar y preguntas para escribir"
 description: "Cómo llevar un diario de práctica de baile: qué apuntar después de cada clase, una entrada de cinco minutos, preguntas para escribir y un repaso semanal."
-url: "https://kkoskenvirta.github.io/dancify-site/es/blog/diario-de-practica-de-baile/"
+url: "https://dancify.studio/es/blog/diario-de-practica-de-baile/"
 ---
 
-1. [Inicio](https://kkoskenvirta.github.io/dancify-site/es/)
-2. [Blog](https://kkoskenvirta.github.io/dancify-site/es/blog/)
+1. [Inicio](https://dancify.studio/es/)
+2. [Blog](https://dancify.studio/es/blog/)
 3. Cómo llevar un diario de práctica de baile: qué apuntar, con preguntas
 
 Práctica 8 min de lectura
@@ -16,7 +16,7 @@ Las correcciones se olvidan, las pequeñas victorias se pierden y tres semanas d
 
 **Kasper Koskenvirta** Creador de Dancify · Publicado el 25 de octubre de 2026
 
-![Tres pantallas de la app Dancify en iPhone](https://kkoskenvirta.github.io/dancify-site/assets/img/covers/es-practice-journal-1200.webp)
+![Tres pantallas de la app Dancify en iPhone](https://dancify.studio/assets/img/covers/es-practice-journal-1200.webp)
 
 Pregúntale a cualquier bailarín qué trabajó hace tres semanas y lo normal es que se quede en blanco. Las correcciones, la pequeña victoria del jueves, esa parte que por fin salió: todo se mezcla. Un diario de baile lo guarda. Te lleva cinco minutos después de bailar y convierte un montón de clases en algo de lo que aprender.
 
@@ -60,12 +60,12 @@ Las etiquetas ayudan después: la pieza, el estilo, la habilidad ("giros", "suel
 3. **Nombra una victoria.** Concreta: no "buena clase", sino "talones abajo en el chassé". Las pequeñas victorias son lo importante.
 4. **Nombra una cosa que corregir.** Solo una. Una lista de diez es una lista de ninguna.
 5. **Copia la corrección palabra por palabra.** La frase exacta de tu profe suele ser la que hace clic más adelante.
-6. **Añade una toma.** Aunque sean 30 segundos de esa parte. Las palabras dicen lo que crees que pasó; el vídeo, lo que pasó. Si todavía no te grabas, en [cómo grabarte bailando](https://kkoskenvirta.github.io/dancify-site/es/blog/como-grabarte-bailando/) tienes todo el montaje.
+6. **Añade una toma.** Aunque sean 30 segundos de esa parte. Las palabras dicen lo que crees que pasó; el vídeo, lo que pasó. Si todavía no te grabas, en [cómo grabarte bailando](https://dancify.studio/es/blog/como-grabarte-bailando/) tienes todo el montaje.
 7. **Escribe la primera tarea de mañana.** "Empezar por el tempo de los brazos en el estribillo." Así llegas al siguiente ensayo con un plan.
 
 **Una entrada real, de principio a fin.** "Jue 24 oct, ensayo por mi cuenta, 40 min, Slow Burn. Victoria: la secuencia de giros del segundo estribillo por fin va con la música. Corregir: me desplazo demasiado en el deslizamiento del 6 y llego tarde al 7. Corrección de la profe del martes: 'Más pequeño, más rápido, luego más grande.' Toma: pase completo, toma 3. Cuerpo: bien, gemelos cargados. Mañana: el deslizamiento del 6 con una marca en el suelo, diez vueltas en bucle."
 
-Menos de cien palabras y dos minutos escribiendo. Si ensayas en casa entre clase y clase, combina el diario con un [plan semanal para practicar baile en casa](https://kkoskenvirta.github.io/dancify-site/es/blog/practicar-baile-en-casa/), así cada entrada tiene algo que contar.
+Menos de cien palabras y dos minutos escribiendo. Si ensayas en casa entre clase y clase, combina el diario con un [plan semanal para practicar baile en casa](https://dancify.studio/es/blog/practicar-baile-en-casa/), así cada entrada tiene algo que contar.
 
 ## Preguntas para tu diario de baile
 
@@ -87,7 +87,7 @@ Un diario que nadie lee es solo un archivo. Diez minutos a la semana es cuando a
 
 Lee también la entrada de ayer antes de ensayar hoy. Parece que el sueño ayuda a asentar lo aprendido con el cuerpo: en un estudio muy citado, quienes practicaron una secuencia de pulsaciones con los dedos fueron alrededor de un 20 % más rápidos tras una noche de sueño, mientras que las mismas horas despiertos no trajeron una mejora significativa.[3] Bailar es mucho más complejo que teclear, pero el hábito no cuesta nada: empieza donde acabaste ayer, no desde cero.
 
-Una vez al mes, ve más atrás. Pon tu primera toma de una pieza al lado de la última. Ahí es cuando sueles ver cuánto ha cambiado, y es la materia prima de un [vídeo de progreso de baile](https://kkoskenvirta.github.io/dancify-site/es/blog/video-de-progreso-de-baile/).
+Una vez al mes, ve más atrás. Pon tu primera toma de una pieza al lado de la última. Ahí es cuando sueles ver cuánto ha cambiado, y es la materia prima de un [vídeo de progreso de baile](https://dancify.studio/es/blog/video-de-progreso-de-baile/).
 
 ## ¿Cuaderno o app?
 
@@ -109,11 +109,11 @@ Una vez al mes, ve más atrás. Pon tu primera toma de una pieza al lado de la �
 
 Dancify parte de una idea: un diario de baile debería estar hecho de tus propios vídeos. Grabas una toma y un fotograma cae en ese día del calendario; con las semanas, el mes se llena de tu propio baile.
 
-![Calendario de Dancify donde cada día de práctica muestra un fotograma de la grabación de ese día](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/journal.webp)
+![Calendario de Dancify donde cada día de práctica muestra un fotograma de la grabación de ese día](https://dancify.studio/assets/img/app/es/journal.webp)
 
 **Un calendario de fotogramas** Cada día muestra un fotograma de lo que bailaste; varias tomas se apilan como copias impresas. Gratis.
 
-![Día en Dancify con tres tomas, una nota y etiquetas de un ensayo](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/day.webp)
+![Día en Dancify con tres tomas, una nota y etiquetas de un ensayo](https://dancify.studio/assets/img/app/es/day.webp)
 
 **El día, con notas** Tomas, notas, etiquetas, favoritos e hitos juntos. Las clases se pueden anotar sin vídeo.
 
@@ -169,7 +169,7 @@ Kasper diseña y desarrolla Dancify en AppRise Ventures, en Espoo (Finlandia). D
 
 Grabar 10 min de lectura
 
-### [Cómo grabarte bailando: ángulo, luz y altura del móvil](https://kkoskenvirta.github.io/dancify-site/es/blog/como-grabarte-bailando/)
+### [Cómo grabarte bailando: ángulo, luz y altura del móvil](https://dancify.studio/es/blog/como-grabarte-bailando/)
 
 Cómo grabarte bailando con el móvil: altura y distancia de la cámara por estilo, el mejor ángulo, luz, sonido, trípodes y seis errores que estropean el vídeo.
 
@@ -177,7 +177,7 @@ Cómo grabarte bailando con el móvil: altura y distancia de la cámara por esti
 
 Práctica 10 min de lectura
 
-### [Cómo practicar baile en casa: espacio, calentamiento y plan semanal](https://kkoskenvirta.github.io/dancify-site/es/blog/practicar-baile-en-casa/)
+### [Cómo practicar baile en casa: espacio, calentamiento y plan semanal](https://dancify.studio/es/blog/practicar-baile-en-casa/)
 
 Cómo practicar baile en casa: espacio y suelo seguros, calcetines o zapatillas, calentamiento, una sesión de 30 minutos, plan semanal por nivel y descanso.
 

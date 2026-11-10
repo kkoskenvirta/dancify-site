@@ -1,11 +1,11 @@
 ---
 title: "Practicar baile en casa: plan semanal, espacio y seguridad"
 description: "Cómo practicar baile en casa: espacio y suelo seguros, calcetines o zapatillas, calentamiento, una sesión de 30 minutos, plan semanal por nivel y descanso."
-url: "https://kkoskenvirta.github.io/dancify-site/es/blog/practicar-baile-en-casa/"
+url: "https://dancify.studio/es/blog/practicar-baile-en-casa/"
 ---
 
-1. [Inicio](https://kkoskenvirta.github.io/dancify-site/es/)
-2. [Blog](https://kkoskenvirta.github.io/dancify-site/es/blog/)
+1. [Inicio](https://dancify.studio/es/)
+2. [Blog](https://dancify.studio/es/blog/)
 3. Cómo practicar baile en casa: espacio, calentamiento y plan semanal
 
 Práctica 10 min de lectura
@@ -16,7 +16,7 @@ Un salón no tiene profe, ni suelo flotante, ni plan. Cómo preparar un espacio 
 
 **Kasper Koskenvirta** Creador de Dancify · Publicado el 23 de octubre de 2026
 
-![Tres pantallas de la app Dancify en iPhone](https://kkoskenvirta.github.io/dancify-site/assets/img/covers/es-practice-at-home-1200.webp)
+![Tres pantallas de la app Dancify en iPhone](https://dancify.studio/assets/img/covers/es-practice-at-home-1200.webp)
 
 En clase aprendes los pasos. En casa es donde se vuelven tuyos. El problema es que un salón no tiene profe, ni suelo flotante, ni plan, así que la práctica acaba en buscar tutoriales o en repetir el mismo pase diez veces. Con un poco de estructura se arregla casi todo.
 
@@ -95,7 +95,7 @@ Antes de añadir días, alarga las sesiones. Pasar de tres a cinco sesiones de u
 - **Bailes en pareja** Básicos y tiempo en solitario: el básico de salsa o bachata a tiempo, marco y brazos, figuras de pies.
 - **Claqué y danza irlandesa** Rudimentos en tabla de práctica a un tempo lento y constante, y después más rápido poco a poco.
 
-En coreografía, cómo divides la pieza importa tanto como el tiempo que le dedicas. Lo explicamos en [cómo aprender coreografías rápido](https://kkoskenvirta.github.io/dancify-site/es/blog/aprender-coreografias-rapido/), y si te pierdes en la canción, te ayudará [contar la música](https://kkoskenvirta.github.io/dancify-site/es/blog/como-contar-la-musica-en-el-baile/).
+En coreografía, cómo divides la pieza importa tanto como el tiempo que le dedicas. Lo explicamos en [cómo aprender coreografías rápido](https://dancify.studio/es/blog/aprender-coreografias-rapido/), y si te pierdes en la canción, te ayudará [contar la música](https://dancify.studio/es/blog/como-contar-la-musica-en-el-baile/).
 
 ## Diez minutos de acondicionamiento
 
@@ -111,7 +111,7 @@ La mayoría de las lesiones de baile están en el tren inferior. En una revisió
 
 El espejo te enseña un ángulo mientras estás ocupada bailando. La grabación te enseña lo que pasó de verdad. No hace falta grabarlo todo: una toma del objetivo del día, desde el mismo sitio, es suficiente. Escribe una frase al lado: qué ha mejorado y qué toca corregir.
 
-Con unas semanas, esas tomas se convierten en algo mejor que la motivación: pruebas. Guárdalas en un [diario de práctica](https://kkoskenvirta.github.io/dancify-site/es/blog/diario-de-practica-de-baile/) y, cuando tengas un mes o dos, pon la primera y la última lado a lado en un [vídeo de progreso](https://kkoskenvirta.github.io/dancify-site/es/blog/video-de-progreso-de-baile/). Si dudas con la colocación del móvil, mira [cómo grabarte bailando](https://kkoskenvirta.github.io/dancify-site/es/blog/como-grabarte-bailando/).
+Con unas semanas, esas tomas se convierten en algo mejor que la motivación: pruebas. Guárdalas en un [diario de práctica](https://dancify.studio/es/blog/diario-de-practica-de-baile/) y, cuando tengas un mes o dos, pon la primera y la última lado a lado en un [vídeo de progreso](https://dancify.studio/es/blog/video-de-progreso-de-baile/). Si dudas con la colocación del móvil, mira [cómo grabarte bailando](https://dancify.studio/es/blog/como-grabarte-bailando/).
 
 ## Descanso y prevención de lesiones
 
@@ -128,15 +128,15 @@ La práctica en casa se suma a las clases, así que es fácil pasarse. La mayor�
 
 Practicar en casa es más fácil con algunas herramientas que un salón no tiene. Dancify las reúne en una app para iPhone y iPad.
 
-![Reproductor de Dancify con un bucle A–B marcado alrededor de una parte de una toma de práctica, con controles de cámara lenta y espejo](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/player-loop.webp)
+![Reproductor de Dancify con un bucle A–B marcado alrededor de una parte de una toma de práctica, con controles de cámara lenta y espejo](https://dancify.studio/assets/img/app/es/player-loop.webp)
 
 Gratis en Dancify **Repite una parte, despacio** Marca un bucle A–B en el ocho que siempre se tuerce, con una pausa opcional de un ocho para volver a tu sitio. Ralentízalo hasta 0,25×, ponlo en espejo y activa las cuentas para ver el 1 al 8 sobre la música.
 
-![Cámara de Dancify grabando a una bailarina mientras un vídeo de referencia se reproduce en una esquina](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/camera-reference.webp)
+![Cámara de Dancify grabando a una bailarina mientras un vídeo de referencia se reproduce en una esquina](https://dancify.studio/assets/img/app/es/camera-reference.webp)
 
 **Practica con una referencia** Pon el vídeo de tu profe o una toma tuya anterior mientras grabas, empezando en el primer tiempo de la cuenta de entrada.
 
-![Calendario de Dancify en octubre en el que cada día de práctica muestra un fotograma del vídeo de ese día, con cinta de colores para clases y prácticas](https://kkoskenvirta.github.io/dancify-site/assets/img/app/es/journal.webp)
+![Calendario de Dancify en octubre en el que cada día de práctica muestra un fotograma del vídeo de ese día, con cinta de colores para clases y prácticas](https://dancify.studio/assets/img/app/es/journal.webp)
 
 **Un calendario de fotogramas** Cada día muestra un fotograma de lo que bailaste, y también puedes apuntar los días sin vídeo.
 
@@ -197,7 +197,7 @@ Kasper diseña y desarrolla Dancify en AppRise Ventures, en Espoo (Finlandia). D
 
 Aprender 8 min de lectura
 
-### [Cómo aprender coreografías rápido (y que no se te olviden)](https://kkoskenvirta.github.io/dancify-site/es/blog/aprender-coreografias-rapido/)
+### [Cómo aprender coreografías rápido (y que no se te olviden)](https://dancify.studio/es/blog/aprender-coreografias-rapido/)
 
 Cómo aprender coreografías rápido: mapa de la pieza, aprender por ochos, marcar, usar bien el espejo, ralentizar el vídeo, repetir en bucle y grabarte.
 
@@ -205,7 +205,7 @@ Cómo aprender coreografías rápido: mapa de la pieza, aprender por ochos, marc
 
 Práctica 8 min de lectura
 
-### [Cómo llevar un diario de práctica de baile: qué apuntar, con preguntas](https://kkoskenvirta.github.io/dancify-site/es/blog/diario-de-practica-de-baile/)
+### [Cómo llevar un diario de práctica de baile: qué apuntar, con preguntas](https://dancify.studio/es/blog/diario-de-practica-de-baile/)
 
 Cómo llevar un diario de práctica de baile: qué apuntar después de cada clase, una entrada de cinco minutos, preguntas para escribir y un repaso semanal.
 

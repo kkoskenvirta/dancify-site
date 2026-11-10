@@ -1,11 +1,11 @@
 ---
 title: "Why We Built Dancify: A Practice Diary Made of Footage"
 description: "The story behind Dancify: why dancers' practice videos get lost, the six decisions that shaped the app, what we left out on purpose, and what comes next."
-url: "https://kkoskenvirta.github.io/dancify-site/blog/why-we-built-dancify/"
+url: "https://dancify.studio/blog/why-we-built-dancify/"
 ---
 
-1. [Home](https://kkoskenvirta.github.io/dancify-site/)
-2. [Blog](https://kkoskenvirta.github.io/dancify-site/blog/)
+1. [Home](https://dancify.studio/)
+2. [Blog](https://dancify.studio/blog/)
 3. Why we built a dance practice app with no feed and no scores
 
 Behind Dancify 6 min read
@@ -16,7 +16,7 @@ Dancers film everything and find nothing. Here's why we built Dancify around the
 
 **Kasper Koskenvirta** Maker of Dancify · Published October 20, 2026
 
-![Three Dancify app screens on iPhone](https://kkoskenvirta.github.io/dancify-site/assets/img/covers/en-why-we-built-dancify-1200.webp)
+![Three Dancify app screens on iPhone](https://dancify.studio/assets/img/covers/en-why-we-built-dancify-1200.webp)
 
 Dancers film everything. The warm-up, the combo at the end of class, the third run of the piece, the one where it finally worked. Then the clips sink into the camera roll between screenshots and holiday photos, and when you want to know whether your turns have improved since spring, you scroll for ten minutes and give up. Dancify started with that scroll.
 
@@ -45,7 +45,7 @@ We wanted the opposite: a place where filming practice and remembering it are th
 - **A free editor** Frame-accurate trims, speed changes and ramps, freeze frames, crop and colour, titles, captions, a date stamp and music. Exports become a new take; the original is never changed. Editing your own practice shouldn't cost extra.
 - **Premium only for progress** Dancify Premium adds progress reels (first try to latest, with dates), side-by-side compare and a pose guide. Everything you need to film, practise and keep a diary stays free.
 
-![Dancify October calendar where practice days show a frame from that day's video, with strips of coloured tape for classes and practice, and the selected day listing three takes](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/journal.webp)
+![Dancify October calendar where practice days show a frame from that day's video, with strips of coloured tape for classes and practice, and the selected day listing three takes](https://dancify.studio/assets/img/app/en/journal.webp)
 
 Free in Dancify **Why the calendar shows frames, not dots** Dots and heatmaps tell you how often you practised. Frames remind you what you practised: the costume from the showcase, the barre in the old studio, the evening the turn finally landed. Strips of coloured tape, like spike tape on a stage floor, mark classes, rehearsals and practice.
 
@@ -77,15 +77,15 @@ Progress in dance is quiet. We wanted an app that's quiet too, and then shows yo
 
 ## Made for every style
 
-A ballet or contemporary dancer can check lines at the barre. A hip-hop, heels or K-pop dancer can loop the eight-count that won't stick. Salsa and ballroom couples can film their basics, and tap and Irish dancers can slow their footwork to a quarter of the speed. The tools are the same; the camera height changes. Our guide to [filming yourself dancing](https://kkoskenvirta.github.io/dancify-site/blog/how-to-film-yourself-dancing/) covers that part.
+A ballet or contemporary dancer can check lines at the barre. A hip-hop, heels or K-pop dancer can loop the eight-count that won't stick. Salsa and ballroom couples can film their basics, and tap and Irish dancers can slow their footwork to a quarter of the speed. The tools are the same; the camera height changes. Our guide to [filming yourself dancing](https://dancify.studio/blog/how-to-film-yourself-dancing/) covers that part.
 
 It runs on iPhone and iPad (iOS and iPadOS 26 or later), including the iPhone Duo, where the panes sit on either side of the fold. The app speaks English, German, Finnish, Spanish, French and Japanese. Siri and Shortcuts can start a recording, log a practice, open today or show progress for a piece. With an external display or AirPlay, the open take plays full screen on the big screen, which is handy in a studio.
 
-![Dancify camera ready to record, with the count-in, lens zoom and format controls](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/camera.webp)
+![Dancify camera ready to record, with the count-in, lens zoom and format controls](https://dancify.studio/assets/img/app/en/camera.webp)
 
 **A camera that waits for the count** Count-in, Follow, slow motion, mirror, grid and level.
 
-![Dancify video editor with a practice take on the timeline and tools for trim, speed, crop, adjust, text and audio](https://kkoskenvirta.github.io/dancify-site/assets/img/app/en/editor.webp)
+![Dancify video editor with a practice take on the timeline and tools for trim, speed, crop, adjust, text and audio](https://dancify.studio/assets/img/app/en/editor.webp)
 
 **An editor that's free** Trim, speed, freeze, crop, colour, captions and music. The original stays untouched.
 
@@ -97,7 +97,7 @@ We're a small company, so we'd rather be clear about this. Dancify is free to do
 
 We'll keep refining the core before we add more: the camera, the calendar and the practice tools, shaped by what dancers tell us they need in the middle of a session. The principles won't change: your videos stay yours, practice is never turned into a score, and the free app stays complete.
 
-We won't promise dates we can't keep. We'll write about what we build here on the blog, alongside guides like [keeping a dance practice journal](https://kkoskenvirta.github.io/dancify-site/blog/dance-practice-journal/) and [making a progress video](https://kkoskenvirta.github.io/dancify-site/blog/dance-progress-video/). And if something in Dancify feels wrong, or you're missing something, [write to us](mailto:appriseven@gmail.com). We read every message.
+We won't promise dates we can't keep. We'll write about what we build here on the blog, alongside guides like [keeping a dance practice journal](https://dancify.studio/blog/dance-practice-journal/) and [making a progress video](https://dancify.studio/blog/dance-progress-video/). And if something in Dancify feels wrong, or you're missing something, [write to us](mailto:appriseven@gmail.com). We read every message.
 
 Start with one take
 
@@ -152,7 +152,7 @@ Kasper designs and builds Dancify at AppRise Ventures in Espoo, Finland. Dancify
 
 Practice 7 min read
 
-### [How to keep a dance practice journal: what to track, with prompts](https://kkoskenvirta.github.io/dancify-site/blog/dance-practice-journal/)
+### [How to keep a dance practice journal: what to track, with prompts](https://dancify.studio/blog/dance-practice-journal/)
 
 How to keep a dance practice journal: what to track after each class, a five-minute entry, journaling prompts for dancers and a weekly look back.
 
@@ -160,7 +160,7 @@ October 25, 2026
 
 Filming 9 min read
 
-### [How to film yourself dancing: angles, light and setup](https://kkoskenvirta.github.io/dancify-site/blog/how-to-film-yourself-dancing/)
+### [How to film yourself dancing: angles, light and setup](https://dancify.studio/blog/how-to-film-yourself-dancing/)
 
 How to film yourself dancing with a phone: camera height and distance for each style, the best angle, light, sound, phone stands and six mistakes to avoid.
 
